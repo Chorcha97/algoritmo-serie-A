@@ -1,0 +1,1020 @@
+﻿stagione,data,partita,arbitro,mercato,quota,prob_%,edge_%,stake_€,esito,profitto_€
+2023-24,2023-08-19T00:00:00.000,Genoa vs Fiorentina,—,2 - Vittoria Ospite,2.23,54.3,21.2,21.51,✓ Vinta,26.46
+2023-24,2023-08-19T00:00:00.000,Genoa vs Fiorentina,—,Under 2.5 Gol,1.79,66,18.2,28.75,✗ Persa,-28.75
+2023-24,2023-08-19T00:00:00.000,Inter vs Monza,—,2 - Vittoria Ospite,8.76,16.4,43.5,7,✗ Persa,-7
+2023-24,2023-08-19T00:00:00.000,Inter vs Monza,—,X - Pareggio,5.1,24.3,24,7.33,✗ Persa,-7.33
+2023-24,2023-08-20T00:00:00.000,Lecce vs Lazio,—,Under 2.5 Gol,1.69,69.1,16.7,30.28,✗ Persa,-30.28
+2023-24,2023-08-20T00:00:00.000,Roma vs Salernitana,—,2 - Vittoria Ospite,7.16,20.3,45.3,9.2,✗ Persa,-9.2
+2023-24,2023-08-20T00:00:00.000,Sassuolo vs Atalanta,—,Over 2.5 Gol,1.63,74.4,21.3,42.27,✗ Persa,-42.27
+2023-24,2023-08-20T00:00:00.000,Udinese vs Juventus,—,1 - Vittoria Casa,4.64,26.6,23.3,7.98,✗ Persa,-7.98
+2023-24,2023-08-21T00:00:00.000,Bologna vs Milan,—,1 - Vittoria Casa,4.02,33.4,34.2,14.14,✗ Persa,-14.14
+2023-24,2023-08-26T00:00:00.000,Milan vs Torino,—,2 - Vittoria Ospite,5.71,21.3,21.9,5.8,✗ Persa,-5.8
+2023-24,2023-08-27T00:00:00.000,Juventus vs Bologna,—,2 - Vittoria Ospite,7.08,24,70,14.39,✗ Persa,-14.39
+2023-24,2023-08-27T00:00:00.000,Juventus vs Bologna,—,X - Pareggio,4.42,28.7,27,9.88,✓ Vinta,33.79
+2023-24,2023-09-01T00:00:00.000,Roma vs Milan,—,X - Pareggio,3.2,40.5,29.6,16.81,✗ Persa,-16.81
+2023-24,2023-09-02T00:00:00.000,Atalanta vs Monza,—,2 - Vittoria Ospite,5.32,23,22.4,6.49,✗ Persa,-6.49
+2023-24,2023-09-02T00:00:00.000,Atalanta vs Monza,—,Over 2.5 Gol,1.75,66.7,16.7,27.79,✓ Vinta,20.84
+2023-24,2023-09-02T00:00:00.000,Napoli vs Lazio,—,Under 2.5 Gol,2.04,64.3,31.2,37.51,✗ Persa,-37.51
+2023-24,2023-09-02T00:00:00.000,Napoli vs Lazio,—,2 - Vittoria Ospite,5.73,22.3,27.7,7.33,✓ Vinta,34.67
+2023-24,2023-09-02T00:00:00.000,Napoli vs Lazio,—,X - Pareggio,4.19,29.7,24.5,9.61,✗ Persa,-9.61
+2023-24,2023-09-03T00:00:00.000,Inter vs Fiorentina,—,2 - Vittoria Ospite,5.29,22.4,18.5,5.39,✗ Persa,-5.39
+2023-24,2023-09-03T00:00:00.000,Torino vs Genoa,—,Under 2.5 Gol,1.58,74.8,18.2,39.22,✓ Vinta,22.75
+2023-24,2023-09-03T00:00:00.000,Empoli vs Juventus,—,Under 2.5 Gol,1.95,64.2,25.2,33.11,✓ Vinta,31.45
+2023-24,2023-09-03T00:00:00.000,Empoli vs Juventus,—,X - Pareggio,3.98,30.2,20.4,8.55,✗ Persa,-8.55
+2023-24,2023-09-03T00:00:00.000,Empoli vs Juventus,—,1 - Vittoria Casa,5.43,25.9,40.7,11.49,✗ Persa,-11.49
+2023-24,2023-09-03T00:00:00.000,Lecce vs Salernitana,—,2 - Vittoria Ospite,4,31.9,27.6,11.51,✗ Persa,-11.51
+2023-24,2023-09-16T00:00:00.000,Juventus vs Lazio,—,2 - Vittoria Ospite,4.41,30.4,33.9,12.42,✗ Persa,-12.42
+2023-24,2023-09-16T00:00:00.000,Juventus vs Lazio,—,Under 2.5 Gol,1.74,66.6,15.9,26.84,✗ Persa,-26.84
+2023-24,2023-09-16T00:00:00.000,Genoa vs Napoli,—,Under 2.5 Gol,2.06,66,36,42.41,✗ Persa,-42.41
+2023-24,2023-09-17T00:00:00.000,Fiorentina vs Atalanta,—,Over 2.5 Gol,1.82,64.2,16.8,25.65,✓ Vinta,21.03
+2023-24,2023-09-17T00:00:00.000,Fiorentina vs Atalanta,—,1 - Vittoria Casa,2.54,46.5,18.2,14.75,✓ Vinta,22.71
+2023-24,2023-09-17T00:00:00.000,Roma vs Empoli,—,2 - Vittoria Ospite,8.61,19.1,64.8,10.64,✗ Persa,-10.64
+2023-24,2023-09-17T00:00:00.000,Roma vs Empoli,—,X - Pareggio,4.66,27.6,28.8,9.83,✗ Persa,-9.83
+2023-24,2023-09-17T00:00:00.000,Roma vs Empoli,—,Under 2.5 Gol,1.97,60.8,19.7,25.36,✗ Persa,-25.36
+2023-24,2023-09-18T00:00:00.000,Salernitana vs Torino,—,1 - Vittoria Casa,3.73,31.8,18.6,8.49,✗ Persa,-8.49
+2023-24,2023-09-22T00:00:00.000,Lecce vs Genoa,—,Under 2.5 Gol,1.65,81.7,34.8,66.9,✓ Vinta,43.48
+2023-24,2023-09-23T00:00:00.000,Milan vs Verona,—,X - Pareggio,4.95,23.6,16.6,5.26,✗ Persa,-5.26
+2023-24,2023-09-24T00:00:00.000,Empoli vs Inter,—,X - Pareggio,5.6,26,45.7,12.42,✗ Persa,-12.42
+2023-24,2023-09-24T00:00:00.000,Empoli vs Inter,—,Under 2.5 Gol,2.53,49.6,25.6,20.9,✓ Vinta,31.98
+2023-24,2023-09-24T00:00:00.000,Empoli vs Inter,—,1 - Vittoria Casa,9.73,21.2,106.7,15.28,✗ Persa,-15.28
+2023-24,2023-09-26T00:00:00.000,Juventus vs Lecce,—,Under 2.5 Gol,1.96,68.4,34,44.32,✓ Vinta,42.55
+2023-24,2023-09-26T00:00:00.000,Juventus vs Lecce,—,X - Pareggio,4.31,29.1,25.5,9.62,✗ Persa,-9.62
+2023-24,2023-09-27T00:00:00.000,Napoli vs Udinese,—,X - Pareggio,5.16,25.7,32.8,9.85,✗ Persa,-9.85
+2023-24,2023-09-27T00:00:00.000,Napoli vs Udinese,—,Under 2.5 Gol,2.24,53.2,19.3,19.42,✗ Persa,-19.42
+2023-24,2023-09-28T00:00:00.000,Genoa vs Roma,—,Under 2.5 Gol,1.61,73.5,18.3,37.49,✗ Persa,-37.49
+2023-24,2023-09-30T00:00:00.000,Milan vs Lazio,—,2 - Vittoria Ospite,5.04,29,45.9,14.21,✗ Persa,-14.21
+2023-24,2023-09-30T00:00:00.000,Salernitana vs Inter,—,X - Pareggio,4.81,25.2,21.2,6.94,✗ Persa,-6.94
+2023-24,2023-09-30T00:00:00.000,Salernitana vs Inter,—,1 - Vittoria Casa,8.16,22.6,84.1,14.68,✗ Persa,-14.68
+2023-24,2023-09-30T00:00:00.000,Lecce vs Napoli,—,Under 2.5 Gol,1.88,66.2,24.5,34.76,✗ Persa,-34.76
+2023-24,2023-10-01T00:00:00.000,Udinese vs Genoa,—,Under 2.5 Gol,1.61,72.6,16.9,34.63,✗ Persa,-34.63
+2023-24,2023-10-01T00:00:00.000,Udinese vs Genoa,—,1 - Vittoria Casa,2.38,50.2,19.4,17.56,✗ Persa,-17.56
+2023-24,2023-10-06T00:00:00.000,Empoli vs Udinese,—,Under 2.5 Gol,1.9,61.2,16.3,22.69,✓ Vinta,20.42
+2023-24,2023-10-06T00:00:00.000,Empoli vs Udinese,—,1 - Vittoria Casa,3.24,36.9,19.6,10.92,✗ Persa,-10.92
+2023-24,2023-10-06T00:00:00.000,Lecce vs Sassuolo,—,Under 2.5 Gol,2.09,57.1,19.3,22.14,✓ Vinta,24.13
+2023-24,2023-10-07T00:00:00.000,Inter vs Bologna,—,2 - Vittoria Ospite,8.08,19.4,56.7,10.01,✗ Persa,-10.01
+2023-24,2023-10-07T00:00:00.000,Inter vs Bologna,—,X - Pareggio,5.17,24.5,26.5,7.93,✓ Vinta,33.07
+2023-24,2023-10-07T00:00:00.000,Juventus vs Torino,—,Under 2.5 Gol,1.61,87.4,40.7,83.39,✓ Vinta,50.87
+2023-24,2023-10-07T00:00:00.000,Juventus vs Torino,—,X - Pareggio,3.39,37,25.5,13.34,✗ Persa,-13.34
+2023-24,2023-10-07T00:00:00.000,Genoa vs Milan,—,Under 2.5 Gol,1.79,65.2,16.6,26.3,✓ Vinta,20.78
+2023-24,2023-10-08T00:00:00.000,Monza vs Salernitana,—,2 - Vittoria Ospite,5.48,23.2,27.2,7.58,✗ Persa,-7.58
+2023-24,2023-10-08T00:00:00.000,Lazio vs Atalanta,—,Over 2.5 Gol,2.04,57.3,17,20.41,✓ Vinta,21.23
+2023-24,2023-10-08T00:00:00.000,Lazio vs Atalanta,—,1 - Vittoria Casa,2.93,47.1,37.9,24.57,✓ Vinta,47.42
+2023-24,2023-10-08T00:00:00.000,Napoli vs Fiorentina,—,Under 2.5 Gol,2.29,56.3,28.8,27.95,✗ Persa,-27.95
+2023-24,2023-10-08T00:00:00.000,Napoli vs Fiorentina,—,X - Pareggio,4.26,27.3,16.5,6.32,✗ Persa,-6.32
+2023-24,2023-10-08T00:00:00.000,Napoli vs Fiorentina,—,2 - Vittoria Ospite,5.6,20.5,15.1,4.1,✓ Vinta,18.86
+2023-24,2023-10-21T00:00:00.000,Torino vs Inter,—,1 - Vittoria Casa,5.39,26.3,41.9,11.92,✗ Persa,-11.92
+2023-24,2023-10-21T00:00:00.000,Sassuolo vs Lazio,—,2 - Vittoria Ospite,2.57,45.8,17.6,14.05,✓ Vinta,22.06
+2023-24,2023-10-22T00:00:00.000,Roma vs Monza,—,2 - Vittoria Ospite,5.08,24,21.8,6.68,✗ Persa,-6.68
+2023-24,2023-10-22T00:00:00.000,Salernitana vs Cagliari,—,Over 2.5 Gol,2.23,52.6,17.3,17.55,✓ Vinta,21.59
+2023-24,2023-10-22T00:00:00.000,Salernitana vs Cagliari,—,1 - Vittoria Casa,2.35,52.9,24.3,22.48,✗ Persa,-22.48
+2023-24,2023-10-22T00:00:00.000,Milan vs Juventus,—,X - Pareggio,3.29,39.9,31.4,17.14,✗ Persa,-17.14
+2023-24,2023-10-23T00:00:00.000,Udinese vs Lecce,—,Under 2.5 Gol,1.68,69.3,16.4,30.21,✓ Vinta,20.54
+2023-24,2023-10-23T00:00:00.000,Fiorentina vs Empoli,—,2 - Vittoria Ospite,7.67,17,30.2,5.67,✓ Vinta,37.82
+2023-24,2023-10-23T00:00:00.000,Fiorentina vs Empoli,—,X - Pareggio,4.89,25.9,26.8,8.6,✗ Persa,-8.6
+2023-24,2023-10-23T00:00:00.000,Fiorentina vs Empoli,—,Under 2.5 Gol,2.3,52.7,21.3,20.48,✓ Vinta,26.62
+2023-24,2023-10-27T00:00:00.000,Genoa vs Salernitana,—,2 - Vittoria Ospite,5.17,39.9,106,31.79,✗ Persa,-31.79
+2023-24,2023-10-27T00:00:00.000,Genoa vs Salernitana,—,Under 2.5 Gol,1.75,66.8,16.9,28.09,✓ Vinta,21.07
+2023-24,2023-10-28T00:00:00.000,Sassuolo vs Bologna,—,2 - Vittoria Ospite,2.69,43.5,17,12.55,✗ Persa,-12.55
+2023-24,2023-10-28T00:00:00.000,Juventus vs Verona,—,X - Pareggio,5.17,26.8,38.5,11.55,✗ Persa,-11.55
+2023-24,2023-10-28T00:00:00.000,Juventus vs Verona,—,Under 2.5 Gol,2.06,60.2,24,28.34,✓ Vinta,30.04
+2023-24,2023-10-28T00:00:00.000,Juventus vs Verona,—,2 - Vittoria Ospite,9.54,12.9,23,3.37,✗ Persa,-3.37
+2023-24,2023-10-30T00:00:00.000,Empoli vs Atalanta,—,1 - Vittoria Casa,5.03,27.8,39.9,12.39,✗ Persa,-12.39
+2023-24,2023-11-04T00:00:00.000,Salernitana vs Napoli,—,X - Pareggio,4.99,24.7,23.5,7.35,✗ Persa,-7.35
+2023-24,2023-11-04T00:00:00.000,Salernitana vs Napoli,—,Under 2.5 Gol,2.48,47.9,18.7,15.8,✓ Vinta,23.38
+2023-24,2023-11-04T00:00:00.000,Salernitana vs Napoli,—,1 - Vittoria Casa,7.02,19.4,36,7.48,✗ Persa,-7.48
+2023-24,2023-11-04T00:00:00.000,Atalanta vs Inter,—,X - Pareggio,3.47,35.6,23.5,11.88,✗ Persa,-11.88
+2023-24,2023-11-04T00:00:00.000,Atalanta vs Inter,—,Over 2.5 Gol,1.85,66.6,23.2,34.1,✓ Vinta,28.99
+2023-24,2023-11-04T00:00:00.000,Milan vs Udinese,—,2 - Vittoria Ospite,7.3,16.6,21.2,4.2,✓ Vinta,26.46
+2023-24,2023-11-04T00:00:00.000,Milan vs Udinese,—,X - Pareggio,4.66,25.8,20.4,6.97,✗ Persa,-6.97
+2023-24,2023-11-05T00:00:00.000,Cagliari vs Genoa,—,Under 2.5 Gol,1.68,78.5,31.8,58.53,✗ Persa,-58.53
+2023-24,2023-11-05T00:00:00.000,Roma vs Lecce,—,Under 2.5 Gol,1.74,68,18.3,30.83,✗ Persa,-30.83
+2023-24,2023-11-05T00:00:00.000,Roma vs Lecce,—,X - Pareggio,3.99,29.5,17.5,7.33,✗ Persa,-7.33
+2023-24,2023-11-05T00:00:00.000,Fiorentina vs Juventus,—,X - Pareggio,3.3,40.3,32.9,17.86,✗ Persa,-17.86
+2023-24,2023-11-10T00:00:00.000,Sassuolo vs Salernitana,—,2 - Vittoria Ospite,4.92,30.9,52.2,16.64,✗ Persa,-16.64
+2023-24,2023-11-10T00:00:00.000,Genoa vs Verona,—,2 - Vittoria Ospite,4.74,31.6,49.9,16.67,✗ Persa,-16.67
+2023-24,2023-11-10T00:00:00.000,Genoa vs Verona,—,Under 2.5 Gol,1.57,80.1,25.7,56.42,✓ Vinta,32.16
+2023-24,2023-11-11T00:00:00.000,Lecce vs Milan,—,1 - Vittoria Casa,5.21,22.8,18.6,5.53,✗ Persa,-5.53
+2023-24,2023-11-11T00:00:00.000,Juventus vs Cagliari,—,X - Pareggio,5.01,24.1,20.8,6.5,✗ Persa,-6.5
+2023-24,2023-11-12T00:00:00.000,Napoli vs Empoli,—,X - Pareggio,7.07,24.9,75.8,15.61,✗ Persa,-15.61
+2023-24,2023-11-12T00:00:00.000,Napoli vs Empoli,—,Under 2.5 Gol,2.9,54.5,58.1,38.23,✓ Vinta,72.64
+2023-24,2023-11-12T00:00:00.000,Napoli vs Empoli,—,2 - Vittoria Ospite,11.78,11.7,38.3,4.44,✓ Vinta,47.86
+2023-24,2023-11-12T00:00:00.000,Fiorentina vs Bologna,—,X - Pareggio,3.51,37,29.7,14.8,✗ Persa,-14.8
+2023-24,2023-11-12T00:00:00.000,Udinese vs Atalanta,—,Over 2.5 Gol,1.99,59.4,18.2,22.99,✗ Persa,-22.99
+2023-24,2023-11-12T00:00:00.000,Lazio vs Roma,—,Under 2.5 Gol,1.62,78.4,27.1,54.61,✓ Vinta,33.86
+2023-24,2023-11-12T00:00:00.000,Lazio vs Roma,—,1 - Vittoria Casa,3,42.7,28.1,17.55,✗ Persa,-17.55
+2023-24,2023-11-25T00:00:00.000,Salernitana vs Lazio,—,1 - Vittoria Casa,4.82,24.7,19.2,6.27,✓ Vinta,23.95
+2023-24,2023-11-25T00:00:00.000,Atalanta vs Napoli,—,2 - Vittoria Ospite,2.68,42.9,15,11.16,✓ Vinta,18.75
+2023-24,2023-11-26T00:00:00.000,Cagliari vs Monza,—,2 - Vittoria Ospite,2.63,44.7,17.6,13.53,✗ Persa,-13.53
+2023-24,2023-11-26T00:00:00.000,Roma vs Udinese,—,2 - Vittoria Ospite,5.99,20.1,20.6,5.17,✗ Persa,-5.17
+2023-24,2023-11-26T00:00:00.000,Empoli vs Sassuolo,—,1 - Vittoria Casa,2.8,42.4,18.7,13,✗ Persa,-13
+2023-24,2023-11-26T00:00:00.000,Juventus vs Inter,—,X - Pareggio,3.21,40,28.3,16.03,✓ Vinta,35.43
+2023-24,2023-12-01T00:00:00.000,Monza vs Juventus,—,1 - Vittoria Casa,4.12,31,27.6,11.07,✗ Persa,-11.07
+2023-24,2023-12-02T00:00:00.000,Genoa vs Empoli,—,2 - Vittoria Ospite,4.28,38.4,64.4,24.54,✗ Persa,-24.54
+2023-24,2023-12-02T00:00:00.000,Genoa vs Empoli,—,Under 2.5 Gol,1.73,76.4,32.2,55.1,✓ Vinta,40.22
+2023-24,2023-12-03T00:00:00.000,Fiorentina vs Salernitana,—,2 - Vittoria Ospite,7.14,17.8,27,5.49,✗ Persa,-5.49
+2023-24,2023-12-03T00:00:00.000,Fiorentina vs Salernitana,—,X - Pareggio,4.79,24.6,17.7,5.83,✗ Persa,-5.83
+2023-24,2023-12-03T00:00:00.000,Napoli vs Inter,—,X - Pareggio,3.51,38.3,34.4,17.12,✗ Persa,-17.12
+2023-24,2023-12-04T00:00:00.000,Torino vs Atalanta,—,Over 2.5 Gol,2.31,50.3,16.3,15.53,✓ Vinta,20.34
+2023-24,2023-12-08T00:00:00.000,Juventus vs Napoli,—,X - Pareggio,3.32,41.2,36.8,19.81,✗ Persa,-19.81
+2023-24,2023-12-08T00:00:00.000,Juventus vs Napoli,—,Under 2.5 Gol,1.76,67.2,18.3,30.03,✓ Vinta,22.82
+2023-24,2023-12-09T00:00:00.000,Atalanta vs Milan,—,Over 2.5 Gol,2.09,63.7,33.2,38.04,✓ Vinta,41.46
+2023-24,2023-12-09T00:00:00.000,Inter vs Udinese,—,X - Pareggio,6.14,23.6,45.1,10.98,✗ Persa,-10.98
+2023-24,2023-12-09T00:00:00.000,Inter vs Udinese,—,2 - Vittoria Ospite,10.46,13.2,38.2,5.05,✗ Persa,-5.05
+2023-24,2023-12-10T00:00:00.000,Monza vs Genoa,—,1 - Vittoria Casa,2.21,54.9,21.3,22.05,✓ Vinta,26.68
+2023-24,2023-12-10T00:00:00.000,Salernitana vs Bologna,—,Over 2.5 Gol,2.2,58.7,29.1,30.28,✓ Vinta,36.34
+2023-24,2023-12-10T00:00:00.000,Salernitana vs Bologna,—,1 - Vittoria Casa,3.87,30.1,16.7,7.25,✗ Persa,-7.25
+2023-24,2023-12-10T00:00:00.000,Roma vs Fiorentina,—,2 - Vittoria Ospite,3.71,31.9,18.4,8.49,✗ Persa,-8.49
+2023-24,2023-12-11T00:00:00.000,Empoli vs Lecce,—,Under 2.5 Gol,1.78,70.4,25.2,40.44,✓ Vinta,31.54
+2023-24,2023-12-11T00:00:00.000,Cagliari vs Sassuolo,—,2 - Vittoria Ospite,3.06,40.7,24.5,14.86,✗ Persa,-14.86
+2023-24,2023-12-16T00:00:00.000,Torino vs Empoli,—,2 - Vittoria Ospite,6.07,20.8,26,6.42,✗ Persa,-6.42
+2023-24,2023-12-16T00:00:00.000,Torino vs Empoli,—,Under 2.5 Gol,1.85,66.9,23.8,35.05,✓ Vinta,29.79
+2023-24,2023-12-16T00:00:00.000,Torino vs Empoli,—,X - Pareggio,3.96,30,18.6,7.86,✗ Persa,-7.86
+2023-24,2023-12-17T00:00:00.000,Bologna vs Roma,—,Over 2.5 Gol,2.62,45.7,19.8,15.31,✗ Persa,-15.31
+2023-24,2023-12-17T00:00:00.000,Lazio vs Inter,—,1 - Vittoria Casa,4.91,33.5,64.5,20.64,✗ Persa,-20.64
+2023-24,2023-12-17T00:00:00.000,Fiorentina vs Verona,—,X - Pareggio,4.83,25.6,23.7,7.74,✗ Persa,-7.74
+2023-24,2023-12-18T00:00:00.000,Atalanta vs Salernitana,—,2 - Vittoria Ospite,9.99,19.1,90.3,12.56,✗ Persa,-12.56
+2023-24,2023-12-18T00:00:00.000,Atalanta vs Salernitana,—,X - Pareggio,5.82,22.1,28.8,7.48,✗ Persa,-7.48
+2023-24,2023-12-18T00:00:00.000,Atalanta vs Salernitana,—,Over 2.5 Gol,1.63,72.3,17.9,35.45,✓ Vinta,22.33
+2023-24,2023-12-22T00:00:00.000,Sassuolo vs Genoa,—,Under 2.5 Gol,1.91,61.1,16.7,22.98,✗ Persa,-22.98
+2023-24,2023-12-22T00:00:00.000,Sassuolo vs Genoa,—,1 - Vittoria Casa,2.3,51.8,19.2,18.48,✗ Persa,-18.48
+2023-24,2023-12-22T00:00:00.000,Salernitana vs Milan,—,X - Pareggio,4.98,25.5,27.1,8.53,✓ Vinta,33.95
+2023-24,2023-12-22T00:00:00.000,Salernitana vs Milan,—,1 - Vittoria Casa,7.4,24.5,81.7,15.95,✗ Persa,-15.95
+2023-24,2023-12-23T00:00:00.000,Bologna vs Atalanta,—,Over 2.5 Gol,2.17,66.8,45,48.03,✗ Persa,-48.03
+2023-24,2023-12-23T00:00:00.000,Bologna vs Atalanta,—,1 - Vittoria Casa,2.78,41.5,15.3,10.72,✓ Vinta,19.08
+2023-24,2023-12-23T00:00:00.000,Inter vs Lecce,—,X - Pareggio,6.54,23,50.2,11.32,✗ Persa,-11.32
+2023-24,2023-12-23T00:00:00.000,Inter vs Lecce,—,2 - Vittoria Ospite,12.85,10.3,32.4,3.41,✗ Persa,-3.41
+2023-24,2023-12-23T00:00:00.000,Inter vs Lecce,—,Under 2.5 Gol,2.24,52.3,17.2,17.29,✓ Vinta,21.44
+2023-24,2023-12-23T00:00:00.000,Verona vs Cagliari,—,Under 2.5 Gol,1.76,66,16.2,26.66,✓ Vinta,20.26
+2023-24,2023-12-23T00:00:00.000,Roma vs Napoli,—,X - Pareggio,3.17,40.1,27.1,15.63,✗ Persa,-15.63
+2023-24,2023-12-30T00:00:00.000,Atalanta vs Lecce,—,2 - Vittoria Ospite,7.93,16.3,28.9,5.22,✗ Persa,-5.22
+2023-24,2023-12-30T00:00:00.000,Atalanta vs Lecce,—,X - Pareggio,4.61,25.5,17.8,6.15,✗ Persa,-6.15
+2023-24,2023-12-30T00:00:00.000,Cagliari vs Empoli,—,2 - Vittoria Ospite,3.7,38.6,42.9,19.87,✗ Persa,-19.87
+2023-24,2023-12-30T00:00:00.000,Cagliari vs Empoli,—,Under 2.5 Gol,1.88,62.8,18.1,25.78,✓ Vinta,22.69
+2023-24,2023-12-30T00:00:00.000,Udinese vs Bologna,—,Over 2.5 Gol,2.45,47.7,16.8,14.52,✓ Vinta,21.05
+2023-24,2023-12-30T00:00:00.000,Milan vs Sassuolo,—,X - Pareggio,4.99,23.1,15.3,4.79,✗ Persa,-4.79
+2023-24,2023-12-30T00:00:00.000,Verona vs Salernitana,—,2 - Vittoria Ospite,4.22,36.1,52.5,20.37,✓ Vinta,65.59
+2023-24,2023-12-30T00:00:00.000,Juventus vs Roma,—,X - Pareggio,3.1,41.3,27.9,16.61,✗ Persa,-16.61
+2023-24,2024-01-05T00:00:00.000,Bologna vs Genoa,—,1 - Vittoria Casa,2.09,60.4,26.3,30.12,✗ Persa,-30.12
+2023-24,2024-01-06T00:00:00.000,Lecce vs Cagliari,—,Under 2.5 Gol,1.69,70.4,19,34.45,✓ Vinta,23.77
+2023-24,2024-01-06T00:00:00.000,Inter vs Verona,—,X - Pareggio,7.94,18.5,46.9,8.45,✗ Persa,-8.45
+2023-24,2024-01-06T00:00:00.000,Inter vs Verona,—,2 - Vittoria Ospite,16.21,7.9,28,2.3,✗ Persa,-2.3
+2023-24,2024-01-07T00:00:00.000,Empoli vs Milan,—,Under 2.5 Gol,2.1,55.3,16.2,18.37,✗ Persa,-18.37
+2023-24,2024-01-07T00:00:00.000,Empoli vs Milan,—,1 - Vittoria Casa,5.3,24.6,30.5,8.87,✗ Persa,-8.87
+2023-24,2024-01-07T00:00:00.000,Roma vs Atalanta,—,Over 2.5 Gol,2.21,57,26.1,26.91,✗ Persa,-26.91
+2023-24,2024-01-07T00:00:00.000,Salernitana vs Juventus,—,X - Pareggio,4.78,27.5,31.3,10.36,✗ Persa,-10.36
+2023-24,2024-01-07T00:00:00.000,Salernitana vs Juventus,—,1 - Vittoria Casa,8.77,25.4,122.9,19.77,✗ Persa,-19.77
+2023-24,2024-01-13T00:00:00.000,Genoa vs Torino,—,2 - Vittoria Ospite,2.72,45.1,22.6,16.45,✗ Persa,-16.45
+2023-24,2024-01-13T00:00:00.000,Genoa vs Torino,—,Under 2.5 Gol,1.47,78.5,15.4,40.94,✓ Vinta,19.24
+2023-24,2024-01-13T00:00:00.000,Napoli vs Salernitana,—,X - Pareggio,5.65,21.8,23,6.19,✗ Persa,-6.19
+2023-24,2024-01-13T00:00:00.000,Verona vs Empoli,—,2 - Vittoria Ospite,3.58,34.1,22,10.68,✗ Persa,-10.68
+2023-24,2024-01-13T00:00:00.000,Monza vs Inter,—,X - Pareggio,4.57,25.9,18.5,6.47,✗ Persa,-6.47
+2023-24,2024-01-13T00:00:00.000,Monza vs Inter,—,1 - Vittoria Casa,6.57,24.6,61.6,13.83,✗ Persa,-13.83
+2023-24,2024-01-14T00:00:00.000,Cagliari vs Bologna,—,2 - Vittoria Ospite,2.55,51.2,30.6,24.71,✗ Persa,-24.71
+2023-24,2024-01-14T00:00:00.000,Cagliari vs Bologna,—,Over 2.5 Gol,2.53,49.8,26,21.21,✓ Vinta,32.45
+2023-24,2024-01-14T00:00:00.000,Milan vs Roma,—,X - Pareggio,3.21,38.4,23.4,13.23,✗ Persa,-13.23
+2023-24,2024-01-16T00:00:00.000,Juventus vs Sassuolo,—,2 - Vittoria Ospite,8.54,16.4,40.3,6.69,✗ Persa,-6.69
+2023-24,2024-01-16T00:00:00.000,Juventus vs Sassuolo,—,X - Pareggio,4.96,24.9,23.5,7.43,✗ Persa,-7.43
+2023-24,2024-01-20T00:00:00.000,Roma vs Verona,—,X - Pareggio,4.34,27.4,19.1,7.15,✗ Persa,-7.15
+2023-24,2024-01-20T00:00:00.000,Roma vs Verona,—,2 - Vittoria Ospite,8.03,14.7,18.2,3.24,✗ Persa,-3.24
+2023-24,2024-01-21T00:00:00.000,Lecce vs Juventus,—,Under 2.5 Gol,1.63,71.5,16.5,32.73,✗ Persa,-32.73
+2023-24,2024-01-21T00:00:00.000,Lecce vs Juventus,—,1 - Vittoria Casa,6.23,22.9,42.9,10.26,✗ Persa,-10.26
+2023-24,2024-01-21T00:00:00.000,Salernitana vs Genoa,—,1 - Vittoria Casa,3.73,49.7,85.5,39.17,✗ Persa,-39.17
+2023-24,2024-01-27T00:00:00.000,Atalanta vs Udinese,—,2 - Vittoria Ospite,6.55,19.4,27.4,6.17,✗ Persa,-6.17
+2023-24,2024-01-27T00:00:00.000,Juventus vs Empoli,—,2 - Vittoria Ospite,11.88,16.8,99.8,11.47,✗ Persa,-11.47
+2023-24,2024-01-27T00:00:00.000,Juventus vs Empoli,—,X - Pareggio,5.55,26.9,49.4,13.56,✓ Vinta,61.7
+2023-24,2024-01-27T00:00:00.000,Juventus vs Empoli,—,Under 2.5 Gol,2,61.6,23.1,28.92,✓ Vinta,28.92
+2023-24,2024-01-27T00:00:00.000,Milan vs Bologna,—,2 - Vittoria Ospite,5.11,23.3,19,5.78,✗ Persa,-5.78
+2023-24,2024-01-28T00:00:00.000,Genoa vs Lecce,—,2 - Vittoria Ospite,4.2,34,43,16.79,✗ Persa,-16.79
+2023-24,2024-01-28T00:00:00.000,Genoa vs Lecce,—,Under 2.5 Gol,1.49,83.3,24.2,61.66,✗ Persa,-61.66
+2023-24,2024-01-28T00:00:00.000,Monza vs Sassuolo,—,1 - Vittoria Casa,2.36,49.6,17,15.63,✓ Vinta,21.26
+2023-24,2024-01-28T00:00:00.000,Fiorentina vs Inter,—,1 - Vittoria Casa,4.13,32.3,33.4,13.35,✗ Persa,-13.35
+2023-24,2024-01-29T00:00:00.000,Salernitana vs Roma,—,1 - Vittoria Casa,5.79,29,68,17.75,✗ Persa,-17.75
+2023-24,2024-02-03T00:00:00.000,Empoli vs Genoa,—,1 - Vittoria Casa,3.04,48.2,46.6,28.58,✗ Persa,-28.58
+2023-24,2024-02-03T00:00:00.000,Bologna vs Sassuolo,—,Over 2.5 Gol,2.03,66,34,41.27,✓ Vinta,42.51
+2023-24,2024-02-04T00:00:00.000,Torino vs Salernitana,—,2 - Vittoria Ospite,7.02,20.9,46.8,9.73,✗ Persa,-9.73
+2023-24,2024-02-04T00:00:00.000,Torino vs Salernitana,—,X - Pareggio,4.22,27.5,16.2,6.3,✓ Vinta,20.29
+2023-24,2024-02-04T00:00:00.000,Atalanta vs Lazio,—,2 - Vittoria Ospite,3.83,34.8,33.4,14.74,✗ Persa,-14.74
+2023-24,2024-02-04T00:00:00.000,Atalanta vs Lazio,—,Over 2.5 Gol,2.26,55.7,25.9,25.7,✓ Vinta,32.38
+2023-24,2024-02-04T00:00:00.000,Inter vs Juventus,—,X - Pareggio,3.59,37.1,33.1,15.99,✗ Persa,-15.99
+2023-24,2024-02-05T00:00:00.000,Roma vs Cagliari,—,X - Pareggio,4.54,26.5,20.3,7.18,✗ Persa,-7.18
+2023-24,2024-02-09T00:00:00.000,Salernitana vs Empoli,—,Over 2.5 Gol,2.44,49.5,20.7,18.01,✓ Vinta,25.93
+2023-24,2024-02-10T00:00:00.000,Cagliari vs Lazio,—,2 - Vittoria Ospite,2.21,56.4,24.7,25.5,✓ Vinta,30.86
+2023-24,2024-02-10T00:00:00.000,Roma vs Inter,—,1 - Vittoria Casa,4.49,28.2,26.5,9.48,✗ Persa,-9.48
+2023-24,2024-02-11T00:00:00.000,Genoa vs Atalanta,—,2 - Vittoria Ospite,2.1,55.4,16.4,18.61,✓ Vinta,20.47
+2023-24,2024-02-11T00:00:00.000,Milan vs Napoli,—,2 - Vittoria Ospite,3.94,34.3,35,14.87,✗ Persa,-14.87
+2023-24,2024-02-11T00:00:00.000,Milan vs Napoli,—,Under 2.5 Gol,2.06,58.1,19.7,23.25,✓ Vinta,24.64
+2023-24,2024-02-12T00:00:00.000,Juventus vs Udinese,—,2 - Vittoria Ospite,8.56,17.5,49.7,8.21,✓ Vinta,62.07
+2023-24,2024-02-12T00:00:00.000,Juventus vs Udinese,—,X - Pareggio,4.54,27.5,24.8,8.76,✗ Persa,-8.76
+2023-24,2024-02-14T00:00:00.000,Bologna vs Fiorentina,—,X - Pareggio,3.2,39.2,25.3,14.38,✗ Persa,-14.38
+2023-24,2024-02-14T00:00:00.000,Bologna vs Fiorentina,—,Over 2.5 Gol,2.28,50.7,15.5,15.15,✗ Persa,-15.15
+2023-24,2024-02-16T00:00:00.000,Torino vs Lecce,—,Under 2.5 Gol,1.66,73.6,22.1,41.86,✓ Vinta,27.63
+2023-24,2024-02-16T00:00:00.000,Inter vs Salernitana,—,2 - Vittoria Ospite,17,11.9,102.6,8.02,✗ Persa,-8.02
+2023-24,2024-02-16T00:00:00.000,Inter vs Salernitana,—,X - Pareggio,9,19.3,73.9,11.55,✗ Persa,-11.55
+2023-24,2024-02-17T00:00:00.000,Verona vs Juventus,—,1 - Vittoria Casa,5.84,21.2,23.6,6.09,✗ Persa,-6.09
+2023-24,2024-02-17T00:00:00.000,Atalanta vs Sassuolo,—,2 - Vittoria Ospite,8.03,17.7,41.9,7.45,✗ Persa,-7.45
+2023-24,2024-02-17T00:00:00.000,Atalanta vs Sassuolo,—,X - Pareggio,5.58,21.3,18.7,5.1,✗ Persa,-5.1
+2023-24,2024-02-17T00:00:00.000,Atalanta vs Sassuolo,—,Over 2.5 Gol,1.5,76.9,15.4,38.4,✓ Vinta,19.2
+2023-24,2024-02-18T00:00:00.000,Lazio vs Bologna,—,Over 2.5 Gol,2.58,45.9,18.4,14.58,✓ Vinta,23.04
+2023-24,2024-02-18T00:00:00.000,Monza vs Milan,—,1 - Vittoria Casa,4.63,29,34.2,11.79,✓ Vinta,42.8
+2023-24,2024-02-22T00:00:00.000,Torino vs Lazio,—,2 - Vittoria Ospite,3.36,34.7,16.6,8.81,✓ Vinta,20.79
+2023-24,2024-02-24T00:00:00.000,Salernitana vs Monza,—,Over 2.5 Gol,2.12,57.1,21.1,23.5,✗ Persa,-23.5
+2023-24,2024-02-24T00:00:00.000,Genoa vs Udinese,—,2 - Vittoria Ospite,3.69,39.3,45.1,20.98,✗ Persa,-20.98
+2023-24,2024-02-25T00:00:00.000,Cagliari vs Napoli,—,2 - Vittoria Ospite,1.87,63.1,18.1,25.98,✗ Persa,-25.98
+2023-24,2024-02-25T00:00:00.000,Lecce vs Inter,—,X - Pareggio,4.77,26.3,25.2,8.37,✗ Persa,-8.37
+2023-24,2024-02-25T00:00:00.000,Lecce vs Inter,—,Under 2.5 Gol,2.12,57.5,21.9,24.44,✗ Persa,-24.44
+2023-24,2024-02-25T00:00:00.000,Lecce vs Inter,—,1 - Vittoria Casa,7.69,17.7,35.8,6.69,✗ Persa,-6.69
+2023-24,2024-02-25T00:00:00.000,Milan vs Atalanta,—,Over 2.5 Gol,1.78,64.7,15.2,24.39,✗ Persa,-24.39
+2023-24,2024-02-26T00:00:00.000,Roma vs Torino,—,2 - Vittoria Ospite,4.43,26.1,15.8,5.77,✗ Persa,-5.77
+2023-24,2024-02-28T00:00:00.000,Inter vs Atalanta,—,X - Pareggio,4.14,33,36.6,14.59,✗ Persa,-14.59
+2023-24,2024-02-28T00:00:00.000,Inter vs Atalanta,—,Over 2.5 Gol,1.82,68.6,24.9,37.99,✓ Vinta,31.15
+2023-24,2024-03-01T00:00:00.000,Lazio vs Milan,—,1 - Vittoria Casa,3.67,39.5,45,21.06,✗ Persa,-21.06
+2023-24,2024-03-02T00:00:00.000,Udinese vs Salernitana,—,2 - Vittoria Ospite,5.56,27.9,55.4,15.18,✗ Persa,-15.18
+2023-24,2024-03-02T00:00:00.000,Monza vs Roma,—,1 - Vittoria Casa,3.72,33.8,25.7,11.81,✗ Persa,-11.81
+2023-24,2024-03-03T00:00:00.000,Atalanta vs Bologna,—,Over 2.5 Gol,2.12,66.9,41.8,46.66,✓ Vinta,52.26
+2023-24,2024-03-03T00:00:00.000,Napoli vs Juventus,—,X - Pareggio,3.14,39.2,23,13.42,✗ Persa,-13.42
+2023-24,2024-03-09T00:00:00.000,Cagliari vs Salernitana,—,2 - Vittoria Ospite,4.52,40.5,83.1,29.5,✗ Persa,-29.5
+2023-24,2024-03-09T00:00:00.000,Bologna vs Inter,—,Over 2.5 Gol,2.17,56.4,22.4,23.92,✗ Persa,-23.92
+2023-24,2024-03-09T00:00:00.000,Genoa vs Monza,—,2 - Vittoria Ospite,3.94,42.6,68,28.91,✓ Vinta,85
+2023-24,2024-03-10T00:00:00.000,Lecce vs Verona,—,Under 2.5 Gol,1.6,73.1,16.9,35.24,✓ Vinta,21.14
+2023-24,2024-03-10T00:00:00.000,Milan vs Empoli,—,X - Pareggio,4.74,25.9,22.8,7.64,✗ Persa,-7.64
+2023-24,2024-03-10T00:00:00.000,Milan vs Empoli,—,2 - Vittoria Ospite,7.19,16.6,19.5,3.93,✗ Persa,-3.93
+2023-24,2024-03-10T00:00:00.000,Juventus vs Atalanta,—,Over 2.5 Gol,2.2,55.1,21.3,22.15,✓ Vinta,26.58
+2023-24,2024-03-10T00:00:00.000,Fiorentina vs Roma,—,1 - Vittoria Casa,2.69,43.9,18.1,13.37,✗ Persa,-13.37
+2023-24,2024-03-15T00:00:00.000,Empoli vs Bologna,—,Over 2.5 Gol,2.48,46.4,15.1,12.72,✗ Persa,-12.72
+2023-24,2024-03-15T00:00:00.000,Empoli vs Bologna,—,1 - Vittoria Casa,4.04,28.9,16.8,6.92,✗ Persa,-6.92
+2023-24,2024-03-16T00:00:00.000,Monza vs Cagliari,—,1 - Vittoria Casa,2.09,55.9,16.7,19.2,✓ Vinta,20.93
+2023-24,2024-03-16T00:00:00.000,Salernitana vs Lecce,—,1 - Vittoria Casa,3.02,43.4,31.2,19.3,✗ Persa,-19.3
+2023-24,2024-03-17T00:00:00.000,Juventus vs Genoa,—,X - Pareggio,4.08,29.1,18.7,7.61,✓ Vinta,23.44
+2023-24,2024-03-17T00:00:00.000,Juventus vs Genoa,—,Under 2.5 Gol,1.69,68.7,16,29.06,✓ Vinta,20.05
+2023-24,2024-03-17T00:00:00.000,Roma vs Sassuolo,—,2 - Vittoria Ospite,7.67,18.7,43.3,8.12,✗ Persa,-8.12
+2023-24,2024-03-17T00:00:00.000,Roma vs Sassuolo,—,X - Pareggio,5.15,24.7,27,8.14,✗ Persa,-8.14
+2023-24,2024-03-17T00:00:00.000,Inter vs Napoli,—,X - Pareggio,4.33,38.5,66.8,25.07,✓ Vinta,83.48
+2023-24,2024-03-17T00:00:00.000,Inter vs Napoli,—,2 - Vittoria Ospite,5.89,24.6,44.7,11.44,✗ Persa,-11.44
+2023-24,2024-03-17T00:00:00.000,Inter vs Napoli,—,Under 2.5 Gol,2.14,55.7,19.2,21.09,✓ Vinta,24.04
+2023-24,2024-03-30T00:00:00.000,Torino vs Monza,—,2 - Vittoria Ospite,4.8,25.3,21.3,7.01,✗ Persa,-7.01
+2023-24,2024-03-30T00:00:00.000,Lazio vs Juventus,—,1 - Vittoria Casa,3.23,40.9,32,17.93,✓ Vinta,39.98
+2023-24,2024-04-01T00:00:00.000,Bologna vs Salernitana,—,2 - Vittoria Ospite,11.37,18.9,115.3,13.9,✗ Persa,-13.9
+2023-24,2024-04-01T00:00:00.000,Bologna vs Salernitana,—,X - Pareggio,5.59,24,33.9,9.24,✗ Persa,-9.24
+2023-24,2024-04-01T00:00:00.000,Cagliari vs Verona,—,2 - Vittoria Ospite,3.76,31.1,17.1,7.73,✗ Persa,-7.73
+2023-24,2024-04-01T00:00:00.000,Cagliari vs Verona,—,Under 2.5 Gol,1.72,67,15.2,26.47,✓ Vinta,19.06
+2023-24,2024-04-01T00:00:00.000,Lecce vs Roma,—,Under 2.5 Gol,1.81,70.5,27.6,42.66,✓ Vinta,34.55
+2023-24,2024-04-01T00:00:00.000,Lecce vs Roma,—,1 - Vittoria Casa,4.45,26,15.8,5.73,✗ Persa,-5.73
+2023-24,2024-04-01T00:00:00.000,Inter vs Empoli,—,X - Pareggio,7.59,23.3,77,14.6,✗ Persa,-14.6
+2023-24,2024-04-01T00:00:00.000,Inter vs Empoli,—,2 - Vittoria Ospite,13.3,12.8,70.7,7.18,✗ Persa,-7.18
+2023-24,2024-04-01T00:00:00.000,Inter vs Empoli,—,Under 2.5 Gol,2.63,45.1,18.6,14.28,✓ Vinta,23.28
+2023-24,2024-04-05T00:00:00.000,Salernitana vs Sassuolo,—,Over 2.5 Gol,1.91,66.3,26.6,36.55,✓ Vinta,33.26
+2023-24,2024-04-05T00:00:00.000,Salernitana vs Sassuolo,—,1 - Vittoria Casa,3.33,44.6,48.5,26.01,✗ Persa,-26.01
+2023-24,2024-04-06T00:00:00.000,Milan vs Lecce,—,X - Pareggio,5.19,26.6,38.2,11.4,✗ Persa,-11.4
+2023-24,2024-04-06T00:00:00.000,Milan vs Lecce,—,Under 2.5 Gol,2.18,59.3,29.3,31.09,✗ Persa,-31.09
+2023-24,2024-04-06T00:00:00.000,Milan vs Lecce,—,2 - Vittoria Ospite,8.25,14.1,16,2.75,✗ Persa,-2.75
+2023-24,2024-04-06T00:00:00.000,Roma vs Lazio,—,Under 2.5 Gol,1.69,80.6,36.1,65.47,✓ Vinta,45.17
+2023-24,2024-04-06T00:00:00.000,Roma vs Lazio,—,2 - Vittoria Ospite,3.76,31,16.7,7.58,✗ Persa,-7.58
+2023-24,2024-04-06T00:00:00.000,Roma vs Lazio,—,X - Pareggio,3.09,37.5,15.9,9.54,✗ Persa,-9.54
+2023-24,2024-04-07T00:00:00.000,Verona vs Genoa,—,Under 2.5 Gol,1.52,78.8,19.8,47.54,✗ Persa,-47.54
+2023-24,2024-04-07T00:00:00.000,Verona vs Genoa,—,1 - Vittoria Casa,2.74,42.8,17.1,12.31,✗ Persa,-12.31
+2023-24,2024-04-07T00:00:00.000,Juventus vs Fiorentina,—,X - Pareggio,3.5,40.5,41.6,20.82,✗ Persa,-20.82
+2023-24,2024-04-08T00:00:00.000,Udinese vs Inter,—,X - Pareggio,4.53,26.7,20.8,7.36,✗ Persa,-7.36
+2023-24,2024-04-08T00:00:00.000,Udinese vs Inter,—,1 - Vittoria Casa,7.1,22,56.3,11.54,✗ Persa,-11.54
+2023-24,2024-04-12T00:00:00.000,Lazio vs Salernitana,—,2 - Vittoria Ospite,9.85,15.2,49.3,6.96,✗ Persa,-6.96
+2023-24,2024-04-12T00:00:00.000,Lazio vs Salernitana,—,X - Pareggio,5.28,24.9,31.7,9.25,✗ Persa,-9.25
+2023-24,2024-04-13T00:00:00.000,Lecce vs Empoli,—,Under 2.5 Gol,1.64,71.2,16.7,32.69,✓ Vinta,20.92
+2023-24,2024-04-13T00:00:00.000,Torino vs Juventus,—,Under 2.5 Gol,1.5,88.5,32.8,81.93,✓ Vinta,40.97
+2023-24,2024-04-13T00:00:00.000,Torino vs Juventus,—,X - Pareggio,3.06,38.3,17.3,10.53,✓ Vinta,21.69
+2023-24,2024-04-13T00:00:00.000,Bologna vs Monza,—,2 - Vittoria Ospite,6.8,22.2,51.1,11.01,✗ Persa,-11.01
+2023-24,2024-04-14T00:00:00.000,Inter vs Cagliari,—,X - Pareggio,8.14,15.3,24.8,4.35,✓ Vinta,31.06
+2023-24,2024-04-15T00:00:00.000,Fiorentina vs Genoa,—,1 - Vittoria Casa,1.92,63.2,21.3,28.94,✗ Persa,-28.94
+2023-24,2024-04-19T00:00:00.000,Genoa vs Lazio,—,2 - Vittoria Ospite,2.49,54.2,35,29.4,✓ Vinta,43.81
+2023-24,2024-04-20T00:00:00.000,Empoli vs Napoli,—,Under 2.5 Gol,2.1,59.4,24.7,28.07,✓ Vinta,30.88
+2023-24,2024-04-20T00:00:00.000,Empoli vs Napoli,—,X - Pareggio,4.06,28.9,17.2,7.04,✗ Persa,-7.04
+2023-24,2024-04-21T00:00:00.000,Salernitana vs Fiorentina,—,1 - Vittoria Casa,5.17,26,34.5,10.36,✗ Persa,-10.36
+2023-24,2024-04-21T00:00:00.000,Monza vs Atalanta,—,Over 2.5 Gol,1.9,65.5,24.4,33.84,✓ Vinta,30.46
+2023-24,2024-04-21T00:00:00.000,Monza vs Atalanta,—,1 - Vittoria Casa,4.09,33.6,37.3,15.08,✗ Persa,-15.08
+2023-24,2024-04-22T00:00:00.000,Milan vs Inter,—,Under 2.5 Gol,2.2,58.7,29.2,30.4,✗ Persa,-30.4
+2023-24,2024-04-22T00:00:00.000,Milan vs Inter,—,X - Pareggio,3.68,33.9,24.8,11.55,✗ Persa,-11.55
+2023-24,2024-04-22T00:00:00.000,Milan vs Inter,—,1 - Vittoria Casa,3.96,30.8,21.8,9.2,✗ Persa,-9.2
+2023-24,2024-04-27T00:00:00.000,Lecce vs Monza,—,2 - Vittoria Ospite,4.12,34.7,42.8,17.14,✗ Persa,-17.14
+2023-24,2024-04-27T00:00:00.000,Juventus vs Milan,—,X - Pareggio,3.46,40.5,40.1,20.36,✓ Vinta,50.09
+2023-24,2024-04-28T00:00:00.000,Inter vs Torino,—,2 - Vittoria Ospite,6.94,18.3,27.1,5.7,✗ Persa,-5.7
+2023-24,2024-04-28T00:00:00.000,Bologna vs Udinese,—,2 - Vittoria Ospite,6.27,19.8,23.9,5.68,✗ Persa,-5.68
+2023-24,2024-04-28T00:00:00.000,Atalanta vs Empoli,—,2 - Vittoria Ospite,7.14,19.2,37.1,7.54,✗ Persa,-7.54
+2023-24,2024-04-28T00:00:00.000,Atalanta vs Empoli,—,X - Pareggio,4.77,24.4,16.4,5.45,✗ Persa,-5.45
+2023-24,2024-04-28T00:00:00.000,Napoli vs Roma,—,X - Pareggio,3.67,37.6,37.9,17.73,✓ Vinta,47.34
+2023-24,2024-04-28T00:00:00.000,Napoli vs Roma,—,Under 2.5 Gol,1.96,61.5,20.6,26.86,✗ Persa,-26.86
+2023-24,2024-04-29T00:00:00.000,Genoa vs Cagliari,—,Under 2.5 Gol,1.61,79.1,27.3,55.99,✗ Persa,-55.99
+2023-24,2024-05-04T00:00:00.000,Monza vs Lazio,—,1 - Vittoria Casa,4.51,27.2,22.6,8.04,✗ Persa,-8.04
+2023-24,2024-05-04T00:00:00.000,Sassuolo vs Inter,—,1 - Vittoria Casa,6.04,19.5,17.5,4.34,✓ Vinta,21.87
+2023-24,2024-05-05T00:00:00.000,Cagliari vs Lecce,—,2 - Vittoria Ospite,3.77,33.5,26.3,11.88,✗ Persa,-11.88
+2023-24,2024-05-05T00:00:00.000,Cagliari vs Lecce,—,Under 2.5 Gol,1.68,72.1,21.1,38.74,✓ Vinta,26.34
+2023-24,2024-05-05T00:00:00.000,Milan vs Genoa,—,Under 2.5 Gol,2.11,59.1,24.7,27.78,✗ Persa,-27.78
+2023-24,2024-05-05T00:00:00.000,Roma vs Juventus,—,X - Pareggio,3.12,42.1,31.5,18.57,✓ Vinta,39.37
+2023-24,2024-05-06T00:00:00.000,Salernitana vs Atalanta,—,X - Pareggio,5.45,24.1,31.2,8.76,✗ Persa,-8.76
+2023-24,2024-05-06T00:00:00.000,Salernitana vs Atalanta,—,1 - Vittoria Casa,8.73,27.1,136.8,22.11,✗ Persa,-22.11
+2023-24,2024-05-06T00:00:00.000,Udinese vs Napoli,—,Under 2.5 Gol,2.03,58.2,18.1,21.91,✓ Vinta,22.57
+2023-24,2024-05-12T00:00:00.000,Genoa vs Sassuolo,—,2 - Vittoria Ospite,3.26,40.8,33,18.24,✗ Persa,-18.24
+2023-24,2024-05-12T00:00:00.000,Genoa vs Sassuolo,—,Under 2.5 Gol,1.95,64.4,25.5,33.58,✗ Persa,-33.58
+2023-24,2024-05-12T00:00:00.000,Juventus vs Salernitana,—,2 - Vittoria Ospite,17.59,17,199.4,15.02,✗ Persa,-15.02
+2023-24,2024-05-12T00:00:00.000,Juventus vs Salernitana,—,X - Pareggio,8.5,23.9,103.6,17.26,✓ Vinta,129.45
+2023-24,2024-05-12T00:00:00.000,Juventus vs Salernitana,—,Under 2.5 Gol,2.65,50.2,33,25.03,✓ Vinta,41.3
+2023-24,2024-05-13T00:00:00.000,Fiorentina vs Monza,—,2 - Vittoria Ospite,5.58,20.9,16.6,4.53,✗ Persa,-4.53
+2023-24,2024-05-17T00:00:00.000,Fiorentina vs Napoli,—,Under 2.5 Gol,2.15,58.3,25.3,27.55,✗ Persa,-27.55
+2023-24,2024-05-18T00:00:00.000,Lecce vs Atalanta,—,1 - Vittoria Casa,4.68,25.2,17.9,6.1,✗ Persa,-6.1
+2023-24,2024-05-19T00:00:00.000,Sassuolo vs Cagliari,—,1 - Vittoria Casa,2.38,51.3,22.2,20.08,✗ Persa,-20.08
+2023-24,2024-05-19T00:00:00.000,Roma vs Genoa,—,Under 2.5 Gol,2.08,69,43.5,50.39,✓ Vinta,54.42
+2023-24,2024-05-19T00:00:00.000,Roma vs Genoa,—,X - Pareggio,4.5,28.8,29.7,10.62,✗ Persa,-10.62
+2023-24,2024-05-19T00:00:00.000,Inter vs Lazio,—,2 - Vittoria Ospite,4.85,25.1,22,7.13,✗ Persa,-7.13
+2023-24,2024-05-19T00:00:00.000,Inter vs Lazio,—,X - Pareggio,4.28,28.4,21.7,8.28,✓ Vinta,27.16
+2023-24,2024-05-19T00:00:00.000,Inter vs Lazio,—,Under 2.5 Gol,2.16,54.3,17.3,18.63,✓ Vinta,21.61
+2023-24,2024-05-20T00:00:00.000,Salernitana vs Verona,—,1 - Vittoria Casa,5.1,44.9,128.9,39.28,✗ Persa,-39.28
+2023-24,2024-05-25T00:00:00.000,Juventus vs Monza,—,2 - Vittoria Ospite,8.68,20.1,74.7,12.16,✗ Persa,-12.16
+2023-24,2024-05-25T00:00:00.000,Juventus vs Monza,—,X - Pareggio,5.57,26.3,46.8,12.79,✗ Persa,-12.79
+2023-24,2024-05-25T00:00:00.000,Juventus vs Monza,—,Under 2.5 Gol,2.37,56.2,33.2,30.3,✓ Vinta,41.51
+2023-24,2024-05-25T00:00:00.000,Milan vs Salernitana,—,2 - Vittoria Ospite,13.1,16,109.4,11.3,✗ Persa,-11.3
+2023-24,2024-05-25T00:00:00.000,Milan vs Salernitana,—,X - Pareggio,8.69,22.7,97.2,15.79,✓ Vinta,121.43
+2023-24,2024-05-25T00:00:00.000,Milan vs Salernitana,—,Under 2.5 Gol,3.47,40,38.8,19.66,✗ Persa,-19.66
+2023-24,2024-05-26T00:00:00.000,Atalanta vs Torino,—,1 - Vittoria Casa,3.54,41.7,47.5,23.36,✓ Vinta,59.33
+2023-24,2024-05-26T00:00:00.000,Napoli vs Lecce,—,Under 2.5 Gol,2.47,61,50.7,43.09,✓ Vinta,63.34
+2023-24,2024-05-26T00:00:00.000,Napoli vs Lecce,—,X - Pareggio,4.95,26.9,33,10.45,✓ Vinta,41.28
+2023-24,2024-05-26T00:00:00.000,Empoli vs Roma,—,2 - Vittoria Ospite,3.64,35,27.2,12.89,✗ Persa,-12.89
+2023-24,2024-05-26T00:00:00.000,Empoli vs Roma,—,Under 2.5 Gol,2,62.7,25.5,31.83,✗ Persa,-31.83
+2023-24,2024-05-26T00:00:00.000,Empoli vs Roma,—,X - Pareggio,3.8,30.8,17.2,7.67,✗ Persa,-7.67
+2023-24,2024-05-26T00:00:00.000,Lazio vs Sassuolo,—,X - Pareggio,5.44,23.6,28.4,8,✓ Vinta,35.52
+2023-24,2024-06-02T00:00:00.000,Atalanta vs Fiorentina,—,2 - Vittoria Ospite,6.26,30.3,89.8,21.33,✓ Vinta,112.2
+2023-24,2024-06-02T00:00:00.000,Atalanta vs Fiorentina,—,X - Pareggio,4.86,26.4,28.4,9.18,✗ Persa,-9.18
+2024-25,2024-08-17T00:00:00.000,Genoa vs Inter,—,X - Pareggio,4.18,28.3,18.1,7.12,✓ Vinta,22.64
+2024-25,2024-08-17T00:00:00.000,Genoa vs Inter,—,1 - Vittoria Casa,6.6,20.6,36.3,8.1,✗ Persa,-8.1
+2024-25,2024-08-17T00:00:00.000,Empoli vs Monza,—,Under 2.5 Gol,1.76,70.1,23.3,38.35,✓ Vinta,29.15
+2024-25,2024-08-17T00:00:00.000,Milan vs Torino,—,2 - Vittoria Ospite,5.76,22.2,27.9,7.32,✗ Persa,-7.32
+2024-25,2024-08-18T00:00:00.000,Verona vs Napoli,—,1 - Vittoria Casa,4.99,31.5,57,17.87,✓ Vinta,71.3
+2024-25,2024-08-18T00:00:00.000,Cagliari vs Roma,—,Over 2.5 Gol,1.99,65,29.3,36.96,✗ Persa,-36.96
+2024-25,2024-08-18T00:00:00.000,Lazio vs Venezia,—,X - Pareggio,4.46,26.3,17.5,6.31,✗ Persa,-6.31
+2024-25,2024-08-24T00:00:00.000,Inter vs Lecce,—,X - Pareggio,7.01,17.4,21.6,4.5,✗ Persa,-4.5
+2024-25,2024-08-24T00:00:00.000,Inter vs Lecce,—,Under 2.5 Gol,2.44,48.8,19,16.5,✓ Vinta,23.76
+2024-25,2024-08-24T00:00:00.000,Monza vs Genoa,—,2 - Vittoria Ospite,2.96,39.2,16.2,10.3,✓ Vinta,20.19
+2024-25,2024-08-25T00:00:00.000,Fiorentina vs Venezia,—,Over 2.5 Gol,1.89,62.7,18.5,26.05,✗ Persa,-26.05
+2024-25,2024-08-25T00:00:00.000,Napoli vs Bologna,—,2 - Vittoria Ospite,4.11,36.8,51.2,20.58,✗ Persa,-20.58
+2024-25,2024-08-25T00:00:00.000,Roma vs Empoli,—,X - Pareggio,4.45,27,20,7.24,✗ Persa,-7.24
+2024-25,2024-08-25T00:00:00.000,Roma vs Empoli,—,Under 2.5 Gol,2.03,57.5,16.7,20.26,✗ Persa,-20.26
+2024-25,2024-08-26T00:00:00.000,Verona vs Juventus,—,Under 2.5 Gol,1.79,66.2,18.5,29.33,✗ Persa,-29.33
+2024-25,2024-08-26T00:00:00.000,Verona vs Juventus,—,X - Pareggio,3.77,30.9,16.6,7.48,✗ Persa,-7.48
+2024-25,2024-08-26T00:00:00.000,Verona vs Juventus,—,1 - Vittoria Casa,5.23,25.9,35.6,10.51,✗ Persa,-10.51
+2024-25,2024-08-30T00:00:00.000,Venezia vs Torino,—,Under 2.5 Gol,1.7,70.2,19.4,34.59,✓ Vinta,24.21
+2024-25,2024-08-30T00:00:00.000,Inter vs Atalanta,—,X - Pareggio,4.43,33.8,49.8,18.15,✗ Persa,-18.15
+2024-25,2024-08-31T00:00:00.000,Bologna vs Empoli,—,Under 2.5 Gol,1.74,66.5,15.8,26.62,✓ Vinta,19.7
+2024-25,2024-08-31T00:00:00.000,Lazio vs Milan,—,1 - Vittoria Casa,2.97,41.3,22.6,14.36,✗ Persa,-14.36
+2024-25,2024-09-01T00:00:00.000,Fiorentina vs Monza,—,Over 2.5 Gol,2.05,56.8,16.5,19.69,✓ Vinta,20.67
+2024-25,2024-09-01T00:00:00.000,Juventus vs Roma,—,X - Pareggio,3.73,39.2,46.3,21.18,✓ Vinta,57.82
+2024-25,2024-09-14T00:00:00.000,Empoli vs Juventus,—,Under 2.5 Gol,1.7,74.2,26.2,46.75,✓ Vinta,32.73
+2024-25,2024-09-14T00:00:00.000,Empoli vs Juventus,—,1 - Vittoria Casa,5.54,23.2,28.6,7.88,✗ Persa,-7.88
+2024-25,2024-09-15T00:00:00.000,Torino vs Lecce,—,Under 2.5 Gol,1.6,80,27.9,58.2,✓ Vinta,34.92
+2024-25,2024-09-15T00:00:00.000,Cagliari vs Napoli,—,1 - Vittoria Casa,4.43,28.6,26.9,9.8,✗ Persa,-9.8
+2024-25,2024-09-15T00:00:00.000,Genoa vs Roma,—,1 - Vittoria Casa,3.37,35.2,18.7,9.85,✗ Persa,-9.85
+2024-25,2024-09-15T00:00:00.000,Atalanta vs Fiorentina,—,Over 2.5 Gol,1.74,68,18.3,30.87,✓ Vinta,22.84
+2024-25,2024-09-21T00:00:00.000,Juventus vs Napoli,—,X - Pareggio,3.28,38.8,27.2,14.89,✓ Vinta,33.95
+2024-25,2024-09-27T00:00:00.000,Milan vs Lecce,—,X - Pareggio,5.73,22,26.3,6.95,✗ Persa,-6.95
+2024-25,2024-09-28T00:00:00.000,Genoa vs Juventus,—,X - Pareggio,3.6,32.4,16.6,7.99,✗ Persa,-7.99
+2024-25,2024-09-28T00:00:00.000,Genoa vs Juventus,—,1 - Vittoria Casa,5.56,30.7,70.8,19.42,✗ Persa,-19.42
+2024-25,2024-09-28T00:00:00.000,Bologna vs Atalanta,—,1 - Vittoria Casa,3.03,38.9,17.7,10.92,✗ Persa,-10.92
+2024-25,2024-09-29T00:00:00.000,Torino vs Lazio,—,Under 2.5 Gol,1.7,76.6,30.2,53.89,✗ Persa,-53.89
+2024-25,2024-09-29T00:00:00.000,Napoli vs Monza,—,2 - Vittoria Ospite,9.29,19.2,78.7,11.87,✗ Persa,-11.87
+2024-25,2024-09-29T00:00:00.000,Napoli vs Monza,—,X - Pareggio,5.16,25.9,33.9,10.18,✗ Persa,-10.18
+2024-25,2024-10-04T00:00:00.000,Verona vs Venezia,—,1 - Vittoria Casa,2.52,49.3,24.2,19.91,✓ Vinta,30.26
+2024-25,2024-10-05T00:00:00.000,Udinese vs Lecce,—,Under 2.5 Gol,1.71,74.8,28,49.24,✓ Vinta,34.96
+2024-25,2024-10-05T00:00:00.000,Atalanta vs Genoa,—,2 - Vittoria Ospite,7.16,20.6,47.4,9.62,✗ Persa,-9.62
+2024-25,2024-10-05T00:00:00.000,Atalanta vs Genoa,—,X - Pareggio,4.63,25.7,19.2,6.6,✗ Persa,-6.6
+2024-25,2024-10-05T00:00:00.000,Inter vs Torino,—,X - Pareggio,5.52,26.8,47.9,13.25,✗ Persa,-13.25
+2024-25,2024-10-05T00:00:00.000,Inter vs Torino,—,Under 2.5 Gol,2.25,62.1,39.8,39.81,✗ Persa,-39.81
+2024-25,2024-10-06T00:00:00.000,Juventus vs Cagliari,—,2 - Vittoria Ospite,9.15,14.9,36.5,5.59,✗ Persa,-5.59
+2024-25,2024-10-06T00:00:00.000,Juventus vs Cagliari,—,X - Pareggio,4.94,25.3,25.2,7.98,✓ Vinta,31.44
+2024-25,2024-10-06T00:00:00.000,Lazio vs Empoli,—,Under 2.5 Gol,1.88,69.6,30.8,43.69,✗ Persa,-43.69
+2024-25,2024-10-06T00:00:00.000,Lazio vs Empoli,—,X - Pareggio,3.99,29.7,18.6,7.77,✗ Persa,-7.77
+2024-25,2024-10-06T00:00:00.000,Fiorentina vs Milan,—,Over 2.5 Gol,1.75,75.4,32,53.27,✓ Vinta,39.95
+2024-25,2024-10-06T00:00:00.000,Fiorentina vs Milan,—,1 - Vittoria Casa,3.35,40.8,36.7,19.51,✓ Vinta,45.85
+2024-25,2024-10-19T00:00:00.000,Genoa vs Bologna,—,1 - Vittoria Casa,3.85,30.2,16.4,7.18,✗ Persa,-7.18
+2024-25,2024-10-19T00:00:00.000,Milan vs Udinese,—,2 - Vittoria Ospite,8.24,18.2,49.8,8.6,✗ Persa,-8.6
+2024-25,2024-10-19T00:00:00.000,Milan vs Udinese,—,X - Pareggio,5.23,23.9,25,7.38,✗ Persa,-7.38
+2024-25,2024-10-19T00:00:00.000,Juventus vs Lazio,—,Under 2.5 Gol,1.68,70.8,19,34.85,✓ Vinta,23.7
+2024-25,2024-10-20T00:00:00.000,Empoli vs Napoli,—,X - Pareggio,3.79,31.2,18.4,8.23,✗ Persa,-8.23
+2024-25,2024-10-20T00:00:00.000,Empoli vs Napoli,—,Under 2.5 Gol,1.78,65.3,16.3,26.13,✓ Vinta,20.38
+2024-25,2024-10-20T00:00:00.000,Empoli vs Napoli,—,1 - Vittoria Casa,5.58,27.3,52.1,14.23,✗ Persa,-14.23
+2024-25,2024-10-26T00:00:00.000,Napoli vs Lecce,—,2 - Vittoria Ospite,11.33,15.3,72.8,8.81,✗ Persa,-8.81
+2024-25,2024-10-26T00:00:00.000,Napoli vs Lecce,—,X - Pareggio,5.73,27.2,55.9,14.78,✗ Persa,-14.78
+2024-25,2024-10-26T00:00:00.000,Napoli vs Lecce,—,Under 2.5 Gol,2.11,64.4,35.8,40.35,✓ Vinta,44.79
+2024-25,2024-10-26T00:00:00.000,Atalanta vs Verona,—,X - Pareggio,5.17,24.1,24.6,7.36,✗ Persa,-7.36
+2024-25,2024-10-26T00:00:00.000,Atalanta vs Verona,—,2 - Vittoria Ospite,7.65,16,22.2,4.17,✗ Persa,-4.17
+2024-25,2024-10-27T00:00:00.000,Lazio vs Genoa,—,2 - Vittoria Ospite,6.57,23.2,52.4,11.77,✗ Persa,-11.77
+2024-25,2024-10-27T00:00:00.000,Lazio vs Genoa,—,Under 2.5 Gol,2.03,66.3,34.7,42.08,✗ Persa,-42.08
+2024-25,2024-10-27T00:00:00.000,Lazio vs Genoa,—,X - Pareggio,4.36,30.6,33.6,12.48,✗ Persa,-12.48
+2024-25,2024-10-27T00:00:00.000,Inter vs Juventus,—,X - Pareggio,3.58,37.4,33.9,16.42,✓ Vinta,42.36
+2024-25,2024-10-27T00:00:00.000,Fiorentina vs Roma,—,Over 2.5 Gol,2.07,61.6,27.5,32.14,✓ Vinta,34.39
+2024-25,2024-10-29T00:00:00.000,Cagliari vs Bologna,—,Over 2.5 Gol,2.2,53.6,18,18.78,✗ Persa,-18.78
+2024-25,2024-10-29T00:00:00.000,Cagliari vs Bologna,—,2 - Vittoria Ospite,2.46,47,15.7,13.43,✓ Vinta,19.61
+2024-25,2024-10-29T00:00:00.000,Lecce vs Verona,—,Under 2.5 Gol,1.68,72.8,22.3,41.02,✓ Vinta,27.89
+2024-25,2024-10-29T00:00:00.000,Lecce vs Verona,—,2 - Vittoria Ospite,3.41,35.2,20.2,10.46,✗ Persa,-10.46
+2024-25,2024-10-29T00:00:00.000,Milan vs Napoli,—,Over 2.5 Gol,1.95,70.3,37.1,48.79,✗ Persa,-48.79
+2024-25,2024-10-29T00:00:00.000,Milan vs Napoli,—,1 - Vittoria Casa,2.59,48.6,25.8,20.32,✗ Persa,-20.32
+2024-25,2024-10-30T00:00:00.000,Empoli vs Inter,—,Under 2.5 Gol,2.06,57.1,17.6,20.71,✗ Persa,-20.71
+2024-25,2024-10-30T00:00:00.000,Atalanta vs Monza,—,2 - Vittoria Ospite,10.11,12.3,24,3.3,✗ Persa,-3.3
+2024-25,2024-10-30T00:00:00.000,Atalanta vs Monza,—,X - Pareggio,5.69,21.1,20.1,5.35,✗ Persa,-5.35
+2024-25,2024-10-31T00:00:00.000,Genoa vs Fiorentina,—,1 - Vittoria Casa,4.64,34,57.7,19.82,✗ Persa,-19.82
+2024-25,2024-10-31T00:00:00.000,Roma vs Torino,—,Under 2.5 Gol,1.92,64.6,24,32.54,✓ Vinta,29.94
+2024-25,2024-10-31T00:00:00.000,Roma vs Torino,—,2 - Vittoria Ospite,5.28,22.8,20.5,5.99,✗ Persa,-5.99
+2024-25,2024-10-31T00:00:00.000,Roma vs Torino,—,X - Pareggio,3.88,30.2,17.3,7.52,✗ Persa,-7.52
+2024-25,2024-11-02T00:00:00.000,Monza vs Milan,—,Over 2.5 Gol,1.91,65.5,25.1,34.52,✗ Persa,-34.52
+2024-25,2024-11-02T00:00:00.000,Monza vs Milan,—,1 - Vittoria Casa,4.96,25.4,26.2,8.27,✗ Persa,-8.27
+2024-25,2024-11-03T00:00:00.000,Napoli vs Atalanta,—,2 - Vittoria Ospite,3.64,40.2,46.2,21.88,✓ Vinta,57.76
+2024-25,2024-11-03T00:00:00.000,Napoli vs Atalanta,—,Over 2.5 Gol,1.93,60.7,17.2,23.07,✓ Vinta,21.46
+2024-25,2024-11-03T00:00:00.000,Verona vs Roma,—,1 - Vittoria Casa,4.69,27.8,30.3,10.28,✓ Vinta,37.93
+2024-25,2024-11-08T00:00:00.000,Lecce vs Empoli,—,Under 2.5 Gol,1.48,80.9,19.8,51.51,✓ Vinta,24.72
+2024-25,2024-11-09T00:00:00.000,Cagliari vs Milan,—,Over 2.5 Gol,1.74,78.4,36.4,61.49,✓ Vinta,45.5
+2024-25,2024-11-09T00:00:00.000,Cagliari vs Milan,—,1 - Vittoria Casa,5.61,25.3,41.8,11.33,✗ Persa,-11.33
+2024-25,2024-11-09T00:00:00.000,Juventus vs Torino,—,Under 2.5 Gol,1.69,96.6,63.3,114.71,✓ Vinta,79.15
+2024-25,2024-11-09T00:00:00.000,Juventus vs Torino,—,X - Pareggio,3.95,36.7,45.1,19.12,✗ Persa,-19.12
+2024-25,2024-11-09T00:00:00.000,Juventus vs Torino,—,2 - Vittoria Ospite,6.84,18.9,29,6.2,✗ Persa,-6.2
+2024-25,2024-11-10T00:00:00.000,Atalanta vs Udinese,—,2 - Vittoria Ospite,8.64,15.2,31.6,5.16,✗ Persa,-5.16
+2024-25,2024-11-10T00:00:00.000,Atalanta vs Udinese,—,X - Pareggio,5.13,24.8,27,8.17,✗ Persa,-8.17
+2024-25,2024-11-10T00:00:00.000,Fiorentina vs Verona,—,2 - Vittoria Ospite,7.21,19.4,40,8.05,✗ Persa,-8.05
+2024-25,2024-11-10T00:00:00.000,Fiorentina vs Verona,—,X - Pareggio,4.65,25.3,17.7,6.07,✗ Persa,-6.07
+2024-25,2024-11-10T00:00:00.000,Roma vs Bologna,—,2 - Vittoria Ospite,3.78,32.8,24,10.8,✓ Vinta,30.02
+2024-25,2024-11-10T00:00:00.000,Inter vs Napoli,—,X - Pareggio,3.72,31.5,17.1,7.85,✓ Vinta,21.35
+2024-25,2024-11-23T00:00:00.000,Milan vs Juventus,—,X - Pareggio,3.27,38.4,25.5,14.03,✓ Vinta,31.85
+2024-25,2024-11-23T00:00:00.000,Milan vs Juventus,—,Over 2.5 Gol,2.21,54.5,20.4,21.12,✗ Persa,-21.12
+2024-25,2024-11-23T00:00:00.000,Verona vs Inter,—,X - Pareggio,5.24,23.4,22.7,6.68,✗ Persa,-6.68
+2024-25,2024-11-23T00:00:00.000,Verona vs Inter,—,Under 2.5 Gol,2.41,49,18.2,16.1,✗ Persa,-16.1
+2024-25,2024-11-24T00:00:00.000,Genoa vs Cagliari,—,Over 2.5 Gol,2.25,54.6,22.8,22.75,✓ Vinta,28.44
+2024-25,2024-11-24T00:00:00.000,Genoa vs Cagliari,—,1 - Vittoria Casa,2.68,51,36.7,27.3,✗ Persa,-27.3
+2024-25,2024-11-24T00:00:00.000,Napoli vs Roma,—,2 - Vittoria Ospite,5.2,27.8,44.3,13.19,✗ Persa,-13.19
+2024-25,2024-11-24T00:00:00.000,Napoli vs Roma,—,X - Pareggio,3.66,37.9,38.5,18.11,✗ Persa,-18.11
+2024-25,2024-11-24T00:00:00.000,Lazio vs Bologna,—,2 - Vittoria Ospite,4.68,29.7,39.1,13.27,✗ Persa,-13.27
+2024-25,2024-11-24T00:00:00.000,Lazio vs Bologna,—,Under 2.5 Gol,1.74,67.8,18,30.48,✗ Persa,-30.48
+2024-25,2024-11-25T00:00:00.000,Venezia vs Lecce,—,Under 2.5 Gol,1.77,72.1,27.5,44.69,✓ Vinta,34.41
+2024-25,2024-11-29T00:00:00.000,Cagliari vs Verona,—,2 - Vittoria Ospite,4.19,32.6,36.6,14.36,✗ Persa,-14.36
+2024-25,2024-11-30T00:00:00.000,Milan vs Empoli,—,2 - Vittoria Ospite,8.92,15.7,40,6.31,✗ Persa,-6.31
+2024-25,2024-11-30T00:00:00.000,Milan vs Empoli,—,X - Pareggio,5.1,24.6,25.6,7.79,✗ Persa,-7.79
+2024-25,2024-12-01T00:00:00.000,Torino vs Napoli,—,1 - Vittoria Casa,5.07,33.7,71,21.82,✗ Persa,-21.82
+2024-25,2024-12-01T00:00:00.000,Lecce vs Juventus,—,Under 2.5 Gol,1.63,75,22.3,44.28,✓ Vinta,27.9
+2024-25,2024-12-01T00:00:00.000,Lecce vs Juventus,—,X - Pareggio,3.64,31.8,15.6,7.4,✓ Vinta,19.54
+2024-25,2024-12-01T00:00:00.000,Udinese vs Genoa,—,2 - Vittoria Ospite,4.1,33.6,37.9,15.3,✓ Vinta,47.43
+2024-25,2024-12-02T00:00:00.000,Roma vs Atalanta,—,Over 2.5 Gol,1.86,64,19.1,27.71,✗ Persa,-27.71
+2024-25,2024-12-06T00:00:00.000,Atalanta vs Milan,—,Over 2.5 Gol,1.77,78.4,38.8,63.06,✓ Vinta,48.56
+2024-25,2024-12-07T00:00:00.000,Genoa vs Torino,—,Under 2.5 Gol,1.57,74.7,17.3,37.98,✓ Vinta,21.65
+2024-25,2024-12-07T00:00:00.000,Juventus vs Bologna,—,2 - Vittoria Ospite,5.78,28.4,64.4,16.83,✗ Persa,-16.83
+2024-25,2024-12-07T00:00:00.000,Juventus vs Bologna,—,X - Pareggio,3.63,32.4,17.8,8.44,✓ Vinta,22.2
+2024-25,2024-12-08T00:00:00.000,Fiorentina vs Cagliari,—,Over 2.5 Gol,1.68,70.8,18.9,34.74,✗ Persa,-34.74
+2024-25,2024-12-08T00:00:00.000,Napoli vs Lazio,—,2 - Vittoria Ospite,4.35,32.6,41.9,15.65,✓ Vinta,52.43
+2024-25,2024-12-14T00:00:00.000,Cagliari vs Atalanta,—,Over 2.5 Gol,1.63,72.2,17.6,34.99,✗ Persa,-34.99
+2024-25,2024-12-14T00:00:00.000,Cagliari vs Atalanta,—,1 - Vittoria Casa,6.01,19.8,19.3,4.8,✗ Persa,-4.8
+2024-25,2024-12-14T00:00:00.000,Udinese vs Napoli,—,1 - Vittoria Casa,5.31,30.4,61.2,17.75,✗ Persa,-17.75
+2024-25,2024-12-14T00:00:00.000,Juventus vs Venezia,—,X - Pareggio,5.34,25.9,38.5,11.1,✓ Vinta,48.17
+2024-25,2024-12-14T00:00:00.000,Juventus vs Venezia,—,2 - Vittoria Ospite,10.19,11.6,18.5,2.52,✗ Persa,-2.52
+2024-25,2024-12-14T00:00:00.000,Juventus vs Venezia,—,Under 2.5 Gol,2.06,55.9,15.2,17.87,✗ Persa,-17.87
+2024-25,2024-12-15T00:00:00.000,Bologna vs Fiorentina,—,X - Pareggio,3.11,37.7,17.4,10.3,✗ Persa,-10.3
+2024-25,2024-12-15T00:00:00.000,Milan vs Genoa,—,2 - Vittoria Ospite,8.67,23.3,101.8,16.59,✗ Persa,-16.59
+2024-25,2024-12-15T00:00:00.000,Milan vs Genoa,—,X - Pareggio,5.27,25,31.5,9.23,✓ Vinta,39.41
+2024-25,2024-12-20T00:00:00.000,Verona vs Milan,—,1 - Vittoria Casa,5.76,26.9,54.8,14.4,✗ Persa,-14.4
+2024-25,2024-12-21T00:00:00.000,Genoa vs Napoli,—,1 - Vittoria Casa,5.53,38.1,110.6,30.53,✗ Persa,-30.53
+2024-25,2024-12-21T00:00:00.000,Lecce vs Lazio,—,Under 2.5 Gol,1.83,73.3,34.1,51.31,✗ Persa,-51.31
+2024-25,2024-12-21T00:00:00.000,Lecce vs Lazio,—,X - Pareggio,3.67,31.6,15.9,7.46,✗ Persa,-7.46
+2024-25,2024-12-22T00:00:00.000,Monza vs Juventus,—,1 - Vittoria Casa,5.98,23.1,38,9.55,✗ Persa,-9.55
+2024-25,2024-12-22T00:00:00.000,Atalanta vs Empoli,—,X - Pareggio,5.97,24.7,47.6,11.97,✗ Persa,-11.97
+2024-25,2024-12-22T00:00:00.000,Atalanta vs Empoli,—,2 - Vittoria Ospite,11.28,12.8,44.3,5.38,✗ Persa,-5.38
+2024-25,2024-12-28T00:00:00.000,Empoli vs Genoa,—,2 - Vittoria Ospite,3.34,37.3,24.6,13.14,✓ Vinta,30.75
+2024-25,2024-12-28T00:00:00.000,Cagliari vs Inter,—,Over 2.5 Gol,1.68,68.5,15.1,27.78,✓ Vinta,18.89
+2024-25,2024-12-29T00:00:00.000,Udinese vs Torino,—,Under 2.5 Gol,1.56,76.6,19.5,43.42,✗ Persa,-43.42
+2024-25,2024-12-29T00:00:00.000,Napoli vs Venezia,—,2 - Vittoria Ospite,10.88,14.8,60.8,7.69,✗ Persa,-7.69
+2024-25,2024-12-29T00:00:00.000,Napoli vs Venezia,—,X - Pareggio,6.14,24.5,50.2,12.22,✗ Persa,-12.22
+2024-25,2024-12-29T00:00:00.000,Juventus vs Fiorentina,—,X - Pareggio,3.32,39.3,30.4,16.39,✓ Vinta,38.02
+2024-25,2024-12-29T00:00:00.000,Milan vs Roma,—,Over 2.5 Gol,1.92,71.5,37.3,50.74,✗ Persa,-50.74
+2024-25,2024-12-29T00:00:00.000,Milan vs Roma,—,X - Pareggio,3.51,35,22.7,11.32,✓ Vinta,28.41
+2024-25,2024-12-30T00:00:00.000,Bologna vs Verona,—,X - Pareggio,4.28,27.3,16.8,6.41,✗ Persa,-6.41
+2024-25,2025-01-04T00:00:00.000,Venezia vs Empoli,—,Under 2.5 Gol,1.67,69.1,15.4,28.68,✓ Vinta,19.22
+2024-25,2025-01-04T00:00:00.000,Fiorentina vs Napoli,—,Over 2.5 Gol,2.22,58.6,30.1,30.88,✓ Vinta,37.67
+2024-25,2025-01-04T00:00:00.000,Fiorentina vs Napoli,—,1 - Vittoria Casa,2.97,46.1,36.8,23.38,✗ Persa,-23.38
+2024-25,2025-01-04T00:00:00.000,Verona vs Udinese,—,1 - Vittoria Casa,3.21,37,18.8,10.62,✗ Persa,-10.62
+2024-25,2025-01-05T00:00:00.000,Lecce vs Genoa,—,2 - Vittoria Ospite,2.99,41.9,25.3,15.87,✗ Persa,-15.87
+2024-25,2025-01-05T00:00:00.000,Lecce vs Genoa,—,Under 2.5 Gol,1.58,73,15.3,33.01,✓ Vinta,19.15
+2024-25,2025-01-05T00:00:00.000,Roma vs Lazio,—,Under 2.5 Gol,1.85,69.8,29.1,42.82,✓ Vinta,36.4
+2024-25,2025-01-05T00:00:00.000,Roma vs Lazio,—,X - Pareggio,3.21,36.1,16,9.02,✗ Persa,-9.02
+2024-25,2025-01-11T00:00:00.000,Torino vs Juventus,—,Under 2.5 Gol,1.52,97.9,48.9,117.5,✓ Vinta,61.1
+2024-25,2025-01-11T00:00:00.000,Torino vs Juventus,—,X - Pareggio,3.25,38.5,25.2,13.98,✓ Vinta,31.46
+2024-25,2025-01-11T00:00:00.000,Torino vs Juventus,—,1 - Vittoria Casa,5.1,26.8,36.6,11.14,✗ Persa,-11.14
+2024-25,2025-01-11T00:00:00.000,Milan vs Cagliari,—,2 - Vittoria Ospite,9.6,14,34.4,5.01,✗ Persa,-5.01
+2024-25,2025-01-11T00:00:00.000,Milan vs Cagliari,—,Over 2.5 Gol,1.61,81,30.3,62.15,✗ Persa,-62.15
+2024-25,2025-01-11T00:00:00.000,Empoli vs Lecce,—,Under 2.5 Gol,1.56,80.2,25.1,56,✗ Persa,-56
+2024-25,2025-01-11T00:00:00.000,Udinese vs Atalanta,—,1 - Vittoria Casa,5.24,24.2,26.9,7.94,✗ Persa,-7.94
+2024-25,2025-01-12T00:00:00.000,Bologna vs Roma,—,1 - Vittoria Casa,2.81,44.7,25.6,17.66,✗ Persa,-17.66
+2024-25,2025-01-12T00:00:00.000,Napoli vs Verona,—,2 - Vittoria Ospite,12.18,21,155.3,17.36,✗ Persa,-17.36
+2024-25,2025-01-12T00:00:00.000,Napoli vs Verona,—,X - Pareggio,6.38,26.1,66.6,15.46,✗ Persa,-15.46
+2024-25,2025-01-12T00:00:00.000,Napoli vs Verona,—,Under 2.5 Gol,2.31,53.9,24.4,23.3,✓ Vinta,30.52
+2024-25,2025-01-15T00:00:00.000,Inter vs Bologna,—,X - Pareggio,4.5,27,21.4,7.66,✓ Vinta,26.81
+2024-25,2025-01-15T00:00:00.000,Inter vs Bologna,—,2 - Vittoria Ospite,6.91,17.4,20,4.23,✗ Persa,-4.23
+2024-25,2025-01-15T00:00:00.000,Inter vs Bologna,—,Under 2.5 Gol,2.08,57.4,19.4,22.51,✗ Persa,-22.51
+2024-25,2025-01-17T00:00:00.000,Roma vs Genoa,—,2 - Vittoria Ospite,7.57,23.9,81.2,15.46,✗ Persa,-15.46
+2024-25,2025-01-17T00:00:00.000,Roma vs Genoa,—,X - Pareggio,4.22,28.4,19.9,7.72,✗ Persa,-7.72
+2024-25,2025-01-18T00:00:00.000,Juventus vs Milan,—,X - Pareggio,3.25,37.6,22.2,12.35,✗ Persa,-12.35
+2024-25,2025-01-18T00:00:00.000,Juventus vs Milan,—,Over 2.5 Gol,2.2,54.8,20.6,21.49,✗ Persa,-21.49
+2024-25,2025-01-18T00:00:00.000,Atalanta vs Napoli,—,Over 2.5 Gol,2.15,63.1,35.7,38.82,✓ Vinta,44.64
+2024-25,2025-01-18T00:00:00.000,Atalanta vs Napoli,—,1 - Vittoria Casa,2.37,51.6,22.3,20.37,✗ Persa,-20.37
+2024-25,2025-01-19T00:00:00.000,Fiorentina vs Torino,—,2 - Vittoria Ospite,5.61,22.7,27.6,7.47,✗ Persa,-7.47
+2024-25,2025-01-19T00:00:00.000,Verona vs Lazio,—,Under 2.5 Gol,1.85,63.9,18.3,26.86,✗ Persa,-26.86
+2024-25,2025-01-19T00:00:00.000,Verona vs Lazio,—,1 - Vittoria Casa,4.83,26.6,28.7,9.37,✗ Persa,-9.37
+2024-25,2025-01-19T00:00:00.000,Inter vs Empoli,—,X - Pareggio,6.93,19.4,34.5,7.28,✗ Persa,-7.28
+2024-25,2025-01-19T00:00:00.000,Inter vs Empoli,—,Under 2.5 Gol,2.41,50.6,21.9,19.37,✗ Persa,-19.37
+2024-25,2025-01-25T00:00:00.000,Napoli vs Juventus,—,X - Pareggio,3.12,41.2,28.7,16.92,✗ Persa,-16.92
+2024-25,2025-01-25T00:00:00.000,Empoli vs Bologna,—,Under 2.5 Gol,1.65,70.1,15.7,30.15,✓ Vinta,19.6
+2024-25,2025-01-26T00:00:00.000,Lecce vs Inter,—,Under 2.5 Gol,2.3,56,28.9,27.8,✗ Persa,-27.8
+2024-25,2025-01-26T00:00:00.000,Lecce vs Inter,—,X - Pareggio,5.47,22.4,22.6,6.31,✗ Persa,-6.31
+2024-25,2025-01-27T00:00:00.000,Venezia vs Verona,—,2 - Vittoria Ospite,3.45,38.5,32.9,16.8,✗ Persa,-16.8
+2024-25,2025-02-01T00:00:00.000,Atalanta vs Torino,—,2 - Vittoria Ospite,7.66,18.9,44.9,8.43,✗ Persa,-8.43
+2024-25,2025-02-01T00:00:00.000,Atalanta vs Torino,—,X - Pareggio,4.57,27.1,24,8.41,✓ Vinta,30.02
+2024-25,2025-02-02T00:00:00.000,Fiorentina vs Genoa,—,2 - Vittoria Ospite,5.52,25,38.1,10.55,✗ Persa,-10.55
+2024-25,2025-02-02T00:00:00.000,Juventus vs Empoli,—,X - Pareggio,4.89,29.2,43,13.82,✗ Persa,-13.82
+2024-25,2025-02-02T00:00:00.000,Juventus vs Empoli,—,Under 2.5 Gol,1.92,71.5,37.2,50.58,✗ Persa,-50.58
+2024-25,2025-02-02T00:00:00.000,Juventus vs Empoli,—,2 - Vittoria Ospite,9.12,14.8,34.6,5.32,✗ Persa,-5.32
+2024-25,2025-02-02T00:00:00.000,Roma vs Napoli,—,X - Pareggio,3.23,36.5,18,10.1,✓ Vinta,22.52
+2024-25,2025-02-02T00:00:00.000,Roma vs Napoli,—,1 - Vittoria Casa,3.16,41,29.5,17.05,✗ Persa,-17.05
+2024-25,2025-02-08T00:00:00.000,Verona vs Atalanta,—,1 - Vittoria Casa,6.08,24.2,47,11.57,✗ Persa,-11.57
+2024-25,2025-02-08T00:00:00.000,Empoli vs Milan,—,1 - Vittoria Casa,6.15,24.1,48.1,11.68,✗ Persa,-11.68
+2024-25,2025-02-09T00:00:00.000,Lazio vs Monza,—,2 - Vittoria Ospite,8.94,15.6,39.2,6.17,✗ Persa,-6.17
+2024-25,2025-02-09T00:00:00.000,Lazio vs Monza,—,X - Pareggio,5.16,26.6,37.5,11.27,✗ Persa,-11.27
+2024-25,2025-02-09T00:00:00.000,Lazio vs Monza,—,Under 2.5 Gol,2.15,59.4,27.7,30.13,✗ Persa,-30.13
+2024-25,2025-02-09T00:00:00.000,Lecce vs Bologna,—,Under 2.5 Gol,1.67,70.6,17.9,33.46,✓ Vinta,22.42
+2024-25,2025-02-09T00:00:00.000,Napoli vs Udinese,—,2 - Vittoria Ospite,8.04,21.2,70.4,12.5,✗ Persa,-12.5
+2024-25,2025-02-09T00:00:00.000,Napoli vs Udinese,—,X - Pareggio,4.51,28,26.1,9.3,✓ Vinta,32.64
+2024-25,2025-02-15T00:00:00.000,Atalanta vs Cagliari,—,Over 2.5 Gol,1.63,76,23.9,47.33,✗ Persa,-47.33
+2024-25,2025-02-15T00:00:00.000,Lazio vs Napoli,—,1 - Vittoria Casa,2.71,45.4,23,16.82,✗ Persa,-16.82
+2024-25,2025-02-15T00:00:00.000,Milan vs Verona,—,2 - Vittoria Ospite,9.32,18.5,72.1,10.84,✗ Persa,-10.84
+2024-25,2025-02-15T00:00:00.000,Milan vs Verona,—,X - Pareggio,5.52,23.1,27.7,7.66,✗ Persa,-7.66
+2024-25,2025-02-16T00:00:00.000,Monza vs Lecce,—,Under 2.5 Gol,1.63,71.9,17.2,34.16,✓ Vinta,21.52
+2024-25,2025-02-16T00:00:00.000,Monza vs Lecce,—,1 - Vittoria Casa,2.8,41.9,17.2,11.95,✗ Persa,-11.95
+2024-25,2025-02-16T00:00:00.000,Udinese vs Empoli,—,Under 2.5 Gol,1.75,73.4,28.4,47.39,✗ Persa,-47.39
+2024-25,2025-02-16T00:00:00.000,Udinese vs Empoli,—,2 - Vittoria Ospite,4.95,24.3,20.2,6.4,✗ Persa,-6.4
+2024-25,2025-02-16T00:00:00.000,Udinese vs Empoli,—,X - Pareggio,3.54,32.5,15.2,7.48,✗ Persa,-7.48
+2024-25,2025-02-16T00:00:00.000,Juventus vs Inter,—,X - Pareggio,3.26,39.2,27.7,15.33,✗ Persa,-15.33
+2024-25,2025-02-21T00:00:00.000,Lecce vs Udinese,—,Under 2.5 Gol,1.65,76.3,25.9,49.86,✓ Vinta,32.41
+2024-25,2025-02-22T00:00:00.000,Venezia vs Lazio,—,Under 2.5 Gol,2.08,58.3,21.3,24.65,✓ Vinta,26.62
+2024-25,2025-02-22T00:00:00.000,Venezia vs Lazio,—,X - Pareggio,4.11,28.7,18.1,7.29,✓ Vinta,22.67
+2024-25,2025-02-22T00:00:00.000,Inter vs Genoa,—,X - Pareggio,6.13,25,53.1,12.94,✗ Persa,-12.94
+2024-25,2025-02-22T00:00:00.000,Inter vs Genoa,—,2 - Vittoria Ospite,11.46,12.4,41.5,4.96,✗ Persa,-4.96
+2024-25,2025-02-22T00:00:00.000,Inter vs Genoa,—,Under 2.5 Gol,2.23,52,15.9,16.18,✓ Vinta,19.9
+2024-25,2025-02-22T00:00:00.000,Torino vs Milan,—,1 - Vittoria Casa,4,32.1,28.4,11.84,✓ Vinta,35.52
+2024-25,2025-02-23T00:00:00.000,Verona vs Fiorentina,—,1 - Vittoria Casa,4.29,28.4,21.9,8.32,✓ Vinta,27.37
+2024-25,2025-02-23T00:00:00.000,Empoli vs Atalanta,—,X - Pareggio,4.27,27.7,18.2,6.95,✗ Persa,-6.95
+2024-25,2025-02-23T00:00:00.000,Empoli vs Atalanta,—,1 - Vittoria Casa,5.89,21.7,27.7,7.07,✗ Persa,-7.07
+2024-25,2025-02-24T00:00:00.000,Roma vs Monza,—,2 - Vittoria Ospite,9.88,16.1,59.1,8.32,✗ Persa,-8.32
+2024-25,2025-02-24T00:00:00.000,Roma vs Monza,—,X - Pareggio,5.42,24.7,33.8,9.57,✗ Persa,-9.57
+2024-25,2025-02-27T00:00:00.000,Bologna vs Milan,—,Over 2.5 Gol,2.02,60.8,22.7,27.88,✓ Vinta,28.44
+2024-25,2025-02-27T00:00:00.000,Bologna vs Milan,—,1 - Vittoria Casa,2.91,46.2,34.6,22.62,✓ Vinta,43.2
+2024-25,2025-03-01T00:00:00.000,Atalanta vs Venezia,—,X - Pareggio,7.1,16.3,15.8,3.24,✓ Vinta,19.76
+2024-25,2025-03-01T00:00:00.000,Napoli vs Inter,—,2 - Vittoria Ospite,2.4,48.9,17.3,15.45,✗ Persa,-15.45
+2024-25,2025-03-01T00:00:00.000,Napoli vs Inter,—,Over 2.5 Gol,2.22,52.4,16.2,16.63,✗ Persa,-16.63
+2024-25,2025-03-02T00:00:00.000,Bologna vs Cagliari,—,Over 2.5 Gol,2.08,58.1,20.9,24.14,✓ Vinta,26.07
+2024-25,2025-03-02T00:00:00.000,Monza vs Torino,—,Under 2.5 Gol,1.63,72.7,18.5,36.7,✓ Vinta,23.12
+2024-25,2025-03-02T00:00:00.000,Monza vs Torino,—,1 - Vittoria Casa,4.24,28.9,22.7,8.75,✗ Persa,-8.75
+2024-25,2025-03-03T00:00:00.000,Juventus vs Verona,—,2 - Vittoria Ospite,10.96,17.1,87.7,11.01,✗ Persa,-11.01
+2024-25,2025-03-03T00:00:00.000,Juventus vs Verona,—,X - Pareggio,5.57,27.3,52.2,14.27,✗ Persa,-14.27
+2024-25,2025-03-03T00:00:00.000,Juventus vs Verona,—,Under 2.5 Gol,2.07,63.9,32.2,37.61,✓ Vinta,40.24
+2024-25,2025-03-07T00:00:00.000,Cagliari vs Genoa,—,2 - Vittoria Ospite,3.29,41.5,36.6,19.96,✗ Persa,-19.96
+2024-25,2025-03-07T00:00:00.000,Cagliari vs Genoa,—,Over 2.5 Gol,2.5,51.7,29.2,24.35,✗ Persa,-24.35
+2024-25,2025-03-08T00:00:00.000,Inter vs Monza,—,X - Pareggio,9.61,15.7,50.4,7.32,✗ Persa,-7.32
+2024-25,2025-03-09T00:00:00.000,Verona vs Bologna,—,1 - Vittoria Casa,5.18,24,24.1,7.2,✗ Persa,-7.2
+2024-25,2025-03-09T00:00:00.000,Napoli vs Fiorentina,—,2 - Vittoria Ospite,6.52,31.7,106.4,24.09,✗ Persa,-24.09
+2024-25,2025-03-09T00:00:00.000,Napoli vs Fiorentina,—,Over 2.5 Gol,2.11,57.4,21.1,23.82,✓ Vinta,26.44
+2024-25,2025-03-10T00:00:00.000,Lazio vs Udinese,—,Under 2.5 Gol,1.94,65.5,27.1,36,✓ Vinta,33.84
+2024-25,2025-03-15T00:00:00.000,Udinese vs Verona,—,2 - Vittoria Ospite,5.23,27.3,42.9,12.69,✓ Vinta,53.68
+2024-25,2025-03-15T00:00:00.000,Udinese vs Verona,—,X - Pareggio,3.59,32.1,15.3,7.39,✗ Persa,-7.39
+2024-25,2025-03-15T00:00:00.000,Torino vs Empoli,—,Under 2.5 Gol,1.65,79.3,30.8,59.31,✓ Vinta,38.55
+2024-25,2025-03-16T00:00:00.000,Venezia vs Napoli,—,1 - Vittoria Casa,6.94,23.2,61,12.83,✗ Persa,-12.83
+2024-25,2025-03-16T00:00:00.000,Roma vs Cagliari,—,Over 2.5 Gol,1.98,68.2,35.1,44.76,✗ Persa,-44.76
+2024-25,2025-03-16T00:00:00.000,Fiorentina vs Juventus,—,X - Pareggio,3.18,40.4,28.4,16.31,✗ Persa,-16.31
+2024-25,2025-03-16T00:00:00.000,Atalanta vs Inter,—,X - Pareggio,3.38,36.3,22.8,12,✗ Persa,-12
+2024-25,2025-03-29T00:00:00.000,Juventus vs Genoa,—,2 - Vittoria Ospite,7.08,22.7,60.4,12.41,✗ Persa,-12.41
+2024-25,2025-03-29T00:00:00.000,Juventus vs Genoa,—,X - Pareggio,4.06,31.1,26.4,10.8,✗ Persa,-10.8
+2024-25,2025-03-29T00:00:00.000,Juventus vs Genoa,—,Under 2.5 Gol,1.74,68.5,19.3,32.56,✓ Vinta,24.09
+2024-25,2025-03-30T00:00:00.000,Cagliari vs Monza,—,2 - Vittoria Ospite,5.78,27.8,60.5,15.82,✗ Persa,-15.82
+2024-25,2025-03-30T00:00:00.000,Cagliari vs Monza,—,Over 2.5 Gol,2.15,53.7,15.5,16.88,✓ Vinta,19.41
+2024-25,2025-03-30T00:00:00.000,Fiorentina vs Atalanta,—,Over 2.5 Gol,1.94,66.8,29.5,39.25,✗ Persa,-39.25
+2024-25,2025-03-30T00:00:00.000,Fiorentina vs Atalanta,—,1 - Vittoria Casa,3.68,33.5,23.4,10.89,✓ Vinta,29.19
+2024-25,2025-03-30T00:00:00.000,Napoli vs Milan,—,Over 2.5 Gol,2.03,69.1,40.2,48.76,✓ Vinta,50.22
+2024-25,2025-03-30T00:00:00.000,Napoli vs Milan,—,2 - Vittoria Ospite,3.91,35.4,38.4,16.49,✗ Persa,-16.49
+2024-25,2025-03-31T00:00:00.000,Lazio vs Torino,—,Under 2.5 Gol,1.79,75.6,35.2,55.77,✓ Vinta,44.06
+2024-25,2025-03-31T00:00:00.000,Lazio vs Torino,—,X - Pareggio,3.64,32.1,16.8,7.97,✓ Vinta,21.04
+2024-25,2025-03-31T00:00:00.000,Lazio vs Torino,—,2 - Vittoria Ospite,5.16,22.5,16,4.8,✗ Persa,-4.8
+2024-25,2025-04-04T00:00:00.000,Genoa vs Udinese,—,1 - Vittoria Casa,2.52,46.4,16.9,13.93,✓ Vinta,21.17
+2024-25,2025-04-05T00:00:00.000,Milan vs Fiorentina,—,Over 2.5 Gol,1.78,75.5,34.4,55.16,✓ Vinta,43.02
+2024-25,2025-04-06T00:00:00.000,Lecce vs Venezia,—,Under 2.5 Gol,1.63,71.9,17.1,33.99,✓ Vinta,21.41
+2024-25,2025-04-06T00:00:00.000,Torino vs Verona,—,2 - Vittoria Ospite,5.21,23.3,21.4,6.35,✗ Persa,-6.35
+2024-25,2025-04-06T00:00:00.000,Torino vs Verona,—,Under 2.5 Gol,1.6,72.4,15.8,32.95,✓ Vinta,19.77
+2024-25,2025-04-06T00:00:00.000,Atalanta vs Lazio,—,2 - Vittoria Ospite,4.81,24.1,16.1,5.28,✓ Vinta,20.12
+2024-25,2025-04-06T00:00:00.000,Roma vs Juventus,—,X - Pareggio,3.15,40.9,28.8,16.73,✓ Vinta,35.97
+2024-25,2025-04-07T00:00:00.000,Bologna vs Napoli,—,1 - Vittoria Casa,3.01,47.4,42.7,26.57,✗ Persa,-26.57
+2024-25,2025-04-12T00:00:00.000,Juventus vs Lecce,—,X - Pareggio,5.15,28.8,48.4,14.59,✗ Persa,-14.59
+2024-25,2025-04-12T00:00:00.000,Juventus vs Lecce,—,Under 2.5 Gol,1.95,71.5,39.5,51.95,✗ Persa,-51.95
+2024-25,2025-04-12T00:00:00.000,Juventus vs Lecce,—,2 - Vittoria Ospite,10.15,12,22.2,3.04,✗ Persa,-3.04
+2024-25,2025-04-12T00:00:00.000,Venezia vs Monza,—,2 - Vittoria Ospite,5.01,32.9,64.7,20.17,✗ Persa,-20.17
+2024-25,2025-04-12T00:00:00.000,Inter vs Cagliari,—,Over 2.5 Gol,1.76,74.4,31,50.91,✓ Vinta,38.69
+2024-25,2025-04-13T00:00:00.000,Lazio vs Roma,—,Under 2.5 Gol,1.75,69.4,21.5,35.87,✓ Vinta,26.9
+2024-25,2025-04-14T00:00:00.000,Napoli vs Empoli,—,2 - Vittoria Ospite,10.04,18.5,86.1,11.91,✗ Persa,-11.91
+2024-25,2025-04-14T00:00:00.000,Napoli vs Empoli,—,X - Pareggio,5.2,27.6,43.5,12.94,✗ Persa,-12.94
+2024-25,2025-04-14T00:00:00.000,Napoli vs Empoli,—,Under 2.5 Gol,1.93,63.4,22.4,30.08,✗ Persa,-30.08
+2024-25,2025-04-19T00:00:00.000,Monza vs Napoli,—,X - Pareggio,5.77,27.5,58.5,15.34,✗ Persa,-15.34
+2024-25,2025-04-19T00:00:00.000,Monza vs Napoli,—,1 - Vittoria Casa,13.36,26.1,248.2,25.1,✗ Persa,-25.1
+2024-25,2025-04-19T00:00:00.000,Roma vs Verona,—,2 - Vittoria Ospite,8.71,18.9,64.3,10.43,✗ Persa,-10.43
+2024-25,2025-04-19T00:00:00.000,Roma vs Verona,—,X - Pareggio,4.64,25.7,19.1,6.55,✗ Persa,-6.55
+2024-25,2025-04-20T00:00:00.000,Milan vs Atalanta,—,Over 2.5 Gol,1.7,77.5,31.8,56.79,✗ Persa,-56.79
+2024-25,2025-04-23T00:00:00.000,Torino vs Udinese,—,Under 2.5 Gol,1.56,75.7,18,40.27,✓ Vinta,22.55
+2024-25,2025-04-23T00:00:00.000,Genoa vs Lazio,—,1 - Vittoria Casa,3.48,33.2,15.6,7.86,✗ Persa,-7.86
+2024-25,2025-04-23T00:00:00.000,Cagliari vs Fiorentina,—,Over 2.5 Gol,2.21,67.6,49.5,51.09,✓ Vinta,61.82
+2024-25,2025-04-27T00:00:00.000,Venezia vs Milan,—,Over 2.5 Gol,1.76,69.8,22.9,37.68,✗ Persa,-37.68
+2024-25,2025-04-27T00:00:00.000,Inter vs Roma,—,Over 2.5 Gol,2.01,58.8,18.2,22.56,✗ Persa,-22.56
+2024-25,2025-04-27T00:00:00.000,Juventus vs Monza,—,2 - Vittoria Ospite,15.62,14.3,123.8,10.59,✗ Persa,-10.59
+2024-25,2025-04-27T00:00:00.000,Juventus vs Monza,—,X - Pareggio,7.48,25.8,93.4,18.01,✗ Persa,-18.01
+2024-25,2025-04-27T00:00:00.000,Juventus vs Monza,—,Under 2.5 Gol,2.46,61.7,51.7,44.28,✓ Vinta,64.65
+2024-25,2025-04-27T00:00:00.000,Atalanta vs Lecce,—,X - Pareggio,6.63,21.4,41.8,9.29,✓ Vinta,52.3
+2024-25,2025-04-27T00:00:00.000,Atalanta vs Lecce,—,Under 2.5 Gol,2.44,48.8,19,16.5,✓ Vinta,23.76
+2024-25,2025-04-27T00:00:00.000,Atalanta vs Lecce,—,2 - Vittoria Ospite,12.53,9.4,17.7,1.92,✗ Persa,-1.92
+2024-25,2025-04-27T00:00:00.000,Napoli vs Torino,—,2 - Vittoria Ospite,8.36,25.2,110.8,18.82,✗ Persa,-18.82
+2024-25,2025-04-27T00:00:00.000,Napoli vs Torino,—,X - Pareggio,4.53,31.4,42.3,14.97,✗ Persa,-14.97
+2024-25,2025-04-27T00:00:00.000,Napoli vs Torino,—,Under 2.5 Gol,1.83,68.7,25.8,38.8,✓ Vinta,32.2
+2024-25,2025-04-28T00:00:00.000,Verona vs Cagliari,—,Over 2.5 Gol,2.61,54.4,41.9,32.54,✗ Persa,-32.54
+2024-25,2025-04-28T00:00:00.000,Verona vs Cagliari,—,1 - Vittoria Casa,2.7,45.9,23.9,17.55,✗ Persa,-17.55
+2024-25,2025-05-02T00:00:00.000,Torino vs Venezia,—,1 - Vittoria Casa,2.51,50.4,26.6,22.03,✗ Persa,-22.03
+2024-25,2025-05-03T00:00:00.000,Cagliari vs Udinese,—,2 - Vittoria Ospite,3.64,32.2,17.4,8.22,✓ Vinta,21.7
+2024-25,2025-05-03T00:00:00.000,Cagliari vs Udinese,—,Over 2.5 Gol,2.4,48.4,16.2,14.43,✓ Vinta,20.2
+2024-25,2025-05-03T00:00:00.000,Lecce vs Napoli,—,X - Pareggio,4.11,30,23.1,9.3,✗ Persa,-9.3
+2024-25,2025-05-03T00:00:00.000,Lecce vs Napoli,—,Under 2.5 Gol,1.8,67.3,21.1,32.98,✓ Vinta,26.38
+2024-25,2025-05-03T00:00:00.000,Lecce vs Napoli,—,1 - Vittoria Casa,6.82,23.1,57.8,12.42,✗ Persa,-12.42
+2024-25,2025-05-04T00:00:00.000,Empoli vs Lazio,—,Under 2.5 Gol,1.84,72.3,33.1,49.26,✓ Vinta,41.38
+2024-25,2025-05-04T00:00:00.000,Monza vs Atalanta,—,X - Pareggio,6.69,23,53.9,11.84,✗ Persa,-11.84
+2024-25,2025-05-04T00:00:00.000,Monza vs Atalanta,—,1 - Vittoria Casa,13.54,19.1,158,15.75,✗ Persa,-15.75
+2024-25,2025-05-04T00:00:00.000,Roma vs Fiorentina,—,2 - Vittoria Ospite,5.58,27.2,51.7,14.1,✗ Persa,-14.1
+2024-25,2025-05-04T00:00:00.000,Roma vs Fiorentina,—,Over 2.5 Gol,2.03,61.6,25.1,30.49,✗ Persa,-30.49
+2024-25,2025-05-05T00:00:00.000,Genoa vs Milan,—,Over 2.5 Gol,1.97,60.6,19.4,24.99,✓ Vinta,24.24
+2024-25,2025-05-05T00:00:00.000,Genoa vs Milan,—,1 - Vittoria Casa,4.59,34.4,58,20.2,✗ Persa,-20.2
+2024-25,2025-05-09T00:00:00.000,Milan vs Bologna,—,Over 2.5 Gol,2.01,59.6,19.9,24.6,✓ Vinta,24.85
+2024-25,2025-05-10T00:00:00.000,Lazio vs Juventus,—,Under 2.5 Gol,1.68,70.9,19.1,35.16,✓ Vinta,23.91
+2024-25,2025-05-11T00:00:00.000,Udinese vs Monza,—,2 - Vittoria Ospite,7.06,23.4,65.1,13.44,✓ Vinta,81.45
+2024-25,2025-05-11T00:00:00.000,Udinese vs Monza,—,X - Pareggio,4.37,30.1,31.7,11.77,✗ Persa,-11.77
+2024-25,2025-05-11T00:00:00.000,Udinese vs Monza,—,Under 2.5 Gol,2.02,63.8,28.8,35.27,✗ Persa,-35.27
+2024-25,2025-05-11T00:00:00.000,Verona vs Lecce,—,Under 2.5 Gol,1.66,71,17.9,33.93,✓ Vinta,22.39
+2024-25,2025-05-11T00:00:00.000,Torino vs Inter,—,X - Pareggio,4.24,30,27.2,10.48,✗ Persa,-10.48
+2024-25,2025-05-11T00:00:00.000,Torino vs Inter,—,Under 2.5 Gol,1.9,66.6,26.5,36.84,✓ Vinta,33.16
+2024-25,2025-05-11T00:00:00.000,Napoli vs Genoa,—,2 - Vittoria Ospite,12.49,27.2,239.8,26.09,✗ Persa,-26.09
+2024-25,2025-05-11T00:00:00.000,Napoli vs Genoa,—,X - Pareggio,5.34,29.1,55.2,15.89,✓ Vinta,68.96
+2024-25,2025-05-12T00:00:00.000,Venezia vs Fiorentina,—,Over 2.5 Gol,2.27,58,31.8,31.25,✓ Vinta,39.69
+2024-25,2025-05-12T00:00:00.000,Venezia vs Fiorentina,—,2 - Vittoria Ospite,2.46,51.9,27.6,23.62,✗ Persa,-23.62
+2024-25,2025-05-12T00:00:00.000,Atalanta vs Roma,—,Over 2.5 Gol,1.83,65.2,19.4,29.14,✓ Vinta,24.19
+2024-25,2025-05-17T00:00:00.000,Genoa vs Atalanta,—,1 - Vittoria Casa,4.68,29.9,40.1,13.64,✗ Persa,-13.64
+2024-25,2025-05-18T00:00:00.000,Cagliari vs Venezia,—,Over 2.5 Gol,2.24,56.6,26.7,26.91,✓ Vinta,33.37
+2024-25,2025-05-18T00:00:00.000,Cagliari vs Venezia,—,1 - Vittoria Casa,2.65,47.6,26.2,19.83,✓ Vinta,32.72
+2024-25,2025-05-18T00:00:00.000,Fiorentina vs Bologna,—,X - Pareggio,3.16,39.7,25.3,14.65,✗ Persa,-14.65
+2024-25,2025-05-18T00:00:00.000,Inter vs Lazio,—,Under 2.5 Gol,2.09,56.5,18,20.62,✗ Persa,-20.62
+2024-25,2025-05-18T00:00:00.000,Juventus vs Udinese,—,2 - Vittoria Ospite,9.57,16.8,60.8,8.87,✗ Persa,-8.87
+2024-25,2025-05-18T00:00:00.000,Juventus vs Udinese,—,X - Pareggio,5.03,28.4,42.9,13.3,✗ Persa,-13.3
+2024-25,2025-05-18T00:00:00.000,Juventus vs Udinese,—,Under 2.5 Gol,1.97,67.6,33.2,42.8,✓ Vinta,41.52
+2024-25,2025-05-18T00:00:00.000,Lecce vs Torino,—,2 - Vittoria Ospite,4.62,35.7,65,22.44,✗ Persa,-22.44
+2024-25,2025-05-18T00:00:00.000,Lecce vs Torino,—,Under 2.5 Gol,1.65,81.9,35.2,67.61,✓ Vinta,43.95
+2024-25,2025-05-18T00:00:00.000,Monza vs Empoli,—,X - Pareggio,3.68,32.4,19.3,8.99,✗ Persa,-8.99
+2024-25,2025-05-18T00:00:00.000,Monza vs Empoli,—,Under 2.5 Gol,1.69,69.9,18.2,32.97,✗ Persa,-32.97
+2024-25,2025-05-18T00:00:00.000,Monza vs Empoli,—,1 - Vittoria Casa,4.86,34.2,66.1,21.41,✗ Persa,-21.41
+2024-25,2025-05-18T00:00:00.000,Roma vs Milan,—,X - Pareggio,3.6,35.1,26.2,12.59,✗ Persa,-12.59
+2024-25,2025-05-18T00:00:00.000,Roma vs Milan,—,Over 2.5 Gol,1.75,71.5,25,41.74,✓ Vinta,31.3
+2024-25,2025-05-23T00:00:00.000,Napoli vs Cagliari,—,2 - Vittoria Ospite,15.68,18.2,185.3,15.78,✗ Persa,-15.78
+2024-25,2025-05-23T00:00:00.000,Napoli vs Cagliari,—,X - Pareggio,7.2,23,65.6,13.23,✗ Persa,-13.23
+2024-25,2025-05-24T00:00:00.000,Bologna vs Genoa,—,Under 2.5 Gol,2.17,64.3,39.6,42.32,✗ Persa,-42.32
+2024-25,2025-05-24T00:00:00.000,Bologna vs Genoa,—,2 - Vittoria Ospite,6.56,20.6,35.1,7.88,✓ Vinta,43.81
+2024-25,2025-05-24T00:00:00.000,Bologna vs Genoa,—,X - Pareggio,4.55,28.7,30.6,10.77,✗ Persa,-10.77
+2024-25,2025-05-24T00:00:00.000,Milan vs Monza,—,2 - Vittoria Ospite,11.05,15.6,72.4,9.01,✗ Persa,-9.01
+2024-25,2025-05-24T00:00:00.000,Milan vs Monza,—,X - Pareggio,7.48,21.5,60.8,11.73,✗ Persa,-11.73
+2024-25,2025-05-25T00:00:00.000,Empoli vs Verona,—,2 - Vittoria Ospite,4.33,30.4,31.8,11.94,✓ Vinta,39.76
+2024-25,2025-05-25T00:00:00.000,Lazio vs Lecce,—,Under 2.5 Gol,2.04,69.7,42.1,50.64,✓ Vinta,52.67
+2024-25,2025-05-25T00:00:00.000,Torino vs Roma,—,X - Pareggio,4.27,31.2,33.4,12.78,✗ Persa,-12.78
+2024-25,2025-05-25T00:00:00.000,Torino vs Roma,—,Under 2.5 Gol,1.96,65.6,28.6,37.23,✓ Vinta,35.74
+2024-25,2025-05-25T00:00:00.000,Torino vs Roma,—,1 - Vittoria Casa,5.91,29.9,76.9,19.57,✗ Persa,-19.57
+2024-25,2025-05-25T00:00:00.000,Venezia vs Juventus,—,X - Pareggio,4.33,28.9,25,9.4,✗ Persa,-9.4
+2024-25,2025-05-25T00:00:00.000,Venezia vs Juventus,—,Under 2.5 Gol,2.01,60.6,21.8,27.04,✗ Persa,-27.04
+2024-25,2025-05-25T00:00:00.000,Venezia vs Juventus,—,1 - Vittoria Casa,5.97,19.5,16.2,4.08,✗ Persa,-4.08
+2025-26,2025-08-24T00:00:00.000,Juventus vs Parma,—,2 - Vittoria Ospite,7.58,19.3,46.3,8.79,✗ Persa,-8.79
+2025-26,2025-08-24T00:00:00.000,Juventus vs Parma,—,X - Pareggio,4.8,26.6,27.7,9.11,✗ Persa,-9.11
+2025-26,2025-08-24T00:00:00.000,Juventus vs Parma,—,Under 2.5 Gol,2.11,55.5,17,19.19,✓ Vinta,21.3
+2025-26,2025-08-25T00:00:00.000,Inter vs Torino,—,X - Pareggio,4.83,26.5,28,9.13,✗ Persa,-9.13
+2025-26,2025-08-25T00:00:00.000,Inter vs Torino,—,Under 2.5 Gol,2.2,56.6,24.6,25.59,✗ Persa,-25.59
+2025-26,2025-08-29T00:00:00.000,Cremonese vs Sassuolo,—,Over 2.5 Gol,2.14,59.1,26.4,28.96,✓ Vinta,33.01
+2025-26,2025-08-29T00:00:00.000,Lecce vs Milan,—,1 - Vittoria Casa,6.32,18.5,17.2,4.04,✗ Persa,-4.04
+2025-26,2025-08-30T00:00:00.000,Bologna vs Como,—,Over 2.5 Gol,2.33,52.1,21.3,20.02,✗ Persa,-20.02
+2025-26,2025-08-30T00:00:00.000,Napoli vs Cagliari,—,X - Pareggio,5.39,26.4,42,11.97,✗ Persa,-11.97
+2025-26,2025-08-30T00:00:00.000,Napoli vs Cagliari,—,2 - Vittoria Ospite,10.32,13.4,38.3,5.13,✗ Persa,-5.13
+2025-26,2025-08-30T00:00:00.000,Napoli vs Cagliari,—,Under 2.5 Gol,2,58.4,16.8,20.96,✓ Vinta,20.96
+2025-26,2025-08-31T00:00:00.000,Lazio vs Verona,—,X - Pareggio,4.47,26.8,19.9,7.18,✗ Persa,-7.18
+2025-26,2025-08-31T00:00:00.000,Genoa vs Juventus,—,1 - Vittoria Casa,4.51,26.7,20.5,7.31,✗ Persa,-7.31
+2025-26,2025-09-13T00:00:00.000,Cagliari vs Parma,—,2 - Vittoria Ospite,3.7,31.7,17.2,7.96,✗ Persa,-7.96
+2025-26,2025-09-13T00:00:00.000,Juventus vs Inter,—,X - Pareggio,3.07,39,19.8,11.94,✗ Persa,-11.94
+2025-26,2025-09-14T00:00:00.000,Roma vs Torino,—,Under 2.5 Gol,1.81,67.6,22.3,34.44,✓ Vinta,27.9
+2025-26,2025-09-14T00:00:00.000,Roma vs Torino,—,X - Pareggio,4.24,28.8,22.2,8.58,✗ Persa,-8.58
+2025-26,2025-09-14T00:00:00.000,Sassuolo vs Lazio,—,Over 2.5 Gol,1.94,62.8,21.7,28.92,✗ Persa,-28.92
+2025-26,2025-09-14T00:00:00.000,Sassuolo vs Lazio,—,2 - Vittoria Ospite,2.1,55.2,15.8,17.99,✗ Persa,-17.99
+2025-26,2025-09-14T00:00:00.000,Milan vs Bologna,—,Over 2.5 Gol,2,59.9,19.8,24.77,✗ Persa,-24.77
+2025-26,2025-09-15T00:00:00.000,Como vs Genoa,—,2 - Vittoria Ospite,5.86,23.8,39.5,10.16,✗ Persa,-10.16
+2025-26,2025-09-20T00:00:00.000,Bologna vs Genoa,—,2 - Vittoria Ospite,4.93,24.2,19.1,6.07,✗ Persa,-6.07
+2025-26,2025-09-20T00:00:00.000,Bologna vs Genoa,—,Over 2.5 Gol,2.51,47,18.1,14.98,✓ Vinta,22.62
+2025-26,2025-09-20T00:00:00.000,Verona vs Juventus,—,X - Pareggio,3.98,29.6,17.8,7.48,✓ Vinta,22.29
+2025-26,2025-09-20T00:00:00.000,Verona vs Juventus,—,1 - Vittoria Casa,6.7,18.8,25.8,5.66,✗ Persa,-5.66
+2025-26,2025-09-20T00:00:00.000,Udinese vs Milan,—,Over 2.5 Gol,2.12,55.8,18.4,20.51,✓ Vinta,22.97
+2025-26,2025-09-21T00:00:00.000,Torino vs Atalanta,—,2 - Vittoria Ospite,2.27,51.3,16.4,16.19,✓ Vinta,20.56
+2025-26,2025-09-21T00:00:00.000,Lazio vs Roma,—,Under 2.5 Gol,1.65,73.5,21.2,40.76,✓ Vinta,26.49
+2025-26,2025-09-21T00:00:00.000,Inter vs Sassuolo,—,Over 2.5 Gol,1.6,72.6,16.2,33.72,✓ Vinta,20.23
+2025-26,2025-09-21T00:00:00.000,Cremonese vs Parma,—,2 - Vittoria Ospite,2.98,43.1,28.6,18.03,✗ Persa,-18.03
+2025-26,2025-09-21T00:00:00.000,Cremonese vs Parma,—,Over 2.5 Gol,2.3,51.3,18,17.33,✗ Persa,-17.33
+2025-26,2025-09-27T00:00:00.000,Juventus vs Atalanta,—,2 - Vittoria Ospite,4.28,36.7,57.1,21.75,✗ Persa,-21.75
+2025-26,2025-09-28T00:00:00.000,Sassuolo vs Udinese,—,2 - Vittoria Ospite,3.22,36.9,18.7,10.55,✗ Persa,-10.55
+2025-26,2025-09-28T00:00:00.000,Milan vs Napoli,—,2 - Vittoria Ospite,3.3,37,22.2,12.05,✗ Persa,-12.05
+2025-26,2025-10-04T00:00:00.000,Lazio vs Torino,—,2 - Vittoria Ospite,5.74,20.7,19,5.01,✗ Persa,-5.01
+2025-26,2025-10-04T00:00:00.000,Atalanta vs Como,—,1 - Vittoria Casa,2.27,50.7,15,14.79,✗ Persa,-14.79
+2025-26,2025-10-05T00:00:00.000,Udinese vs Cagliari,—,2 - Vittoria Ospite,3.83,34.2,31.1,13.73,✗ Persa,-13.73
+2025-26,2025-10-05T00:00:00.000,Napoli vs Genoa,—,2 - Vittoria Ospite,8.09,15.5,25.6,4.51,✗ Persa,-4.51
+2025-26,2025-10-05T00:00:00.000,Napoli vs Genoa,—,X - Pareggio,4.04,28.9,16.7,6.86,✗ Persa,-6.86
+2025-26,2025-10-05T00:00:00.000,Juventus vs Milan,—,X - Pareggio,3.21,39.3,26.1,14.78,✓ Vinta,32.66
+2025-26,2025-10-18T00:00:00.000,Lecce vs Sassuolo,—,1 - Vittoria Casa,3.03,39.2,18.7,11.49,✗ Persa,-11.49
+2025-26,2025-10-18T00:00:00.000,Torino vs Napoli,—,Under 2.5 Gol,1.68,72.2,21.2,39.06,✓ Vinta,26.56
+2025-26,2025-10-18T00:00:00.000,Roma vs Inter,—,1 - Vittoria Casa,3.45,34.2,18.2,9.26,✗ Persa,-9.26
+2025-26,2025-10-19T00:00:00.000,Milan vs Fiorentina,—,2 - Vittoria Ospite,6.09,27.4,66.8,16.39,✗ Persa,-16.39
+2025-26,2025-10-19T00:00:00.000,Milan vs Fiorentina,—,X - Pareggio,4.33,27,16.8,6.31,✗ Persa,-6.31
+2025-26,2025-10-19T00:00:00.000,Cagliari vs Bologna,—,Over 2.5 Gol,2.35,53.3,25.2,23.37,✗ Persa,-23.37
+2025-26,2025-10-25T00:00:00.000,Parma vs Como,—,1 - Vittoria Casa,4.06,29.3,19,7.75,✗ Persa,-7.75
+2025-26,2025-10-25T00:00:00.000,Udinese vs Lecce,—,2 - Vittoria Ospite,4.86,26.7,29.7,9.61,✗ Persa,-9.61
+2025-26,2025-10-25T00:00:00.000,Udinese vs Lecce,—,Under 2.5 Gol,1.69,68.4,15.5,28.16,✗ Persa,-28.16
+2025-26,2025-10-25T00:00:00.000,Napoli vs Inter,—,X - Pareggio,3.15,42,32.3,18.8,✗ Persa,-18.8
+2025-26,2025-10-25T00:00:00.000,Napoli vs Inter,—,Under 2.5 Gol,1.74,66.2,15.3,25.79,✗ Persa,-25.79
+2025-26,2025-10-25T00:00:00.000,Cremonese vs Atalanta,—,Over 2.5 Gol,1.91,70.1,33.9,46.62,✗ Persa,-46.62
+2025-26,2025-10-25T00:00:00.000,Cremonese vs Atalanta,—,2 - Vittoria Ospite,1.63,70.6,15.1,29.96,✗ Persa,-29.96
+2025-26,2025-10-26T00:00:00.000,Verona vs Cagliari,—,2 - Vittoria Ospite,3.76,36.2,36.2,16.39,✗ Persa,-16.39
+2025-26,2025-10-26T00:00:00.000,Fiorentina vs Bologna,—,Over 2.5 Gol,2.32,56.3,30.7,29.04,✓ Vinta,38.33
+2025-26,2025-10-26T00:00:00.000,Fiorentina vs Bologna,—,X - Pareggio,3.18,37.7,19.8,11.34,✓ Vinta,24.72
+2025-26,2025-10-26T00:00:00.000,Torino vs Genoa,—,2 - Vittoria Ospite,3.71,31.8,18.1,8.37,✗ Persa,-8.37
+2025-26,2025-10-26T00:00:00.000,Sassuolo vs Roma,—,Over 2.5 Gol,2.18,57.5,25.4,26.96,✗ Persa,-26.96
+2025-26,2025-10-26T00:00:00.000,Sassuolo vs Roma,—,2 - Vittoria Ospite,1.88,65.8,23.7,33.7,✓ Vinta,29.66
+2025-26,2025-10-28T00:00:00.000,Lecce vs Napoli,—,Under 2.5 Gol,1.68,69.1,16.2,29.72,✓ Vinta,20.21
+2025-26,2025-10-28T00:00:00.000,Atalanta vs Milan,—,Over 2.5 Gol,2.03,60.9,23.5,28.55,✗ Persa,-28.55
+2025-26,2025-10-28T00:00:00.000,Atalanta vs Milan,—,1 - Vittoria Casa,2.71,47.1,27.6,20.15,✗ Persa,-20.15
+2025-26,2025-10-29T00:00:00.000,Juventus vs Udinese,—,X - Pareggio,4.5,26.3,18.2,6.49,✗ Persa,-6.49
+2025-26,2025-10-29T00:00:00.000,Juventus vs Udinese,—,2 - Vittoria Ospite,7.44,15.5,15.6,3.03,✗ Persa,-3.03
+2025-26,2025-10-29T00:00:00.000,Genoa vs Cremonese,—,Over 2.5 Gol,2.57,49.7,27.7,22.07,✗ Persa,-22.07
+2025-26,2025-10-29T00:00:00.000,Inter vs Fiorentina,—,2 - Vittoria Ospite,7.67,19.9,52.5,9.83,✗ Persa,-9.83
+2025-26,2025-10-29T00:00:00.000,Inter vs Fiorentina,—,X - Pareggio,5.02,25.1,25.8,8.01,✗ Persa,-8.01
+2025-26,2025-10-30T00:00:00.000,Cagliari vs Sassuolo,—,Over 2.5 Gol,2.24,57.2,28,28.27,✓ Vinta,35.05
+2025-26,2025-10-30T00:00:00.000,Cagliari vs Sassuolo,—,1 - Vittoria Casa,2.66,49,30.4,22.88,✗ Persa,-22.88
+2025-26,2025-11-02T00:00:00.000,Parma vs Bologna,—,Over 2.5 Gol,2.55,50.5,28.8,23.19,✓ Vinta,35.94
+2025-26,2025-11-02T00:00:00.000,Parma vs Bologna,—,1 - Vittoria Casa,4.24,28.9,22.6,8.72,✗ Persa,-8.72
+2025-26,2025-11-02T00:00:00.000,Verona vs Inter,—,X - Pareggio,5.11,23.2,18.4,5.6,✗ Persa,-5.6
+2025-26,2025-11-02T00:00:00.000,Milan vs Roma,—,2 - Vittoria Ospite,3.87,32.7,26.6,11.61,✗ Persa,-11.61
+2025-26,2025-11-02T00:00:00.000,Milan vs Roma,—,X - Pareggio,3.21,39.3,26,14.71,✗ Persa,-14.71
+2025-26,2025-11-03T00:00:00.000,Sassuolo vs Genoa,—,2 - Vittoria Ospite,3.3,42.9,41.7,22.65,✓ Vinta,52.09
+2025-26,2025-11-03T00:00:00.000,Sassuolo vs Genoa,—,Over 2.5 Gol,2.53,50.7,28.2,23.07,✓ Vinta,35.3
+2025-26,2025-11-03T00:00:00.000,Lazio vs Cagliari,—,2 - Vittoria Ospite,6.08,21.1,28,6.9,✗ Persa,-6.9
+2025-26,2025-11-08T00:00:00.000,Como vs Cagliari,—,2 - Vittoria Ospite,6.65,21.1,40.2,8.9,✗ Persa,-8.9
+2025-26,2025-11-08T00:00:00.000,Como vs Cagliari,—,X - Pareggio,4.51,26.5,19.5,6.95,✓ Vinta,24.39
+2025-26,2025-11-08T00:00:00.000,Juventus vs Torino,—,Under 2.5 Gol,1.84,81.8,50.4,75.07,✓ Vinta,63.06
+2025-26,2025-11-08T00:00:00.000,Juventus vs Torino,—,X - Pareggio,4.16,33.7,40.1,15.88,✓ Vinta,50.18
+2025-26,2025-11-08T00:00:00.000,Parma vs Milan,—,Over 2.5 Gol,2.16,53.5,15.5,16.67,✓ Vinta,19.34
+2025-26,2025-11-08T00:00:00.000,Parma vs Milan,—,1 - Vittoria Casa,6.27,24.6,54.1,12.84,✗ Persa,-12.84
+2025-26,2025-11-09T00:00:00.000,Atalanta vs Sassuolo,—,Over 2.5 Gol,1.71,75,28.3,49.75,✓ Vinta,35.32
+2025-26,2025-11-09T00:00:00.000,Genoa vs Fiorentina,—,Over 2.5 Gol,2.56,46.6,19.3,15.5,✓ Vinta,24.18
+2025-26,2025-11-09T00:00:00.000,Inter vs Lazio,—,2 - Vittoria Ospite,7.78,18.6,44.4,8.18,✗ Persa,-8.18
+2025-26,2025-11-09T00:00:00.000,Inter vs Lazio,—,X - Pareggio,5.69,24.5,39.4,10.49,✗ Persa,-10.49
+2025-26,2025-11-22T00:00:00.000,Fiorentina vs Juventus,—,X - Pareggio,3.47,39.1,35.7,18.07,✓ Vinta,44.63
+2025-26,2025-11-22T00:00:00.000,Fiorentina vs Juventus,—,1 - Vittoria Casa,3.94,29.4,15.7,6.69,✗ Persa,-6.69
+2025-26,2025-11-22T00:00:00.000,Udinese vs Bologna,—,Over 2.5 Gol,2.38,52,23.7,21.49,✓ Vinta,29.66
+2025-26,2025-11-22T00:00:00.000,Cagliari vs Genoa,—,Over 2.5 Gol,2.81,41.5,16.7,11.56,✓ Vinta,20.92
+2025-26,2025-11-23T00:00:00.000,Verona vs Parma,—,2 - Vittoria Ospite,3.59,37.6,34.9,16.82,✓ Vinta,43.56
+2025-26,2025-11-23T00:00:00.000,Cremonese vs Roma,—,Over 2.5 Gol,2.14,55.1,17.9,19.59,✓ Vinta,22.33
+2025-26,2025-11-28T00:00:00.000,Como vs Sassuolo,—,Over 2.5 Gol,1.99,61.2,21.8,27.55,✗ Persa,-27.55
+2025-26,2025-11-29T00:00:00.000,Juventus vs Cagliari,—,2 - Vittoria Ospite,9.97,17.9,78,10.87,✗ Persa,-10.87
+2025-26,2025-11-29T00:00:00.000,Juventus vs Cagliari,—,X - Pareggio,5.44,25.6,39.2,11.03,✗ Persa,-11.03
+2025-26,2025-11-29T00:00:00.000,Milan vs Lazio,—,2 - Vittoria Ospite,5.67,25.1,42.4,11.36,✗ Persa,-11.36
+2025-26,2025-11-29T00:00:00.000,Milan vs Lazio,—,Over 2.5 Gol,2.2,57.7,26.9,28.03,✗ Persa,-28.03
+2025-26,2025-11-29T00:00:00.000,Parma vs Udinese,—,1 - Vittoria Casa,2.77,43.8,21.3,15.07,✗ Persa,-15.07
+2025-26,2025-11-30T00:00:00.000,Roma vs Napoli,—,X - Pareggio,2.92,43.3,26.3,17.13,✗ Persa,-17.13
+2025-26,2025-11-30T00:00:00.000,Roma vs Napoli,—,Under 2.5 Gol,1.54,75.6,16.5,38.16,✓ Vinta,20.61
+2025-26,2025-12-01T00:00:00.000,Bologna vs Cremonese,—,Over 2.5 Gol,2.13,64.3,36.9,40.85,✓ Vinta,46.16
+2025-26,2025-12-06T00:00:00.000,Sassuolo vs Fiorentina,—,2 - Vittoria Ospite,2.51,56.9,42.8,35.42,✗ Persa,-35.42
+2025-26,2025-12-06T00:00:00.000,Sassuolo vs Fiorentina,—,Over 2.5 Gol,2.16,66,42.5,45.85,✓ Vinta,53.19
+2025-26,2025-12-06T00:00:00.000,Inter vs Como,—,2 - Vittoria Ospite,6.34,18.6,18.1,4.23,✗ Persa,-4.23
+2025-26,2025-12-07T00:00:00.000,Lazio vs Bologna,—,Over 2.5 Gol,2.6,55.3,43.8,34.23,✗ Persa,-34.23
+2025-26,2025-12-07T00:00:00.000,Napoli vs Juventus,—,X - Pareggio,2.97,41.3,22.7,14.43,✗ Persa,-14.43
+2025-26,2025-12-08T00:00:00.000,Udinese vs Genoa,—,2 - Vittoria Ospite,3.32,37.4,24.2,13.06,✓ Vinta,30.3
+2025-26,2025-12-08T00:00:00.000,Torino vs Milan,—,1 - Vittoria Casa,4.89,24.2,18.5,5.94,✗ Persa,-5.94
+2025-26,2025-12-13T00:00:00.000,Atalanta vs Cagliari,—,X - Pareggio,5.48,23.3,27.8,7.76,✗ Persa,-7.76
+2025-26,2025-12-13T00:00:00.000,Atalanta vs Cagliari,—,2 - Vittoria Ospite,8.72,13.9,20.8,3.37,✗ Persa,-3.37
+2025-26,2025-12-14T00:00:00.000,Milan vs Sassuolo,—,Over 2.5 Gol,1.85,71.4,32,47.1,✓ Vinta,40.04
+2025-26,2025-12-14T00:00:00.000,Genoa vs Inter,—,X - Pareggio,4.38,27.6,21.1,7.8,✗ Persa,-7.8
+2025-26,2025-12-14T00:00:00.000,Genoa vs Inter,—,1 - Vittoria Casa,6.67,20.7,37.8,8.33,✗ Persa,-8.33
+2025-26,2025-12-20T00:00:00.000,Lazio vs Cremonese,—,Over 2.5 Gol,2.09,62.4,30.4,34.9,✗ Persa,-34.9
+2025-26,2025-12-20T00:00:00.000,Juventus vs Roma,—,X - Pareggio,3.31,40.9,35.3,19.11,✗ Persa,-19.11
+2025-26,2025-12-20T00:00:00.000,Juventus vs Roma,—,2 - Vittoria Ospite,4.34,30.7,33.3,12.45,✗ Persa,-12.45
+2025-26,2025-12-21T00:00:00.000,Sassuolo vs Torino,—,2 - Vittoria Ospite,3.38,39.6,33.8,17.73,✓ Vinta,42.2
+2025-26,2025-12-21T00:00:00.000,Fiorentina vs Udinese,—,Over 2.5 Gol,2.17,54.8,18.8,20.13,✓ Vinta,23.55
+2025-26,2025-12-21T00:00:00.000,Fiorentina vs Udinese,—,1 - Vittoria Casa,2.27,53.8,22,21.67,✓ Vinta,27.52
+2025-26,2025-12-27T00:00:00.000,Parma vs Fiorentina,—,Over 2.5 Gol,2.3,50.9,17,16.3,✗ Persa,-16.3
+2025-26,2025-12-27T00:00:00.000,Torino vs Cagliari,—,2 - Vittoria Ospite,4.26,29.1,24.1,9.23,✓ Vinta,30.09
+2025-26,2025-12-27T00:00:00.000,Udinese vs Lazio,—,Over 2.5 Gol,2.37,50,18.5,16.89,✗ Persa,-16.89
+2025-26,2025-12-28T00:00:00.000,Milan vs Verona,—,X - Pareggio,4.98,25.5,27.1,8.52,✗ Persa,-8.52
+2025-26,2025-12-28T00:00:00.000,Milan vs Verona,—,2 - Vittoria Ospite,8.81,13.2,16.6,2.65,✗ Persa,-2.65
+2025-26,2025-12-28T00:00:00.000,Bologna vs Sassuolo,—,Over 2.5 Gol,2.03,66.8,35.5,43.11,✗ Persa,-43.11
+2025-26,2025-12-28T00:00:00.000,Atalanta vs Inter,—,X - Pareggio,3.64,38.2,38.9,18.42,✗ Persa,-18.42
+2025-26,2026-01-02T00:00:00.000,Cagliari vs Milan,—,Over 2.5 Gol,2.13,56.5,20.4,22.51,✗ Persa,-22.51
+2025-26,2026-01-02T00:00:00.000,Cagliari vs Milan,—,1 - Vittoria Casa,6.25,24.1,50.7,12.08,✗ Persa,-12.08
+2025-26,2026-01-03T00:00:00.000,Sassuolo vs Parma,—,2 - Vittoria Ospite,4.67,40.9,90.8,30.92,✗ Persa,-30.92
+2025-26,2026-01-03T00:00:00.000,Sassuolo vs Parma,—,Over 2.5 Gol,2.18,53.9,17.6,18.65,✗ Persa,-18.65
+2025-26,2026-01-03T00:00:00.000,Juventus vs Lecce,—,2 - Vittoria Ospite,12.37,13.4,65.2,7.16,✗ Persa,-7.16
+2025-26,2026-01-03T00:00:00.000,Juventus vs Lecce,—,X - Pareggio,5.77,26.8,54.5,14.29,✓ Vinta,68.16
+2025-26,2026-01-03T00:00:00.000,Juventus vs Lecce,—,Under 2.5 Gol,2.05,62.7,28.5,33.89,✓ Vinta,35.58
+2025-26,2026-01-04T00:00:00.000,Fiorentina vs Cremonese,—,Over 2.5 Gol,2.05,65.9,35,41.71,✗ Persa,-41.71
+2025-26,2026-01-04T00:00:00.000,Fiorentina vs Cremonese,—,1 - Vittoria Casa,1.79,65.1,16.6,26.21,✓ Vinta,20.71
+2025-26,2026-01-04T00:00:00.000,Inter vs Bologna,—,2 - Vittoria Ospite,8.05,18.2,46.5,8.25,✗ Persa,-8.25
+2025-26,2026-01-04T00:00:00.000,Inter vs Bologna,—,X - Pareggio,5.18,24.5,27,8.07,✗ Persa,-8.07
+2025-26,2026-01-04T00:00:00.000,Verona vs Torino,—,Under 2.5 Gol,1.57,75.4,18.4,40.25,✗ Persa,-40.25
+2025-26,2026-01-06T00:00:00.000,Sassuolo vs Juventus,—,Over 2.5 Gol,2.01,58.7,18.1,22.38,✓ Vinta,22.6
+2025-26,2026-01-07T00:00:00.000,Bologna vs Atalanta,—,Over 2.5 Gol,2.03,59.2,20.1,24.38,✗ Persa,-24.38
+2025-26,2026-01-07T00:00:00.000,Bologna vs Atalanta,—,2 - Vittoria Ospite,2.68,44,17.8,13.25,✓ Vinta,22.26
+2025-26,2026-01-07T00:00:00.000,Napoli vs Verona,—,X - Pareggio,5.19,27.3,41.6,12.42,✓ Vinta,52.04
+2025-26,2026-01-07T00:00:00.000,Napoli vs Verona,—,Under 2.5 Gol,1.83,64.4,17.9,26.95,✗ Persa,-26.95
+2025-26,2026-01-07T00:00:00.000,Lazio vs Fiorentina,—,Over 2.5 Gol,2.39,55,31.4,28.26,✓ Vinta,39.28
+2025-26,2026-01-07T00:00:00.000,Parma vs Inter,—,X - Pareggio,5.1,24.5,25,7.63,✗ Persa,-7.63
+2025-26,2026-01-07T00:00:00.000,Parma vs Inter,—,1 - Vittoria Casa,8.16,17.6,43.2,7.55,✗ Persa,-7.55
+2025-26,2026-01-08T00:00:00.000,Cremonese vs Cagliari,—,2 - Vittoria Ospite,3.26,42.2,37.5,20.74,✗ Persa,-20.74
+2025-26,2026-01-08T00:00:00.000,Cremonese vs Cagliari,—,Over 2.5 Gol,2.38,53.3,26.8,24.26,✓ Vinta,33.48
+2025-26,2026-01-08T00:00:00.000,Milan vs Genoa,—,2 - Vittoria Ospite,8.31,19.9,65.2,11.15,✗ Persa,-11.15
+2025-26,2026-01-08T00:00:00.000,Milan vs Genoa,—,X - Pareggio,4.47,26.2,17.3,6.24,✓ Vinta,21.65
+2025-26,2026-01-10T00:00:00.000,Como vs Bologna,—,2 - Vittoria Ospite,4.24,30.5,29.5,11.38,✗ Persa,-11.38
+2025-26,2026-01-10T00:00:00.000,Roma vs Sassuolo,—,Over 2.5 Gol,2.06,60.7,25.1,29.64,✗ Persa,-29.64
+2025-26,2026-01-11T00:00:00.000,Fiorentina vs Milan,—,Over 2.5 Gol,2.05,59.1,21.1,25.07,✗ Persa,-25.07
+2025-26,2026-01-11T00:00:00.000,Fiorentina vs Milan,—,1 - Vittoria Casa,3.89,34.5,34.2,14.79,✗ Persa,-14.79
+2025-26,2026-01-11T00:00:00.000,Inter vs Napoli,—,X - Pareggio,3.64,41.2,50,23.66,✓ Vinta,62.46
+2025-26,2026-01-11T00:00:00.000,Inter vs Napoli,—,Under 2.5 Gol,1.79,66.1,18.3,29.02,✗ Persa,-29.02
+2025-26,2026-01-11T00:00:00.000,Inter vs Napoli,—,2 - Vittoria Ospite,5.22,22.6,17.9,5.31,✗ Persa,-5.31
+2025-26,2026-01-12T00:00:00.000,Genoa vs Cagliari,—,2 - Vittoria Ospite,4.44,26.5,17.5,6.34,✗ Persa,-6.34
+2025-26,2026-01-12T00:00:00.000,Juventus vs Cremonese,—,X - Pareggio,6.33,20.6,30.5,7.14,✗ Persa,-7.14
+2025-26,2026-01-12T00:00:00.000,Juventus vs Cremonese,—,2 - Vittoria Ospite,11.48,10.6,21.4,2.55,✗ Persa,-2.55
+2025-26,2026-01-14T00:00:00.000,Napoli vs Parma,—,2 - Vittoria Ospite,10.3,14.2,45.8,6.15,✗ Persa,-6.15
+2025-26,2026-01-14T00:00:00.000,Napoli vs Parma,—,X - Pareggio,5.33,26.9,43.2,12.48,✓ Vinta,54.04
+2025-26,2026-01-14T00:00:00.000,Napoli vs Parma,—,Under 2.5 Gol,1.96,61.6,20.8,27.03,✓ Vinta,25.95
+2025-26,2026-01-14T00:00:00.000,Inter vs Lecce,—,X - Pareggio,9.03,20.8,88.3,13.74,✗ Persa,-13.74
+2025-26,2026-01-14T00:00:00.000,Inter vs Lecce,—,2 - Vittoria Ospite,20.01,8.1,61.4,4.04,✗ Persa,-4.04
+2025-26,2026-01-14T00:00:00.000,Inter vs Lecce,—,Under 2.5 Gol,2.67,52.1,39,29.19,✓ Vinta,48.75
+2025-26,2026-01-17T00:00:00.000,Napoli vs Sassuolo,—,Over 2.5 Gol,2.03,57,15.8,19.12,✗ Persa,-19.12
+2025-26,2026-01-17T00:00:00.000,Cagliari vs Juventus,—,X - Pareggio,4.2,28.6,20.2,7.9,✗ Persa,-7.9
+2025-26,2026-01-17T00:00:00.000,Cagliari vs Juventus,—,1 - Vittoria Casa,6.25,25.8,61.5,14.64,✓ Vinta,76.86
+2025-26,2026-01-18T00:00:00.000,Bologna vs Fiorentina,—,X - Pareggio,3.3,38.1,25.7,13.95,✗ Persa,-13.95
+2025-26,2026-01-18T00:00:00.000,Torino vs Roma,—,Under 2.5 Gol,1.67,69.5,16,29.9,✓ Vinta,20.03
+2025-26,2026-01-18T00:00:00.000,Milan vs Lecce,—,2 - Vittoria Ospite,13,14.6,90.3,9.41,✗ Persa,-9.41
+2025-26,2026-01-18T00:00:00.000,Milan vs Lecce,—,X - Pareggio,5,27.5,37.6,11.76,✗ Persa,-11.76
+2025-26,2026-01-19T00:00:00.000,Lazio vs Como,—,Over 2.5 Gol,2.38,50,18.9,17.13,✓ Vinta,23.64
+2025-26,2026-01-24T00:00:00.000,Como vs Torino,—,2 - Vittoria Ospite,6,22.3,34,8.5,✗ Persa,-8.5
+2025-26,2026-01-24T00:00:00.000,Como vs Torino,—,X - Pareggio,3.75,30.7,15.3,6.95,✗ Persa,-6.95
+2025-26,2026-01-24T00:00:00.000,Fiorentina vs Cagliari,—,2 - Vittoria Ospite,5.75,21,20.5,5.4,✓ Vinta,25.65
+2025-26,2026-01-25T00:00:00.000,Sassuolo vs Cremonese,—,2 - Vittoria Ospite,4.2,32,34.5,13.46,✗ Persa,-13.46
+2025-26,2026-01-25T00:00:00.000,Sassuolo vs Cremonese,—,Over 2.5 Gol,2.2,59.1,30,31.29,✗ Persa,-31.29
+2025-26,2026-01-25T00:00:00.000,Atalanta vs Parma,—,2 - Vittoria Ospite,7.5,15.7,17.4,3.34,✗ Persa,-3.34
+2025-26,2026-01-25T00:00:00.000,Atalanta vs Parma,—,X - Pareggio,4.5,25.9,16.4,5.87,✗ Persa,-5.87
+2025-26,2026-01-25T00:00:00.000,Juventus vs Napoli,—,X - Pareggio,3.2,42.2,35,19.89,✗ Persa,-19.89
+2025-26,2026-01-25T00:00:00.000,Juventus vs Napoli,—,2 - Vittoria Ospite,4,32.7,31,12.9,✗ Persa,-12.9
+2025-26,2026-01-25T00:00:00.000,Roma vs Milan,—,X - Pareggio,3.1,37.7,16.7,9.95,✓ Vinta,20.89
+2025-26,2026-01-25T00:00:00.000,Roma vs Milan,—,1 - Vittoria Casa,2.63,44,15.7,12.06,✗ Persa,-12.06
+2025-26,2026-01-30T00:00:00.000,Lazio vs Genoa,—,Over 2.5 Gol,3,45.1,35.2,22.01,✓ Vinta,44.02
+2025-26,2026-02-01T00:00:00.000,Como vs Atalanta,—,2 - Vittoria Ospite,3.2,45.7,46.1,26.19,✗ Persa,-26.19
+2025-26,2026-02-01T00:00:00.000,Parma vs Juventus,—,X - Pareggio,4.33,29.3,26.8,10.06,✗ Persa,-10.06
+2025-26,2026-02-01T00:00:00.000,Parma vs Juventus,—,1 - Vittoria Casa,7.5,26.7,99.9,19.21,✗ Persa,-19.21
+2025-26,2026-02-03T00:00:00.000,Bologna vs Milan,—,Over 2.5 Gol,2.1,59.4,24.8,28.14,✓ Vinta,30.95
+2025-26,2026-02-08T00:00:00.000,Bologna vs Parma,—,2 - Vittoria Ospite,5.75,23.6,35.7,9.39,✓ Vinta,44.6
+2025-26,2026-02-08T00:00:00.000,Sassuolo vs Inter,—,Over 2.5 Gol,1.8,69.7,25.5,39.88,✓ Vinta,31.9
+2025-26,2026-02-08T00:00:00.000,Juventus vs Lazio,—,2 - Vittoria Ospite,7.5,27.3,104.8,20.15,✗ Persa,-20.15
+2025-26,2026-02-08T00:00:00.000,Juventus vs Lazio,—,X - Pareggio,4.2,29.8,25.3,9.9,✓ Vinta,31.68
+2025-26,2026-02-09T00:00:00.000,Atalanta vs Cremonese,—,Over 2.5 Gol,1.73,72.9,26.1,44.73,✓ Vinta,32.65
+2025-26,2026-02-14T00:00:00.000,Como vs Fiorentina,—,2 - Vittoria Ospite,4.75,35.3,67.5,22.48,✓ Vinta,84.3
+2025-26,2026-02-14T00:00:00.000,Lazio vs Atalanta,—,Over 2.5 Gol,2.1,56.9,19.5,22.13,✗ Persa,-22.13
+2025-26,2026-02-14T00:00:00.000,Inter vs Juventus,—,X - Pareggio,3.4,37.2,26.5,13.8,✗ Persa,-13.8
+2025-26,2026-02-15T00:00:00.000,Cremonese vs Genoa,—,Over 2.5 Gol,2.63,48.1,26.5,20.34,✗ Persa,-20.34
+2025-26,2026-02-15T00:00:00.000,Udinese vs Sassuolo,—,Over 2.5 Gol,2.2,52.7,15.9,16.56,✓ Vinta,19.87
+2025-26,2026-02-15T00:00:00.000,Napoli vs Roma,—,X - Pareggio,3,43.5,30.4,18.98,✓ Vinta,37.96
+2025-26,2026-02-15T00:00:00.000,Napoli vs Roma,—,Under 2.5 Gol,1.53,75.7,15.8,37.29,✗ Persa,-37.29
+2025-26,2026-02-20T00:00:00.000,Sassuolo vs Verona,—,2 - Vittoria Ospite,5.25,33.2,74.2,21.83,✗ Persa,-21.83
+2025-26,2026-02-21T00:00:00.000,Cagliari vs Lazio,—,Over 2.5 Gol,2.38,51.2,22,19.9,✗ Persa,-19.9
+2025-26,2026-02-22T00:00:00.000,Milan vs Parma,—,2 - Vittoria Ospite,9.5,21,99.3,14.61,✓ Vinta,124.19
+2025-26,2026-02-22T00:00:00.000,Milan vs Parma,—,X - Pareggio,5,26.4,32.2,10.08,✗ Persa,-10.08
+2025-26,2026-02-22T00:00:00.000,Roma vs Cremonese,—,Over 2.5 Gol,1.98,58.3,15.5,19.72,✓ Vinta,19.33
+2025-26,2026-02-28T00:00:00.000,Verona vs Napoli,—,X - Pareggio,4,29,15.8,6.6,✗ Persa,-6.6
+2025-26,2026-02-28T00:00:00.000,Inter vs Genoa,—,X - Pareggio,5.5,27.3,50,13.9,✗ Persa,-13.9
+2025-26,2026-02-28T00:00:00.000,Inter vs Genoa,—,2 - Vittoria Ospite,9,15.6,40.8,6.38,✗ Persa,-6.38
+2025-26,2026-02-28T00:00:00.000,Como vs Lecce,—,2 - Vittoria Ospite,9.5,17.7,68,10.01,✗ Persa,-10.01
+2025-26,2026-02-28T00:00:00.000,Como vs Lecce,—,X - Pareggio,4.5,29.4,32.3,11.54,✗ Persa,-11.54
+2025-26,2026-03-01T00:00:00.000,Cremonese vs Milan,—,Over 2.5 Gol,1.91,66.6,27.2,37.39,✗ Persa,-37.39
+2025-26,2026-03-01T00:00:00.000,Sassuolo vs Atalanta,—,2 - Vittoria Ospite,1.95,74.1,44.4,58.45,✗ Persa,-58.45
+2025-26,2026-03-01T00:00:00.000,Sassuolo vs Atalanta,—,Over 2.5 Gol,1.88,72.4,36.1,51.24,✓ Vinta,45.09
+2025-26,2026-03-01T00:00:00.000,Roma vs Juventus,—,X - Pareggio,3.1,40.1,24.3,14.47,✓ Vinta,30.39
+2025-26,2026-03-06T00:00:00.000,Napoli vs Torino,—,X - Pareggio,3.8,31.1,18.2,8.14,✗ Persa,-8.14
+2025-26,2026-03-06T00:00:00.000,Napoli vs Torino,—,Under 2.5 Gol,1.67,70.4,17.6,32.85,✗ Persa,-32.85
+2025-26,2026-03-07T00:00:00.000,Cagliari vs Como,—,X - Pareggio,4,29.2,16.8,7,✗ Persa,-7
+2025-26,2026-03-07T00:00:00.000,Cagliari vs Como,—,1 - Vittoria Casa,5.75,29.2,67.9,17.88,✗ Persa,-17.88
+2025-26,2026-03-07T00:00:00.000,Atalanta vs Udinese,—,Over 2.5 Gol,1.91,61.2,16.9,23.25,✓ Vinta,21.16
+2025-26,2026-03-07T00:00:00.000,Atalanta vs Udinese,—,1 - Vittoria Casa,1.67,69,15.3,28.56,✗ Persa,-28.56
+2025-26,2026-03-09T00:00:00.000,Lazio vs Sassuolo,—,Over 2.5 Gol,2.2,64.9,42.8,44.58,✓ Vinta,53.5
+2025-26,2026-03-09T00:00:00.000,Lazio vs Sassuolo,—,1 - Vittoria Casa,2.15,64.5,38.7,42.11,✓ Vinta,48.43
+2025-26,2026-03-13T00:00:00.000,Torino vs Parma,—,2 - Vittoria Ospite,3.8,32,21.7,9.69,✗ Persa,-9.69
+2025-26,2026-03-14T00:00:00.000,Inter vs Atalanta,—,X - Pareggio,4.33,38.2,65.6,24.63,✓ Vinta,82.02
+2025-26,2026-03-14T00:00:00.000,Inter vs Atalanta,—,2 - Vittoria Ospite,5.75,25.2,44.9,11.82,✗ Persa,-11.82
+2025-26,2026-03-14T00:00:00.000,Napoli vs Lecce,—,X - Pareggio,4.75,30.1,43,14.34,✗ Persa,-14.34
+2025-26,2026-03-14T00:00:00.000,Udinese vs Juventus,—,X - Pareggio,4.2,29.1,22.3,8.72,✗ Persa,-8.72
+2025-26,2026-03-14T00:00:00.000,Udinese vs Juventus,—,1 - Vittoria Casa,5.75,22.8,31.3,8.23,✗ Persa,-8.23
+2025-26,2026-03-15T00:00:00.000,Sassuolo vs Bologna,—,2 - Vittoria Ospite,3,57.5,72.5,45.34,✓ Vinta,90.68
+2025-26,2026-03-15T00:00:00.000,Sassuolo vs Bologna,—,Over 2.5 Gol,2,64.7,29.3,36.68,✗ Persa,-36.68
+2025-26,2026-03-15T00:00:00.000,Como vs Roma,—,2 - Vittoria Ospite,3.6,44.5,60.1,28.88,✗ Persa,-28.88
+2025-26,2026-03-15T00:00:00.000,Lazio vs Milan,—,Over 2.5 Gol,2.2,57.2,25.9,26.98,✗ Persa,-26.98
+2025-26,2026-03-15T00:00:00.000,Lazio vs Milan,—,1 - Vittoria Casa,4.1,34.3,40.7,16.42,✓ Vinta,50.9
+2025-26,2026-03-16T00:00:00.000,Cremonese vs Fiorentina,—,Over 2.5 Gol,1.91,63.5,21.3,29.23,✓ Vinta,26.6
+2025-26,2026-03-16T00:00:00.000,Cremonese vs Fiorentina,—,2 - Vittoria Ospite,1.91,61.1,16.6,22.85,✓ Vinta,20.79
+2025-26,2026-03-21T00:00:00.000,Parma vs Cremonese,—,Over 2.5 Gol,2.2,52.7,16,16.71,✗ Persa,-16.71
+2025-26,2026-03-21T00:00:00.000,Milan vs Torino,—,2 - Vittoria Ospite,7.5,19.4,45.4,8.73,✗ Persa,-8.73
+2025-26,2026-03-21T00:00:00.000,Milan vs Torino,—,X - Pareggio,4.75,28.2,33.9,11.3,✗ Persa,-11.3
+2025-26,2026-03-22T00:00:00.000,Bologna vs Lazio,—,Over 2.5 Gol,2.3,55.3,27.1,26.08,✗ Persa,-26.08
+2025-26,2026-03-22T00:00:00.000,Fiorentina vs Inter,—,X - Pareggio,4.33,27.3,18.4,6.91,✓ Vinta,23.01
+2025-26,2026-03-22T00:00:00.000,Fiorentina vs Inter,—,1 - Vittoria Casa,5,27.5,37.5,11.73,✗ Persa,-11.73
+2025-26,2026-04-04T00:00:00.000,Lazio vs Parma,—,2 - Vittoria Ospite,5,23.3,16.5,5.16,✗ Persa,-5.16
+2025-26,2026-04-04T00:00:00.000,Sassuolo vs Cagliari,—,2 - Vittoria Ospite,4.5,45.4,104.1,37.19,✗ Persa,-37.19
+2025-26,2026-04-04T00:00:00.000,Sassuolo vs Cagliari,—,Over 2.5 Gol,2.1,55.9,17.5,19.84,✓ Vinta,21.82
+2025-26,2026-04-05T00:00:00.000,Cremonese vs Bologna,—,Over 2.5 Gol,2.03,62.1,26.1,31.7,✓ Vinta,32.65
+2025-26,2026-04-05T00:00:00.000,Cremonese vs Bologna,—,2 - Vittoria Ospite,2.05,57.2,17.2,20.49,✓ Vinta,21.51
+2025-26,2026-04-05T00:00:00.000,Inter vs Roma,—,2 - Vittoria Ospite,5.25,30.1,58.3,17.14,✗ Persa,-17.14
+2025-26,2026-04-05T00:00:00.000,Inter vs Roma,—,X - Pareggio,4,32.9,31.4,13.08,✗ Persa,-13.08
+2025-26,2026-04-05T00:00:00.000,Inter vs Roma,—,Under 2.5 Gol,1.91,62.1,18.7,25.63,✗ Persa,-25.63
+2025-26,2026-04-06T00:00:00.000,Udinese vs Como,—,1 - Vittoria Casa,5,25.6,28.2,8.8,✗ Persa,-8.8
+2025-26,2026-04-06T00:00:00.000,Juventus vs Genoa,—,2 - Vittoria Ospite,9.5,21.8,107,15.73,✗ Persa,-15.73
+2025-26,2026-04-06T00:00:00.000,Juventus vs Genoa,—,X - Pareggio,4.5,29.2,31.6,11.29,✗ Persa,-11.29
+2025-26,2026-04-06T00:00:00.000,Napoli vs Milan,—,1 - Vittoria Casa,2.55,46.9,19.6,15.8,✓ Vinta,24.49
+2025-26,2026-04-11T00:00:00.000,Milan vs Udinese,—,2 - Vittoria Ospite,8,16,27.8,4.97,✓ Vinta,34.79
+2025-26,2026-04-11T00:00:00.000,Milan vs Udinese,—,X - Pareggio,4.5,25.7,15.8,5.64,✗ Persa,-5.64
+2025-26,2026-04-11T00:00:00.000,Atalanta vs Juventus,—,1 - Vittoria Casa,3.1,48.6,50.8,30.22,✗ Persa,-30.22
+2025-26,2026-04-11T00:00:00.000,Cagliari vs Cremonese,—,Over 2.5 Gol,2.3,54.5,25.4,24.44,✗ Persa,-24.44
+2025-26,2026-04-11T00:00:00.000,Torino vs Verona,—,Under 2.5 Gol,1.57,74.7,17.3,38.03,✗ Persa,-38.03
+2025-26,2026-04-12T00:00:00.000,Parma vs Napoli,—,X - Pareggio,3.8,30.9,17.3,7.73,✓ Vinta,21.64
+2025-26,2026-04-12T00:00:00.000,Parma vs Napoli,—,1 - Vittoria Casa,6,21.5,29.1,7.28,✗ Persa,-7.28
+2025-26,2026-04-12T00:00:00.000,Genoa vs Sassuolo,—,1 - Vittoria Casa,2.15,54.2,16.6,18,✓ Vinta,20.7
+2025-26,2026-04-13T00:00:00.000,Fiorentina vs Lazio,—,Over 2.5 Gol,2.2,55.3,21.6,22.48,✗ Persa,-22.48
+2025-26,2026-04-17T00:00:00.000,Inter vs Cagliari,—,2 - Vittoria Ospite,12,12.4,49.1,5.58,✗ Persa,-5.58
+2025-26,2026-04-17T00:00:00.000,Inter vs Cagliari,—,X - Pareggio,6,23.2,39.3,9.81,✗ Persa,-9.81
+2025-26,2026-04-18T00:00:00.000,Udinese vs Parma,—,2 - Vittoria Ospite,3.9,38.1,48.5,20.92,✓ Vinta,60.67
+2025-26,2026-04-18T00:00:00.000,Napoli vs Lazio,—,2 - Vittoria Ospite,7,20.8,45.6,9.49,✓ Vinta,56.94
+2025-26,2026-04-19T00:00:00.000,Juventus vs Bologna,—,2 - Vittoria Ospite,6.5,26.9,75.1,17.06,✗ Persa,-17.06
+2025-26,2026-04-19T00:00:00.000,Juventus vs Bologna,—,X - Pareggio,4.5,29.2,31.5,11.24,✗ Persa,-11.24
+2025-26,2026-04-26T00:00:00.000,Fiorentina vs Sassuolo,—,Over 2.5 Gol,1.88,68.3,28.4,40.32,✗ Persa,-40.32
+2025-26,2026-04-26T00:00:00.000,Fiorentina vs Sassuolo,—,1 - Vittoria Casa,1.91,68.4,30.7,42.19,✗ Persa,-42.19
+2025-26,2026-04-26T00:00:00.000,Genoa vs Como,—,X - Pareggio,3.8,31.6,20.1,8.99,✗ Persa,-8.99
+2025-26,2026-04-26T00:00:00.000,Genoa vs Como,—,1 - Vittoria Casa,4.5,32.2,44.8,16.01,✗ Persa,-16.01
+2025-26,2026-04-26T00:00:00.000,Torino vs Inter,—,X - Pareggio,5,27.9,39.3,12.28,✓ Vinta,49.12
+2025-26,2026-04-26T00:00:00.000,Torino vs Inter,—,Under 2.5 Gol,2.2,58.9,29.6,30.8,✗ Persa,-30.8
+2025-26,2026-04-26T00:00:00.000,Torino vs Inter,—,1 - Vittoria Casa,7.5,17.6,32.4,6.22,✗ Persa,-6.22
+2025-26,2026-04-26T00:00:00.000,Milan vs Juventus,—,X - Pareggio,3.1,39.3,21.9,13.01,✓ Vinta,27.32
+2025-26,2026-05-02T00:00:00.000,Udinese vs Torino,—,Under 2.5 Gol,1.73,67.9,17.4,29.82,✓ Vinta,21.77
+2025-26,2026-05-02T00:00:00.000,Como vs Napoli,—,2 - Vittoria Ospite,3.3,43,41.8,22.74,✗ Persa,-22.74
+2025-26,2026-05-03T00:00:00.000,Sassuolo vs Milan,—,Over 2.5 Gol,1.73,69,19.4,33.27,✗ Persa,-33.27
+2025-26,2026-05-03T00:00:00.000,Inter vs Parma,—,2 - Vittoria Ospite,13,14.5,88.3,9.2,✗ Persa,-9.2
+2025-26,2026-05-03T00:00:00.000,Inter vs Parma,—,X - Pareggio,6,26.4,58.1,14.53,✗ Persa,-14.53
+2025-26,2026-05-03T00:00:00.000,Inter vs Parma,—,Under 2.5 Gol,2.63,46.4,21.9,16.8,✓ Vinta,27.38
+2025-26,2026-05-03T00:00:00.000,Juventus vs Verona,—,X - Pareggio,6.5,28.8,87.5,19.89,✓ Vinta,109.4
+2025-26,2026-05-03T00:00:00.000,Juventus vs Verona,—,2 - Vittoria Ospite,12,14,68.1,7.74,✗ Persa,-7.74
+2025-26,2026-05-03T00:00:00.000,Juventus vs Verona,—,Under 2.5 Gol,2.2,60.4,32.8,34.16,✓ Vinta,40.99
+2025-26,2026-05-04T00:00:00.000,Cremonese vs Lazio,—,2 - Vittoria Ospite,2.5,57.1,42.7,35.55,✓ Vinta,53.32
+2025-26,2026-05-04T00:00:00.000,Cremonese vs Lazio,—,Over 2.5 Gol,2.1,60.2,26.4,30.02,✓ Vinta,33.02
+2025-26,2026-05-04T00:00:00.000,Roma vs Fiorentina,—,X - Pareggio,4.2,28.6,20.3,7.92,✗ Persa,-7.92
+2025-26,2026-05-08T00:00:00.000,Torino vs Sassuolo,—,1 - Vittoria Casa,2.6,49.7,29.3,22.88,✓ Vinta,36.61
+2025-26,2026-05-09T00:00:00.000,Lazio vs Inter,—,1 - Vittoria Casa,4.5,26.3,18.4,6.57,✗ Persa,-6.57
+2025-26,2026-05-09T00:00:00.000,Lecce vs Juventus,—,X - Pareggio,4.5,31.2,40.5,14.47,✗ Persa,-14.47
+2025-26,2026-05-09T00:00:00.000,Lecce vs Juventus,—,Under 2.5 Gol,2.1,64.6,35.6,40.51,✓ Vinta,44.56
+2025-26,2026-05-09T00:00:00.000,Lecce vs Juventus,—,1 - Vittoria Casa,6.25,20.7,29.5,7.03,✗ Persa,-7.03
+2025-26,2026-05-10T00:00:00.000,Verona vs Como,—,X - Pareggio,4.75,30.3,43.7,14.56,✗ Persa,-14.56
+2025-26,2026-05-10T00:00:00.000,Verona vs Como,—,Under 2.5 Gol,1.93,61.9,19.5,26.22,✓ Vinta,24.38
+2025-26,2026-05-10T00:00:00.000,Verona vs Como,—,1 - Vittoria Casa,8,23.2,85.9,15.34,✗ Persa,-15.34
+2025-26,2026-05-10T00:00:00.000,Parma vs Roma,—,X - Pareggio,4.1,30.4,24.5,9.88,✗ Persa,-9.88
+2025-26,2026-05-10T00:00:00.000,Parma vs Roma,—,1 - Vittoria Casa,6.25,21.2,32.4,7.72,✗ Persa,-7.72
+2025-26,2026-05-10T00:00:00.000,Milan vs Atalanta,—,2 - Vittoria Ospite,3.5,41.7,46.1,23.03,✓ Vinta,57.58
+2025-26,2026-05-11T00:00:00.000,Napoli vs Bologna,—,2 - Vittoria Ospite,6,20.7,24,5.99,✓ Vinta,29.95
+2025-26,2026-05-11T00:00:00.000,Napoli vs Bologna,—,X - Pareggio,4.2,28.8,20.9,8.16,✗ Persa,-8.16
+2025-26,2026-05-17T00:00:00.000,Juventus vs Fiorentina,—,2 - Vittoria Ospite,8.5,25.7,118,19.67,✓ Vinta,147.53
+2025-26,2026-05-17T00:00:00.000,Juventus vs Fiorentina,—,X - Pareggio,5,39.4,97,30.33,✗ Persa,-30.33
+2025-26,2026-05-17T00:00:00.000,Juventus vs Fiorentina,—,Under 2.5 Gol,2.3,52.2,20,19.2,✓ Vinta,24.96
+2025-26,2026-05-17T00:00:00.000,Como vs Parma,—,2 - Vittoria Ospite,12,24,188,21.36,✗ Persa,-21.36
+2025-26,2026-05-17T00:00:00.000,Como vs Parma,—,X - Pareggio,5.25,28.8,51.3,15.09,✗ Persa,-15.09
+2025-26,2026-05-17T00:00:00.000,Como vs Parma,—,Under 2.5 Gol,2.2,54.1,18.9,19.7,✓ Vinta,23.64
+2025-26,2026-05-17T00:00:00.000,Genoa vs Milan,—,1 - Vittoria Casa,4.5,28,25.9,9.26,✗ Persa,-9.26
+2025-26,2026-05-17T00:00:00.000,Roma vs Lazio,—,Under 2.5 Gol,1.93,71.8,38.7,51.95,✓ Vinta,48.31
+2025-26,2026-05-17T00:00:00.000,Roma vs Lazio,—,X - Pareggio,4,33.4,33.8,14.08,✗ Persa,-14.08
+2025-26,2026-05-17T00:00:00.000,Inter vs Verona,—,X - Pareggio,8,21.9,75.2,13.44,✓ Vinta,94.08
+2025-26,2026-05-17T00:00:00.000,Inter vs Verona,—,Under 2.5 Gol,2.63,49.3,29.5,22.66,✓ Vinta,36.94
+2025-26,2026-05-24T00:00:00.000,Parma vs Sassuolo,—,1 - Vittoria Casa,2.7,53.1,43.5,31.95,✓ Vinta,54.32
+2025-26,2026-05-24T00:00:00.000,Lecce vs Genoa,—,2 - Vittoria Ospite,5,39.8,98.8,30.87,✗ Persa,-30.87
+2025-26,2026-05-24T00:00:00.000,Milan vs Cagliari,—,2 - Vittoria Ospite,11,19.7,116.3,14.54,✓ Vinta,145.4
+2025-26,2026-05-24T00:00:00.000,Milan vs Cagliari,—,X - Pareggio,5.5,25.8,41.8,11.62,✗ Persa,-11.62
+2025-26,2026-05-24T00:00:00.000,Torino vs Juventus,—,Under 2.5 Gol,2.1,83.4,75.1,85.3,✗ Persa,-85.3
+2025-26,2026-05-24T00:00:00.000,Torino vs Juventus,—,X - Pareggio,4.5,36.2,62.8,22.43,✓ Vinta,78.5
+2025-26,2026-05-24T00:00:00.000,Torino vs Juventus,—,1 - Vittoria Casa,7.5,22.6,69.9,13.43,✗ Persa,-13.43
+2025-26,2026-05-24T00:00:00.000,Verona vs Roma,—,X - Pareggio,5.5,27.9,53.3,14.8,✗ Persa,-14.8
+2025-26,2026-05-24T00:00:00.000,Verona vs Roma,—,Under 2.5 Gol,2,63.9,27.7,34.67,✓ Vinta,34.67
+2025-26,2026-05-24T00:00:00.000,Verona vs Roma,—,1 - Vittoria Casa,10,12.6,26.3,3.65,✗ Persa,-3.65

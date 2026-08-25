@@ -1,0 +1,222 @@
+{
+  "Milan": {
+    "squad_size": 31,
+    "coach": null,
+    "venue": "Stadio Giuseppe Meazza",
+    "positions": {
+      "Goalkeeper": 3,
+      "Defence": 9,
+      "Midfield": 11,
+      "Offence": 8
+    }
+  },
+  "Fiorentina": {
+    "squad_size": 28,
+    "coach": null,
+    "venue": "Stadio Artemio Franchi",
+    "positions": {
+      "Goalkeeper": 3,
+      "Defence": 11,
+      "Midfield": 8,
+      "Offence": 6
+    }
+  },
+  "Roma": {
+    "squad_size": 27,
+    "coach": null,
+    "venue": "Stadio Olimpico",
+    "positions": {
+      "Goalkeeper": 4,
+      "Defence": 12,
+      "Midfield": 6,
+      "Offence": 5
+    }
+  },
+  "Atalanta": {
+    "squad_size": 27,
+    "coach": null,
+    "venue": "Stadio Atleti Azzurri d'Italia",
+    "positions": {
+      "Goalkeeper": 4,
+      "Defence": 6,
+      "Midfield": 12,
+      "Offence": 5
+    }
+  },
+  "Bologna": {
+    "squad_size": 25,
+    "coach": null,
+    "venue": "Stadio Renato Dall'Ara",
+    "positions": {
+      "Goalkeeper": 3,
+      "Defence": 9,
+      "Midfield": 6,
+      "Offence": 7
+    }
+  },
+  "Cagliari": {
+    "squad_size": 31,
+    "coach": null,
+    "venue": "Sardegna Arena",
+    "positions": {
+      "Goalkeeper": 3,
+      "Defence": 8,
+      "Midfield": 11,
+      "Offence": 9
+    }
+  },
+  "Genoa": {
+    "squad_size": 30,
+    "coach": null,
+    "venue": "Stadio Comunale Luigi Ferraris",
+    "positions": {
+      "Goalkeeper": 4,
+      "Defence": 13,
+      "Midfield": 7,
+      "Offence": 6
+    }
+  },
+  "Inter": {
+    "squad_size": 25,
+    "coach": null,
+    "venue": "Stadio Giuseppe Meazza",
+    "positions": {
+      "Goalkeeper": 3,
+      "Defence": 8,
+      "Midfield": 10,
+      "Offence": 4
+    }
+  },
+  "Juventus": {
+    "squad_size": 30,
+    "coach": null,
+    "venue": "Allianz Stadium",
+    "positions": {
+      "Goalkeeper": 4,
+      "Defence": 9,
+      "Midfield": 7,
+      "Offence": 10
+    }
+  },
+  "Lazio": {
+    "squad_size": 34,
+    "coach": null,
+    "venue": "Stadio Olimpico",
+    "positions": {
+      "Goalkeeper": 4,
+      "Defence": 13,
+      "Midfield": 9,
+      "Offence": 8
+    }
+  },
+  "Parma": {
+    "squad_size": 31,
+    "coach": null,
+    "venue": "Stadio Ennio Tardini",
+    "positions": {
+      "Goalkeeper": 3,
+      "Defence": 11,
+      "Midfield": 7,
+      "Offence": 10
+    }
+  },
+  "Napoli": {
+    "squad_size": 32,
+    "coach": null,
+    "venue": "Stadio San Paolo",
+    "positions": {
+      "Goalkeeper": 3,
+      "Defence": 11,
+      "Midfield": 8,
+      "Offence": 10
+    }
+  },
+  "Udinese": {
+    "squad_size": 33,
+    "coach": null,
+    "venue": "Dacia Arena",
+    "positions": {
+      "Goalkeeper": 3,
+      "Defence": 12,
+      "Midfield": 12,
+      "Offence": 6
+    }
+  },
+  "Venezia": {
+    "squad_size": 37,
+    "coach": null,
+    "venue": "Stadio Pierluigi Penzo",
+    "positions": {
+      "Goalkeeper": 3,
+      "Defence": 12,
+      "Midfield": 12,
+      "Offence": 10
+    }
+  },
+  "Frosinone": {
+    "squad_size": 35,
+    "coach": null,
+    "venue": "Stadio Benito Stirpe",
+    "positions": {
+      "Goalkeeper": 4,
+      "Defence": 12,
+      "Midfield": 12,
+      "Offence": 7
+    }
+  },
+  "Sassuolo": {
+    "squad_size": 38,
+    "coach": null,
+    "venue": "Mapei Stadium - Città del Tricolore",
+    "positions": {
+      "Goalkeeper": 4,
+      "Defence": 12,
+      "Midfield": 12,
+      "Offence": 10
+    }
+  },
+  "Torino": {
+    "squad_size": 32,
+    "coach": null,
+    "venue": "Stadio Olimpico di Torino",
+    "positions": {
+      "Goalkeeper": 4,
+      "Defence": 8,
+      "Midfield": 12,
+      "Offence": 8
+    }
+  },
+  "Lecce": {
+    "squad_size": 31,
+    "coach": null,
+    "venue": "Stadio Comunale Via Del Mare",
+    "positions": {
+      "Goalkeeper": 3,
+      "Defence": 11,
+      "Midfield": 9,
+      "Offence": 8
+    }
+  },
+  "Monza": {
+    "squad_size": 29,
+    "coach": null,
+    "venue": "Stadio Comunale Brianteo",
+    "positions": {
+      "Goalkeeper": 3,
+      "Defence": 8,
+      "Midfield": 9,
+      "Offence": 9
+    }
+  },
+  "Como": {
+    "squad_size": 35,
+    "coach": null,
+    "venue": "Stadio Giuseppe Sinigaglia",
+    "positions": {
+      "Goalkeeper": 4,
+      "Defence": 10,
+      "Midfield": 10,
+      "Offence": 11
+    }
+  }
+}

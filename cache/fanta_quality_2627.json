@@ -1,0 +1,1650 @@
+{
+  "Atalanta": {
+    "total_players": 24,
+    "Goalkeeper": {
+      "n": 3,
+      "avg_qt": 6.0,
+      "max_qt": 16.0,
+      "top3_avg": 6.0,
+      "players": [
+        {
+          "nome": "Carnesecchi",
+          "qt": 16.0
+        },
+        {
+          "nome": "Sportiello",
+          "qt": 1.0
+        },
+        {
+          "nome": "Vismara",
+          "qt": 1.0
+        }
+      ]
+    },
+    "Defence": {
+      "n": 9,
+      "avg_qt": 6.56,
+      "max_qt": 10.0,
+      "top3_avg": 8.67,
+      "players": [
+        {
+          "nome": "Scalvini",
+          "qt": 10.0
+        },
+        {
+          "nome": "Hien",
+          "qt": 8.0
+        },
+        {
+          "nome": "Zappacosta",
+          "qt": 8.0
+        }
+      ]
+    },
+    "Midfield": {
+      "n": 7,
+      "avg_qt": 7.57,
+      "max_qt": 12.0,
+      "top3_avg": 11.0,
+      "players": [
+        {
+          "nome": "Ederson D.S.",
+          "qt": 12.0
+        },
+        {
+          "nome": "Samardzic",
+          "qt": 12.0
+        },
+        {
+          "nome": "Pasalic",
+          "qt": 9.0
+        }
+      ]
+    },
+    "Offence": {
+      "n": 5,
+      "avg_qt": 14.6,
+      "max_qt": 19.0,
+      "top3_avg": 18.0,
+      "players": [
+        {
+          "nome": "Scamacca",
+          "qt": 19.0
+        },
+        {
+          "nome": "Krstovic",
+          "qt": 18.0
+        },
+        {
+          "nome": "De Ketelaere",
+          "qt": 17.0
+        }
+      ]
+    }
+  },
+  "Bologna": {
+    "total_players": 24,
+    "Goalkeeper": {
+      "n": 3,
+      "avg_qt": 4.0,
+      "max_qt": 10.0,
+      "top3_avg": 4.0,
+      "players": [
+        {
+          "nome": "Skorupski",
+          "qt": 10.0
+        },
+        {
+          "nome": "Happonen",
+          "qt": 1.0
+        },
+        {
+          "nome": "Pessina Mas.",
+          "qt": 1.0
+        }
+      ]
+    },
+    "Defence": {
+      "n": 9,
+      "avg_qt": 4.22,
+      "max_qt": 8.0,
+      "top3_avg": 6.67,
+      "players": [
+        {
+          "nome": "Miranda J.",
+          "qt": 8.0
+        },
+        {
+          "nome": "Heggem",
+          "qt": 6.0
+        },
+        {
+          "nome": "Zortea",
+          "qt": 6.0
+        }
+      ]
+    },
+    "Midfield": {
+      "n": 10,
+      "avg_qt": 8.6,
+      "max_qt": 26.0,
+      "top3_avg": 15.33,
+      "players": [
+        {
+          "nome": "Orsolini",
+          "qt": 26.0
+        },
+        {
+          "nome": "Rowe",
+          "qt": 11.0
+        },
+        {
+          "nome": "Bernardeschi",
+          "qt": 9.0
+        }
+      ]
+    },
+    "Offence": {
+      "n": 2,
+      "avg_qt": 12.0,
+      "max_qt": 16.0,
+      "top3_avg": 12.0,
+      "players": [
+        {
+          "nome": "Dovbyk",
+          "qt": 16.0
+        },
+        {
+          "nome": "Piccoli",
+          "qt": 8.0
+        }
+      ]
+    }
+  },
+  "Cagliari": {
+    "total_players": 27,
+    "Goalkeeper": {
+      "n": 3,
+      "avg_qt": 3.67,
+      "max_qt": 9.0,
+      "top3_avg": 3.67,
+      "players": [
+        {
+          "nome": "Caprile",
+          "qt": 9.0
+        },
+        {
+          "nome": "Sherri",
+          "qt": 1.0
+        },
+        {
+          "nome": "Radunovic",
+          "qt": 1.0
+        }
+      ]
+    },
+    "Defence": {
+      "n": 8,
+      "avg_qt": 4.62,
+      "max_qt": 8.0,
+      "top3_avg": 6.67,
+      "players": [
+        {
+          "nome": "Mina",
+          "qt": 8.0
+        },
+        {
+          "nome": "Obert",
+          "qt": 7.0
+        },
+        {
+          "nome": "Kofler",
+          "qt": 5.0
+        }
+      ]
+    },
+    "Midfield": {
+      "n": 8,
+      "avg_qt": 4.62,
+      "max_qt": 7.0,
+      "top3_avg": 6.33,
+      "players": [
+        {
+          "nome": "Fazzini",
+          "qt": 7.0
+        },
+        {
+          "nome": "Adopo",
+          "qt": 6.0
+        },
+        {
+          "nome": "Winks",
+          "qt": 6.0
+        }
+      ]
+    },
+    "Offence": {
+      "n": 8,
+      "avg_qt": 5.88,
+      "max_qt": 13.0,
+      "top3_avg": 10.67,
+      "players": [
+        {
+          "nome": "Esposito Se.",
+          "qt": 13.0
+        },
+        {
+          "nome": "Kevin Carlos",
+          "qt": 13.0
+        },
+        {
+          "nome": "Mutandwa",
+          "qt": 6.0
+        }
+      ]
+    }
+  },
+  "Como": {
+    "total_players": 28,
+    "Goalkeeper": {
+      "n": 3,
+      "avg_qt": 6.0,
+      "max_qt": 16.0,
+      "top3_avg": 6.0,
+      "players": [
+        {
+          "nome": "Butez",
+          "qt": 16.0
+        },
+        {
+          "nome": "Tornqvist",
+          "qt": 1.0
+        },
+        {
+          "nome": "Vigorito",
+          "qt": 1.0
+        }
+      ]
+    },
+    "Defence": {
+      "n": 9,
+      "avg_qt": 5.78,
+      "max_qt": 10.0,
+      "top3_avg": 9.0,
+      "players": [
+        {
+          "nome": "Ramon",
+          "qt": 10.0
+        },
+        {
+          "nome": "Chalobah T.",
+          "qt": 9.0
+        },
+        {
+          "nome": "Couto",
+          "qt": 8.0
+        }
+      ]
+    },
+    "Midfield": {
+      "n": 11,
+      "avg_qt": 10.36,
+      "max_qt": 30.0,
+      "top3_avg": 22.33,
+      "players": [
+        {
+          "nome": "Paz N.",
+          "qt": 30.0
+        },
+        {
+          "nome": "Baturina",
+          "qt": 19.0
+        },
+        {
+          "nome": "Da Cunha",
+          "qt": 18.0
+        }
+      ]
+    },
+    "Offence": {
+      "n": 5,
+      "avg_qt": 7.8,
+      "max_qt": 20.0,
+      "top3_avg": 11.67,
+      "players": [
+        {
+          "nome": "Douvikas",
+          "qt": 20.0
+        },
+        {
+          "nome": "Diao",
+          "qt": 11.0
+        },
+        {
+          "nome": "Morata",
+          "qt": 4.0
+        }
+      ]
+    }
+  },
+  "Fiorentina": {
+    "total_players": 23,
+    "Goalkeeper": {
+      "n": 3,
+      "avg_qt": 5.0,
+      "max_qt": 13.0,
+      "top3_avg": 5.0,
+      "players": [
+        {
+          "nome": "De Gea",
+          "qt": 13.0
+        },
+        {
+          "nome": "Christensen O.",
+          "qt": 1.0
+        },
+        {
+          "nome": "Lezzerini",
+          "qt": 1.0
+        }
+      ]
+    },
+    "Defence": {
+      "n": 9,
+      "avg_qt": 5.89,
+      "max_qt": 10.0,
+      "top3_avg": 8.67,
+      "players": [
+        {
+          "nome": "Dodò",
+          "qt": 10.0
+        },
+        {
+          "nome": "Dragusin",
+          "qt": 8.0
+        },
+        {
+          "nome": "Jimenez A.",
+          "qt": 8.0
+        }
+      ]
+    },
+    "Midfield": {
+      "n": 9,
+      "avg_qt": 8.89,
+      "max_qt": 17.0,
+      "top3_avg": 14.0,
+      "players": [
+        {
+          "nome": "Atta",
+          "qt": 17.0
+        },
+        {
+          "nome": "Gudmundsson A.",
+          "qt": 13.0
+        },
+        {
+          "nome": "Mastantuono",
+          "qt": 12.0
+        }
+      ]
+    },
+    "Offence": {
+      "n": 2,
+      "avg_qt": 20.0,
+      "max_qt": 25.0,
+      "top3_avg": 20.0,
+      "players": [
+        {
+          "nome": "Kean",
+          "qt": 25.0
+        },
+        {
+          "nome": "Pellegrino M.",
+          "qt": 15.0
+        }
+      ]
+    }
+  },
+  "Frosinone": {
+    "total_players": 31,
+    "Goalkeeper": {
+      "n": 4,
+      "avg_qt": 2.0,
+      "max_qt": 4.0,
+      "top3_avg": 2.33,
+      "players": [
+        {
+          "nome": "Palmisani",
+          "qt": 4.0
+        },
+        {
+          "nome": "Desplanches",
+          "qt": 2.0
+        },
+        {
+          "nome": "Lolic",
+          "qt": 1.0
+        }
+      ]
+    },
+    "Defence": {
+      "n": 12,
+      "avg_qt": 2.92,
+      "max_qt": 6.0,
+      "top3_avg": 5.33,
+      "players": [
+        {
+          "nome": "Monterisi",
+          "qt": 6.0
+        },
+        {
+          "nome": "Bracaglia",
+          "qt": 5.0
+        },
+        {
+          "nome": "Oyono A.",
+          "qt": 5.0
+        }
+      ]
+    },
+    "Midfield": {
+      "n": 12,
+      "avg_qt": 3.75,
+      "max_qt": 8.0,
+      "top3_avg": 6.67,
+      "players": [
+        {
+          "nome": "Schmid",
+          "qt": 8.0
+        },
+        {
+          "nome": "Calò",
+          "qt": 7.0
+        },
+        {
+          "nome": "Zerbin",
+          "qt": 5.0
+        }
+      ]
+    },
+    "Offence": {
+      "n": 3,
+      "avg_qt": 6.67,
+      "max_qt": 9.0,
+      "top3_avg": 6.67,
+      "players": [
+        {
+          "nome": "Ghedjemis",
+          "qt": 9.0
+        },
+        {
+          "nome": "Raimondo",
+          "qt": 7.0
+        },
+        {
+          "nome": "Kvernadze",
+          "qt": 4.0
+        }
+      ]
+    }
+  },
+  "Genoa": {
+    "total_players": 25,
+    "Goalkeeper": {
+      "n": 3,
+      "avg_qt": 3.33,
+      "max_qt": 8.0,
+      "top3_avg": 3.33,
+      "players": [
+        {
+          "nome": "Bijlow",
+          "qt": 8.0
+        },
+        {
+          "nome": "Sommariva",
+          "qt": 1.0
+        },
+        {
+          "nome": "Stolz",
+          "qt": 1.0
+        }
+      ]
+    },
+    "Defence": {
+      "n": 10,
+      "avg_qt": 5.0,
+      "max_qt": 11.0,
+      "top3_avg": 9.33,
+      "players": [
+        {
+          "nome": "Ostigard",
+          "qt": 11.0
+        },
+        {
+          "nome": "Vasquez",
+          "qt": 9.0
+        },
+        {
+          "nome": "Norton-Cuffy",
+          "qt": 8.0
+        }
+      ]
+    },
+    "Midfield": {
+      "n": 9,
+      "avg_qt": 5.56,
+      "max_qt": 11.0,
+      "top3_avg": 8.33,
+      "players": [
+        {
+          "nome": "Baldanzi",
+          "qt": 11.0
+        },
+        {
+          "nome": "Frendrup",
+          "qt": 7.0
+        },
+        {
+          "nome": "Sow",
+          "qt": 7.0
+        }
+      ]
+    },
+    "Offence": {
+      "n": 3,
+      "avg_qt": 7.67,
+      "max_qt": 11.0,
+      "top3_avg": 7.67,
+      "players": [
+        {
+          "nome": "Colombo",
+          "qt": 11.0
+        },
+        {
+          "nome": "Vitinha O.",
+          "qt": 8.0
+        },
+        {
+          "nome": "Havel",
+          "qt": 4.0
+        }
+      ]
+    }
+  },
+  "Inter": {
+    "total_players": 23,
+    "Goalkeeper": {
+      "n": 3,
+      "avg_qt": 6.67,
+      "max_qt": 17.0,
+      "top3_avg": 6.67,
+      "players": [
+        {
+          "nome": "Martinez Jo.",
+          "qt": 17.0
+        },
+        {
+          "nome": "Provedel",
+          "qt": 2.0
+        },
+        {
+          "nome": "Di Gennaro",
+          "qt": 1.0
+        }
+      ]
+    },
+    "Defence": {
+      "n": 8,
+      "avg_qt": 13.75,
+      "max_qt": 32.0,
+      "top3_avg": 20.67,
+      "players": [
+        {
+          "nome": "Dimarco",
+          "qt": 32.0
+        },
+        {
+          "nome": "Akanji",
+          "qt": 16.0
+        },
+        {
+          "nome": "Bastoni",
+          "qt": 14.0
+        }
+      ]
+    },
+    "Midfield": {
+      "n": 8,
+      "avg_qt": 10.25,
+      "max_qt": 27.0,
+      "top3_avg": 18.0,
+      "players": [
+        {
+          "nome": "Calhanoglu",
+          "qt": 27.0
+        },
+        {
+          "nome": "Barella",
+          "qt": 17.0
+        },
+        {
+          "nome": "Zielinski",
+          "qt": 10.0
+        }
+      ]
+    },
+    "Offence": {
+      "n": 4,
+      "avg_qt": 21.75,
+      "max_qt": 35.0,
+      "top3_avg": 26.67,
+      "players": [
+        {
+          "nome": "Martinez L.",
+          "qt": 35.0
+        },
+        {
+          "nome": "Thuram",
+          "qt": 29.0
+        },
+        {
+          "nome": "Esposito F.P.",
+          "qt": 16.0
+        }
+      ]
+    }
+  },
+  "Juventus": {
+    "total_players": 28,
+    "Goalkeeper": {
+      "n": 4,
+      "avg_qt": 8.0,
+      "max_qt": 16.0,
+      "top3_avg": 10.33,
+      "players": [
+        {
+          "nome": "Vicario",
+          "qt": 16.0
+        },
+        {
+          "nome": "Di Gregorio",
+          "qt": 9.0
+        },
+        {
+          "nome": "Perin",
+          "qt": 6.0
+        }
+      ]
+    },
+    "Defence": {
+      "n": 9,
+      "avg_qt": 7.11,
+      "max_qt": 15.0,
+      "top3_avg": 12.33,
+      "players": [
+        {
+          "nome": "Bremer",
+          "qt": 15.0
+        },
+        {
+          "nome": "Kalulu",
+          "qt": 13.0
+        },
+        {
+          "nome": "Cambiaso",
+          "qt": 9.0
+        }
+      ]
+    },
+    "Midfield": {
+      "n": 9,
+      "avg_qt": 8.56,
+      "max_qt": 17.0,
+      "top3_avg": 13.67,
+      "players": [
+        {
+          "nome": "McKennie",
+          "qt": 17.0
+        },
+        {
+          "nome": "Alajbegovic",
+          "qt": 12.0
+        },
+        {
+          "nome": "Conceicao",
+          "qt": 12.0
+        }
+      ]
+    },
+    "Offence": {
+      "n": 6,
+      "avg_qt": 12.0,
+      "max_qt": 26.0,
+      "top3_avg": 19.33,
+      "players": [
+        {
+          "nome": "Kolo Muani",
+          "qt": 26.0
+        },
+        {
+          "nome": "Yildiz",
+          "qt": 23.0
+        },
+        {
+          "nome": "David",
+          "qt": 9.0
+        }
+      ]
+    }
+  },
+  "Lazio": {
+    "total_players": 26,
+    "Goalkeeper": {
+      "n": 3,
+      "avg_qt": 3.67,
+      "max_qt": 9.0,
+      "top3_avg": 3.67,
+      "players": [
+        {
+          "nome": "Mandas",
+          "qt": 9.0
+        },
+        {
+          "nome": "Motta",
+          "qt": 1.0
+        },
+        {
+          "nome": "Renzetti",
+          "qt": 1.0
+        }
+      ]
+    },
+    "Defence": {
+      "n": 10,
+      "avg_qt": 4.2,
+      "max_qt": 7.0,
+      "top3_avg": 6.67,
+      "players": [
+        {
+          "nome": "Doekhi",
+          "qt": 7.0
+        },
+        {
+          "nome": "Romagnoli",
+          "qt": 7.0
+        },
+        {
+          "nome": "Tavares N.",
+          "qt": 6.0
+        }
+      ]
+    },
+    "Midfield": {
+      "n": 10,
+      "avg_qt": 7.1,
+      "max_qt": 16.0,
+      "top3_avg": 12.67,
+      "players": [
+        {
+          "nome": "Zaccagni",
+          "qt": 16.0
+        },
+        {
+          "nome": "Taylor K.",
+          "qt": 13.0
+        },
+        {
+          "nome": "Cancellieri",
+          "qt": 9.0
+        }
+      ]
+    },
+    "Offence": {
+      "n": 3,
+      "avg_qt": 8.67,
+      "max_qt": 10.0,
+      "top3_avg": 8.67,
+      "players": [
+        {
+          "nome": "Dia",
+          "qt": 10.0
+        },
+        {
+          "nome": "Ratkov",
+          "qt": 10.0
+        },
+        {
+          "nome": "Noslin",
+          "qt": 6.0
+        }
+      ]
+    }
+  },
+  "Lecce": {
+    "total_players": 22,
+    "Goalkeeper": {
+      "n": 3,
+      "avg_qt": 3.33,
+      "max_qt": 8.0,
+      "top3_avg": 3.33,
+      "players": [
+        {
+          "nome": "Falcone",
+          "qt": 8.0
+        },
+        {
+          "nome": "Penev",
+          "qt": 1.0
+        },
+        {
+          "nome": "Bleve",
+          "qt": 1.0
+        }
+      ]
+    },
+    "Defence": {
+      "n": 7,
+      "avg_qt": 4.29,
+      "max_qt": 7.0,
+      "top3_avg": 6.0,
+      "players": [
+        {
+          "nome": "Tiago Gabriel",
+          "qt": 7.0
+        },
+        {
+          "nome": "Gallo",
+          "qt": 6.0
+        },
+        {
+          "nome": "Gaspar K.",
+          "qt": 5.0
+        }
+      ]
+    },
+    "Midfield": {
+      "n": 9,
+      "avg_qt": 3.44,
+      "max_qt": 6.0,
+      "top3_avg": 5.67,
+      "players": [
+        {
+          "nome": "Coulibaly L.",
+          "qt": 6.0
+        },
+        {
+          "nome": "Pierotti",
+          "qt": 6.0
+        },
+        {
+          "nome": "Berisha M.",
+          "qt": 5.0
+        }
+      ]
+    },
+    "Offence": {
+      "n": 3,
+      "avg_qt": 6.33,
+      "max_qt": 9.0,
+      "top3_avg": 6.33,
+      "players": [
+        {
+          "nome": "Geubbels",
+          "qt": 9.0
+        },
+        {
+          "nome": "Stulic",
+          "qt": 7.0
+        },
+        {
+          "nome": "N'Dri",
+          "qt": 3.0
+        }
+      ]
+    }
+  },
+  "Milan": {
+    "total_players": 28,
+    "Goalkeeper": {
+      "n": 3,
+      "avg_qt": 5.67,
+      "max_qt": 15.0,
+      "top3_avg": 5.67,
+      "players": [
+        {
+          "nome": "Maignan",
+          "qt": 15.0
+        },
+        {
+          "nome": "Terracciano",
+          "qt": 1.0
+        },
+        {
+          "nome": "Torriani",
+          "qt": 1.0
+        }
+      ]
+    },
+    "Defence": {
+      "n": 8,
+      "avg_qt": 7.0,
+      "max_qt": 14.0,
+      "top3_avg": 11.33,
+      "players": [
+        {
+          "nome": "Pavlovic",
+          "qt": 14.0
+        },
+        {
+          "nome": "Gila",
+          "qt": 12.0
+        },
+        {
+          "nome": "Bartesaghi",
+          "qt": 8.0
+        }
+      ]
+    },
+    "Midfield": {
+      "n": 12,
+      "avg_qt": 9.08,
+      "max_qt": 25.0,
+      "top3_avg": 19.67,
+      "players": [
+        {
+          "nome": "Pulisic",
+          "qt": 25.0
+        },
+        {
+          "nome": "Rabiot",
+          "qt": 22.0
+        },
+        {
+          "nome": "Modric",
+          "qt": 12.0
+        }
+      ]
+    },
+    "Offence": {
+      "n": 5,
+      "avg_qt": 13.8,
+      "max_qt": 27.0,
+      "top3_avg": 19.33,
+      "players": [
+        {
+          "nome": "Ramos G.",
+          "qt": 27.0
+        },
+        {
+          "nome": "Leao",
+          "qt": 18.0
+        },
+        {
+          "nome": "Nkunku",
+          "qt": 13.0
+        }
+      ]
+    }
+  },
+  "Monza": {
+    "total_players": 22,
+    "Goalkeeper": {
+      "n": 3,
+      "avg_qt": 2.33,
+      "max_qt": 5.0,
+      "top3_avg": 2.33,
+      "players": [
+        {
+          "nome": "Thiam",
+          "qt": 5.0
+        },
+        {
+          "nome": "Pizzignacco",
+          "qt": 1.0
+        },
+        {
+          "nome": "Strajnar",
+          "qt": 1.0
+        }
+      ]
+    },
+    "Defence": {
+      "n": 8,
+      "avg_qt": 3.25,
+      "max_qt": 6.0,
+      "top3_avg": 4.67,
+      "players": [
+        {
+          "nome": "Mangas",
+          "qt": 6.0
+        },
+        {
+          "nome": "Delli Carri",
+          "qt": 4.0
+        },
+        {
+          "nome": "Lucchesi",
+          "qt": 4.0
+        }
+      ]
+    },
+    "Midfield": {
+      "n": 6,
+      "avg_qt": 4.5,
+      "max_qt": 8.0,
+      "top3_avg": 7.0,
+      "players": [
+        {
+          "nome": "Colpani",
+          "qt": 8.0
+        },
+        {
+          "nome": "Pessina",
+          "qt": 7.0
+        },
+        {
+          "nome": "Akinsanmiro",
+          "qt": 6.0
+        }
+      ]
+    },
+    "Offence": {
+      "n": 5,
+      "avg_qt": 4.6,
+      "max_qt": 9.0,
+      "top3_avg": 6.0,
+      "players": [
+        {
+          "nome": "Cutrone",
+          "qt": 9.0
+        },
+        {
+          "nome": "Mota",
+          "qt": 5.0
+        },
+        {
+          "nome": "Robinson J.",
+          "qt": 4.0
+        }
+      ]
+    }
+  },
+  "Napoli": {
+    "total_players": 27,
+    "Goalkeeper": {
+      "n": 3,
+      "avg_qt": 5.67,
+      "max_qt": 11.0,
+      "top3_avg": 5.67,
+      "players": [
+        {
+          "nome": "Meret",
+          "qt": 11.0
+        },
+        {
+          "nome": "Milinkovic-Savic V.",
+          "qt": 5.0
+        },
+        {
+          "nome": "Contini",
+          "qt": 1.0
+        }
+      ]
+    },
+    "Defence": {
+      "n": 10,
+      "avg_qt": 6.0,
+      "max_qt": 14.0,
+      "top3_avg": 11.33,
+      "players": [
+        {
+          "nome": "Rrahmani",
+          "qt": 14.0
+        },
+        {
+          "nome": "Di Lorenzo",
+          "qt": 12.0
+        },
+        {
+          "nome": "Spinazzola",
+          "qt": 8.0
+        }
+      ]
+    },
+    "Midfield": {
+      "n": 8,
+      "avg_qt": 10.75,
+      "max_qt": 28.0,
+      "top3_avg": 18.0,
+      "players": [
+        {
+          "nome": "McTominay",
+          "qt": 28.0
+        },
+        {
+          "nome": "De Bruyne",
+          "qt": 15.0
+        },
+        {
+          "nome": "Zambo Anguissa",
+          "qt": 11.0
+        }
+      ]
+    },
+    "Offence": {
+      "n": 6,
+      "avg_qt": 9.67,
+      "max_qt": 28.0,
+      "top3_avg": 16.0,
+      "players": [
+        {
+          "nome": "Hojlund",
+          "qt": 28.0
+        },
+        {
+          "nome": "Santos A.",
+          "qt": 14.0
+        },
+        {
+          "nome": "Neres",
+          "qt": 6.0
+        }
+      ]
+    }
+  },
+  "Parma": {
+    "total_players": 23,
+    "Goalkeeper": {
+      "n": 2,
+      "avg_qt": 4.0,
+      "max_qt": 7.0,
+      "top3_avg": 4.0,
+      "players": [
+        {
+          "nome": "Daffara",
+          "qt": 7.0
+        },
+        {
+          "nome": "Corvi",
+          "qt": 1.0
+        }
+      ]
+    },
+    "Defence": {
+      "n": 7,
+      "avg_qt": 4.0,
+      "max_qt": 8.0,
+      "top3_avg": 6.67,
+      "players": [
+        {
+          "nome": "Delprato",
+          "qt": 8.0
+        },
+        {
+          "nome": "Valeri",
+          "qt": 8.0
+        },
+        {
+          "nome": "Valenti",
+          "qt": 4.0
+        }
+      ]
+    },
+    "Midfield": {
+      "n": 8,
+      "avg_qt": 3.88,
+      "max_qt": 7.0,
+      "top3_avg": 6.0,
+      "players": [
+        {
+          "nome": "Bernabè",
+          "qt": 7.0
+        },
+        {
+          "nome": "Nicolussi Caviglia",
+          "qt": 6.0
+        },
+        {
+          "nome": "Keita M.",
+          "qt": 5.0
+        }
+      ]
+    },
+    "Offence": {
+      "n": 6,
+      "avg_qt": 5.17,
+      "max_qt": 11.0,
+      "top3_avg": 8.67,
+      "players": [
+        {
+          "nome": "Tourè E.",
+          "qt": 11.0
+        },
+        {
+          "nome": "Romero D.",
+          "qt": 10.0
+        },
+        {
+          "nome": "Frigan",
+          "qt": 5.0
+        }
+      ]
+    }
+  },
+  "Roma": {
+    "total_players": 23,
+    "Goalkeeper": {
+      "n": 3,
+      "avg_qt": 6.67,
+      "max_qt": 18.0,
+      "top3_avg": 6.67,
+      "players": [
+        {
+          "nome": "Svilar",
+          "qt": 18.0
+        },
+        {
+          "nome": "De Marzi",
+          "qt": 1.0
+        },
+        {
+          "nome": "Gollini",
+          "qt": 1.0
+        }
+      ]
+    },
+    "Defence": {
+      "n": 9,
+      "avg_qt": 10.11,
+      "max_qt": 18.0,
+      "top3_avg": 16.67,
+      "players": [
+        {
+          "nome": "Molina N.",
+          "qt": 18.0
+        },
+        {
+          "nome": "Wesley",
+          "qt": 17.0
+        },
+        {
+          "nome": "Mancini",
+          "qt": 15.0
+        }
+      ]
+    },
+    "Midfield": {
+      "n": 6,
+      "avg_qt": 9.33,
+      "max_qt": 19.0,
+      "top3_avg": 13.0,
+      "players": [
+        {
+          "nome": "Mora",
+          "qt": 19.0
+        },
+        {
+          "nome": "Konè M.",
+          "qt": 10.0
+        },
+        {
+          "nome": "Pellegrini Lo.",
+          "qt": 10.0
+        }
+      ]
+    },
+    "Offence": {
+      "n": 5,
+      "avg_qt": 15.0,
+      "max_qt": 34.0,
+      "top3_avg": 20.67,
+      "players": [
+        {
+          "nome": "Malen",
+          "qt": 34.0
+        },
+        {
+          "nome": "Dybala",
+          "qt": 14.0
+        },
+        {
+          "nome": "Castro S.",
+          "qt": 14.0
+        }
+      ]
+    }
+  },
+  "Sassuolo": {
+    "total_players": 26,
+    "Goalkeeper": {
+      "n": 4,
+      "avg_qt": 2.5,
+      "max_qt": 7.0,
+      "top3_avg": 3.0,
+      "players": [
+        {
+          "nome": "Muric",
+          "qt": 7.0
+        },
+        {
+          "nome": "Russo A.",
+          "qt": 1.0
+        },
+        {
+          "nome": "Turati",
+          "qt": 1.0
+        }
+      ]
+    },
+    "Defence": {
+      "n": 7,
+      "avg_qt": 3.71,
+      "max_qt": 7.0,
+      "top3_avg": 5.67,
+      "players": [
+        {
+          "nome": "Idzes",
+          "qt": 7.0
+        },
+        {
+          "nome": "Obrador",
+          "qt": 6.0
+        },
+        {
+          "nome": "Walukiewicz",
+          "qt": 4.0
+        }
+      ]
+    },
+    "Midfield": {
+      "n": 10,
+      "avg_qt": 4.9,
+      "max_qt": 10.0,
+      "top3_avg": 8.67,
+      "players": [
+        {
+          "nome": "Thorstvedt",
+          "qt": 10.0
+        },
+        {
+          "nome": "Konè I.",
+          "qt": 9.0
+        },
+        {
+          "nome": "Volpato",
+          "qt": 7.0
+        }
+      ]
+    },
+    "Offence": {
+      "n": 5,
+      "avg_qt": 11.4,
+      "max_qt": 18.0,
+      "top3_avg": 15.33,
+      "players": [
+        {
+          "nome": "Berardi",
+          "qt": 18.0
+        },
+        {
+          "nome": "Laurientè",
+          "qt": 15.0
+        },
+        {
+          "nome": "Pinamonti",
+          "qt": 13.0
+        }
+      ]
+    }
+  },
+  "Torino": {
+    "total_players": 24,
+    "Goalkeeper": {
+      "n": 3,
+      "avg_qt": 1.0,
+      "max_qt": 1.0,
+      "top3_avg": 1.0,
+      "players": [
+        {
+          "nome": "Mascardi",
+          "qt": 1.0
+        },
+        {
+          "nome": "Paleari",
+          "qt": 1.0
+        },
+        {
+          "nome": "Siviero",
+          "qt": 1.0
+        }
+      ]
+    },
+    "Defence": {
+      "n": 6,
+      "avg_qt": 5.17,
+      "max_qt": 7.0,
+      "top3_avg": 6.67,
+      "players": [
+        {
+          "nome": "Coco",
+          "qt": 7.0
+        },
+        {
+          "nome": "Ismajli",
+          "qt": 7.0
+        },
+        {
+          "nome": "Comuzzo",
+          "qt": 6.0
+        }
+      ]
+    },
+    "Midfield": {
+      "n": 11,
+      "avg_qt": 5.27,
+      "max_qt": 14.0,
+      "top3_avg": 10.33,
+      "players": [
+        {
+          "nome": "Vlasic",
+          "qt": 14.0
+        },
+        {
+          "nome": "Casadei",
+          "qt": 10.0
+        },
+        {
+          "nome": "Oristanio",
+          "qt": 7.0
+        }
+      ]
+    },
+    "Offence": {
+      "n": 4,
+      "avg_qt": 8.75,
+      "max_qt": 15.0,
+      "top3_avg": 10.33,
+      "players": [
+        {
+          "nome": "Simeone",
+          "qt": 15.0
+        },
+        {
+          "nome": "Adams C.",
+          "qt": 9.0
+        },
+        {
+          "nome": "Zapata D.",
+          "qt": 7.0
+        }
+      ]
+    }
+  },
+  "Udinese": {
+    "total_players": 27,
+    "Goalkeeper": {
+      "n": 3,
+      "avg_qt": 3.67,
+      "max_qt": 9.0,
+      "top3_avg": 3.67,
+      "players": [
+        {
+          "nome": "Okoye",
+          "qt": 9.0
+        },
+        {
+          "nome": "Padelli",
+          "qt": 1.0
+        },
+        {
+          "nome": "Piana",
+          "qt": 1.0
+        }
+      ]
+    },
+    "Defence": {
+      "n": 11,
+      "avg_qt": 4.45,
+      "max_qt": 13.0,
+      "top3_avg": 9.0,
+      "players": [
+        {
+          "nome": "Solet",
+          "qt": 13.0
+        },
+        {
+          "nome": "Vojvoda",
+          "qt": 8.0
+        },
+        {
+          "nome": "Kamara H.",
+          "qt": 6.0
+        }
+      ]
+    },
+    "Midfield": {
+      "n": 9,
+      "avg_qt": 5.89,
+      "max_qt": 18.0,
+      "top3_avg": 11.67,
+      "players": [
+        {
+          "nome": "Zaniolo",
+          "qt": 18.0
+        },
+        {
+          "nome": "Ekkelenkamp",
+          "qt": 10.0
+        },
+        {
+          "nome": "Unai Gomez",
+          "qt": 7.0
+        }
+      ]
+    },
+    "Offence": {
+      "n": 4,
+      "avg_qt": 6.5,
+      "max_qt": 19.0,
+      "top3_avg": 8.33,
+      "players": [
+        {
+          "nome": "Davis K.",
+          "qt": 19.0
+        },
+        {
+          "nome": "Gueye",
+          "qt": 4.0
+        },
+        {
+          "nome": "Buksa",
+          "qt": 2.0
+        }
+      ]
+    }
+  },
+  "Venezia": {
+    "total_players": 28,
+    "Goalkeeper": {
+      "n": 4,
+      "avg_qt": 2.25,
+      "max_qt": 6.0,
+      "top3_avg": 2.67,
+      "players": [
+        {
+          "nome": "Stankovic F.",
+          "qt": 6.0
+        },
+        {
+          "nome": "Grandi",
+          "qt": 1.0
+        },
+        {
+          "nome": "Pozzi",
+          "qt": 1.0
+        }
+      ]
+    },
+    "Defence": {
+      "n": 11,
+      "avg_qt": 3.45,
+      "max_qt": 6.0,
+      "top3_avg": 5.33,
+      "players": [
+        {
+          "nome": "Bella-Kotchap",
+          "qt": 6.0
+        },
+        {
+          "nome": "Moreno M.",
+          "qt": 5.0
+        },
+        {
+          "nome": "Haps",
+          "qt": 5.0
+        }
+      ]
+    },
+    "Midfield": {
+      "n": 7,
+      "avg_qt": 3.86,
+      "max_qt": 6.0,
+      "top3_avg": 5.33,
+      "players": [
+        {
+          "nome": "Basic",
+          "qt": 6.0
+        },
+        {
+          "nome": "Busio",
+          "qt": 5.0
+        },
+        {
+          "nome": "Sohm",
+          "qt": 5.0
+        }
+      ]
+    },
+    "Offence": {
+      "n": 6,
+      "avg_qt": 5.83,
+      "max_qt": 12.0,
+      "top3_avg": 9.33,
+      "players": [
+        {
+          "nome": "Adams A.",
+          "qt": 12.0
+        },
+        {
+          "nome": "Yeboah J.",
+          "qt": 8.0
+        },
+        {
+          "nome": "Rrahmani Al.",
+          "qt": 8.0
+        }
+      ]
+    }
+  }
+}

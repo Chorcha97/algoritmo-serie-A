@@ -1,0 +1,622 @@
+{
+  "Inter": {
+    "total_mln": 711.8,
+    "squad_size": 25,
+    "avg_player": 28.5,
+    "by_position": {
+      "Offence": {
+        "n": 4,
+        "total": 249.1,
+        "avg": 62.3
+      },
+      "Midfield": {
+        "n": 10,
+        "total": 213.5,
+        "avg": 21.4
+      },
+      "Defence": {
+        "n": 8,
+        "total": 199.3,
+        "avg": 24.9
+      },
+      "Goalkeeper": {
+        "n": 3,
+        "total": 49.8,
+        "avg": 16.6
+      }
+    },
+    "attack_quality": 62.3,
+    "midfield_quality": 21.4,
+    "defence_quality": 24.9,
+    "gk_quality": 16.6
+  },
+  "Juventus": {
+    "total_mln": 582.7,
+    "squad_size": 30,
+    "avg_player": 19.4,
+    "by_position": {
+      "Offence": {
+        "n": 10,
+        "total": 203.9,
+        "avg": 20.4
+      },
+      "Midfield": {
+        "n": 7,
+        "total": 174.8,
+        "avg": 25.0
+      },
+      "Defence": {
+        "n": 9,
+        "total": 163.2,
+        "avg": 18.1
+      },
+      "Goalkeeper": {
+        "n": 4,
+        "total": 40.8,
+        "avg": 10.2
+      }
+    },
+    "attack_quality": 20.4,
+    "midfield_quality": 25.0,
+    "defence_quality": 18.1,
+    "gk_quality": 10.2
+  },
+  "Milan": {
+    "total_mln": 562.2,
+    "squad_size": 31,
+    "avg_player": 18.1,
+    "by_position": {
+      "Offence": {
+        "n": 8,
+        "total": 196.8,
+        "avg": 24.6
+      },
+      "Midfield": {
+        "n": 11,
+        "total": 168.7,
+        "avg": 15.3
+      },
+      "Defence": {
+        "n": 9,
+        "total": 157.4,
+        "avg": 17.5
+      },
+      "Goalkeeper": {
+        "n": 3,
+        "total": 39.4,
+        "avg": 13.1
+      }
+    },
+    "attack_quality": 24.6,
+    "midfield_quality": 15.3,
+    "defence_quality": 17.5,
+    "gk_quality": 13.1
+  },
+  "Como": {
+    "total_mln": 493.0,
+    "squad_size": 35,
+    "avg_player": 14.1,
+    "by_position": {
+      "Offence": {
+        "n": 11,
+        "total": 172.5,
+        "avg": 15.7
+      },
+      "Midfield": {
+        "n": 10,
+        "total": 147.9,
+        "avg": 14.8
+      },
+      "Defence": {
+        "n": 10,
+        "total": 138.0,
+        "avg": 13.8
+      },
+      "Goalkeeper": {
+        "n": 4,
+        "total": 34.5,
+        "avg": 8.6
+      }
+    },
+    "attack_quality": 15.7,
+    "midfield_quality": 14.8,
+    "defence_quality": 13.8,
+    "gk_quality": 8.6
+  },
+  "Roma": {
+    "total_mln": 487.4,
+    "squad_size": 27,
+    "avg_player": 18.1,
+    "by_position": {
+      "Offence": {
+        "n": 5,
+        "total": 170.6,
+        "avg": 34.1
+      },
+      "Midfield": {
+        "n": 6,
+        "total": 146.2,
+        "avg": 24.4
+      },
+      "Defence": {
+        "n": 12,
+        "total": 136.5,
+        "avg": 11.4
+      },
+      "Goalkeeper": {
+        "n": 4,
+        "total": 34.1,
+        "avg": 8.5
+      }
+    },
+    "attack_quality": 34.1,
+    "midfield_quality": 24.4,
+    "defence_quality": 11.4,
+    "gk_quality": 8.5
+  },
+  "Napoli": {
+    "total_mln": 441.6,
+    "squad_size": 32,
+    "avg_player": 13.8,
+    "by_position": {
+      "Offence": {
+        "n": 10,
+        "total": 154.6,
+        "avg": 15.5
+      },
+      "Midfield": {
+        "n": 8,
+        "total": 132.5,
+        "avg": 16.6
+      },
+      "Defence": {
+        "n": 11,
+        "total": 123.6,
+        "avg": 11.2
+      },
+      "Goalkeeper": {
+        "n": 3,
+        "total": 30.9,
+        "avg": 10.3
+      }
+    },
+    "attack_quality": 15.5,
+    "midfield_quality": 16.6,
+    "defence_quality": 11.2,
+    "gk_quality": 10.3
+  },
+  "Atalanta": {
+    "total_mln": 429.3,
+    "squad_size": 27,
+    "avg_player": 15.9,
+    "by_position": {
+      "Offence": {
+        "n": 5,
+        "total": 150.3,
+        "avg": 30.1
+      },
+      "Midfield": {
+        "n": 12,
+        "total": 128.8,
+        "avg": 10.7
+      },
+      "Defence": {
+        "n": 6,
+        "total": 120.2,
+        "avg": 20.0
+      },
+      "Goalkeeper": {
+        "n": 4,
+        "total": 30.1,
+        "avg": 7.5
+      }
+    },
+    "attack_quality": 30.1,
+    "midfield_quality": 10.7,
+    "defence_quality": 20.0,
+    "gk_quality": 7.5
+  },
+  "Fiorentina": {
+    "total_mln": 340.1,
+    "squad_size": 28,
+    "avg_player": 12.1,
+    "by_position": {
+      "Offence": {
+        "n": 6,
+        "total": 119.0,
+        "avg": 19.8
+      },
+      "Midfield": {
+        "n": 8,
+        "total": 102.0,
+        "avg": 12.8
+      },
+      "Defence": {
+        "n": 11,
+        "total": 95.2,
+        "avg": 8.7
+      },
+      "Goalkeeper": {
+        "n": 3,
+        "total": 23.8,
+        "avg": 7.9
+      }
+    },
+    "attack_quality": 19.8,
+    "midfield_quality": 12.8,
+    "defence_quality": 8.7,
+    "gk_quality": 7.9
+  },
+  "Lazio": {
+    "total_mln": 227.8,
+    "squad_size": 34,
+    "avg_player": 6.7,
+    "by_position": {
+      "Offence": {
+        "n": 8,
+        "total": 79.7,
+        "avg": 10.0
+      },
+      "Midfield": {
+        "n": 9,
+        "total": 68.3,
+        "avg": 7.6
+      },
+      "Defence": {
+        "n": 13,
+        "total": 63.8,
+        "avg": 4.9
+      },
+      "Goalkeeper": {
+        "n": 4,
+        "total": 15.9,
+        "avg": 4.0
+      }
+    },
+    "attack_quality": 10.0,
+    "midfield_quality": 7.6,
+    "defence_quality": 4.9,
+    "gk_quality": 4.0
+  },
+  "Bologna": {
+    "total_mln": 218.2,
+    "squad_size": 25,
+    "avg_player": 8.7,
+    "by_position": {
+      "Offence": {
+        "n": 7,
+        "total": 76.4,
+        "avg": 10.9
+      },
+      "Midfield": {
+        "n": 6,
+        "total": 65.5,
+        "avg": 10.9
+      },
+      "Defence": {
+        "n": 9,
+        "total": 61.1,
+        "avg": 6.8
+      },
+      "Goalkeeper": {
+        "n": 3,
+        "total": 15.3,
+        "avg": 5.1
+      }
+    },
+    "attack_quality": 10.9,
+    "midfield_quality": 10.9,
+    "defence_quality": 6.8,
+    "gk_quality": 5.1
+  },
+  "Sassuolo": {
+    "total_mln": 192.8,
+    "squad_size": 38,
+    "avg_player": 5.1,
+    "by_position": {
+      "Offence": {
+        "n": 10,
+        "total": 67.5,
+        "avg": 6.7
+      },
+      "Midfield": {
+        "n": 12,
+        "total": 57.8,
+        "avg": 4.8
+      },
+      "Defence": {
+        "n": 12,
+        "total": 54.0,
+        "avg": 4.5
+      },
+      "Goalkeeper": {
+        "n": 4,
+        "total": 13.5,
+        "avg": 3.4
+      }
+    },
+    "attack_quality": 6.7,
+    "midfield_quality": 4.8,
+    "defence_quality": 4.5,
+    "gk_quality": 3.4
+  },
+  "Parma": {
+    "total_mln": 191.9,
+    "squad_size": 31,
+    "avg_player": 6.2,
+    "by_position": {
+      "Offence": {
+        "n": 10,
+        "total": 67.2,
+        "avg": 6.7
+      },
+      "Midfield": {
+        "n": 7,
+        "total": 57.6,
+        "avg": 8.2
+      },
+      "Defence": {
+        "n": 11,
+        "total": 53.7,
+        "avg": 4.9
+      },
+      "Goalkeeper": {
+        "n": 3,
+        "total": 13.4,
+        "avg": 4.5
+      }
+    },
+    "attack_quality": 6.7,
+    "midfield_quality": 8.2,
+    "defence_quality": 4.9,
+    "gk_quality": 4.5
+  },
+  "Genoa": {
+    "total_mln": 178.6,
+    "squad_size": 30,
+    "avg_player": 6.0,
+    "by_position": {
+      "Offence": {
+        "n": 6,
+        "total": 62.5,
+        "avg": 10.4
+      },
+      "Midfield": {
+        "n": 7,
+        "total": 53.6,
+        "avg": 7.7
+      },
+      "Defence": {
+        "n": 13,
+        "total": 50.0,
+        "avg": 3.8
+      },
+      "Goalkeeper": {
+        "n": 4,
+        "total": 12.5,
+        "avg": 3.1
+      }
+    },
+    "attack_quality": 10.4,
+    "midfield_quality": 7.7,
+    "defence_quality": 3.8,
+    "gk_quality": 3.1
+  },
+  "Udinese": {
+    "total_mln": 162.8,
+    "squad_size": 33,
+    "avg_player": 4.9,
+    "by_position": {
+      "Offence": {
+        "n": 6,
+        "total": 57.0,
+        "avg": 9.5
+      },
+      "Midfield": {
+        "n": 12,
+        "total": 48.8,
+        "avg": 4.1
+      },
+      "Defence": {
+        "n": 12,
+        "total": 45.6,
+        "avg": 3.8
+      },
+      "Goalkeeper": {
+        "n": 3,
+        "total": 11.4,
+        "avg": 3.8
+      }
+    },
+    "attack_quality": 9.5,
+    "midfield_quality": 4.1,
+    "defence_quality": 3.8,
+    "gk_quality": 3.8
+  },
+  "Torino": {
+    "total_mln": 134.7,
+    "squad_size": 32,
+    "avg_player": 4.2,
+    "by_position": {
+      "Offence": {
+        "n": 8,
+        "total": 47.1,
+        "avg": 5.9
+      },
+      "Midfield": {
+        "n": 12,
+        "total": 40.4,
+        "avg": 3.4
+      },
+      "Defence": {
+        "n": 8,
+        "total": 37.7,
+        "avg": 4.7
+      },
+      "Goalkeeper": {
+        "n": 4,
+        "total": 9.4,
+        "avg": 2.4
+      }
+    },
+    "attack_quality": 5.9,
+    "midfield_quality": 3.4,
+    "defence_quality": 4.7,
+    "gk_quality": 2.4
+  },
+  "Cagliari": {
+    "total_mln": 132.0,
+    "squad_size": 31,
+    "avg_player": 4.3,
+    "by_position": {
+      "Offence": {
+        "n": 9,
+        "total": 46.2,
+        "avg": 5.1
+      },
+      "Midfield": {
+        "n": 11,
+        "total": 39.6,
+        "avg": 3.6
+      },
+      "Defence": {
+        "n": 8,
+        "total": 37.0,
+        "avg": 4.6
+      },
+      "Goalkeeper": {
+        "n": 3,
+        "total": 9.2,
+        "avg": 3.1
+      }
+    },
+    "attack_quality": 5.1,
+    "midfield_quality": 3.6,
+    "defence_quality": 4.6,
+    "gk_quality": 3.1
+  },
+  "Venezia": {
+    "total_mln": 116.8,
+    "squad_size": 37,
+    "avg_player": 3.2,
+    "by_position": {
+      "Offence": {
+        "n": 10,
+        "total": 40.9,
+        "avg": 4.1
+      },
+      "Midfield": {
+        "n": 12,
+        "total": 35.0,
+        "avg": 2.9
+      },
+      "Defence": {
+        "n": 12,
+        "total": 32.7,
+        "avg": 2.7
+      },
+      "Goalkeeper": {
+        "n": 3,
+        "total": 8.2,
+        "avg": 2.7
+      }
+    },
+    "attack_quality": 4.1,
+    "midfield_quality": 2.9,
+    "defence_quality": 2.7,
+    "gk_quality": 2.7
+  },
+  "Frosinone": {
+    "total_mln": 84.8,
+    "squad_size": 35,
+    "avg_player": 2.4,
+    "by_position": {
+      "Offence": {
+        "n": 7,
+        "total": 29.7,
+        "avg": 4.2
+      },
+      "Midfield": {
+        "n": 12,
+        "total": 25.4,
+        "avg": 2.1
+      },
+      "Defence": {
+        "n": 12,
+        "total": 23.7,
+        "avg": 2.0
+      },
+      "Goalkeeper": {
+        "n": 4,
+        "total": 5.9,
+        "avg": 1.5
+      }
+    },
+    "attack_quality": 4.2,
+    "midfield_quality": 2.1,
+    "defence_quality": 2.0,
+    "gk_quality": 1.5
+  },
+  "Lecce": {
+    "total_mln": 74.7,
+    "squad_size": 31,
+    "avg_player": 2.4,
+    "by_position": {
+      "Offence": {
+        "n": 8,
+        "total": 26.1,
+        "avg": 3.3
+      },
+      "Midfield": {
+        "n": 9,
+        "total": 22.4,
+        "avg": 2.5
+      },
+      "Defence": {
+        "n": 11,
+        "total": 20.9,
+        "avg": 1.9
+      },
+      "Goalkeeper": {
+        "n": 3,
+        "total": 5.2,
+        "avg": 1.7
+      }
+    },
+    "attack_quality": 3.3,
+    "midfield_quality": 2.5,
+    "defence_quality": 1.9,
+    "gk_quality": 1.7
+  },
+  "Monza": {
+    "total_mln": 64.7,
+    "squad_size": 29,
+    "avg_player": 2.2,
+    "by_position": {
+      "Offence": {
+        "n": 9,
+        "total": 22.6,
+        "avg": 2.5
+      },
+      "Midfield": {
+        "n": 9,
+        "total": 19.4,
+        "avg": 2.2
+      },
+      "Defence": {
+        "n": 8,
+        "total": 18.1,
+        "avg": 2.3
+      },
+      "Goalkeeper": {
+        "n": 3,
+        "total": 4.5,
+        "avg": 1.5
+      }
+    },
+    "attack_quality": 2.5,
+    "midfield_quality": 2.2,
+    "defence_quality": 2.3,
+    "gk_quality": 1.5
+  }
+}

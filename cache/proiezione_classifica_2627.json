@@ -1,0 +1,162 @@
+{
+  "Atalanta": {
+    "pos_media": 6.4,
+    "pts_mediana": 60,
+    "prob_scudetto": 1.9,
+    "prob_top4": 28.6,
+    "prob_top7": 68.6,
+    "prob_retrocessione": 0.1
+  },
+  "Bologna": {
+    "pos_media": 9.8,
+    "pts_mediana": 52,
+    "prob_scudetto": 0.1,
+    "prob_top4": 5.9,
+    "prob_top7": 27.5,
+    "prob_retrocessione": 1.2
+  },
+  "Cagliari": {
+    "pos_media": 13.5,
+    "pts_mediana": 45,
+    "prob_scudetto": 0.0,
+    "prob_top4": 0.4,
+    "prob_top7": 5.1,
+    "prob_retrocessione": 11.0
+  },
+  "Como": {
+    "pos_media": 2.9,
+    "pts_mediana": 72,
+    "prob_scudetto": 23.6,
+    "prob_top4": 83.1,
+    "prob_top7": 97.2,
+    "prob_retrocessione": 0.0
+  },
+  "Fiorentina": {
+    "pos_media": 10.7,
+    "pts_mediana": 50,
+    "prob_scudetto": 0.0,
+    "prob_top4": 3.3,
+    "prob_top7": 19.2,
+    "prob_retrocessione": 2.4
+  },
+  "Frosinone": {
+    "pos_media": 17.7,
+    "pts_mediana": 33,
+    "prob_scudetto": 0.0,
+    "prob_top4": 0.0,
+    "prob_top7": 0.1,
+    "prob_retrocessione": 66.5
+  },
+  "Genoa": {
+    "pos_media": 12.7,
+    "pts_mediana": 46,
+    "prob_scudetto": 0.0,
+    "prob_top4": 1.0,
+    "prob_top7": 7.8,
+    "prob_retrocessione": 8.0
+  },
+  "Inter": {
+    "pos_media": 2.0,
+    "pts_mediana": 77,
+    "prob_scudetto": 51.2,
+    "prob_top4": 94.5,
+    "prob_top7": 99.5,
+    "prob_retrocessione": 0.0
+  },
+  "Juventus": {
+    "pos_media": 5.3,
+    "pts_mediana": 63,
+    "prob_scudetto": 4.0,
+    "prob_top4": 44.3,
+    "prob_top7": 81.8,
+    "prob_retrocessione": 0.0
+  },
+  "Lazio": {
+    "pos_media": 11.0,
+    "pts_mediana": 50,
+    "prob_scudetto": 0.0,
+    "prob_top4": 3.0,
+    "prob_top7": 17.9,
+    "prob_retrocessione": 3.4
+  },
+  "Lecce": {
+    "pos_media": 15.2,
+    "pts_mediana": 41,
+    "prob_scudetto": 0.0,
+    "prob_top4": 0.1,
+    "prob_top7": 1.7,
+    "prob_retrocessione": 24.5
+  },
+  "Milan": {
+    "pos_media": 8.5,
+    "pts_mediana": 55,
+    "prob_scudetto": 0.5,
+    "prob_top4": 10.4,
+    "prob_top7": 42.3,
+    "prob_retrocessione": 0.7
+  },
+  "Monza": {
+    "pos_media": 19.6,
+    "pts_mediana": 24,
+    "prob_scudetto": 0.0,
+    "prob_top4": 0.0,
+    "prob_top7": 0.0,
+    "prob_retrocessione": 96.7
+  },
+  "Napoli": {
+    "pos_media": 5.4,
+    "pts_mediana": 63,
+    "prob_scudetto": 4.1,
+    "prob_top4": 42.0,
+    "prob_top7": 80.5,
+    "prob_retrocessione": 0.0
+  },
+  "Parma": {
+    "pos_media": 14.3,
+    "pts_mediana": 43,
+    "prob_scudetto": 0.0,
+    "prob_top4": 0.2,
+    "prob_top7": 2.9,
+    "prob_retrocessione": 16.0
+  },
+  "Roma": {
+    "pos_media": 3.5,
+    "pts_mediana": 69,
+    "prob_scudetto": 14.4,
+    "prob_top4": 73.6,
+    "prob_top7": 94.7,
+    "prob_retrocessione": 0.0
+  },
+  "Sassuolo": {
+    "pos_media": 11.5,
+    "pts_mediana": 49,
+    "prob_scudetto": 0.0,
+    "prob_top4": 2.3,
+    "prob_top7": 14.8,
+    "prob_retrocessione": 4.4
+  },
+  "Torino": {
+    "pos_media": 13.6,
+    "pts_mediana": 44,
+    "prob_scudetto": 0.0,
+    "prob_top4": 0.6,
+    "prob_top7": 5.2,
+    "prob_retrocessione": 12.1
+  },
+  "Udinese": {
+    "pos_media": 9.3,
+    "pts_mediana": 54,
+    "prob_scudetto": 0.1,
+    "prob_top4": 6.8,
+    "prob_top7": 32.8,
+    "prob_retrocessione": 1.1
+  },
+  "Venezia": {
+    "pos_media": 17.0,
+    "pts_mediana": 36,
+    "prob_scudetto": 0.0,
+    "prob_top4": 0.0,
+    "prob_top7": 0.2,
+    "prob_retrocessione": 51.9
+  }
+}

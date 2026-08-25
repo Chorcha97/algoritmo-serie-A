@@ -1,0 +1,202 @@
+{
+  "Roma": {
+    "position": 1,
+    "pts": 3,
+    "g": 1,
+    "w": 1,
+    "d": 0,
+    "l": 0,
+    "gf": 4,
+    "ga": 0
+  },
+  "Inter": {
+    "position": 2,
+    "pts": 3,
+    "g": 1,
+    "w": 1,
+    "d": 0,
+    "l": 0,
+    "gf": 4,
+    "ga": 1
+  },
+  "Napoli": {
+    "position": 3,
+    "pts": 3,
+    "g": 1,
+    "w": 1,
+    "d": 0,
+    "l": 0,
+    "gf": 2,
+    "ga": 0
+  },
+  "Lecce": {
+    "position": 3,
+    "pts": 3,
+    "g": 1,
+    "w": 1,
+    "d": 0,
+    "l": 0,
+    "gf": 2,
+    "ga": 0
+  },
+  "Milan": {
+    "position": 5,
+    "pts": 3,
+    "g": 1,
+    "w": 1,
+    "d": 0,
+    "l": 0,
+    "gf": 2,
+    "ga": 1
+  },
+  "Atalanta": {
+    "position": 5,
+    "pts": 3,
+    "g": 1,
+    "w": 1,
+    "d": 0,
+    "l": 0,
+    "gf": 2,
+    "ga": 1
+  },
+  "Cagliari": {
+    "position": 7,
+    "pts": 3,
+    "g": 1,
+    "w": 1,
+    "d": 0,
+    "l": 0,
+    "gf": 1,
+    "ga": 0
+  },
+  "Juventus": {
+    "position": 7,
+    "pts": 3,
+    "g": 1,
+    "w": 1,
+    "d": 0,
+    "l": 0,
+    "gf": 1,
+    "ga": 0
+  },
+  "Lazio": {
+    "position": 7,
+    "pts": 3,
+    "g": 1,
+    "w": 1,
+    "d": 0,
+    "l": 0,
+    "gf": 1,
+    "ga": 0
+  },
+  "Como": {
+    "position": 10,
+    "pts": 1,
+    "g": 1,
+    "w": 0,
+    "d": 1,
+    "l": 0,
+    "gf": 1,
+    "ga": 1
+  },
+  "Udinese": {
+    "position": 10,
+    "pts": 1,
+    "g": 1,
+    "w": 0,
+    "d": 1,
+    "l": 0,
+    "gf": 1,
+    "ga": 1
+  },
+  "Sassuolo": {
+    "position": 12,
+    "pts": 0,
+    "g": 1,
+    "w": 0,
+    "d": 0,
+    "l": 1,
+    "gf": 1,
+    "ga": 2
+  },
+  "Torino": {
+    "position": 12,
+    "pts": 0,
+    "g": 1,
+    "w": 0,
+    "d": 0,
+    "l": 1,
+    "gf": 1,
+    "ga": 2
+  },
+  "Bologna": {
+    "position": 14,
+    "pts": 0,
+    "g": 1,
+    "w": 0,
+    "d": 0,
+    "l": 1,
+    "gf": 0,
+    "ga": 1
+  },
+  "Frosinone": {
+    "position": 14,
+    "pts": 0,
+    "g": 1,
+    "w": 0,
+    "d": 0,
+    "l": 1,
+    "gf": 0,
+    "ga": 1
+  },
+  "Parma": {
+    "position": 14,
+    "pts": 0,
+    "g": 1,
+    "w": 0,
+    "d": 0,
+    "l": 1,
+    "gf": 0,
+    "ga": 1
+  },
+  "Genoa": {
+    "position": 17,
+    "pts": 0,
+    "g": 1,
+    "w": 0,
+    "d": 0,
+    "l": 1,
+    "gf": 0,
+    "ga": 2
+  },
+  "Venezia": {
+    "position": 17,
+    "pts": 0,
+    "g": 1,
+    "w": 0,
+    "d": 0,
+    "l": 1,
+    "gf": 0,
+    "ga": 2
+  },
+  "Monza": {
+    "position": 19,
+    "pts": 0,
+    "g": 1,
+    "w": 0,
+    "d": 0,
+    "l": 1,
+    "gf": 1,
+    "ga": 4
+  },
+  "Fiorentina": {
+    "position": 20,
+    "pts": 0,
+    "g": 1,
+    "w": 0,
+    "d": 0,
+    "l": 1,
+    "gf": 0,
+    "ga": 4
+  }
+}

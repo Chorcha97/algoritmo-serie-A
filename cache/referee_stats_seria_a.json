@@ -1,0 +1,141 @@
+{
+  "_media_serie_a": {
+    "gialli_media": 4.18,
+    "rossi_media": 0.144
+  },
+  "Irrati": {
+    "partite": 21,
+    "gialli_media": 5.43,
+    "rossi_media": 0.24
+  },
+  "Ayroldi": {
+    "partite": 44,
+    "gialli_media": 5.32,
+    "rossi_media": 0.18
+  },
+  "Valeri": {
+    "partite": 12,
+    "gialli_media": 5.0,
+    "rossi_media": 0.17
+  },
+  "Maresca": {
+    "partite": 66,
+    "gialli_media": 4.98,
+    "rossi_media": 0.11
+  },
+  "Massa": {
+    "partite": 64,
+    "gialli_media": 4.88,
+    "rossi_media": 0.14
+  },
+  "Colombo": {
+    "partite": 32,
+    "gialli_media": 4.84,
+    "rossi_media": 0.09
+  },
+  "Prontera": {
+    "partite": 10,
+    "gialli_media": 4.8,
+    "rossi_media": 0.1
+  },
+  "Marcenaro": {
+    "partite": 44,
+    "gialli_media": 4.7,
+    "rossi_media": 0.14
+  },
+  "Giua": {
+    "partite": 22,
+    "gialli_media": 4.64,
+    "rossi_media": 0.23
+  },
+  "Pairetto": {
+    "partite": 48,
+    "gialli_media": 4.62,
+    "rossi_media": 0.21
+  },
+  "Orsato": {
+    "partite": 45,
+    "gialli_media": 4.6,
+    "rossi_media": 0.11
+  },
+  "Rapuano": {
+    "partite": 52,
+    "gialli_media": 4.54,
+    "rossi_media": 0.27
+  },
+  "Fourneau": {
+    "partite": 22,
+    "gialli_media": 4.5,
+    "rossi_media": 0.18
+  },
+  "Massimi": {
+    "partite": 21,
+    "gialli_media": 4.48,
+    "rossi_media": 0.29
+  },
+  "La Penna": {
+    "partite": 44,
+    "gialli_media": 4.3,
+    "rossi_media": 0.16
+  },
+  "Guida": {
+    "partite": 56,
+    "gialli_media": 4.25,
+    "rossi_media": 0.12
+  },
+  "Aureliano": {
+    "partite": 28,
+    "gialli_media": 4.25,
+    "rossi_media": 0.18
+  },
+  "Collu": {
+    "partite": 12,
+    "gialli_media": 4.25,
+    "rossi_media": 0.08
+  },
+  "Abisso": {
+    "partite": 46,
+    "gialli_media": 4.11,
+    "rossi_media": 0.11
+  },
+  "Mariani": {
+    "partite": 62,
+    "gialli_media": 4.06,
+    "rossi_media": 0.08
+  },
+  "Marinelli": {
+    "partite": 15,
+    "gialli_media": 4.2,
+    "rossi_media": 0.13
+  },
+  "Arena": {
+    "partite": 18,
+    "gialli_media": 4.35,
+    "rossi_media": 0.11
+  },
+  "Di Bello": {
+    "partite": 38,
+    "gialli_media": 4.45,
+    "rossi_media": 0.15
+  },
+  "Perenzoni": {
+    "partite": 12,
+    "gialli_media": 4.1,
+    "rossi_media": 0.08
+  },
+  "Crezzini": {
+    "partite": 10,
+    "gialli_media": 4.0,
+    "rossi_media": 0.1
+  },
+  "Zufferli": {
+    "partite": 28,
+    "gialli_media": 4.15,
+    "rossi_media": 0.107
+  },
+  "Maresca F.": {
+    "partite": 20,
+    "gialli_media": 4.4,
+    "rossi_media": 0.1
+  }
+}

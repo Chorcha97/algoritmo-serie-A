@@ -1,0 +1,3808 @@
+{
+  "Milan": {
+    "players": [
+      {
+        "name": "Pietro Terracciano",
+        "position": "Goalkeeper",
+        "nationality": "Italy",
+        "dob": "1990-03-08"
+      },
+      {
+        "name": "Mike Maignan",
+        "position": "Goalkeeper",
+        "nationality": "France",
+        "dob": "1995-07-03"
+      },
+      {
+        "name": "Lorenzo Torriani",
+        "position": "Goalkeeper",
+        "nationality": "Italy",
+        "dob": "2005-01-31"
+      },
+      {
+        "name": "Matteo Gabbia",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "1999-10-21"
+      },
+      {
+        "name": "Fikayo Tomori",
+        "position": "Defence",
+        "nationality": "England",
+        "dob": "1997-12-19"
+      },
+      {
+        "name": "Pervis Estupiñán",
+        "position": "Defence",
+        "nationality": "Ecuador",
+        "dob": "1998-01-21"
+      },
+      {
+        "name": "Strahinja Pavlović",
+        "position": "Defence",
+        "nationality": "Serbia",
+        "dob": "2001-05-24"
+      },
+      {
+        "name": "Filippo Terracciano",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "2003-02-08"
+      },
+      {
+        "name": "Koni De Winter",
+        "position": "Defence",
+        "nationality": "Belgium",
+        "dob": "2002-06-12"
+      },
+      {
+        "name": "Gila",
+        "position": "Defence",
+        "nationality": "Spain",
+        "dob": "2000-08-29"
+      },
+      {
+        "name": "Davide Bartesaghi",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "2005-12-29"
+      },
+      {
+        "name": "Sankhoun Diawara",
+        "position": "Defence",
+        "nationality": "France",
+        "dob": "2006-01-13"
+      },
+      {
+        "name": "Luka Modrić",
+        "position": "Midfield",
+        "nationality": "Croatia",
+        "dob": "1985-09-09"
+      },
+      {
+        "name": "Adrien Rabiot",
+        "position": "Midfield",
+        "nationality": "France",
+        "dob": "1995-04-03"
+      },
+      {
+        "name": "Ruben Loftus-Cheek",
+        "position": "Midfield",
+        "nationality": "England",
+        "dob": "1996-01-23"
+      },
+      {
+        "name": "Alexis Saelemaekers",
+        "position": "Midfield",
+        "nationality": "Belgium",
+        "dob": "1999-06-27"
+      },
+      {
+        "name": "Youssouf Fofana",
+        "position": "Midfield",
+        "nationality": "France",
+        "dob": "1999-01-10"
+      },
+      {
+        "name": "Samuele Ricci",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "2001-08-21"
+      },
+      {
+        "name": "Ardon Jasari",
+        "position": "Midfield",
+        "nationality": "Switzerland",
+        "dob": "2002-07-30"
+      },
+      {
+        "name": "Yunus Musah",
+        "position": "Midfield",
+        "nationality": "USA",
+        "dob": "2002-11-29"
+      },
+      {
+        "name": "Warren Bondo",
+        "position": "Midfield",
+        "nationality": "France",
+        "dob": "2003-09-15"
+      },
+      {
+        "name": "Alphadjo Cisse",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "2006-10-22"
+      },
+      {
+        "name": "Christian Comotto",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "2008-04-25"
+      },
+      {
+        "name": "Christian Pulisic",
+        "position": "Offence",
+        "nationality": "USA",
+        "dob": "1998-09-18"
+      },
+      {
+        "name": "Christopher Nkunku",
+        "position": "Offence",
+        "nationality": "France",
+        "dob": "1997-11-14"
+      },
+      {
+        "name": "Rafael Leão",
+        "position": "Offence",
+        "nationality": "Portugal",
+        "dob": "1999-06-10"
+      },
+      {
+        "name": "Samuel Chukwueze",
+        "position": "Offence",
+        "nationality": "Nigeria",
+        "dob": "1999-05-22"
+      },
+      {
+        "name": "Santiago Giménez",
+        "position": "Offence",
+        "nationality": "Mexico",
+        "dob": "2001-04-18"
+      },
+      {
+        "name": "Gonçalo Ramos",
+        "position": "Offence",
+        "nationality": "Portugal",
+        "dob": "2001-06-20"
+      },
+      {
+        "name": "Francesco Camarda",
+        "position": "Offence",
+        "nationality": "Italy",
+        "dob": "2008-03-10"
+      },
+      {
+        "name": "Andrej Kostić",
+        "position": "Offence",
+        "nationality": "Montenegro",
+        "dob": "2007-01-16"
+      }
+    ]
+  },
+  "Fiorentina": {
+    "players": [
+      {
+        "name": "Luca Lezzerini",
+        "position": "Goalkeeper",
+        "nationality": "Italy",
+        "dob": "1995-03-24"
+      },
+      {
+        "name": "David De Gea",
+        "position": "Goalkeeper",
+        "nationality": "Spain",
+        "dob": "1990-11-07"
+      },
+      {
+        "name": "Oliver Christensen",
+        "position": "Goalkeeper",
+        "nationality": "Denmark",
+        "dob": "1999-03-22"
+      },
+      {
+        "name": "Luca Ranieri",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "1999-04-23"
+      },
+      {
+        "name": "Marin Pongračić",
+        "position": "Defence",
+        "nationality": "Croatia",
+        "dob": "1997-09-11"
+      },
+      {
+        "name": "Dodô",
+        "position": "Defence",
+        "nationality": "Brazil",
+        "dob": "1998-11-17"
+      },
+      {
+        "name": "João Mário Lopes",
+        "position": "Defence",
+        "nationality": "Portugal",
+        "dob": "2000-01-03"
+      },
+      {
+        "name": "Fabiano Parisi",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "2000-11-09"
+      },
+      {
+        "name": "Radu Drăgușin",
+        "position": "Defence",
+        "nationality": "Romania",
+        "dob": "2002-02-03"
+      },
+      {
+        "name": "Viery",
+        "position": "Defence",
+        "nationality": "Brazil",
+        "dob": "2005-01-02"
+      },
+      {
+        "name": "Álex Jiménez",
+        "position": "Defence",
+        "nationality": "Spain",
+        "dob": "2005-05-08"
+      },
+      {
+        "name": "Niccolò Fortini",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "2006-02-13"
+      },
+      {
+        "name": "Víctor Valdepeñas",
+        "position": "Defence",
+        "nationality": "Spain",
+        "dob": "2006-10-20"
+      },
+      {
+        "name": "Eman Košpo",
+        "position": "Defence",
+        "nationality": "Bosnia-Herzegovina",
+        "dob": "2007-05-17"
+      },
+      {
+        "name": "Antonín Barák",
+        "position": "Midfield",
+        "nationality": "Czech Republic",
+        "dob": "1994-12-03"
+      },
+      {
+        "name": "Rolando Mandragora",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "1997-06-29"
+      },
+      {
+        "name": "Nicolò Fagioli",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "2001-02-12"
+      },
+      {
+        "name": "Marco Brescianini",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "2000-01-20"
+      },
+      {
+        "name": "Giovanni Fabbian",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "2003-01-14"
+      },
+      {
+        "name": "Arthur Atta",
+        "position": "Midfield",
+        "nationality": "France",
+        "dob": "2003-01-14"
+      },
+      {
+        "name": "Cher Ndour",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "2004-07-27"
+      },
+      {
+        "name": "Christ Ravynel Inao Oulaï",
+        "position": "Midfield",
+        "nationality": "Ivory Coast",
+        "dob": "2006-04-06"
+      },
+      {
+        "name": "Riccardo Sottil",
+        "position": "Offence",
+        "nationality": "Italy",
+        "dob": "1999-06-03"
+      },
+      {
+        "name": "Moise Kean",
+        "position": "Offence",
+        "nationality": "Italy",
+        "dob": "2000-02-28"
+      },
+      {
+        "name": "Mbala N'Zola",
+        "position": "Offence",
+        "nationality": "Angola",
+        "dob": "1996-08-18"
+      },
+      {
+        "name": "Albert Guðmundsson",
+        "position": "Offence",
+        "nationality": "Iceland",
+        "dob": "1997-06-15"
+      },
+      {
+        "name": "Mateo Pellegrino",
+        "position": "Offence",
+        "nationality": "Argentina",
+        "dob": "2001-10-22"
+      },
+      {
+        "name": "Franco Mastantuono",
+        "position": "Offence",
+        "nationality": "Argentina",
+        "dob": "2007-08-14"
+      }
+    ]
+  },
+  "Roma": {
+    "players": [
+      {
+        "name": "Pierluigi Gollini",
+        "position": "Goalkeeper",
+        "nationality": "Italy",
+        "dob": "1995-03-18"
+      },
+      {
+        "name": "Mile Svilar",
+        "position": "Goalkeeper",
+        "nationality": "Serbia",
+        "dob": "1999-08-27"
+      },
+      {
+        "name": "Devis Vásquez",
+        "position": "Goalkeeper",
+        "nationality": "Colombia",
+        "dob": "2026-06-30"
+      },
+      {
+        "name": "Giorgio De Marzi",
+        "position": "Goalkeeper",
+        "nationality": "USA",
+        "dob": "2007-04-18"
+      },
+      {
+        "name": "Evan N'Dicka",
+        "position": "Defence",
+        "nationality": "Ivory Coast",
+        "dob": "1999-08-20"
+      },
+      {
+        "name": "Gianluca Mancini",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "1996-04-17"
+      },
+      {
+        "name": "Mario Hermoso",
+        "position": "Defence",
+        "nationality": "Spain",
+        "dob": "1995-06-18"
+      },
+      {
+        "name": "Nahuel Molina",
+        "position": "Defence",
+        "nationality": "Argentina",
+        "dob": "1998-04-06"
+      },
+      {
+        "name": "Anass Salah-Eddine",
+        "position": "Defence",
+        "nationality": "Morocco",
+        "dob": "2002-01-18"
+      },
+      {
+        "name": "Devyne Rensch",
+        "position": "Defence",
+        "nationality": "Netherlands",
+        "dob": "2003-01-18"
+      },
+      {
+        "name": "Konstantinos Koulierakis",
+        "position": "Defence",
+        "nationality": "Greece",
+        "dob": "2003-11-28"
+      },
+      {
+        "name": "Wesley",
+        "position": "Defence",
+        "nationality": "Brazil",
+        "dob": "2003-09-06"
+      },
+      {
+        "name": "Daniele Ghilardi",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "2003-01-06"
+      },
+      {
+        "name": "Jan Ziółkowski",
+        "position": "Defence",
+        "nationality": "Poland",
+        "dob": "2005-06-05"
+      },
+      {
+        "name": "Mattia Mannini",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "2006-07-08"
+      },
+      {
+        "name": "Filippo Reale",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "2006-02-24"
+      },
+      {
+        "name": "Lorenzo Pellegrini",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "1996-06-19"
+      },
+      {
+        "name": "Bryan Cristante",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "1995-03-03"
+      },
+      {
+        "name": "Manu Koné",
+        "position": "Midfield",
+        "nationality": "France",
+        "dob": "2001-05-17"
+      },
+      {
+        "name": "Neil El Aynaoui",
+        "position": "Midfield",
+        "nationality": "Morocco",
+        "dob": "2001-07-02"
+      },
+      {
+        "name": "Niccolo Pisilli",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "2004-09-23"
+      },
+      {
+        "name": "Muhammed Bah",
+        "position": "Midfield",
+        "nationality": "Gambia",
+        "dob": "2007-02-24"
+      },
+      {
+        "name": "Paulo Dybala",
+        "position": "Offence",
+        "nationality": "Argentina",
+        "dob": "1993-11-15"
+      },
+      {
+        "name": "Donyell Malen",
+        "position": "Offence",
+        "nationality": "Netherlands",
+        "dob": "1999-01-19"
+      },
+      {
+        "name": "Santiago Castro",
+        "position": "Offence",
+        "nationality": "Argentina",
+        "dob": "2004-09-18"
+      },
+      {
+        "name": "Matias Soule",
+        "position": "Offence",
+        "nationality": "Argentina",
+        "dob": "2003-04-15"
+      },
+      {
+        "name": "Robinio Vaz",
+        "position": "Offence",
+        "nationality": "France",
+        "dob": "2007-02-17"
+      }
+    ]
+  },
+  "Atalanta": {
+    "players": [
+      {
+        "name": "Marco Sportiello",
+        "position": "Goalkeeper",
+        "nationality": "Italy",
+        "dob": "1992-05-10"
+      },
+      {
+        "name": "Francesco Rossi",
+        "position": "Goalkeeper",
+        "nationality": "Italy",
+        "dob": "1991-04-27"
+      },
+      {
+        "name": "Marco Carnesecchi",
+        "position": "Goalkeeper",
+        "nationality": "Italy",
+        "dob": "2000-07-01"
+      },
+      {
+        "name": "Paolo Vismara",
+        "position": "Goalkeeper",
+        "nationality": "Italy",
+        "dob": "2003-03-28"
+      },
+      {
+        "name": "Sead Kolašinac",
+        "position": "Defence",
+        "nationality": "Bosnia-Herzegovina",
+        "dob": "1993-06-20"
+      },
+      {
+        "name": "Thomas Kristensen",
+        "position": "Defence",
+        "nationality": "Denmark",
+        "dob": "2002-01-17"
+      },
+      {
+        "name": "Giorgio Scalvini",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "2003-12-11"
+      },
+      {
+        "name": "Isak Hien",
+        "position": "Defence",
+        "nationality": "Sweden",
+        "dob": "1999-01-13"
+      },
+      {
+        "name": "Odilon Kossounou",
+        "position": "Defence",
+        "nationality": "Ivory Coast",
+        "dob": "2001-01-04"
+      },
+      {
+        "name": "Honest Ahanor",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "2008-02-23"
+      },
+      {
+        "name": "Éderson",
+        "position": "Midfield",
+        "nationality": "Brazil",
+        "dob": "1989-03-13"
+      },
+      {
+        "name": "Raoul Bellanova",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "2000-05-17"
+      },
+      {
+        "name": "Marten de Roon",
+        "position": "Midfield",
+        "nationality": "Netherlands",
+        "dob": "1991-03-29"
+      },
+      {
+        "name": "Mario Pašalić",
+        "position": "Midfield",
+        "nationality": "Croatia",
+        "dob": "1995-02-09"
+      },
+      {
+        "name": "Mitchel Bakker",
+        "position": "Midfield",
+        "nationality": "Netherlands",
+        "dob": "2000-06-20"
+      },
+      {
+        "name": "Davide Zappacosta",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "1992-06-11"
+      },
+      {
+        "name": "Gianluca Gaetano",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "2000-05-05"
+      },
+      {
+        "name": "Charles De Ketelaere",
+        "position": "Midfield",
+        "nationality": "Belgium",
+        "dob": "2001-03-10"
+      },
+      {
+        "name": "Lazar Samardzic",
+        "position": "Midfield",
+        "nationality": "Serbia",
+        "dob": "2002-02-24"
+      },
+      {
+        "name": "Lorenzo Bernasconi",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "2003-11-16"
+      },
+      {
+        "name": "Nicola Zalewski",
+        "position": "Midfield",
+        "nationality": "Poland",
+        "dob": "2002-01-23"
+      },
+      {
+        "name": "Ibrahim Sulemana",
+        "position": "Midfield",
+        "nationality": "Ghana",
+        "dob": "2003-05-22"
+      },
+      {
+        "name": "Gianluca Scamacca",
+        "position": "Offence",
+        "nationality": "Italy",
+        "dob": "1999-01-01"
+      },
+      {
+        "name": "Giacomo Raspadori",
+        "position": "Offence",
+        "nationality": "Italy",
+        "dob": "2000-02-18"
+      },
+      {
+        "name": "Nikola Krstović",
+        "position": "Offence",
+        "nationality": "Montenegro",
+        "dob": "2000-04-05"
+      },
+      {
+        "name": "Kamal Deen Sulemana",
+        "position": "Offence",
+        "nationality": "Ghana",
+        "dob": "2002-02-15"
+      },
+      {
+        "name": "Vanja Vlahovic",
+        "position": "Offence",
+        "nationality": "Serbia",
+        "dob": "2004-03-23"
+      }
+    ]
+  },
+  "Bologna": {
+    "players": [
+      {
+        "name": "Łukasz Skorupski",
+        "position": "Goalkeeper",
+        "nationality": "Poland",
+        "dob": "1991-05-05"
+      },
+      {
+        "name": "Massimo Pessina",
+        "position": "Goalkeeper",
+        "nationality": "Italy",
+        "dob": "2007-12-25"
+      },
+      {
+        "name": "Ukko Happonen",
+        "position": "Goalkeeper",
+        "nationality": "Finland",
+        "dob": "2007-03-13"
+      },
+      {
+        "name": "Lorenzo De Silvestri",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "1988-05-23"
+      },
+      {
+        "name": "Torbjørn Heggem",
+        "position": "Defence",
+        "nationality": "Norway",
+        "dob": "1999-01-12"
+      },
+      {
+        "name": "Juan Miranda",
+        "position": "Defence",
+        "nationality": "Spain",
+        "dob": "2000-01-19"
+      },
+      {
+        "name": "Nicolò Casale",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "1998-02-14"
+      },
+      {
+        "name": "Emil Holm",
+        "position": "Defence",
+        "nationality": "Sweden",
+        "dob": "2000-05-13"
+      },
+      {
+        "name": "Nadir Zortea",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "1999-06-19"
+      },
+      {
+        "name": "Martin Vitík",
+        "position": "Defence",
+        "nationality": "Czech Republic",
+        "dob": "2003-01-21"
+      },
+      {
+        "name": "Eivind Helland",
+        "position": "Defence",
+        "nationality": "Norway",
+        "dob": "2005-04-25"
+      },
+      {
+        "name": "Rahim Alhassane",
+        "position": "Defence",
+        "nationality": "Niger",
+        "dob": "2002-01-01"
+      },
+      {
+        "name": "Jens Odgaard",
+        "position": "Midfield",
+        "nationality": "Denmark",
+        "dob": "1999-03-31"
+      },
+      {
+        "name": "Nikola Moro",
+        "position": "Midfield",
+        "nationality": "Croatia",
+        "dob": "1998-03-12"
+      },
+      {
+        "name": "Lewis Ferguson",
+        "position": "Midfield",
+        "nationality": "Scotland",
+        "dob": "1999-08-24"
+      },
+      {
+        "name": "Tommaso Pobega",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "1999-07-15"
+      },
+      {
+        "name": "Oussama El Azzouzi",
+        "position": "Midfield",
+        "nationality": "Morocco",
+        "dob": "2001-05-29"
+      },
+      {
+        "name": "Mikel Amondarain",
+        "position": "Midfield",
+        "nationality": "Argentina",
+        "dob": "2005-01-06"
+      },
+      {
+        "name": "Riccardo Orsolini",
+        "position": "Offence",
+        "nationality": "Italy",
+        "dob": "1997-01-24"
+      },
+      {
+        "name": "Federico Bernardeschi",
+        "position": "Offence",
+        "nationality": "Italy",
+        "dob": "1994-02-16"
+      },
+      {
+        "name": "Artem Dovbyk",
+        "position": "Offence",
+        "nationality": "Ukraine",
+        "dob": "1997-06-21"
+      },
+      {
+        "name": "Jesper Karlsson",
+        "position": "Offence",
+        "nationality": "Sweden",
+        "dob": "1998-07-25"
+      },
+      {
+        "name": "Roberto Piccoli",
+        "position": "Offence",
+        "nationality": "Italy",
+        "dob": "2001-01-27"
+      },
+      {
+        "name": "Jonathan Rowe",
+        "position": "Offence",
+        "nationality": "England",
+        "dob": "2003-04-30"
+      },
+      {
+        "name": "Nicolò Cambiaghi",
+        "position": "Offence",
+        "nationality": "Italy",
+        "dob": "2024-06-30"
+      }
+    ]
+  },
+  "Cagliari": {
+    "players": [
+      {
+        "name": "Boris Radunović",
+        "position": "Goalkeeper",
+        "nationality": "Serbia",
+        "dob": "1996-05-26"
+      },
+      {
+        "name": "Elia Caprile",
+        "position": "Goalkeeper",
+        "nationality": "Italy",
+        "dob": "2001-08-25"
+      },
+      {
+        "name": "Alen Sherri",
+        "position": "Goalkeeper",
+        "nationality": "Albania",
+        "dob": "1997-12-15"
+      },
+      {
+        "name": "Yerry Mina",
+        "position": "Defence",
+        "nationality": "Colombia",
+        "dob": "1994-09-23"
+      },
+      {
+        "name": "Zé Pedro Figueiredo",
+        "position": "Defence",
+        "nationality": "Portugal",
+        "dob": "1997-06-06"
+      },
+      {
+        "name": "Gabriele Zappa",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "1999-12-22"
+      },
+      {
+        "name": "Giuseppe Aurelio",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "2000-03-22"
+      },
+      {
+        "name": "Adam Obert",
+        "position": "Defence",
+        "nationality": "Slovakia",
+        "dob": "2002-08-23"
+      },
+      {
+        "name": "Raphael Kofler",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "2005-04-26"
+      },
+      {
+        "name": "Juan Martín Rodriguez",
+        "position": "Defence",
+        "nationality": "Uruguay",
+        "dob": "2005-05-30"
+      },
+      {
+        "name": "Riyad Idrissi",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "2005-06-13"
+      },
+      {
+        "name": "Alessandro Deiola",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "1995-08-01"
+      },
+      {
+        "name": "Harry Winks",
+        "position": "Midfield",
+        "nationality": "England",
+        "dob": "1996-02-02"
+      },
+      {
+        "name": "Daniel Maldini",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "2001-10-11"
+      },
+      {
+        "name": "Matteo Prati",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "2003-12-28"
+      },
+      {
+        "name": "Nicolo Cavuoti",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "2003-04-04"
+      },
+      {
+        "name": "Jacopo Fazzini",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "2003-03-16"
+      },
+      {
+        "name": "Michel Adopo",
+        "position": "Midfield",
+        "nationality": "France",
+        "dob": "2000-07-19"
+      },
+      {
+        "name": "Alessandro Romano",
+        "position": "Midfield",
+        "nationality": "Switzerland",
+        "dob": "2006-06-17"
+      },
+      {
+        "name": "Joseph Liteta",
+        "position": "Midfield",
+        "nationality": "Zambia",
+        "dob": "2006-02-22"
+      },
+      {
+        "name": "Nicola Grandu",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "2006-07-15"
+      },
+      {
+        "name": "Ivan Sulev",
+        "position": "Midfield",
+        "nationality": "Bulgaria",
+        "dob": "2006-09-11"
+      },
+      {
+        "name": "Mattia Felici",
+        "position": "Offence",
+        "nationality": "Italy",
+        "dob": "2001-04-17"
+      },
+      {
+        "name": "Sebastiano Esposito",
+        "position": "Offence",
+        "nationality": "Italy",
+        "dob": "2002-07-02"
+      },
+      {
+        "name": "Gennaro Borrelli",
+        "position": "Offence",
+        "nationality": "Italy",
+        "dob": "2000-03-10"
+      },
+      {
+        "name": "Kevin Carlos",
+        "position": "Offence",
+        "nationality": "Spain",
+        "dob": "2001-04-10"
+      },
+      {
+        "name": "Kingstone Mutandwa",
+        "position": "Offence",
+        "nationality": "Zambia",
+        "dob": "2003-01-05"
+      },
+      {
+        "name": "Agustín Albarracín",
+        "position": "Offence",
+        "nationality": "Uruguay",
+        "dob": "2005-08-29"
+      },
+      {
+        "name": "Sebastiano Di Paolo",
+        "position": "Offence",
+        "nationality": "Italy",
+        "dob": "2006-10-09"
+      },
+      {
+        "name": "Yael Trepy",
+        "position": "Offence",
+        "nationality": "France",
+        "dob": "2006-05-20"
+      },
+      {
+        "name": "Paul Mendy",
+        "position": "Offence",
+        "nationality": "Senegal",
+        "dob": "2007-01-13"
+      }
+    ]
+  },
+  "Genoa": {
+    "players": [
+      {
+        "name": "Justin Bijlow",
+        "position": "Goalkeeper",
+        "nationality": "Netherlands",
+        "dob": "1998-01-22"
+      },
+      {
+        "name": "Daniele Sommariva",
+        "position": "Goalkeeper",
+        "nationality": "Italy",
+        "dob": "1997-07-18"
+      },
+      {
+        "name": "Franz Stolz",
+        "position": "Goalkeeper",
+        "nationality": "Austria",
+        "dob": "2001-02-14"
+      },
+      {
+        "name": "Ernestas Lysionok",
+        "position": "Goalkeeper",
+        "nationality": "Lithuania",
+        "dob": "2007-03-09"
+      },
+      {
+        "name": "Stefano Sabelli",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "1993-01-13"
+      },
+      {
+        "name": "Aaron Martín",
+        "position": "Defence",
+        "nationality": "Spain",
+        "dob": "1997-04-22"
+      },
+      {
+        "name": "Johan Vásquez",
+        "position": "Defence",
+        "nationality": "Mexico",
+        "dob": "1998-10-22"
+      },
+      {
+        "name": "Leo Østigård",
+        "position": "Defence",
+        "nationality": "Norway",
+        "dob": "1999-11-28"
+      },
+      {
+        "name": "Mario Mitaj",
+        "position": "Defence",
+        "nationality": "Albania",
+        "dob": "2003-08-06"
+      },
+      {
+        "name": "Brooke Norton-Cuffy",
+        "position": "Defence",
+        "nationality": "England",
+        "dob": "2004-01-12"
+      },
+      {
+        "name": "Sebastian Otoa",
+        "position": "Defence",
+        "nationality": "Denmark",
+        "dob": "2004-05-13"
+      },
+      {
+        "name": "Alessandro Marcandalli",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "2002-10-25"
+      },
+      {
+        "name": "Alan Matturro",
+        "position": "Defence",
+        "nationality": "Uruguay",
+        "dob": "2004-10-11"
+      },
+      {
+        "name": "David Puczka",
+        "position": "Defence",
+        "nationality": "Austria",
+        "dob": "2005-01-26"
+      },
+      {
+        "name": "Matteo Barbini",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "2006-12-11"
+      },
+      {
+        "name": "Mamedi Doucouré",
+        "position": "Defence",
+        "nationality": "France",
+        "dob": "2007-01-19"
+      },
+      {
+        "name": "Marcelo Vaz",
+        "position": "Defence",
+        "nationality": "Guinea-Bissau",
+        "dob": "2007-07-31"
+      },
+      {
+        "name": "Djibril Sow",
+        "position": "Midfield",
+        "nationality": "Switzerland",
+        "dob": "1997-02-06"
+      },
+      {
+        "name": "Morten Frendrup",
+        "position": "Midfield",
+        "nationality": "Denmark",
+        "dob": "2001-04-07"
+      },
+      {
+        "name": "Tommaso Baldanzi",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "2003-03-23"
+      },
+      {
+        "name": "Mikael Egill Ellertsson",
+        "position": "Midfield",
+        "nationality": "Iceland",
+        "dob": "2002-03-11"
+      },
+      {
+        "name": "Alexsandro Amorim",
+        "position": "Midfield",
+        "nationality": "Brazil",
+        "dob": "2005-05-18"
+      },
+      {
+        "name": "Ethan Meichtry",
+        "position": "Midfield",
+        "nationality": "Switzerland",
+        "dob": "2005-07-08"
+      },
+      {
+        "name": "Samuel Wiafe",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "2008-06-22"
+      },
+      {
+        "name": "Hamed Traoré",
+        "position": "Offence",
+        "nationality": "Ivory Coast",
+        "dob": "2000-02-16"
+      },
+      {
+        "name": "Junior Messias",
+        "position": "Offence",
+        "nationality": "Brazil",
+        "dob": "1991-05-13"
+      },
+      {
+        "name": "Lorenzo Colombo",
+        "position": "Offence",
+        "nationality": "Italy",
+        "dob": "2002-03-08"
+      },
+      {
+        "name": "Vitor Oliveira",
+        "position": "Offence",
+        "nationality": "Portugal",
+        "dob": "2000-03-15"
+      },
+      {
+        "name": "Elias Havel",
+        "position": "Offence",
+        "nationality": "Austria",
+        "dob": "2003-04-16"
+      },
+      {
+        "name": "Lorenzo Venturino",
+        "position": "Offence",
+        "nationality": "Italy",
+        "dob": "2006-06-22"
+      }
+    ]
+  },
+  "Inter": {
+    "players": [
+      {
+        "name": "Ivan Provedel",
+        "position": "Goalkeeper",
+        "nationality": "Italy",
+        "dob": "1994-03-17"
+      },
+      {
+        "name": "Raffaele Di Gennaro",
+        "position": "Goalkeeper",
+        "nationality": "Italy",
+        "dob": "1993-10-03"
+      },
+      {
+        "name": "Josep Martinez",
+        "position": "Goalkeeper",
+        "nationality": "Spain",
+        "dob": "1998-05-27"
+      },
+      {
+        "name": "Manuel Akanji",
+        "position": "Defence",
+        "nationality": "Switzerland",
+        "dob": "1995-07-19"
+      },
+      {
+        "name": "Yann Aurel Bisseck",
+        "position": "Defence",
+        "nationality": "Germany",
+        "dob": "2000-11-29"
+      },
+      {
+        "name": "Alessandro Bastoni",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "1999-04-13"
+      },
+      {
+        "name": "John Stones",
+        "position": "Defence",
+        "nationality": "England",
+        "dob": "1994-05-28"
+      },
+      {
+        "name": "Benjamin Pavard",
+        "position": "Defence",
+        "nationality": "France",
+        "dob": "1996-03-28"
+      },
+      {
+        "name": "Carlos",
+        "position": "Defence",
+        "nationality": "Brazil",
+        "dob": "1999-01-07"
+      },
+      {
+        "name": "Federico Dimarco",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "1997-11-10"
+      },
+      {
+        "name": "Djed Spence",
+        "position": "Defence",
+        "nationality": "England",
+        "dob": "2000-08-09"
+      },
+      {
+        "name": "Hakan Çalhanoğlu",
+        "position": "Midfield",
+        "nationality": "Turkey",
+        "dob": "1994-02-08"
+      },
+      {
+        "name": "Nicolò Barella",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "1997-02-07"
+      },
+      {
+        "name": "Piotr Zieliński",
+        "position": "Midfield",
+        "nationality": "Poland",
+        "dob": "1994-05-20"
+      },
+      {
+        "name": "Henrikh Mkhitaryan",
+        "position": "Midfield",
+        "nationality": "Armenia",
+        "dob": "1989-01-21"
+      },
+      {
+        "name": "Luis Henrique",
+        "position": "Midfield",
+        "nationality": "Brazil",
+        "dob": "2001-12-14"
+      },
+      {
+        "name": "Petar Sucic",
+        "position": "Midfield",
+        "nationality": "Croatia",
+        "dob": "2003-10-25"
+      },
+      {
+        "name": "Kristjan Asllani",
+        "position": "Midfield",
+        "nationality": "Albania",
+        "dob": "2002-03-09"
+      },
+      {
+        "name": "Andy Diouf",
+        "position": "Midfield",
+        "nationality": "France",
+        "dob": "2003-05-17"
+      },
+      {
+        "name": "Yanis Massolin",
+        "position": "Midfield",
+        "nationality": "France",
+        "dob": "2002-09-20"
+      },
+      {
+        "name": "Aleksandar Stankovic",
+        "position": "Midfield",
+        "nationality": "Serbia",
+        "dob": "2005-08-03"
+      },
+      {
+        "name": "Lautaro Martínez",
+        "position": "Offence",
+        "nationality": "Argentina",
+        "dob": "1997-08-22"
+      },
+      {
+        "name": "Marcus Thuram-Ulien",
+        "position": "Offence",
+        "nationality": "France",
+        "dob": "1997-08-06"
+      },
+      {
+        "name": "Ange-Yoan Bonny",
+        "position": "Offence",
+        "nationality": "Ivory Coast",
+        "dob": "2003-10-25"
+      },
+      {
+        "name": "Francesco Esposito",
+        "position": "Offence",
+        "nationality": "Italy",
+        "dob": "2005-06-28"
+      }
+    ]
+  },
+  "Juventus": {
+    "players": [
+      {
+        "name": "Mattia Perin",
+        "position": "Goalkeeper",
+        "nationality": "Italy",
+        "dob": "1992-11-10"
+      },
+      {
+        "name": "Carlo Pinsoglio",
+        "position": "Goalkeeper",
+        "nationality": "Italy",
+        "dob": "1990-03-16"
+      },
+      {
+        "name": "Guglielmo Vicario",
+        "position": "Goalkeeper",
+        "nationality": "Italy",
+        "dob": "1996-10-07"
+      },
+      {
+        "name": "Michele Di Gregorio",
+        "position": "Goalkeeper",
+        "nationality": "Italy",
+        "dob": "1997-07-27"
+      },
+      {
+        "name": "Bremer",
+        "position": "Defence",
+        "nationality": "Brazil",
+        "dob": "1997-03-18"
+      },
+      {
+        "name": "Daniele Rugani",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "1994-07-29"
+      },
+      {
+        "name": "Lloyd Kelly",
+        "position": "Defence",
+        "nationality": "England",
+        "dob": "1998-10-06"
+      },
+      {
+        "name": "Jhon Lucumí",
+        "position": "Defence",
+        "nationality": "Colombia",
+        "dob": "1998-06-26"
+      },
+      {
+        "name": "Zeki Çelik",
+        "position": "Defence",
+        "nationality": "Turkey",
+        "dob": "1997-02-17"
+      },
+      {
+        "name": "Juan Cabal",
+        "position": "Defence",
+        "nationality": "Colombia",
+        "dob": "2001-01-08"
+      },
+      {
+        "name": "Andrea Cambiaso",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "2000-02-20"
+      },
+      {
+        "name": "Pierre Kalulu",
+        "position": "Defence",
+        "nationality": "France",
+        "dob": "2000-06-05"
+      },
+      {
+        "name": "Federico Gatti",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "1998-06-24"
+      },
+      {
+        "name": "Arthur",
+        "position": "Midfield",
+        "nationality": "Brazil",
+        "dob": "1996-08-12"
+      },
+      {
+        "name": "Manuel Locatelli",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "1998-01-08"
+      },
+      {
+        "name": "Weston McKennie",
+        "position": "Midfield",
+        "nationality": "USA",
+        "dob": "1998-08-28"
+      },
+      {
+        "name": "Teun Koopmeiners",
+        "position": "Midfield",
+        "nationality": "Netherlands",
+        "dob": "1998-02-28"
+      },
+      {
+        "name": "Douglas Luiz",
+        "position": "Midfield",
+        "nationality": "Brazil",
+        "dob": "1998-05-09"
+      },
+      {
+        "name": "Khéphren Thuram-Ulie",
+        "position": "Midfield",
+        "nationality": "France",
+        "dob": "2001-03-26"
+      },
+      {
+        "name": "Fabio Miretti",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "2003-08-03"
+      },
+      {
+        "name": "Arkadiusz Milik",
+        "position": "Offence",
+        "nationality": "Poland",
+        "dob": "1994-02-28"
+      },
+      {
+        "name": "Jérémie Boga",
+        "position": "Offence",
+        "nationality": "Ivory Coast",
+        "dob": "1997-01-03"
+      },
+      {
+        "name": "Randal Kolo Muani",
+        "position": "Offence",
+        "nationality": "France",
+        "dob": "1998-12-05"
+      },
+      {
+        "name": "Jonathan David",
+        "position": "Offence",
+        "nationality": "Canada",
+        "dob": "2000-01-14"
+      },
+      {
+        "name": "Edon Zhegrova",
+        "position": "Offence",
+        "nationality": "Kosovo",
+        "dob": "1999-03-31"
+      },
+      {
+        "name": "Nicolás González",
+        "position": "Offence",
+        "nationality": "Argentina",
+        "dob": "1998-04-06"
+      },
+      {
+        "name": "Francisco Conceição",
+        "position": "Offence",
+        "nationality": "Portugal",
+        "dob": "2002-12-14"
+      },
+      {
+        "name": "Kenan Yıldız",
+        "position": "Offence",
+        "nationality": "Turkey",
+        "dob": "2005-05-04"
+      },
+      {
+        "name": "Jeff Ekhator",
+        "position": "Offence",
+        "nationality": "Italy",
+        "dob": "2006-11-11"
+      },
+      {
+        "name": "Kerim Alajbegović",
+        "position": "Offence",
+        "nationality": "Bosnia-Herzegovina",
+        "dob": "2007-09-21"
+      }
+    ]
+  },
+  "Lazio": {
+    "players": [
+      {
+        "name": "Christos Mandas",
+        "position": "Goalkeeper",
+        "nationality": "Greece",
+        "dob": "2001-09-17"
+      },
+      {
+        "name": "Alessio Furlanetto",
+        "position": "Goalkeeper",
+        "nationality": "Italy",
+        "dob": "2002-02-07"
+      },
+      {
+        "name": "Davide Renzetti",
+        "position": "Goalkeeper",
+        "nationality": "Italy",
+        "dob": "2006-06-09"
+      },
+      {
+        "name": "Edoardo Motta",
+        "position": "Goalkeeper",
+        "nationality": "Italy",
+        "dob": "2005-01-13"
+      },
+      {
+        "name": "Alfonso Pedraza",
+        "position": "Defence",
+        "nationality": "Spain",
+        "dob": "1996-04-09"
+      },
+      {
+        "name": "Alessio Romagnoli",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "1995-01-12"
+      },
+      {
+        "name": "Luca Pellegrini",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "1999-03-07"
+      },
+      {
+        "name": "Patric",
+        "position": "Defence",
+        "nationality": "Spain",
+        "dob": "1993-04-17"
+      },
+      {
+        "name": "Adam Marušić",
+        "position": "Defence",
+        "nationality": "Montenegro",
+        "dob": "1992-10-17"
+      },
+      {
+        "name": "Mohamed Salim Fares",
+        "position": "Defence",
+        "nationality": "Algeria",
+        "dob": "1996-02-15"
+      },
+      {
+        "name": "Manuel Lazzari",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "1993-11-29"
+      },
+      {
+        "name": "Samuel Gigot",
+        "position": "Defence",
+        "nationality": "France",
+        "dob": "1993-10-12"
+      },
+      {
+        "name": "Danilho Doekhi",
+        "position": "Defence",
+        "nationality": "Suriname",
+        "dob": "1998-06-30"
+      },
+      {
+        "name": "Nuno Tavares",
+        "position": "Defence",
+        "nationality": "Portugal",
+        "dob": "2000-01-26"
+      },
+      {
+        "name": "Romano Floriani",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "2003-01-27"
+      },
+      {
+        "name": "Oliver Nielsen",
+        "position": "Defence",
+        "nationality": "Denmark",
+        "dob": "2003-06-04"
+      },
+      {
+        "name": "Filipe",
+        "position": "Defence",
+        "nationality": "Brazil",
+        "dob": "2005-06-24"
+      },
+      {
+        "name": "Davide Frattesi",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "1999-09-22"
+      },
+      {
+        "name": "Danilo Cataldi",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "1994-08-06"
+      },
+      {
+        "name": "Kenneth Taylor",
+        "position": "Midfield",
+        "nationality": "Netherlands",
+        "dob": "2002-05-16"
+      },
+      {
+        "name": "Nicolò Rovella",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "2001-12-04"
+      },
+      {
+        "name": "Fisayo Dele-Bashiru",
+        "position": "Midfield",
+        "nationality": "Nigeria",
+        "dob": "2001-02-06"
+      },
+      {
+        "name": "Reda Belahyane",
+        "position": "Midfield",
+        "nationality": "Morocco",
+        "dob": "2004-06-01"
+      },
+      {
+        "name": "Adrian Przyborek",
+        "position": "Midfield",
+        "nationality": "Poland",
+        "dob": "2007-01-01"
+      },
+      {
+        "name": "Valerio Farcomeni",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "2006-01-18"
+      },
+      {
+        "name": "Bruno Galassi",
+        "position": "Midfield",
+        "nationality": "Spain",
+        "dob": "2007-02-07"
+      },
+      {
+        "name": "Mattia Zaccagni",
+        "position": "Offence",
+        "nationality": "Italy",
+        "dob": "1995-06-16"
+      },
+      {
+        "name": "Boulaye Dia",
+        "position": "Offence",
+        "nationality": "Senegal",
+        "dob": "1996-11-16"
+      },
+      {
+        "name": "Gustav Isaksen",
+        "position": "Offence",
+        "nationality": "Denmark",
+        "dob": "2001-04-19"
+      },
+      {
+        "name": "Gabriele Artistico",
+        "position": "Offence",
+        "nationality": "Italy",
+        "dob": "2002-07-14"
+      },
+      {
+        "name": "Matteo Cancellieri",
+        "position": "Offence",
+        "nationality": "Italy",
+        "dob": "2002-02-12"
+      },
+      {
+        "name": "Tijjani Noslin",
+        "position": "Offence",
+        "nationality": "Netherlands",
+        "dob": "1999-07-07"
+      },
+      {
+        "name": "Petar Ratkov",
+        "position": "Offence",
+        "nationality": "Serbia",
+        "dob": "2003-08-18"
+      },
+      {
+        "name": "Federico Serra",
+        "position": "Offence",
+        "nationality": "Italy",
+        "dob": "2006-01-03"
+      }
+    ]
+  },
+  "Parma": {
+    "players": [
+      {
+        "name": "Zion Suzuki",
+        "position": "Goalkeeper",
+        "nationality": "Japan",
+        "dob": "2002-08-21"
+      },
+      {
+        "name": "Edoardo Corvi",
+        "position": "Goalkeeper",
+        "nationality": "Italy",
+        "dob": "2001-03-23"
+      },
+      {
+        "name": "Giovanni Daffara",
+        "position": "Goalkeeper",
+        "nationality": "Italy",
+        "dob": "2004-12-05"
+      },
+      {
+        "name": "Enrico Del Prato",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "1999-11-10"
+      },
+      {
+        "name": "Emanuele Valeri",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "1998-12-07"
+      },
+      {
+        "name": "Lautaro Valenti",
+        "position": "Defence",
+        "nationality": "Argentina",
+        "dob": "1999-01-14"
+      },
+      {
+        "name": "Botond Balogh",
+        "position": "Defence",
+        "nationality": "Hungary",
+        "dob": "2002-06-06"
+      },
+      {
+        "name": "Franco Carboni",
+        "position": "Defence",
+        "nationality": "Argentina",
+        "dob": "2003-04-04"
+      },
+      {
+        "name": "Alessandro Circati",
+        "position": "Defence",
+        "nationality": "Australia",
+        "dob": "2003-10-10"
+      },
+      {
+        "name": "Abdoulaye N'Diaye",
+        "position": "Defence",
+        "nationality": "Senegal",
+        "dob": "2002-04-10"
+      },
+      {
+        "name": "Mariano Troilo",
+        "position": "Defence",
+        "nationality": "Argentina",
+        "dob": "2003-06-22"
+      },
+      {
+        "name": "Peter Amoran",
+        "position": "Defence",
+        "nationality": "Sweden",
+        "dob": "2004-05-22"
+      },
+      {
+        "name": "Sascha Britschgi",
+        "position": "Defence",
+        "nationality": "Switzerland",
+        "dob": "2006-08-27"
+      },
+      {
+        "name": "Dominik Drobnič",
+        "position": "Defence",
+        "nationality": "Slovenia",
+        "dob": "2007-04-05"
+      },
+      {
+        "name": "Adrián Bernabé",
+        "position": "Midfield",
+        "nationality": "Spain",
+        "dob": "2001-05-26"
+      },
+      {
+        "name": "Hans Nicolussi Caviglia",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "2000-06-18"
+      },
+      {
+        "name": "Mandela Keita",
+        "position": "Midfield",
+        "nationality": "Belgium",
+        "dob": "2002-05-10"
+      },
+      {
+        "name": "Oliver Sørensen",
+        "position": "Midfield",
+        "nationality": "Denmark",
+        "dob": "2002-03-10"
+      },
+      {
+        "name": "Rachid Kouda",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "2002-07-25"
+      },
+      {
+        "name": "Christian Ordonez",
+        "position": "Midfield",
+        "nationality": "Argentina",
+        "dob": "2004-07-24"
+      },
+      {
+        "name": "Abdou-Salam Konate",
+        "position": "Midfield",
+        "nationality": "France",
+        "dob": "2006-11-25"
+      },
+      {
+        "name": "Pontus Almqvist",
+        "position": "Offence",
+        "nationality": "Sweden",
+        "dob": "1999-07-10"
+      },
+      {
+        "name": "El Bilal Touré",
+        "position": "Offence",
+        "nationality": "Mali",
+        "dob": "2001-10-03"
+      },
+      {
+        "name": "José Romero",
+        "position": "Offence",
+        "nationality": "Argentina",
+        "dob": "2003-03-25"
+      },
+      {
+        "name": "Matija Frigan",
+        "position": "Offence",
+        "nationality": "Croatia",
+        "dob": "2003-02-11"
+      },
+      {
+        "name": "Antoine Joujou",
+        "position": "Offence",
+        "nationality": "France",
+        "dob": "2003-03-12"
+      },
+      {
+        "name": "Nesta Elphege",
+        "position": "Offence",
+        "nationality": "France",
+        "dob": "2001-01-09"
+      },
+      {
+        "name": "Ousmane Diallo",
+        "position": "Offence",
+        "nationality": "Spain",
+        "dob": "2007-06-12"
+      },
+      {
+        "name": "Thomas de Martis",
+        "position": "Offence",
+        "nationality": "Argentina",
+        "dob": "2008-06-26"
+      },
+      {
+        "name": "Aymen Zouin",
+        "position": "Offence",
+        "nationality": "Morocco",
+        "dob": "2006-01-01"
+      },
+      {
+        "name": "Simone Lontani",
+        "position": "Offence",
+        "nationality": "Italy",
+        "dob": "2008-01-18"
+      }
+    ]
+  },
+  "Napoli": {
+    "players": [
+      {
+        "name": "Vanja Milinković-Savić",
+        "position": "Goalkeeper",
+        "nationality": "Serbia",
+        "dob": "1997-02-20"
+      },
+      {
+        "name": "Alex Meret",
+        "position": "Goalkeeper",
+        "nationality": "Italy",
+        "dob": "1997-03-22"
+      },
+      {
+        "name": "Nikita Contini Baranovsky",
+        "position": "Goalkeeper",
+        "nationality": "Italy",
+        "dob": "1996-05-21"
+      },
+      {
+        "name": "Leonardo Spinazzola",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "1993-03-25"
+      },
+      {
+        "name": "Alessandro Buongiorno",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "1999-06-06"
+      },
+      {
+        "name": "Pasquale Mazzocchi",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "1995-07-27"
+      },
+      {
+        "name": "Giovanni Di Lorenzo",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "1993-08-04"
+      },
+      {
+        "name": "Amir Rrahmani",
+        "position": "Defence",
+        "nationality": "Kosovo",
+        "dob": "1994-02-24"
+      },
+      {
+        "name": "Mathías Olivera",
+        "position": "Defence",
+        "nationality": "Uruguay",
+        "dob": "1997-10-31"
+      },
+      {
+        "name": "Sam Beukema",
+        "position": "Defence",
+        "nationality": "Netherlands",
+        "dob": "1998-11-17"
+      },
+      {
+        "name": "Rafa Marin",
+        "position": "Defence",
+        "nationality": "Spain",
+        "dob": "2002-05-19"
+      },
+      {
+        "name": "Nosa Edward Obaretin",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "2003-01-26"
+      },
+      {
+        "name": "Luca Marianucci",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "2004-07-23"
+      },
+      {
+        "name": "Christian Garofalo",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "2007-01-04"
+      },
+      {
+        "name": "Kevin De Bruyne",
+        "position": "Midfield",
+        "nationality": "Belgium",
+        "dob": "1991-06-28"
+      },
+      {
+        "name": "Scott McTominay",
+        "position": "Midfield",
+        "nationality": "Scotland",
+        "dob": "1996-12-08"
+      },
+      {
+        "name": "André Zambo Anguissa",
+        "position": "Midfield",
+        "nationality": "Cameroon",
+        "dob": "1995-11-16"
+      },
+      {
+        "name": "Jens Cajuste",
+        "position": "Midfield",
+        "nationality": "Sweden",
+        "dob": "1999-08-10"
+      },
+      {
+        "name": "Stanislav Lobotka",
+        "position": "Midfield",
+        "nationality": "Slovakia",
+        "dob": "1994-11-25"
+      },
+      {
+        "name": "Michael Folorunsho",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "1998-02-07"
+      },
+      {
+        "name": "Billy Gilmour",
+        "position": "Midfield",
+        "nationality": "Scotland",
+        "dob": "2001-06-11"
+      },
+      {
+        "name": "Antonio Vergara",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "2003-01-16"
+      },
+      {
+        "name": "Matteo Politano",
+        "position": "Offence",
+        "nationality": "Italy",
+        "dob": "1993-08-03"
+      },
+      {
+        "name": "Noa Lang",
+        "position": "Offence",
+        "nationality": "Netherlands",
+        "dob": "1999-06-17"
+      },
+      {
+        "name": "David Neres",
+        "position": "Offence",
+        "nationality": "Brazil",
+        "dob": "1997-03-03"
+      },
+      {
+        "name": "Lorenzo Lucca",
+        "position": "Offence",
+        "nationality": "Italy",
+        "dob": "2000-09-10"
+      },
+      {
+        "name": "Jesper Lindstrøm",
+        "position": "Offence",
+        "nationality": "Denmark",
+        "dob": "2000-02-29"
+      },
+      {
+        "name": "Cyril Ngonge",
+        "position": "Offence",
+        "nationality": "Belgium",
+        "dob": "2000-05-26"
+      },
+      {
+        "name": "Walid Cheddira",
+        "position": "Offence",
+        "nationality": "Morocco",
+        "dob": "1998-01-22"
+      },
+      {
+        "name": "Rasmus Højlund",
+        "position": "Offence",
+        "nationality": "Denmark",
+        "dob": "2003-02-04"
+      },
+      {
+        "name": "Giovane Nascimento",
+        "position": "Offence",
+        "nationality": "Brazil",
+        "dob": "2003-11-24"
+      },
+      {
+        "name": "Alisson Santos",
+        "position": "Offence",
+        "nationality": "Brazil",
+        "dob": "2002-09-27"
+      }
+    ]
+  },
+  "Udinese": {
+    "players": [
+      {
+        "name": "Daniele Padelli",
+        "position": "Goalkeeper",
+        "nationality": "Italy",
+        "dob": "1985-10-25"
+      },
+      {
+        "name": "Maduka Okoye",
+        "position": "Goalkeeper",
+        "nationality": "Nigeria",
+        "dob": "1999-08-28"
+      },
+      {
+        "name": "Edoardo Piana",
+        "position": "Goalkeeper",
+        "nationality": "Italy",
+        "dob": "2003-09-29"
+      },
+      {
+        "name": "Enzo Ebosse",
+        "position": "Defence",
+        "nationality": "Cameroon",
+        "dob": "1999-03-11"
+      },
+      {
+        "name": "Hassane Kamara",
+        "position": "Defence",
+        "nationality": "Ivory Coast",
+        "dob": "1994-03-05"
+      },
+      {
+        "name": "Alessandro Zanoli",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "2000-10-03"
+      },
+      {
+        "name": "Christian Kabasele",
+        "position": "Defence",
+        "nationality": "Belgium",
+        "dob": "1991-02-24"
+      },
+      {
+        "name": "Oumar Solet",
+        "position": "Defence",
+        "nationality": "France",
+        "dob": "2000-02-07"
+      },
+      {
+        "name": "Mërgim Vojvoda",
+        "position": "Defence",
+        "nationality": "Kosovo",
+        "dob": "1995-02-01"
+      },
+      {
+        "name": "Nicolo Bertola",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "2003-03-23"
+      },
+      {
+        "name": "Leonardo Buta",
+        "position": "Defence",
+        "nationality": "Portugal",
+        "dob": "2002-06-05"
+      },
+      {
+        "name": "James Abankwah",
+        "position": "Defence",
+        "nationality": "Ireland",
+        "dob": "2004-01-16"
+      },
+      {
+        "name": "Saba Goglichidze",
+        "position": "Defence",
+        "nationality": "Georgia",
+        "dob": "2004-06-25"
+      },
+      {
+        "name": "Matteo Palma",
+        "position": "Defence",
+        "nationality": "Germany",
+        "dob": "2008-03-13"
+      },
+      {
+        "name": "Branimir Mlacic",
+        "position": "Defence",
+        "nationality": "Croatia",
+        "dob": "2007-03-12"
+      },
+      {
+        "name": "Jurgen Ekkelenkamp",
+        "position": "Midfield",
+        "nationality": "Netherlands",
+        "dob": "2000-04-05"
+      },
+      {
+        "name": "Giorgi Chakvetadze",
+        "position": "Midfield",
+        "nationality": "Georgia",
+        "dob": "1999-08-29"
+      },
+      {
+        "name": "Sandi Lovric",
+        "position": "Midfield",
+        "nationality": "Slovenia",
+        "dob": "1998-03-28"
+      },
+      {
+        "name": "Jesper Karlström",
+        "position": "Midfield",
+        "nationality": "Sweden",
+        "dob": "1995-06-21"
+      },
+      {
+        "name": "Jakub Piotrowski",
+        "position": "Midfield",
+        "nationality": "Poland",
+        "dob": "1997-10-04"
+      },
+      {
+        "name": "Oier Zarraga",
+        "position": "Midfield",
+        "nationality": "Spain",
+        "dob": "1999-01-04"
+      },
+      {
+        "name": "Rui Modesto",
+        "position": "Midfield",
+        "nationality": "Angola",
+        "dob": "1999-10-07"
+      },
+      {
+        "name": "Lennon Miller",
+        "position": "Midfield",
+        "nationality": "Scotland",
+        "dob": "2006-08-25"
+      },
+      {
+        "name": "Unai Gomez",
+        "position": "Midfield",
+        "nationality": "Spain",
+        "dob": "2003-05-25"
+      },
+      {
+        "name": "Juan Arizala",
+        "position": "Midfield",
+        "nationality": "Colombia",
+        "dob": "2005-10-10"
+      },
+      {
+        "name": "David Pejičić",
+        "position": "Midfield",
+        "nationality": "Slovenia",
+        "dob": "2007-06-14"
+      },
+      {
+        "name": "Abdoulaye Camara",
+        "position": "Midfield",
+        "nationality": "France",
+        "dob": "2008-09-28"
+      },
+      {
+        "name": "Nicolò Zaniolo",
+        "position": "Offence",
+        "nationality": "Italy",
+        "dob": "1999-07-02"
+      },
+      {
+        "name": "Keinan Davis",
+        "position": "Offence",
+        "nationality": "England",
+        "dob": "1998-02-13"
+      },
+      {
+        "name": "Adam Buksa",
+        "position": "Offence",
+        "nationality": "Poland",
+        "dob": "1996-07-12"
+      },
+      {
+        "name": "Vakoun Issouf Bayo",
+        "position": "Offence",
+        "nationality": "Ivory Coast",
+        "dob": "1997-01-10"
+      },
+      {
+        "name": "Idrissa Guèye",
+        "position": "Offence",
+        "nationality": "Senegal",
+        "dob": "2006-09-16"
+      },
+      {
+        "name": "Giulio Vinciati",
+        "position": "Offence",
+        "nationality": "Italy",
+        "dob": "2007-08-29"
+      }
+    ]
+  },
+  "Venezia": {
+    "players": [
+      {
+        "name": "Alessio Pozzi",
+        "position": "Goalkeeper",
+        "nationality": "Italy",
+        "dob": "2000-12-14"
+      },
+      {
+        "name": "Matteo Grandi",
+        "position": "Goalkeeper",
+        "nationality": "Italy",
+        "dob": "1992-10-12"
+      },
+      {
+        "name": "Filip Stankovic",
+        "position": "Goalkeeper",
+        "nationality": "Serbia",
+        "dob": "2002-02-25"
+      },
+      {
+        "name": "Marin Šverko",
+        "position": "Defence",
+        "nationality": "Croatia",
+        "dob": "1998-02-04"
+      },
+      {
+        "name": "Ridgeciano Haps",
+        "position": "Defence",
+        "nationality": "Suriname",
+        "dob": "1993-06-12"
+      },
+      {
+        "name": "Thierry Correia",
+        "position": "Defence",
+        "nationality": "Portugal",
+        "dob": "1999-03-09"
+      },
+      {
+        "name": "Armel Bella Kotchap",
+        "position": "Defence",
+        "nationality": "Germany",
+        "dob": "2001-12-11"
+      },
+      {
+        "name": "Bartol Franjić",
+        "position": "Defence",
+        "nationality": "Croatia",
+        "dob": "2000-01-14"
+      },
+      {
+        "name": "Redouane Halhal",
+        "position": "Defence",
+        "nationality": "Morocco",
+        "dob": "2003-03-05"
+      },
+      {
+        "name": "Richie Sagrado",
+        "position": "Defence",
+        "nationality": "Belgium",
+        "dob": "2004-01-30"
+      },
+      {
+        "name": "Antoine Hainaut",
+        "position": "Defence",
+        "nationality": "France",
+        "dob": "2002-02-18"
+      },
+      {
+        "name": "Joel Schingtienne",
+        "position": "Defence",
+        "nationality": "Belgium",
+        "dob": "2002-08-14"
+      },
+      {
+        "name": "Calixte Ligue",
+        "position": "Defence",
+        "nationality": "Switzerland",
+        "dob": "2005-03-21"
+      },
+      {
+        "name": "Matias Moreno",
+        "position": "Defence",
+        "nationality": "Argentina",
+        "dob": "2003-09-24"
+      },
+      {
+        "name": "Ale Gomes",
+        "position": "Defence",
+        "nationality": "Spain",
+        "dob": "2008-01-01"
+      },
+      {
+        "name": "Alfred Duncan",
+        "position": "Midfield",
+        "nationality": "Ghana",
+        "dob": "1993-03-10"
+      },
+      {
+        "name": "Þórir Jóhann Helgason",
+        "position": "Midfield",
+        "nationality": "Iceland",
+        "dob": "2000-09-28"
+      },
+      {
+        "name": "Toma Bašić",
+        "position": "Midfield",
+        "nationality": "Croatia",
+        "dob": "1996-11-25"
+      },
+      {
+        "name": "Kike Pérez",
+        "position": "Midfield",
+        "nationality": "Spain",
+        "dob": "1997-02-14"
+      },
+      {
+        "name": "Emil Bohinen",
+        "position": "Midfield",
+        "nationality": "Norway",
+        "dob": "1999-03-12"
+      },
+      {
+        "name": "Gianluca Busio",
+        "position": "Midfield",
+        "nationality": "USA",
+        "dob": "2002-05-28"
+      },
+      {
+        "name": "Simon Sohm",
+        "position": "Midfield",
+        "nationality": "Switzerland",
+        "dob": "2001-04-11"
+      },
+      {
+        "name": "Simone Panada",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "2002-06-02"
+      },
+      {
+        "name": "Matteo Dagasso",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "2004-04-01"
+      },
+      {
+        "name": "Lamine Dabo",
+        "position": "Midfield",
+        "nationality": "Spain",
+        "dob": "2004-01-30"
+      },
+      {
+        "name": "Saad El Haddad",
+        "position": "Midfield",
+        "nationality": "Morocco",
+        "dob": "2005-07-24"
+      },
+      {
+        "name": "Lorenzo Berardi",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "2006-04-05"
+      },
+      {
+        "name": "Lion Lauberbach",
+        "position": "Offence",
+        "nationality": "Germany",
+        "dob": "1998-02-15"
+      },
+      {
+        "name": "Akor Adams",
+        "position": "Offence",
+        "nationality": "Nigeria",
+        "dob": "2000-01-29"
+      },
+      {
+        "name": "John Yeboah",
+        "position": "Offence",
+        "nationality": "Ecuador",
+        "dob": "2000-06-23"
+      },
+      {
+        "name": "Andrea Adorante",
+        "position": "Offence",
+        "nationality": "Italy",
+        "dob": "2000-02-05"
+      },
+      {
+        "name": "Alvin Okoro",
+        "position": "Offence",
+        "nationality": "Nigeria",
+        "dob": "2005-03-26"
+      },
+      {
+        "name": "Albion Rrahmani",
+        "position": "Offence",
+        "nationality": "Kosovo",
+        "dob": "2000-08-31"
+      },
+      {
+        "name": "Marko Farji",
+        "position": "Offence",
+        "nationality": "Iraq",
+        "dob": "2004-03-16"
+      },
+      {
+        "name": "Kornel Lisman",
+        "position": "Offence",
+        "nationality": "Poland",
+        "dob": "2006-02-20"
+      },
+      {
+        "name": "Antonio Casas",
+        "position": "Offence",
+        "nationality": "Spain",
+        "dob": "2000-03-30"
+      },
+      {
+        "name": "Mohamed Malang Touré",
+        "position": "Offence",
+        "nationality": "Senegal",
+        "dob": "2006-12-31"
+      }
+    ]
+  },
+  "Frosinone": {
+    "players": [
+      {
+        "name": "Matteo Pisseri",
+        "position": "Goalkeeper",
+        "nationality": "Italy",
+        "dob": "1991-11-21"
+      },
+      {
+        "name": "Sebastiano Desplanches",
+        "position": "Goalkeeper",
+        "nationality": "Italy",
+        "dob": "2003-03-11"
+      },
+      {
+        "name": "Lorenzo Palmisani",
+        "position": "Goalkeeper",
+        "nationality": "Italy",
+        "dob": "2004-01-01"
+      },
+      {
+        "name": "Eldin Lolic",
+        "position": "Goalkeeper",
+        "nationality": "Bosnia-Herzegovina",
+        "dob": "2004-05-15"
+      },
+      {
+        "name": "Kevin Akpoguma",
+        "position": "Defence",
+        "nationality": "Nigeria",
+        "dob": "1995-04-19"
+      },
+      {
+        "name": "Aleksa Terzić",
+        "position": "Defence",
+        "nationality": "Serbia",
+        "dob": "1999-08-17"
+      },
+      {
+        "name": "Sergio Kalaj",
+        "position": "Defence",
+        "nationality": "Albania",
+        "dob": "2000-01-28"
+      },
+      {
+        "name": "Niccolò Corrado",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "2000-03-19"
+      },
+      {
+        "name": "Ilario Monterisi",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "2001-12-19"
+      },
+      {
+        "name": "Anthony Oyono",
+        "position": "Defence",
+        "nationality": "Gabon",
+        "dob": "2001-04-12"
+      },
+      {
+        "name": "Wisdom Amey",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "2005-08-11"
+      },
+      {
+        "name": "Giorgio Cittadini",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "2002-04-18"
+      },
+      {
+        "name": "Gabriele Bracaglia",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "2003-07-19"
+      },
+      {
+        "name": "Jacopo Gelli",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "2001-05-11"
+      },
+      {
+        "name": "Gabriele Calvani",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "2004-01-12"
+      },
+      {
+        "name": "Jèrèmy Oyono",
+        "position": "Defence",
+        "nationality": "Gabon",
+        "dob": "2001-04-12"
+      },
+      {
+        "name": "Florian Grillitsch",
+        "position": "Midfield",
+        "nationality": "Austria",
+        "dob": "1995-08-07"
+      },
+      {
+        "name": "Alessio Zerbin",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "1999-03-03"
+      },
+      {
+        "name": "Ben Lhassine Kone",
+        "position": "Midfield",
+        "nationality": "Ivory Coast",
+        "dob": "2000-03-14"
+      },
+      {
+        "name": "Romano Schmid",
+        "position": "Midfield",
+        "nationality": "Austria",
+        "dob": "2000-01-27"
+      },
+      {
+        "name": "Francesco Gelli",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "1996-10-15"
+      },
+      {
+        "name": "Giacomo Calò",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "1997-02-05"
+      },
+      {
+        "name": "Ilias Koutsoupias",
+        "position": "Midfield",
+        "nationality": "Greece",
+        "dob": "2001-05-10"
+      },
+      {
+        "name": "Patrizio Masini",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "2001-01-27"
+      },
+      {
+        "name": "Anouar El Azzouzi",
+        "position": "Midfield",
+        "nationality": "Morocco",
+        "dob": "2001-05-29"
+      },
+      {
+        "name": "Luis Hasa",
+        "position": "Midfield",
+        "nationality": "Albania",
+        "dob": "2004-01-06"
+      },
+      {
+        "name": "Matteo Cichella",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "2005-10-04"
+      },
+      {
+        "name": "Filippo Grosso",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "2006-09-07"
+      },
+      {
+        "name": "Antonio Raimondo",
+        "position": "Offence",
+        "nationality": "Italy",
+        "dob": "2004-03-18"
+      },
+      {
+        "name": "Seydou Fini",
+        "position": "Offence",
+        "nationality": "Italy",
+        "dob": "2006-06-02"
+      },
+      {
+        "name": "Giorgi Kvernadze",
+        "position": "Offence",
+        "nationality": "Georgia",
+        "dob": "2003-02-07"
+      },
+      {
+        "name": "Kevin Barcella",
+        "position": "Offence",
+        "nationality": "Italy",
+        "dob": "2006-06-17"
+      },
+      {
+        "name": "Farés Ghedjemis",
+        "position": "Offence",
+        "nationality": "Algeria",
+        "dob": "2002-09-06"
+      },
+      {
+        "name": "Alejandro Cichero",
+        "position": "Offence",
+        "nationality": "Venezuela",
+        "dob": "2006-07-11"
+      },
+      {
+        "name": "Muhammed Colley",
+        "position": "Offence",
+        "nationality": "Gambia",
+        "dob": "2006-03-01"
+      }
+    ]
+  },
+  "Sassuolo": {
+    "players": [
+      {
+        "name": "Giacomo Satalino",
+        "position": "Goalkeeper",
+        "nationality": "Italy",
+        "dob": "1999-05-20"
+      },
+      {
+        "name": "Stefano Turati",
+        "position": "Goalkeeper",
+        "nationality": "Italy",
+        "dob": "2001-09-05"
+      },
+      {
+        "name": "Arijanet Muric",
+        "position": "Goalkeeper",
+        "nationality": "Kosovo",
+        "dob": "1998-11-07"
+      },
+      {
+        "name": "Lorenzo Nyarko",
+        "position": "Goalkeeper",
+        "nationality": "Italy",
+        "dob": "2007-10-20"
+      },
+      {
+        "name": "Jay Idzes",
+        "position": "Defence",
+        "nationality": "Indonesia",
+        "dob": "2000-06-02"
+      },
+      {
+        "name": "Sebastian Walukiewicz",
+        "position": "Defence",
+        "nationality": "Poland",
+        "dob": "2000-04-05"
+      },
+      {
+        "name": "Fali Candé",
+        "position": "Defence",
+        "nationality": "Guinea-Bissau",
+        "dob": "1998-01-24"
+      },
+      {
+        "name": "Josh Doig",
+        "position": "Defence",
+        "nationality": "Scotland",
+        "dob": "2002-01-01"
+      },
+      {
+        "name": "Cas Odenthal",
+        "position": "Defence",
+        "nationality": "Netherlands",
+        "dob": "2000-09-26"
+      },
+      {
+        "name": "Filippo Missori",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "2004-03-24"
+      },
+      {
+        "name": "Edoardo Pieragnolo",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "2003-01-03"
+      },
+      {
+        "name": "Yeferson Paz",
+        "position": "Defence",
+        "nationality": "Colombia",
+        "dob": "2002-06-13"
+      },
+      {
+        "name": "Rafa Obrador",
+        "position": "Defence",
+        "nationality": "Spain",
+        "dob": "2004-02-24"
+      },
+      {
+        "name": "Alessandro Di Bitonto",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "2005-10-08"
+      },
+      {
+        "name": "Tommaso Macchioni",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "2006-04-04"
+      },
+      {
+        "name": "Giorgio Vezzosi",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "2007-01-14"
+      },
+      {
+        "name": "Fabrizio Caligara",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "2000-04-12"
+      },
+      {
+        "name": "Nemanja Matić",
+        "position": "Midfield",
+        "nationality": "Serbia",
+        "dob": "1988-08-01"
+      },
+      {
+        "name": "Kristian Thorstvedt",
+        "position": "Midfield",
+        "nationality": "Norway",
+        "dob": "1999-03-13"
+      },
+      {
+        "name": "Andrea Ghion",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "2000-02-23"
+      },
+      {
+        "name": "Daniel Boloca",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "1998-12-22"
+      },
+      {
+        "name": "Edoardo Iannoni",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "2001-04-11"
+      },
+      {
+        "name": "Ismaël Koné",
+        "position": "Midfield",
+        "nationality": "Canada",
+        "dob": "2002-06-16"
+      },
+      {
+        "name": "Vasilije Adzic",
+        "position": "Midfield",
+        "nationality": "Montenegro",
+        "dob": "2006-05-12"
+      },
+      {
+        "name": "Luca Lipani",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "2005-05-18"
+      },
+      {
+        "name": "Cristian Volpato",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "2026-06-30"
+      },
+      {
+        "name": "Darryl Bakola",
+        "position": "Midfield",
+        "nationality": "France",
+        "dob": "2007-11-30"
+      },
+      {
+        "name": "Simone Cinquegrano",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "2004-06-25"
+      },
+      {
+        "name": "Andrea Pinamonti",
+        "position": "Offence",
+        "nationality": "Italy",
+        "dob": "1999-05-19"
+      },
+      {
+        "name": "Domenico Berardi",
+        "position": "Offence",
+        "nationality": "Italy",
+        "dob": "1994-08-01"
+      },
+      {
+        "name": "Nicholas Pierini",
+        "position": "Offence",
+        "nationality": "Italy",
+        "dob": "1998-08-06"
+      },
+      {
+        "name": "Armand Lauriente",
+        "position": "Offence",
+        "nationality": "France",
+        "dob": "1998-12-04"
+      },
+      {
+        "name": "Kieron Bowie",
+        "position": "Offence",
+        "nationality": "Scotland",
+        "dob": "2002-09-21"
+      },
+      {
+        "name": "Luca Moro",
+        "position": "Offence",
+        "nationality": "Italy",
+        "dob": "2001-01-25"
+      },
+      {
+        "name": "Riccardo Ciervo",
+        "position": "Offence",
+        "nationality": "Italy",
+        "dob": "2002-04-01"
+      },
+      {
+        "name": "Patrick Nuamah",
+        "position": "Offence",
+        "nationality": "Italy",
+        "dob": "2005-12-31"
+      },
+      {
+        "name": "Benjamín Domínguez",
+        "position": "Offence",
+        "nationality": "Argentina",
+        "dob": "2003-09-19"
+      },
+      {
+        "name": "Laurs Skjellerup",
+        "position": "Offence",
+        "nationality": "Denmark",
+        "dob": "2002-08-12"
+      }
+    ]
+  },
+  "Torino": {
+    "players": [
+      {
+        "name": "Alberto Paleari",
+        "position": "Goalkeeper",
+        "nationality": "Italy",
+        "dob": "1992-08-29"
+      },
+      {
+        "name": "Franco Israel",
+        "position": "Goalkeeper",
+        "nationality": "Uruguay",
+        "dob": "2000-04-22"
+      },
+      {
+        "name": "Lapo Siviero",
+        "position": "Goalkeeper",
+        "nationality": "Italy",
+        "dob": "2006-11-23"
+      },
+      {
+        "name": "Diego Mascardi",
+        "position": "Goalkeeper",
+        "nationality": "Italy",
+        "dob": "2006-09-26"
+      },
+      {
+        "name": "Cristiano Biraghi",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "1992-09-01"
+      },
+      {
+        "name": "Ardian Ismajli",
+        "position": "Defence",
+        "nationality": "Albania",
+        "dob": "1996-09-30"
+      },
+      {
+        "name": "Eray Cömert",
+        "position": "Defence",
+        "nationality": "Switzerland",
+        "dob": "1998-02-04"
+      },
+      {
+        "name": "Marcus Pedersen",
+        "position": "Defence",
+        "nationality": "Norway",
+        "dob": "2000-07-16"
+      },
+      {
+        "name": "Saúl Coco",
+        "position": "Defence",
+        "nationality": "Equatorial Guinea",
+        "dob": "1999-02-09"
+      },
+      {
+        "name": "Ali Dembele",
+        "position": "Defence",
+        "nationality": "France",
+        "dob": "2004-01-05"
+      },
+      {
+        "name": "Pietro Comuzzo",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "2005-02-20"
+      },
+      {
+        "name": "Côme Bianay Balcot",
+        "position": "Defence",
+        "nationality": "France",
+        "dob": "2005-05-13"
+      },
+      {
+        "name": "Nikola Vlašić",
+        "position": "Midfield",
+        "nationality": "Croatia",
+        "dob": "1997-10-04"
+      },
+      {
+        "name": "Ivan Ilić",
+        "position": "Midfield",
+        "nationality": "Serbia",
+        "dob": "2001-03-17"
+      },
+      {
+        "name": "Faustino Anjorin",
+        "position": "Midfield",
+        "nationality": "England",
+        "dob": "2001-11-23"
+      },
+      {
+        "name": "Kian Fitz-Jim",
+        "position": "Midfield",
+        "nationality": "Netherlands",
+        "dob": "2003-07-05"
+      },
+      {
+        "name": "Gaetano Oristanio",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "2002-09-28"
+      },
+      {
+        "name": "Emirhan Ilkhan",
+        "position": "Midfield",
+        "nationality": "Turkey",
+        "dob": "2004-06-01"
+      },
+      {
+        "name": "Cesare Casadei",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "2003-01-10"
+      },
+      {
+        "name": "Gvidas Gineitis",
+        "position": "Midfield",
+        "nationality": "Lithuania",
+        "dob": "2004-04-15"
+      },
+      {
+        "name": "Aaron Ciammaglichella",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "2005-01-26"
+      },
+      {
+        "name": "Marco Dalla Vecchia",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "2005-02-13"
+      },
+      {
+        "name": "Alessio Cacciamani",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "2007-06-29"
+      },
+      {
+        "name": "Andrea Luongo",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "2008-02-16"
+      },
+      {
+        "name": "Giovanni Simeone",
+        "position": "Offence",
+        "nationality": "Argentina",
+        "dob": "1995-07-05"
+      },
+      {
+        "name": "Duván Zapata",
+        "position": "Offence",
+        "nationality": "Colombia",
+        "dob": "1991-04-01"
+      },
+      {
+        "name": "Che Adams",
+        "position": "Offence",
+        "nationality": "Scotland",
+        "dob": "1996-07-13"
+      },
+      {
+        "name": "Pietro Pellegri",
+        "position": "Offence",
+        "nationality": "Italy",
+        "dob": "2001-03-17"
+      },
+      {
+        "name": "Sandro Kulenović",
+        "position": "Offence",
+        "nationality": "Croatia",
+        "dob": "1999-12-04"
+      },
+      {
+        "name": "Zakaria Aboukhlal",
+        "position": "Offence",
+        "nationality": "Morocco",
+        "dob": "2000-02-18"
+      },
+      {
+        "name": "Alieu Njie",
+        "position": "Offence",
+        "nationality": "Sweden",
+        "dob": "2005-05-14"
+      },
+      {
+        "name": "Tommaso Gabellini",
+        "position": "Offence",
+        "nationality": "Italy",
+        "dob": "2006-10-21"
+      }
+    ]
+  },
+  "Lecce": {
+    "players": [
+      {
+        "name": "Wladimiro Falcone",
+        "position": "Goalkeeper",
+        "nationality": "Italy",
+        "dob": "1995-04-12"
+      },
+      {
+        "name": "Alexandru Borbei",
+        "position": "Goalkeeper",
+        "nationality": "Romania",
+        "dob": "2003-06-27"
+      },
+      {
+        "name": "Plamen Penev",
+        "position": "Goalkeeper",
+        "nationality": "Bulgaria",
+        "dob": "2008-04-22"
+      },
+      {
+        "name": "Antonino Gallo",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "2000-01-05"
+      },
+      {
+        "name": "Gaby Jean",
+        "position": "Defence",
+        "nationality": "France",
+        "dob": "2000-02-19"
+      },
+      {
+        "name": "Corrie Ndaba",
+        "position": "Defence",
+        "nationality": "Ireland",
+        "dob": "1999-12-25"
+      },
+      {
+        "name": "Jamil Siebert",
+        "position": "Defence",
+        "nationality": "Germany",
+        "dob": "2002-04-02"
+      },
+      {
+        "name": "Danilo Veiga",
+        "position": "Defence",
+        "nationality": "Portugal",
+        "dob": "2002-09-25"
+      },
+      {
+        "name": "Sebastian Esposito",
+        "position": "Defence",
+        "nationality": "Australia",
+        "dob": "2003-07-21"
+      },
+      {
+        "name": "Kialonda Gaspar",
+        "position": "Defence",
+        "nationality": "Angola",
+        "dob": "1997-09-27"
+      },
+      {
+        "name": "Tiago Gabriel",
+        "position": "Defence",
+        "nationality": "Portugal",
+        "dob": "2004-12-26"
+      },
+      {
+        "name": "Christ-Owen Kouassi Bathele",
+        "position": "Defence",
+        "nationality": "Ivory Coast",
+        "dob": "2003-04-15"
+      },
+      {
+        "name": "Vernon Addo",
+        "position": "Defence",
+        "nationality": "Netherlands",
+        "dob": "2005-05-24"
+      },
+      {
+        "name": "Marlon Ubani",
+        "position": "Defence",
+        "nationality": "Germany",
+        "dob": "2005-03-26"
+      },
+      {
+        "name": "Lassana Coulibaly",
+        "position": "Midfield",
+        "nationality": "Mali",
+        "dob": "1996-04-10"
+      },
+      {
+        "name": "Youssef Maleh",
+        "position": "Midfield",
+        "nationality": "Morocco",
+        "dob": "1998-08-22"
+      },
+      {
+        "name": "Omri Gandelman",
+        "position": "Midfield",
+        "nationality": "Israel",
+        "dob": "2000-05-16"
+      },
+      {
+        "name": "Mohamed Kaba",
+        "position": "Midfield",
+        "nationality": "France",
+        "dob": "2001-10-27"
+      },
+      {
+        "name": "Sadik Fofana",
+        "position": "Midfield",
+        "nationality": "Togo",
+        "dob": "2003-05-16"
+      },
+      {
+        "name": "Oumar Ngom",
+        "position": "Midfield",
+        "nationality": "Mauritania",
+        "dob": "2004-03-09"
+      },
+      {
+        "name": "Medon Berisha",
+        "position": "Midfield",
+        "nationality": "Albania",
+        "dob": "2003-10-21"
+      },
+      {
+        "name": "Olaf Gorter",
+        "position": "Midfield",
+        "nationality": "Netherlands",
+        "dob": "2005-01-31"
+      },
+      {
+        "name": "Niko Kovač",
+        "position": "Midfield",
+        "nationality": "Bosnia-Herzegovina",
+        "dob": "2005-04-08"
+      },
+      {
+        "name": "Willem Geubbels",
+        "position": "Offence",
+        "nationality": "France",
+        "dob": "2001-08-16"
+      },
+      {
+        "name": "Santiago Pierotti",
+        "position": "Offence",
+        "nationality": "Argentina",
+        "dob": "2001-04-03"
+      },
+      {
+        "name": "Lameck Banda",
+        "position": "Offence",
+        "nationality": "Zambia",
+        "dob": "2001-01-29"
+      },
+      {
+        "name": "Nikola Štulić",
+        "position": "Offence",
+        "nationality": "Serbia",
+        "dob": "2001-09-08"
+      },
+      {
+        "name": "Konan N'Dri",
+        "position": "Offence",
+        "nationality": "Ivory Coast",
+        "dob": "2000-10-27"
+      },
+      {
+        "name": "Miloš Jović",
+        "position": "Offence",
+        "nationality": "Serbia",
+        "dob": "2006-05-22"
+      },
+      {
+        "name": "Hjalte Laerke",
+        "position": "Offence",
+        "nationality": "Denmark",
+        "dob": "2007-04-23"
+      },
+      {
+        "name": "Paco Esteban",
+        "position": "Offence",
+        "nationality": "Spain",
+        "dob": "2006-05-02"
+      }
+    ]
+  },
+  "Monza": {
+    "players": [
+      {
+        "name": "Semuel Pizzignacco",
+        "position": "Goalkeeper",
+        "nationality": "Italy",
+        "dob": "2001-09-01"
+      },
+      {
+        "name": "Demba Thiam",
+        "position": "Goalkeeper",
+        "nationality": "Senegal",
+        "dob": "1998-03-09"
+      },
+      {
+        "name": "Aljaž Strajnar",
+        "position": "Goalkeeper",
+        "nationality": "Slovenia",
+        "dob": "2007-08-16"
+      },
+      {
+        "name": "Valentin Antov",
+        "position": "Defence",
+        "nationality": "Bulgaria",
+        "dob": "2000-11-09"
+      },
+      {
+        "name": "Samuele Birindelli",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "1999-07-19"
+      },
+      {
+        "name": "Ricardo Mangas",
+        "position": "Defence",
+        "nationality": "Portugal",
+        "dob": "1998-03-19"
+      },
+      {
+        "name": "Filippo Delli Carri",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "1999-05-03"
+      },
+      {
+        "name": "Andrea Carboni",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "2001-02-04"
+      },
+      {
+        "name": "Lorenzo Lucchesi",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "2003-05-09"
+      },
+      {
+        "name": "Eddy Kouadio",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "2006-05-07"
+      },
+      {
+        "name": "Adam Bakoune",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "2006-02-06"
+      },
+      {
+        "name": "Andrea Colpani",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "1999-05-11"
+      },
+      {
+        "name": "Matteo Pessina",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "1997-04-21"
+      },
+      {
+        "name": "Patrick Ciurria",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "1995-02-09"
+      },
+      {
+        "name": "Nicolas Galazzi",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "2000-12-18"
+      },
+      {
+        "name": "Leonardo Colombo",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "2005-06-04"
+      },
+      {
+        "name": "Ebenezer Akinsanmiro",
+        "position": "Midfield",
+        "nationality": "Nigeria",
+        "dob": "2004-11-25"
+      },
+      {
+        "name": "Manga Foe Ondoa",
+        "position": "Midfield",
+        "nationality": "France",
+        "dob": "2005-12-12"
+      },
+      {
+        "name": "Alessandro Berretta",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "2006-01-01"
+      },
+      {
+        "name": "Mathis Mout",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "2007-08-06"
+      },
+      {
+        "name": "Patrick Cutrone",
+        "position": "Offence",
+        "nationality": "Italy",
+        "dob": "1998-01-03"
+      },
+      {
+        "name": "Andrea Petagna",
+        "position": "Offence",
+        "nationality": "Italy",
+        "dob": "1995-06-30"
+      },
+      {
+        "name": "Dany Mota Carvalho",
+        "position": "Offence",
+        "nationality": "Portugal",
+        "dob": "1998-05-02"
+      },
+      {
+        "name": "Keïta Baldé",
+        "position": "Offence",
+        "nationality": "Senegal",
+        "dob": "1995-03-08"
+      },
+      {
+        "name": "Omari Forson",
+        "position": "Offence",
+        "nationality": "England",
+        "dob": "2004-07-20"
+      },
+      {
+        "name": "Gustavo Varela",
+        "position": "Offence",
+        "nationality": "Portugal",
+        "dob": "2005-01-30"
+      },
+      {
+        "name": "Jay Robinson",
+        "position": "Offence",
+        "nationality": "England",
+        "dob": "2007-03-15"
+      },
+      {
+        "name": "Kevin Martins",
+        "position": "Offence",
+        "nationality": "Italy",
+        "dob": "2005-01-31"
+      },
+      {
+        "name": "Solomon Loubao",
+        "position": "Offence",
+        "nationality": "France",
+        "dob": "2005-12-03"
+      }
+    ]
+  },
+  "Como": {
+    "players": [
+      {
+        "name": "Mauro Vigorito",
+        "position": "Goalkeeper",
+        "nationality": "Italy",
+        "dob": "1990-05-22"
+      },
+      {
+        "name": "Emil Audero",
+        "position": "Goalkeeper",
+        "nationality": "Indonesia",
+        "dob": "1997-01-18"
+      },
+      {
+        "name": "Jean Butez",
+        "position": "Goalkeeper",
+        "nationality": "France",
+        "dob": "1995-06-08"
+      },
+      {
+        "name": "Noel Törnqvist",
+        "position": "Goalkeeper",
+        "nationality": "Sweden",
+        "dob": "2002-02-01"
+      },
+      {
+        "name": "Edoardo Goldaniga",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "1993-11-02"
+      },
+      {
+        "name": "Trevoh Chalobah",
+        "position": "Defence",
+        "nationality": "England",
+        "dob": "1999-07-05"
+      },
+      {
+        "name": "Marc-Oliver Kempf",
+        "position": "Defence",
+        "nationality": "Germany",
+        "dob": "1995-01-28"
+      },
+      {
+        "name": "Alberto Dossena",
+        "position": "Defence",
+        "nationality": "Italy",
+        "dob": "1998-10-13"
+      },
+      {
+        "name": "Ivan Smolčić",
+        "position": "Defence",
+        "nationality": "Croatia",
+        "dob": "2000-08-17"
+      },
+      {
+        "name": "Ignace Van Der Brempt",
+        "position": "Defence",
+        "nationality": "Belgium",
+        "dob": "2002-04-01"
+      },
+      {
+        "name": "Yan Couto",
+        "position": "Defence",
+        "nationality": "Brazil",
+        "dob": "2002-06-03"
+      },
+      {
+        "name": "Kaiki",
+        "position": "Defence",
+        "nationality": "Brazil",
+        "dob": "2002-03-08"
+      },
+      {
+        "name": "Alex Valle",
+        "position": "Defence",
+        "nationality": "Spain",
+        "dob": "2004-04-25"
+      },
+      {
+        "name": "Jacobo Ramón",
+        "position": "Defence",
+        "nationality": "Spain",
+        "dob": "2005-06-06"
+      },
+      {
+        "name": "Luca Mazzitelli",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "1995-11-15"
+      },
+      {
+        "name": "Luis Milla",
+        "position": "Midfield",
+        "nationality": "Spain",
+        "dob": "1994-10-07"
+      },
+      {
+        "name": "Maxence Caqueret",
+        "position": "Midfield",
+        "nationality": "France",
+        "dob": "2000-02-15"
+      },
+      {
+        "name": "Lucas Da Cunha",
+        "position": "Midfield",
+        "nationality": "France",
+        "dob": "2001-06-09"
+      },
+      {
+        "name": "Matthias Braunöder",
+        "position": "Midfield",
+        "nationality": "Austria",
+        "dob": "2002-03-27"
+      },
+      {
+        "name": "Martin Baturina",
+        "position": "Midfield",
+        "nationality": "Croatia",
+        "dob": "2003-02-16"
+      },
+      {
+        "name": "Maximo Perrone",
+        "position": "Midfield",
+        "nationality": "Argentina",
+        "dob": "2003-01-07"
+      },
+      {
+        "name": "Nico Paz",
+        "position": "Midfield",
+        "nationality": "Argentina",
+        "dob": "2004-09-08"
+      },
+      {
+        "name": "Adrian Lahdo",
+        "position": "Midfield",
+        "nationality": "Sweden",
+        "dob": "2007-12-26"
+      },
+      {
+        "name": "Mattia Liberali",
+        "position": "Midfield",
+        "nationality": "Italy",
+        "dob": "2007-04-06"
+      },
+      {
+        "name": "Álvaro Morata",
+        "position": "Offence",
+        "nationality": "Spain",
+        "dob": "1992-10-23"
+      },
+      {
+        "name": "Anastasios Douvikas",
+        "position": "Offence",
+        "nationality": "Greece",
+        "dob": "1999-08-02"
+      },
+      {
+        "name": "Nicolas Kühn",
+        "position": "Offence",
+        "nationality": "Germany",
+        "dob": "2000-01-01"
+      },
+      {
+        "name": "Alessandro Gabrielloni",
+        "position": "Offence",
+        "nationality": "Italy",
+        "dob": "1994-07-10"
+      },
+      {
+        "name": "Tommaso Fumagalli",
+        "position": "Offence",
+        "nationality": "Italy",
+        "dob": "2000-02-20"
+      },
+      {
+        "name": "Suliman Mustapha",
+        "position": "Offence",
+        "nationality": "Austria",
+        "dob": "2001-05-24"
+      },
+      {
+        "name": "Ivan Azón",
+        "position": "Offence",
+        "nationality": "Spain",
+        "dob": "2002-12-24"
+      },
+      {
+        "name": "Jayden Addai",
+        "position": "Offence",
+        "nationality": "Netherlands",
+        "dob": "2005-08-26"
+      },
+      {
+        "name": "Alieu Fadera",
+        "position": "Offence",
+        "nationality": "Gambia",
+        "dob": "2001-11-03"
+      },
+      {
+        "name": "Assane Diao",
+        "position": "Offence",
+        "nationality": "Senegal",
+        "dob": "2005-09-07"
+      },
+      {
+        "name": "Jesús Rodríguez",
+        "position": "Offence",
+        "nationality": "Spain",
+        "dob": "2005-11-21"
+      }
+    ]
+  }
+}
