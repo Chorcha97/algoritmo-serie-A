@@ -1,6 +1,5 @@
-
+from curl_cffi import AsyncSession
 from fastapi import APIRouter, Request
-import httpx
 from backend.clientHelper import api_get
 import os
 from dotenv import load_dotenv
@@ -17,11 +16,26 @@ router = APIRouter(
 async def get_standings(
     request: Request,
 ):
-    client: httpx.AsyncClient = request.app.state.http_client
+    return await get_helper(request, endpoint="standings")
+
+@router.get("/serie-a/seasonpowerrankings")
+async def get_seasonpowerrankings(
+    request: Request,
+):
+    return await get_helper(request, endpoint="seasonpowerrankings")
+
+@router.get("/serie-a/tournamentstats")
+async def get_tournamentstats(
+    request: Request,
+):
+    return await get_helper(request, endpoint="tournamentstats")
+
+async def get_helper(request: Request,  endpoint: str):
+    client: AsyncSession = request.app.state.http_client
 
     response = await api_get(
         client,
-        "/wp-json/sdapi/v1/soccerdata/standings",
+        f"/wp-json/sdapi/v1/soccerdata/{endpoint}",
         params={
             "tmcl": TMCL,
         },
