@@ -54,7 +54,7 @@ def utc_to_italy(ora_str: str) -> str:
         return ora_str
 
 def data_italiana(date_str: str) -> str:
-    """Formatta data in italiano: Sabato 28 agosto 2026"""
+    """Formatta data in italiano usando Babel: Sabato 28 agosto 2026"""
     try:
         ts = datetime.strptime(str(date_str)[:10], "%Y-%m-%d")
         # EEEE = giorno settimana (Sabato), d = giorno, MMMM = mese (agosto), yyyy = anno (2026)
