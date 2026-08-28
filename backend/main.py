@@ -10,31 +10,39 @@ Tutte le correzioni integrate:
 import os, json, pickle
 from pathlib import Path
 from typing import Optional
-from datetime import datetime, timedelta
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel
+from datetime import datetime
+from babel.dates import format_date
+
+from backend.models.Input import OddsInput
+from backend.models.Request import PredictRequest
+from backend.models.Update import LineupUpdate, InjuryUpdate, StatsUpdate
+from routers import theanalyst
 
 BASE_DIR = Path(__file__).parent.parent
 os.chdir(BASE_DIR)
 import sys; sys.path.insert(0, str(BASE_DIR))
 
 from models.markets import compute_all_markets, find_value_bets_extended
+from contextlib import asynccontextmanager
+from clientHelper import refresh_session
+from curl_cffi.requests import AsyncSession
 
-app = FastAPI(title="Serie A Predictor API", version="2.0.0")
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    # impersonate="chrome" imita l'handshake TLS reale di Chrome
+    async with AsyncSession(impersonate="chrome") as client:
+        app.state.http_client = client
+        await refresh_session(client)
+        yield
+
+
+app = FastAPI(title="Serie A Predictor API", version="2.0.0", lifespan=lifespan)
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
 
-# ── Costanti italiane ─────────────────────────────────────────────────────────
-GIORNI_IT = {
-    "Monday":"Lunedi","Tuesday":"Martedi","Wednesday":"Mercoledi",
-    "Thursday":"Giovedi","Friday":"Venerdi","Saturday":"Sabato","Sunday":"Domenica"
-}
-MESI_IT = {
-    "January":"gennaio","February":"febbraio","March":"marzo","April":"aprile",
-    "May":"maggio","June":"giugno","July":"luglio","August":"agosto",
-    "September":"settembre","October":"ottobre","November":"novembre","December":"dicembre"
-}
+app.include_router(theanalyst.router)
 
 def utc_to_italy(ora_str: str) -> str:
     """Converte orario UTC in ora italiana (UTC+2)."""
@@ -49,10 +57,10 @@ def data_italiana(date_str: str) -> str:
     """Formatta data in italiano: Sabato 28 agosto 2026"""
     try:
         ts = datetime.strptime(str(date_str)[:10], "%Y-%m-%d")
-        giorno = GIORNI_IT.get(ts.strftime("%A"), ts.strftime("%A"))
-        mese = MESI_IT.get(ts.strftime("%B"), ts.strftime("%B"))
-        return f"{giorno} {ts.day} {mese} {ts.year}"
-    except:
+        # EEEE = giorno settimana (Sabato), d = giorno, MMMM = mese (agosto), yyyy = anno (2026)
+        formatted = format_date(ts, format="EEEE d MMMM yyyy", locale='it_IT')
+        return formatted.capitalize()
+    except Exception:
         return str(date_str)
 
 # ── Carica modello ────────────────────────────────────────────────────────────
@@ -69,46 +77,6 @@ def load_model():
         print("[WARN] model_cache.pkl non trovato - lancia python3 main.py")
 
 load_model()
-
-# ── Pydantic models ───────────────────────────────────────────────────────────
-class PredictRequest(BaseModel):
-    home: str
-    away: str
-    match_date: Optional[str] = None
-    match_time: Optional[str] = None
-    odds_h: Optional[float] = None
-    odds_d: Optional[float] = None
-    odds_a: Optional[float] = None
-
-class OddsInput(BaseModel):
-    home: str
-    away: str
-    odds: dict
-    min_edge: Optional[float] = 0.07
-    bankroll: Optional[float] = 300.0
-    match_date: Optional[str] = None
-
-class LineupUpdate(BaseModel):
-    home: str
-    away: str
-    match_date: str
-    home_lineup: list
-    away_lineup: list
-    source: Optional[str] = "manual"
-
-class InjuryUpdate(BaseModel):
-    team: str
-    player: str
-    status: str  # "out", "doubt", "available"
-    return_date: Optional[str] = None
-    source: Optional[str] = "manual"
-
-class StatsUpdate(BaseModel):
-    match_id: Optional[str] = None
-    home: str
-    away: str
-    match_date: str
-    data: dict
 
 # ── Helper: carica infortuni ──────────────────────────────────────────────────
 def get_team_injuries(team: str) -> list:
