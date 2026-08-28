@@ -11,6 +11,18 @@ Fix v3:
 """
 
 import streamlit as st
+
+# Backend API client (con fallback automatico al modello locale)
+try:
+    import sys, os
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    from backend.client import (is_backend_available, predict as api_predict,
+                                 value_bets as api_value_bets, get_injuries as api_get_injuries,
+                                 get_lineups as api_get_lineups)
+    BACKEND_CLIENT_OK = True
+except ImportError:
+    BACKEND_CLIENT_OK = False
+    def is_backend_available(): return False
 import pandas as pd
 import numpy as np
 import sys
@@ -90,6 +102,12 @@ with st.sidebar:
     bankroll = st.number_input("Bankroll (€)", min_value=100,
                                 max_value=100000, value=1000, step=100)
     st.divider()
+    # Stato backend
+    if BACKEND_CLIENT_OK and is_backend_available():
+        st.sidebar.success("🟢 Backend online")
+    else:
+        st.sidebar.warning("🟡 Backend offline — modello locale")
+    st.sidebar.divider()
     st.caption("Fix attivi v3")
     st.markdown("""
     ✅ Home corr. −10pp  
@@ -332,6 +350,16 @@ if page == "🔮 Predizione":
             pass
 
         # Scarica quote Pinnacle automaticamente
+        # Infortuni dal backend
+        if BACKEND_CLIENT_OK and is_backend_available():
+            infortuni_home = api_get_injuries(home)
+            infortuni_away = api_get_injuries(away)
+            if infortuni_home or infortuni_away:
+                st.warning(f"🏥 Infortuni: " +
+                    (f"{home}: {', '.join(i['player'] + ' (' + i['status'] + ')' for i in infortuni_home)}" if infortuni_home else "") +
+                    (" | " if infortuni_home and infortuni_away else "") +
+                    (f"{away}: {', '.join(i['player'] + ' (' + i['status'] + ')' for i in infortuni_away)}" if infortuni_away else ""))
+
         pinnacle_odds = {}
         try:
             from data.odds_tracker import get_odds_for_match
