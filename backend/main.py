@@ -19,7 +19,7 @@ from babel.dates import format_date
 from backend.models.Input import OddsInput
 from backend.models.Request import PredictRequest
 from backend.models.Update import LineupUpdate, InjuryUpdate, StatsUpdate
-from routers import theanalyst
+from backend.routers import theanalyst
 
 BASE_DIR = Path(__file__).parent.parent
 os.chdir(BASE_DIR)
@@ -27,7 +27,7 @@ import sys; sys.path.insert(0, str(BASE_DIR))
 
 from models.markets import compute_all_markets, find_value_bets_extended
 from contextlib import asynccontextmanager
-from clientHelper import refresh_session
+from backend.clientHelper import refresh_session
 from curl_cffi.requests import AsyncSession
 
 @asynccontextmanager
