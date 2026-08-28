@@ -1,52 +1,52 @@
 [
   {
-    "home": "INTER",
-    "away": "MONZA",
-    "referee": "MARINELLI"
+    "home": "MILAN",
+    "away": "VENEZIA",
+    "referee": "MANGANIELLO"
   },
   {
-    "home": "UDINESE",
+    "home": "FIORENTINA",
+    "away": "FROSINONE",
+    "referee": "COLLU"
+  },
+  {
+    "home": "MONZA",
+    "away": "UDINESE",
+    "referee": "ALLEGRETTA"
+  },
+  {
+    "home": "SASSUOLO",
+    "away": "TORINO",
+    "referee": "DI MARCO"
+  },
+  {
+    "home": "JUVENTUS",
+    "away": "PARMA",
+    "referee": "FOURNEAU"
+  },
+  {
+    "home": "NAPOLI",
     "away": "COMO",
-    "referee": "ARENA"
+    "referee": "PAIRETTO"
   },
   {
-    "home": "GENOA",
-    "away": "NAPOLI",
-    "referee": "DI BELLO"
+    "home": "CAGLIARI",
+    "away": "INTER",
+    "referee": "FABBRI"
   },
   {
-    "home": "PARMA",
-    "away": "CAGLIARI",
-    "referee": "PERENZONI"
+    "home": "LAZIO",
+    "away": "GENOA",
+    "referee": "FELICIANI"
   },
   {
-    "home": "FROSINONE",
-    "away": "JUVENTUS",
-    "referee": "AYROLDI"
-  },
-  {
-    "home": "VENEZIA",
-    "away": "LECCE",
-    "referee": "RAPUANO"
+    "home": "LECCE",
+    "away": "ROMA",
+    "referee": "CHIFFI"
   },
   {
     "home": "ATALANTA",
-    "away": "SASSUOLO",
-    "referee": "CREZZINI"
-  },
-  {
-    "home": "TORINO",
-    "away": "MILAN",
-    "referee": "ZUFFERLI"
-  },
-  {
-    "home": "BOLOGNA",
-    "away": "LAZIO",
-    "referee": "MARESCA F."
-  },
-  {
-    "home": "ROMA",
-    "away": "FIORENTINA",
-    "referee": "MARCENARO"
+    "away": "BOLOGNA",
+    "referee": "DOVERI"
   }
 ]

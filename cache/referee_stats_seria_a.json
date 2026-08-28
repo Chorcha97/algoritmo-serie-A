@@ -137,5 +137,40 @@
     "partite": 20,
     "gialli_media": 4.4,
     "rossi_media": 0.1
+  },
+  "Manganiello": {
+    "partite": 35,
+    "gialli_media": 4.55,
+    "rossi_media": 0.2
+  },
+  "Feliciani": {
+    "partite": 28,
+    "gialli_media": 4.2,
+    "rossi_media": 0.11
+  },
+  "Allegretta": {
+    "partite": 12,
+    "gialli_media": 4.05,
+    "rossi_media": 0.08
+  },
+  "Di Marco": {
+    "partite": 15,
+    "gialli_media": 4.1,
+    "rossi_media": 0.09
+  },
+  "Fabbri": {
+    "partite": 52,
+    "gialli_media": 4.35,
+    "rossi_media": 0.13
+  },
+  "Chiffi": {
+    "partite": 44,
+    "gialli_media": 4.28,
+    "rossi_media": 0.16
+  },
+  "Doveri": {
+    "partite": 58,
+    "gialli_media": 4.15,
+    "rossi_media": 0.12
   }
 }

@@ -554,6 +554,7 @@ ARBITRI_SERIE_A = [
     "Rapuano", "Crezzini", "Zufferli", "Maresca F.",
     # Altri arbitri Serie A
     "Massimi", "La Penna", "Pairetto", "Irrati",
+    "Feliciani", "Allegretta", "Di Marco", "Fabbri", "Chiffi", "Doveri", "Manganiello",
     "Prontera", "Collu", "Valeri",
 ]
 

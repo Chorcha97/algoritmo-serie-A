@@ -140,6 +140,7 @@ if page == "🔮 Predizione":
         referee = referee_sel if referee_sel != "— Non specificato —" else ""
     with col_r2:
         st.markdown("<br>", unsafe_allow_html=True)
+        aia_id = st.text_input("ID AIA (opzionale)", placeholder="es. 27587", label_visibility="collapsed")
         if st.button("🔄 Cerca AIA"):
             with st.spinner("Cerco designazioni AIA..."):
                 # Prima leggi dalla cache già popolata
@@ -154,7 +155,40 @@ if page == "🔮 Predizione":
                         pass
                 # Se cache vuota, prova a scaricare
                 if not desig:
-                    desig = fetch_aia_designations()
+                    if aia_id and aia_id.strip().isdigit():
+                        import requests, re
+                        headers = {"User-Agent": "Mozilla/5.0"}
+                        resp = requests.get(f"https://www.aia-figc.it/dettaglio.asp?ID={aia_id.strip()}", headers=headers, timeout=15)
+                        text = resp.content.decode("latin-1")
+                        paras = re.findall(r"<p[^>]*>(.*?)</p>", text, re.DOTALL)
+                        paras_clean = []
+                        for p in paras:
+                            clean = re.sub(r"<[^>]+>", "", p)
+                            clean = clean.replace("&ndash;","-").replace("&nbsp;"," ")
+                            clean = clean.replace("&igrave;","i").replace("&agrave;","a")
+                            clean = re.sub(r"\s+", " ", clean).strip()
+                            if clean: paras_clean.append(clean)
+                        squadre_sa = ["INTER","MONZA","UDINESE","COMO","JUVENTUS","FROSINONE",
+                                      "NAPOLI","GENOA","MILAN","TORINO","ROMA","FIORENTINA",
+                                      "LAZIO","BOLOGNA","ATALANTA","SASSUOLO","PARMA","LECCE",
+                                      "VENEZIA","CAGLIARI"]
+                        desig = []
+                        for idx_p, para in enumerate(paras_clean):
+                            m = re.match(r"([A-Z][A-Z\s\.]+?)\s*-\s*([A-Z][A-Z\s\.]+?)\s+(?:\w+\s+)?(?:\d{1,2}/\d{2}\s+)?h\.\s*\d+", para)
+                            if not m: continue
+                            home_r = m.group(1).strip(); away_r = m.group(2).strip()
+                            if not any(s in home_r.upper() for s in squadre_sa): continue
+                            if not any(s in away_r.upper() for s in squadre_sa): continue
+                            if idx_p+1 >= len(paras_clean): continue
+                            ref_r = re.sub(r"\s*\(.*?\)", "", paras_clean[idx_p+1]).strip()
+                            if not re.match(r"^[A-Z][A-Za-z]+(?:\s+[A-Z][A-Za-z\.]+){0,2}$", ref_r): continue
+                            desig.append({"home": home_r, "away": away_r, "referee": ref_r})
+                        import json
+                        from pathlib import Path
+                        Path("cache/aia_designations.json").write_text(
+                            json.dumps(desig, ensure_ascii=False, indent=2), encoding="utf-8")
+                    else:
+                        desig = fetch_aia_designations()
                 found = get_referee_for_match(home, away, desig)
                 # Converti MAIUSCOLO in Titlecase per il selectbox
                 if found:
@@ -208,13 +242,13 @@ if page == "🔮 Predizione":
 
     with tab1:
         c1,c2,c3 = st.columns(3)
-        odds["H"]  = c1.number_input("1 (Casa)",     min_value=st.session_state.get(match_key, {}).get("H", 0.0), value=st.session_state.get(match_key, {}).get("H", 0.0), step=0.05, format="%.2f", key=f"{match_key}_H")
-        odds["D"]  = c2.number_input("X (Pareggio)", min_value=st.session_state.get(match_key, {}).get("D", 0.0), value=st.session_state.get(match_key, {}).get("D", 0.0), step=0.05, format="%.2f", key=f"{match_key}_D")
-        odds["A"]  = c3.number_input("2 (Ospite)",   min_value=st.session_state.get(match_key, {}).get("A", 0.0), value=st.session_state.get(match_key, {}).get("A", 0.0), step=0.05, format="%.2f", key=f"{match_key}_A")
+        odds["H"]  = c1.number_input("1 (Casa)",     min_value=0.0, value=st.session_state.get(match_key, {}).get("H", 0.0), step=0.05, format="%.2f", key=f"{match_key}_H")
+        odds["D"]  = c2.number_input("X (Pareggio)", min_value=0.0, value=st.session_state.get(match_key, {}).get("D", 0.0), step=0.05, format="%.2f", key=f"{match_key}_D")
+        odds["A"]  = c3.number_input("2 (Ospite)",   min_value=0.0, value=st.session_state.get(match_key, {}).get("A", 0.0), step=0.05, format="%.2f", key=f"{match_key}_A")
         c4,c5,c6 = st.columns(3)
-        odds["1X"] = c4.number_input("1X", min_value=st.session_state.get(match_key, {}).get("1X", 0.0), value=st.session_state.get(match_key, {}).get("1X", 0.0), step=0.05, format="%.2f", key=f"{match_key}_1X")
-        odds["X2"] = c5.number_input("X2", min_value=st.session_state.get(match_key, {}).get("X2", 0.0), value=st.session_state.get(match_key, {}).get("X2", 0.0), step=0.05, format="%.2f", key=f"{match_key}_X2")
-        odds["12"] = c6.number_input("12", min_value=st.session_state.get(match_key, {}).get("12", 0.0), value=st.session_state.get(match_key, {}).get("12", 0.0), step=0.05, format="%.2f", key=f"{match_key}_12")
+        odds["1X"] = c4.number_input("1X", min_value=0.0, value=st.session_state.get(match_key, {}).get("1X", 0.0), step=0.05, format="%.2f", key=f"{match_key}_1X")
+        odds["X2"] = c5.number_input("X2", min_value=0.0, value=st.session_state.get(match_key, {}).get("X2", 0.0), step=0.05, format="%.2f", key=f"{match_key}_X2")
+        odds["12"] = c6.number_input("12", min_value=0.0, value=st.session_state.get(match_key, {}).get("12", 0.0), step=0.05, format="%.2f", key=f"{match_key}_12")
 
     with tab2:
         c1,c2 = st.columns(2)
@@ -263,19 +297,19 @@ if page == "🔮 Predizione":
         c1, c2 = st.columns(2)
         with c1:
             st.caption("1X2 Primo Tempo")
-            odds["ht_H"]  = st.number_input("HT 1 (Casa)",   min_value=st.session_state.get(match_key, {}).get("ht_H", 0.0), value=st.session_state.get(match_key, {}).get("ht_H", 0.0), step=0.05, format="%.2f", key=f"{match_key}_ht_H")
-            odds["ht_D"]  = st.number_input("HT X (Pari)",   min_value=st.session_state.get(match_key, {}).get("ht_D", 0.0), value=st.session_state.get(match_key, {}).get("ht_D", 0.0), step=0.05, format="%.2f", key=f"{match_key}_ht_D")
-            odds["ht_A"]  = st.number_input("HT 2 (Ospite)", min_value=st.session_state.get(match_key, {}).get("ht_A", 0.0), value=st.session_state.get(match_key, {}).get("ht_A", 0.0), step=0.05, format="%.2f", key=f"{match_key}_ht_A")
-            odds["ht_1X"] = st.number_input("HT 1X",         min_value=st.session_state.get(match_key, {}).get("ht_1X", 0.0), value=st.session_state.get(match_key, {}).get("ht_1X", 0.0), step=0.05, format="%.2f", key=f"{match_key}_ht_1X")
-            odds["ht_X2"] = st.number_input("HT X2",         min_value=st.session_state.get(match_key, {}).get("ht_X2", 0.0), value=st.session_state.get(match_key, {}).get("ht_X2", 0.0), step=0.05, format="%.2f", key=f"{match_key}_ht_X2")
+            odds["ht_H"]  = st.number_input("HT 1 (Casa)",   min_value=0.0, value=st.session_state.get(match_key, {}).get("ht_H", 0.0), step=0.05, format="%.2f", key=f"{match_key}_ht_H")
+            odds["ht_D"]  = st.number_input("HT X (Pari)",   min_value=0.0, value=st.session_state.get(match_key, {}).get("ht_D", 0.0), step=0.05, format="%.2f", key=f"{match_key}_ht_D")
+            odds["ht_A"]  = st.number_input("HT 2 (Ospite)", min_value=0.0, value=st.session_state.get(match_key, {}).get("ht_A", 0.0), step=0.05, format="%.2f", key=f"{match_key}_ht_A")
+            odds["ht_1X"] = st.number_input("HT 1X",         min_value=0.0, value=st.session_state.get(match_key, {}).get("ht_1X", 0.0), step=0.05, format="%.2f", key=f"{match_key}_ht_1X")
+            odds["ht_X2"] = st.number_input("HT X2",         min_value=0.0, value=st.session_state.get(match_key, {}).get("ht_X2", 0.0), step=0.05, format="%.2f", key=f"{match_key}_ht_X2")
         with c2:
             st.caption("Gol Primo Tempo")
-            odds["ht_over05"]  = st.number_input("HT Over 0.5",  min_value=st.session_state.get(match_key, {}).get("ht_over05", 0.0), value=st.session_state.get(match_key, {}).get("ht_over05", 0.0), step=0.05, format="%.2f", key=f"{match_key}_ht_over05")
-            odds["ht_under05"] = st.number_input("HT Under 0.5", min_value=st.session_state.get(match_key, {}).get("ht_under05", 0.0), value=st.session_state.get(match_key, {}).get("ht_under05", 0.0), step=0.05, format="%.2f", key=f"{match_key}_ht_under05")
-            odds["ht_over15"]  = st.number_input("HT Over 1.5",  min_value=st.session_state.get(match_key, {}).get("ht_over15", 0.0), value=st.session_state.get(match_key, {}).get("ht_over15", 0.0), step=0.05, format="%.2f", key=f"{match_key}_ht_over15")
-            odds["ht_under15"] = st.number_input("HT Under 1.5", min_value=st.session_state.get(match_key, {}).get("ht_under15", 0.0), value=st.session_state.get(match_key, {}).get("ht_under15", 0.0), step=0.05, format="%.2f", key=f"{match_key}_ht_under15")
-            odds["ht_gg"]      = st.number_input("HT GG",        min_value=st.session_state.get(match_key, {}).get("ht_gg", 0.0), value=st.session_state.get(match_key, {}).get("ht_gg", 0.0), step=0.05, format="%.2f", key=f"{match_key}_ht_gg")
-            odds["ht_ng"]      = st.number_input("HT NG",        min_value=st.session_state.get(match_key, {}).get("ht_ng", 0.0), value=st.session_state.get(match_key, {}).get("ht_ng", 0.0), step=0.05, format="%.2f", key=f"{match_key}_ht_ng")
+            odds["ht_over05"]  = st.number_input("HT Over 0.5",  min_value=0.0, value=st.session_state.get(match_key, {}).get("ht_over05", 0.0), step=0.05, format="%.2f", key=f"{match_key}_ht_over05")
+            odds["ht_under05"] = st.number_input("HT Under 0.5", min_value=0.0, value=st.session_state.get(match_key, {}).get("ht_under05", 0.0), step=0.05, format="%.2f", key=f"{match_key}_ht_under05")
+            odds["ht_over15"]  = st.number_input("HT Over 1.5",  min_value=0.0, value=st.session_state.get(match_key, {}).get("ht_over15", 0.0), step=0.05, format="%.2f", key=f"{match_key}_ht_over15")
+            odds["ht_under15"] = st.number_input("HT Under 1.5", min_value=0.0, value=st.session_state.get(match_key, {}).get("ht_under15", 0.0), step=0.05, format="%.2f", key=f"{match_key}_ht_under15")
+            odds["ht_gg"]      = st.number_input("HT GG",        min_value=0.0, value=st.session_state.get(match_key, {}).get("ht_gg", 0.0), step=0.05, format="%.2f", key=f"{match_key}_ht_gg")
+            odds["ht_ng"]      = st.number_input("HT NG",        min_value=0.0, value=st.session_state.get(match_key, {}).get("ht_ng", 0.0), step=0.05, format="%.2f", key=f"{match_key}_ht_ng")
 
     odds_clean = {k: v for k, v in odds.items() if v > 1.0}
     st.divider()
