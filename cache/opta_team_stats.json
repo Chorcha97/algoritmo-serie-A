@@ -1,0 +1,222 @@
+{
+  "Milan": {
+    "xg_for": 4.43,
+    "goals_for": 4,
+    "shots_for": 35,
+    "sot_for": 9,
+    "played": 2,
+    "xg_against": 2.09,
+    "goals_against": 1,
+    "shots_against": 17,
+    "sot_against": 3
+  },
+  "Roma": {
+    "xg_for": 3.07,
+    "goals_for": 4,
+    "shots_for": 17,
+    "sot_for": 8,
+    "played": 1,
+    "xg_against": 0.35,
+    "goals_against": 0,
+    "shots_against": 9,
+    "sot_against": 4
+  },
+  "Bologna": {
+    "xg_for": 1.78,
+    "goals_for": 0,
+    "shots_for": 14,
+    "sot_for": 5,
+    "played": 1,
+    "xg_against": 0.63,
+    "goals_against": 1,
+    "shots_against": 10,
+    "sot_against": 3
+  },
+  "Cagliari": {
+    "xg_for": 1.42,
+    "goals_for": 1,
+    "shots_for": 24,
+    "sot_for": 5,
+    "played": 2,
+    "xg_against": 4.42,
+    "goals_against": 1,
+    "shots_against": 44,
+    "sot_against": 9
+  },
+  "Fiorentina": {
+    "xg_for": 2.48,
+    "goals_for": 0,
+    "shots_for": 34,
+    "sot_for": 8,
+    "played": 2,
+    "xg_against": 4.18,
+    "goals_against": 7,
+    "shots_against": 29,
+    "sot_against": 14
+  },
+  "Inter": {
+    "xg_for": 4.72,
+    "goals_for": 5,
+    "shots_for": 44,
+    "sot_for": 12,
+    "played": 2,
+    "xg_against": 1.72,
+    "goals_against": 1,
+    "shots_against": 17,
+    "sot_against": 3
+  },
+  "Juventus": {
+    "xg_for": 3.76,
+    "goals_for": 3,
+    "shots_for": 41,
+    "sot_for": 11,
+    "played": 2,
+    "xg_against": 0.66,
+    "goals_against": 0,
+    "shots_against": 15,
+    "sot_against": 5
+  },
+  "Lazio": {
+    "xg_for": 2.25,
+    "goals_for": 2,
+    "shots_for": 25,
+    "sot_for": 5,
+    "played": 2,
+    "xg_against": 2.21,
+    "goals_against": 0,
+    "shots_against": 22,
+    "sot_against": 6
+  },
+  "Lecce": {
+    "xg_for": 2.7,
+    "goals_for": 2,
+    "shots_for": 12,
+    "sot_for": 5,
+    "played": 1,
+    "xg_against": 2.05,
+    "goals_against": 0,
+    "shots_against": 19,
+    "sot_against": 7
+  },
+  "Parma": {
+    "xg_for": 1,
+    "goals_for": 0,
+    "shots_for": 17,
+    "sot_for": 5,
+    "played": 2,
+    "xg_against": 2.52,
+    "goals_against": 3,
+    "shots_against": 35,
+    "sot_against": 11
+  },
+  "Torino": {
+    "xg_for": 2.54,
+    "goals_for": 2,
+    "shots_for": 18,
+    "sot_for": 5,
+    "played": 2,
+    "xg_against": 3.99,
+    "goals_against": 4,
+    "shots_against": 38,
+    "sot_against": 11
+  },
+  "Udinese": {
+    "xg_for": 3.13,
+    "goals_for": 4,
+    "shots_for": 29,
+    "sot_for": 8,
+    "played": 2,
+    "xg_against": 3.21,
+    "goals_against": 3,
+    "shots_against": 35,
+    "sot_against": 11
+  },
+  "Venezia": {
+    "xg_for": 2.85,
+    "goals_for": 0,
+    "shots_for": 28,
+    "sot_for": 9,
+    "played": 2,
+    "xg_against": 4.98,
+    "goals_against": 4,
+    "shots_against": 28,
+    "sot_against": 10
+  },
+  "Atalanta": {
+    "xg_for": 0.88,
+    "goals_for": 2,
+    "shots_for": 14,
+    "sot_for": 7,
+    "played": 1,
+    "xg_against": 2.7,
+    "goals_against": 1,
+    "shots_against": 22,
+    "sot_against": 8
+  },
+  "Napoli": {
+    "xg_for": 2.15,
+    "goals_for": 3,
+    "shots_for": 26,
+    "sot_for": 6,
+    "played": 2,
+    "xg_against": 1.72,
+    "goals_against": 2,
+    "shots_against": 32,
+    "sot_against": 8
+  },
+  "Monza": {
+    "xg_for": 2.94,
+    "goals_for": 3,
+    "shots_for": 22,
+    "sot_for": 8,
+    "played": 2,
+    "xg_against": 2.03,
+    "goals_against": 7,
+    "shots_against": 25,
+    "sot_against": 10
+  },
+  "Genoa": {
+    "xg_for": 1.09,
+    "goals_for": 0,
+    "shots_for": 19,
+    "sot_for": 3,
+    "played": 2,
+    "xg_against": 2.39,
+    "goals_against": 3,
+    "shots_against": 28,
+    "sot_against": 6
+  },
+  "Como": {
+    "xg_for": 2.55,
+    "goals_for": 3,
+    "shots_for": 41,
+    "sot_for": 12,
+    "played": 2,
+    "xg_against": 3.53,
+    "goals_against": 2,
+    "shots_against": 30,
+    "sot_against": 5
+  },
+  "Frosinone": {
+    "xg_for": 1.52,
+    "goals_for": 3,
+    "shots_for": 23,
+    "sot_for": 8,
+    "played": 2,
+    "xg_against": 4.31,
+    "goals_against": 1,
+    "shots_against": 45,
+    "sot_against": 9
+  },
+  "Sassuolo": {
+    "xg_for": 4.55,
+    "goals_for": 3,
+    "shots_for": 41,
+    "sot_for": 15,
+    "played": 2,
+    "xg_against": 2.14,
+    "goals_against": 3,
+    "shots_against": 24,
+    "sot_against": 11
+  }
+}

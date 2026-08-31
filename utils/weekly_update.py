@@ -64,6 +64,41 @@ def run_weekly_update():
     print("\n[3c/4] Aggiorno classifica Serie A...")
     update_standings_from_api()
 
+
+    # 4b. Aggiorna statistiche Opta (xG, gol, tiri per squadra e giocatore)
+    print("
+[3d/4] Aggiorno statistiche Opta...")
+    try:
+        import requests as _req
+        resp = _req.get("http://localhost:8000/theanalyst/serie-a/tournamentstats", timeout=30)
+        if resp.status_code == 200:
+            import json as _json
+            data = resp.json()
+            # Salva raw
+            open("cache/opta_player_stats.json","w").write(_json.dumps(data, indent=2))
+            # Estrai stats per squadra
+            squadre = {}
+            for t in data["team"]["attack"]["overall"]:
+                name = t["contestantShortName"]
+                squadre[name] = {"xg_for": t.get("xg",0), "goals_for": t.get("goals",0),
+                                 "shots_for": t.get("total_shots",0), "sot_for": t.get("sot",0),
+                                 "played": t.get("played",0)}
+            for t in data["team"]["defending"]["overall"]:
+                name = t["contestantShortName"]
+                if name not in squadre: squadre[name] = {}
+                squadre[name].update({"xg_against": t.get("xg_against",0),
+                                      "goals_against": t.get("goals_against",0),
+                                      "shots_against": t.get("total_shots_against",0)})
+            open("cache/opta_team_stats.json","w").write(_json.dumps(squadre, indent=2))
+            print(f"  Opta stats aggiornate: {len(squadre)} squadre")
+        # Salva anche power ranking
+        resp2 = _req.get("http://localhost:8000/theanalyst/serie-a/seasonpowerrankings", timeout=30)
+        if resp2.status_code == 200:
+            open("cache/opta_powerranking.json","w").write(_json.dumps(resp2.json(), indent=2))
+            print("  Power ranking aggiornato")
+    except Exception as e:
+        print(f"  Errore Opta: {e}")
+
     # 5. Aggiorna Transfermarkt se siamo a luglio/agosto (mercato estivo)
     now = datetime.now()
     if now.month in [7, 8]:

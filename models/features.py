@@ -334,6 +334,63 @@ def add_dynamic_elo(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
+def add_opta_team_stats(df):
+    """
+    Aggiunge statistiche Opta per squadra come feature.
+    xG for/against, gol, tiri — aggiornati ogni settimana.
+    """
+    import json
+    from pathlib import Path
+    path = Path('cache/opta_team_stats.json')
+    if not path.exists():
+        for col in ['f_opta_xg_for_h','f_opta_xg_for_a','f_opta_xg_ag_h',
+                    'f_opta_xg_ag_a','f_opta_xg_ratio_h','f_opta_xg_ratio_a','f_opta_xg_diff']:
+            df[col] = 0.0
+        return df
+
+    stats = json.load(open(path))
+    avg_xgf = sum(s.get('xg_for',0) for s in stats.values()) / max(len(stats),1)
+    avg_xga = sum(s.get('xg_against',0) for s in stats.values()) / max(len(stats),1)
+
+    def get_xgf(team): return stats.get(team, {}).get('xg_for', avg_xgf)
+    def get_xga(team): return stats.get(team, {}).get('xg_against', avg_xga)
+
+    df = df.copy()
+    df['f_opta_xg_for_h']   = df['HomeTeam'].apply(get_xgf)
+    df['f_opta_xg_for_a']   = df['AwayTeam'].apply(get_xgf)
+    df['f_opta_xg_ag_h']    = df['HomeTeam'].apply(get_xga)
+    df['f_opta_xg_ag_a']    = df['AwayTeam'].apply(get_xga)
+    df['f_opta_xg_ratio_h'] = df['f_opta_xg_for_h'] - df['f_opta_xg_ag_h']
+    df['f_opta_xg_ratio_a'] = df['f_opta_xg_for_a'] - df['f_opta_xg_ag_a']
+    df['f_opta_xg_diff']    = df['f_opta_xg_ratio_h'] - df['f_opta_xg_ratio_a']
+    return df
+
+
+def add_opta_powerranking(df):
+    import json
+    from pathlib import Path
+    pr_path = Path('cache/opta_powerranking.json')
+    if not pr_path.exists():
+        df['f_pr_home'] = 0.5
+        df['f_pr_away'] = 0.5
+        df['f_pr_diff'] = 0.0
+        return df
+    data = json.load(open(pr_path))
+    ranking = data['division'][0]['ranking']
+    pr = {r['contestantShortName']: float(r['currentRating']) for r in ranking}
+    # Mappa nomi alternativi
+    pr['Internazionale'] = pr.get('Inter', 86.3)
+    min_r = min(pr.values()); max_r = max(pr.values())
+    def norm(team):
+        raw = pr.get(team, (min_r+max_r)/2)
+        return (raw - min_r) / (max_r - min_r) if max_r > min_r else 0.5
+    df = df.copy()
+    df['f_pr_home'] = df['HomeTeam'].apply(norm)
+    df['f_pr_away'] = df['AwayTeam'].apply(norm)
+    df['f_pr_diff'] = df['f_pr_home'] - df['f_pr_away']
+    return df
+
+
 def add_team_values(df: pd.DataFrame) -> pd.DataFrame:
     """
     Aggiunge qualita rosa per reparto dalle quotazioni fantacalcio.
@@ -453,6 +510,8 @@ def build_features(df_raw: pd.DataFrame, verbose: bool = True) -> pd.DataFrame:
 
     if verbose: print("  → Valori di mercato ...")
     df = add_team_values(df)
+    df = add_opta_powerranking(df)
+    df = add_opta_team_stats(df)
 
     if verbose: print("  → Colonne target ...")
     df = add_targets(df)
@@ -495,6 +554,10 @@ def get_feature_columns() -> list:
         "f_coppa_europa_home", "f_coppa_europa_away",
         # Valore di mercato Transfermarkt
         "f_value_home", "f_value_away", "f_value_diff", "f_value_ratio",
+        "f_pr_home", "f_pr_away", "f_pr_diff",
+        "f_opta_xg_for_h", "f_opta_xg_for_a",
+        "f_opta_xg_ag_h", "f_opta_xg_ag_a",
+        "f_opta_xg_ratio_h", "f_opta_xg_ratio_a", "f_opta_xg_diff",
         # Qualita per reparto (quotazioni fantacalcio)
         "f_att_quality_h", "f_att_quality_a",
         "f_mid_quality_h", "f_mid_quality_a",
