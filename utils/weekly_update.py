@@ -66,8 +66,7 @@ def run_weekly_update():
 
 
     # 4b. Aggiorna statistiche Opta (xG, gol, tiri per squadra e giocatore)
-    print("
-[3d/4] Aggiorno statistiche Opta...")
+    print("[3d/4] Aggiorno statistiche Opta...")
     try:
         import requests as _req
         resp = _req.get("http://localhost:8000/theanalyst/serie-a/tournamentstats", timeout=30)

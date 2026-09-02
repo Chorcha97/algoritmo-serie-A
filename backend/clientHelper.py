@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 BASE_URL: str = os.getenv("BASE_URL")
 DATAVIZ_URL: str = os.getenv("DATAVIZ_URL")
+SOFASCORE_URL: str = os.getenv("SOFASCORE_URL")
 
 async def refresh_session(client: AsyncSession):
     response = await client.get(
@@ -32,6 +33,15 @@ async def api_get_dataviz(
     params: dict | None = None,
 ):
     url = f"{DATAVIZ_URL}{path}"
+
+    return await api_get_base(client, url, params)
+
+async def api_get_sofascore(
+    client: AsyncSession,
+    path: str,
+    params: dict | None = None,
+):
+    url = f"{SOFASCORE_URL}{path}"
 
     return await api_get_base(client, url, params)
 

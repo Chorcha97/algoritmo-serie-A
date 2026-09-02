@@ -20,6 +20,7 @@ from backend.models.Input import OddsInput
 from backend.models.Request import PredictRequest
 from backend.models.Update import LineupUpdate, InjuryUpdate, StatsUpdate
 from backend.routers import theanalyst
+from backend.routers import sofascore
 
 BASE_DIR = Path(__file__).parent.parent
 os.chdir(BASE_DIR)
@@ -43,6 +44,7 @@ app = FastAPI(title="Serie A Predictor API", version="2.0.0", lifespan=lifespan)
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
 
 app.include_router(theanalyst.router)
+app.include_router(sofascore.router)
 
 def utc_to_italy(ora_str: str) -> str:
     """Converte orario UTC in ora italiana (UTC+2)."""
