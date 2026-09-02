@@ -97,6 +97,13 @@ def run_weekly_update():
             print("  Power ranking aggiornato")
     except Exception as e:
         print(f"  Errore Opta: {e}")
+        # Aggiorna anche Sofascore
+        import subprocess as _sp
+        _sp.run(["python3", "build_sofascore_features.py"], capture_output=True)
+        resp3 = _req.get("http://localhost:8000/sofascore/serie-a/top-teams", timeout=30)
+        if resp3.status_code == 200:
+            open("cache/sofascore_team_stats.json","w").write(_json.dumps(resp3.json(), indent=2))
+            print("  Sofascore stats aggiornate")
 
     # 5. Aggiorna Transfermarkt se siamo a luglio/agosto (mercato estivo)
     now = datetime.now()

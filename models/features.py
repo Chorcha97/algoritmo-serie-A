@@ -366,6 +366,58 @@ def add_opta_team_stats(df):
     return df
 
 
+def add_sofascore_team_stats(df):
+    """
+    Aggiunge statistiche Sofascore per squadra come feature.
+    Corner, xG, falli, cartellini, tiri, big chances — aggiornati ogni settimana.
+    """
+    import json
+    from pathlib import Path
+    path_sc = Path('cache/sofascore_team_stats_clean.json')
+    if not path_sc.exists():
+        cols = [
+            'f_sc_corners_h','f_sc_corners_a','f_sc_corners_diff',
+            'f_sc_xg_h','f_sc_xg_a',
+            'f_sc_fouls_h','f_sc_fouls_a','f_sc_fouls_total',
+            'f_sc_yellow_h','f_sc_yellow_a','f_sc_yellow_total',
+            'f_sc_shots_h','f_sc_shots_a',
+            'f_sc_bigch_h','f_sc_bigch_a',
+            'f_sc_possession_h','f_sc_possession_a',
+        ]
+        for c in cols: df[c] = 0.0
+        return df
+
+    stats = json.loads(path_sc.read_text())
+
+    # Medie di default
+    avg = {k: sum(s.get(k,0) for s in stats.values())/max(len(stats),1)
+           for k in ['corners_per_match','expectedGoals_per_match','fouls_per_match',
+                     'yellowCards_per_match','shots_per_match','bigChances_per_match',
+                     'averageBallPossession_per_match']}
+
+    def get(team, key): return stats.get(team, {}).get(key, avg.get(key, 0))
+
+    df = df.copy()
+    df['f_sc_corners_h']     = df['HomeTeam'].apply(lambda t: get(t,'corners_per_match'))
+    df['f_sc_corners_a']     = df['AwayTeam'].apply(lambda t: get(t,'corners_per_match'))
+    df['f_sc_corners_diff']  = df['f_sc_corners_h'] - df['f_sc_corners_a']
+    df['f_sc_xg_h']          = df['HomeTeam'].apply(lambda t: get(t,'expectedGoals_per_match'))
+    df['f_sc_xg_a']          = df['AwayTeam'].apply(lambda t: get(t,'expectedGoals_per_match'))
+    df['f_sc_fouls_h']       = df['HomeTeam'].apply(lambda t: get(t,'fouls_per_match'))
+    df['f_sc_fouls_a']       = df['AwayTeam'].apply(lambda t: get(t,'fouls_per_match'))
+    df['f_sc_fouls_total']   = df['f_sc_fouls_h'] + df['f_sc_fouls_a']
+    df['f_sc_yellow_h']      = df['HomeTeam'].apply(lambda t: get(t,'yellowCards_per_match'))
+    df['f_sc_yellow_a']      = df['AwayTeam'].apply(lambda t: get(t,'yellowCards_per_match'))
+    df['f_sc_yellow_total']  = df['f_sc_yellow_h'] + df['f_sc_yellow_a']
+    df['f_sc_shots_h']       = df['HomeTeam'].apply(lambda t: get(t,'shots_per_match'))
+    df['f_sc_shots_a']       = df['AwayTeam'].apply(lambda t: get(t,'shots_per_match'))
+    df['f_sc_bigch_h']       = df['HomeTeam'].apply(lambda t: get(t,'bigChances_per_match'))
+    df['f_sc_bigch_a']       = df['AwayTeam'].apply(lambda t: get(t,'bigChances_per_match'))
+    df['f_sc_possession_h']  = df['HomeTeam'].apply(lambda t: get(t,'averageBallPossession_per_match'))
+    df['f_sc_possession_a']  = df['AwayTeam'].apply(lambda t: get(t,'averageBallPossession_per_match'))
+    return df
+
+
 def add_opta_powerranking(df):
     import json
     from pathlib import Path
@@ -512,6 +564,7 @@ def build_features(df_raw: pd.DataFrame, verbose: bool = True) -> pd.DataFrame:
     df = add_team_values(df)
     df = add_opta_powerranking(df)
     df = add_opta_team_stats(df)
+    df = add_sofascore_team_stats(df)
 
     if verbose: print("  → Colonne target ...")
     df = add_targets(df)
@@ -558,6 +611,13 @@ def get_feature_columns() -> list:
         "f_opta_xg_for_h", "f_opta_xg_for_a",
         "f_opta_xg_ag_h", "f_opta_xg_ag_a",
         "f_opta_xg_ratio_h", "f_opta_xg_ratio_a", "f_opta_xg_diff",
+        "f_sc_corners_h", "f_sc_corners_a", "f_sc_corners_diff",
+        "f_sc_xg_h", "f_sc_xg_a",
+        "f_sc_fouls_h", "f_sc_fouls_a", "f_sc_fouls_total",
+        "f_sc_yellow_h", "f_sc_yellow_a", "f_sc_yellow_total",
+        "f_sc_shots_h", "f_sc_shots_a",
+        "f_sc_bigch_h", "f_sc_bigch_a",
+        "f_sc_possession_h", "f_sc_possession_a",
         # Qualita per reparto (quotazioni fantacalcio)
         "f_att_quality_h", "f_att_quality_a",
         "f_mid_quality_h", "f_mid_quality_a",
