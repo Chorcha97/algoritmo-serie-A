@@ -51,6 +51,15 @@ async def get_team_of_the_period(
 
     return response.json()
 
+@router.get("/serie-a/results")
+async def get_results(request: Request, round: int = 1):
+    client: AsyncSession = request.app.state.http_client
+    response = await api_get_sofascore(
+        client,
+        f"/unique-tournament/{T_ID}/season/{S_ID}/events/round/{round}",
+    )
+    return response.json()
+
 async def get_helper_season(request: Request,  endpoint: str, params: dict | None = None):
     client: AsyncSession = request.app.state.http_client
 
