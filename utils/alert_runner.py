@@ -11,7 +11,7 @@ from datetime import datetime, timedelta
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from data.odds_tracker import fetch_odds, parse_match_odds, load_opening_odds, compute_drift, SPORTS
+from data.odds_tracker import fetch_odds, parse_match_odds, load_opening_odds, compute_drift, SPORTS, normalize_team_name
 from models.model import EnsembleModel
 from models.features import build_features
 from models.markets import compute_all_markets, find_value_bets_extended
@@ -51,7 +51,7 @@ def save_alert_log(sent: set):
         json.dump(list(sent), f)
 
 
-def run_alerts(sport: str = "serie_a", hours_ahead: int = 48):
+def run_alerts(sport: str = "serie_a", hours_ahead: int = 96):
     """
     Controlla le partite nelle prossime X ore e manda alert.
     """
@@ -91,8 +91,8 @@ def run_alerts(sport: str = "serie_a", hours_ahead: int = 48):
         except:
             continue
 
-        home = event.get("home_team")
-        away = event.get("away_team")
+        home = normalize_team_name(event.get("home_team", ""))
+        away = normalize_team_name(event.get("away_team", ""))
         match_id = event.get("id")
 
         print(f"\n  {home} vs {away} (tra {hours_to_kickoff:.1f}h)")
@@ -164,7 +164,7 @@ if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser()
     parser.add_argument("--sport", default="serie_a")
-    parser.add_argument("--hours", type=int, default=48)
+    parser.add_argument("--hours", type=int, default=96)
     parser.add_argument("--mondiale", action="store_true")
     args = parser.parse_args()
 
