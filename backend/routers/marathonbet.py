@@ -8,6 +8,8 @@ load_dotenv()
 TMCL: str = os.getenv("TOURNAMENT_CALENDAR")
 T_ID: str = os.getenv("TOURNAMENT_ID")
 S_ID: str = os.getenv("SEASON_ID")
+USR: str = os.getenv("USERNAME_MB")
+PSW: str = os.getenv("PASSWORD_MB")
 
 router = APIRouter(
     prefix="/marathonbet",
@@ -18,7 +20,7 @@ router = APIRouter(
 async def get_top_players(
     request: Request,
 ):
-    return await get_helper(request, endpoint="loginContogioco", params={"username": "Chorcha97", "password": "Beastocco07!"})
+    return await get_helper(request, endpoint="loginContogioco", params={"username": USR, "password": PSW})
 
 async def get_helper(request: Request,  endpoint: str, params: dict | None = None):
     client: AsyncSession = request.app.state.http_client
