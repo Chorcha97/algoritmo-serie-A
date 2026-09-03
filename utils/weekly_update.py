@@ -97,6 +97,13 @@ def run_weekly_update():
             print("  Power ranking aggiornato")
     except Exception as e:
         print(f"  Errore Opta: {e}")
+        # Aggiorna classifica da Sofascore
+        import subprocess as _sp2
+        _r = _sp2.run(["python3", "update_standings_sofascore.py"], capture_output=True, text=True, cwd=BASE_DIR)
+        if _r.returncode == 0:
+            print("  Classifica Sofascore aggiornata")
+        else:
+            print(f"  Errore classifica: {_r.stderr[:100]}")
         # Aggiorna anche Sofascore
         import subprocess as _sp
         _sp.run(["python3", "build_sofascore_features.py"], capture_output=True)

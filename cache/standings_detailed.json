@@ -3,413 +3,339 @@
     {
       "position": 1,
       "team": {
-        "id": 100,
-        "name": "AS Roma",
-        "shortName": "Roma",
-        "tla": "ROM",
-        "crest": "https://crests.football-data.org/100.png"
+        "name": "Roma",
+        "shortName": "Roma"
       },
-      "playedGames": 1,
-      "form": null,
-      "won": 1,
+      "playedGames": 2,
+      "won": 2,
       "draw": 0,
       "lost": 0,
-      "points": 3,
-      "goalsFor": 4,
+      "points": 6,
+      "goalsFor": 8,
       "goalsAgainst": 0,
-      "goalDifference": 4
+      "goalDifference": 8,
+      "form": "WW"
     },
     {
       "position": 2,
       "team": {
-        "id": 108,
-        "name": "FC Internazionale Milano",
-        "shortName": "Inter",
-        "tla": "INT",
-        "crest": "https://crests.football-data.org/108.png"
+        "name": "Inter",
+        "shortName": "Inter"
       },
-      "playedGames": 1,
-      "form": null,
-      "won": 1,
+      "playedGames": 2,
+      "won": 2,
       "draw": 0,
       "lost": 0,
-      "points": 3,
+      "points": 6,
+      "goalsFor": 5,
+      "goalsAgainst": 1,
+      "goalDifference": 4,
+      "form": "WW"
+    },
+    {
+      "position": 3,
+      "team": {
+        "name": "Milan",
+        "shortName": "Milan"
+      },
+      "playedGames": 2,
+      "won": 2,
+      "draw": 0,
+      "lost": 0,
+      "points": 6,
       "goalsFor": 4,
       "goalsAgainst": 1,
-      "goalDifference": 3
+      "goalDifference": 3,
+      "form": "WW"
     },
     {
-      "position": 3,
+      "position": 4,
       "team": {
-        "id": 113,
-        "name": "SSC Napoli",
-        "shortName": "Napoli",
-        "tla": "NAP",
-        "crest": "https://crests.football-data.org/113.png"
+        "name": "Juventus",
+        "shortName": "Juventus"
       },
-      "playedGames": 1,
-      "form": null,
-      "won": 1,
+      "playedGames": 2,
+      "won": 2,
       "draw": 0,
       "lost": 0,
-      "points": 3,
-      "goalsFor": 2,
+      "points": 6,
+      "goalsFor": 3,
       "goalsAgainst": 0,
-      "goalDifference": 2
-    },
-    {
-      "position": 3,
-      "team": {
-        "id": 5890,
-        "name": "US Lecce",
-        "shortName": "Lecce",
-        "tla": "USL",
-        "crest": "https://crests.football-data.org/5890.png"
-      },
-      "playedGames": 1,
-      "form": null,
-      "won": 1,
-      "draw": 0,
-      "lost": 0,
-      "points": 3,
-      "goalsFor": 2,
-      "goalsAgainst": 0,
-      "goalDifference": 2
+      "goalDifference": 3,
+      "form": "WW"
     },
     {
       "position": 5,
       "team": {
-        "id": 98,
-        "name": "AC Milan",
-        "shortName": "Milan",
-        "tla": "MIL",
-        "crest": "https://crests.football-data.org/98.png"
+        "name": "Atalanta",
+        "shortName": "Atalanta"
       },
-      "playedGames": 1,
-      "form": null,
-      "won": 1,
+      "playedGames": 2,
+      "won": 2,
       "draw": 0,
       "lost": 0,
-      "points": 3,
-      "goalsFor": 2,
+      "points": 6,
+      "goalsFor": 3,
       "goalsAgainst": 1,
-      "goalDifference": 1
+      "goalDifference": 2,
+      "form": "WW"
     },
     {
-      "position": 5,
+      "position": 6,
       "team": {
-        "id": 102,
-        "name": "Atalanta BC",
-        "shortName": "Atalanta",
-        "tla": "ATA",
-        "crest": "https://crests.football-data.org/102.png"
+        "name": "Lazio",
+        "shortName": "Lazio"
       },
-      "playedGames": 1,
-      "form": null,
-      "won": 1,
+      "playedGames": 2,
+      "won": 2,
       "draw": 0,
       "lost": 0,
-      "points": 3,
+      "points": 6,
       "goalsFor": 2,
+      "goalsAgainst": 0,
+      "goalDifference": 2,
+      "form": "WW"
+    },
+    {
+      "position": 7,
+      "team": {
+        "name": "Udinese",
+        "shortName": "Udinese"
+      },
+      "playedGames": 2,
+      "won": 1,
+      "draw": 1,
+      "lost": 0,
+      "points": 4,
+      "goalsFor": 4,
+      "goalsAgainst": 3,
+      "goalDifference": 1,
+      "form": "DW"
+    },
+    {
+      "position": 8,
+      "team": {
+        "name": "Como",
+        "shortName": "Como"
+      },
+      "playedGames": 2,
+      "won": 1,
+      "draw": 1,
+      "lost": 0,
+      "points": 4,
+      "goalsFor": 3,
+      "goalsAgainst": 2,
+      "goalDifference": 1,
+      "form": "DW"
+    },
+    {
+      "position": 9,
+      "team": {
+        "name": "Frosinone",
+        "shortName": "Frosinone"
+      },
+      "playedGames": 2,
+      "won": 1,
+      "draw": 0,
+      "lost": 1,
+      "points": 3,
+      "goalsFor": 3,
       "goalsAgainst": 1,
-      "goalDifference": 1
-    },
-    {
-      "position": 7,
-      "team": {
-        "id": 104,
-        "name": "Cagliari Calcio",
-        "shortName": "Cagliari",
-        "tla": "CAG",
-        "crest": "https://crests.football-data.org/104.png"
-      },
-      "playedGames": 1,
-      "form": null,
-      "won": 1,
-      "draw": 0,
-      "lost": 0,
-      "points": 3,
-      "goalsFor": 1,
-      "goalsAgainst": 0,
-      "goalDifference": 1
-    },
-    {
-      "position": 7,
-      "team": {
-        "id": 109,
-        "name": "Juventus FC",
-        "shortName": "Juventus",
-        "tla": "JUV",
-        "crest": "https://crests.football-data.org/109.png"
-      },
-      "playedGames": 1,
-      "form": null,
-      "won": 1,
-      "draw": 0,
-      "lost": 0,
-      "points": 3,
-      "goalsFor": 1,
-      "goalsAgainst": 0,
-      "goalDifference": 1
-    },
-    {
-      "position": 7,
-      "team": {
-        "id": 110,
-        "name": "SS Lazio",
-        "shortName": "Lazio",
-        "tla": "LAZ",
-        "crest": "https://crests.football-data.org/110.png"
-      },
-      "playedGames": 1,
-      "form": null,
-      "won": 1,
-      "draw": 0,
-      "lost": 0,
-      "points": 3,
-      "goalsFor": 1,
-      "goalsAgainst": 0,
-      "goalDifference": 1
+      "goalDifference": 2,
+      "form": "LW"
     },
     {
       "position": 10,
       "team": {
-        "id": 7397,
-        "name": "Como 1907",
-        "shortName": "Como 1907",
-        "tla": "COM",
-        "crest": "https://crests.football-data.org/7397.png"
+        "name": "Napoli",
+        "shortName": "Napoli"
       },
-      "playedGames": 1,
-      "form": null,
-      "won": 0,
-      "draw": 1,
-      "lost": 0,
-      "points": 1,
-      "goalsFor": 1,
-      "goalsAgainst": 1,
-      "goalDifference": 0
+      "playedGames": 2,
+      "won": 1,
+      "draw": 0,
+      "lost": 1,
+      "points": 3,
+      "goalsFor": 3,
+      "goalsAgainst": 2,
+      "goalDifference": 1,
+      "form": "WL"
     },
     {
-      "position": 10,
+      "position": 11,
       "team": {
-        "id": 115,
-        "name": "Udinese Calcio",
-        "shortName": "Udinese",
-        "tla": "UDI",
-        "crest": "https://crests.football-data.org/115.png"
+        "name": "Sassuolo",
+        "shortName": "Sassuolo"
       },
-      "playedGames": 1,
-      "form": null,
-      "won": 0,
-      "draw": 1,
-      "lost": 0,
-      "points": 1,
-      "goalsFor": 1,
-      "goalsAgainst": 1,
-      "goalDifference": 0
+      "playedGames": 2,
+      "won": 1,
+      "draw": 0,
+      "lost": 1,
+      "points": 3,
+      "goalsFor": 3,
+      "goalsAgainst": 3,
+      "goalDifference": 0,
+      "form": "LW"
     },
     {
       "position": 12,
       "team": {
-        "id": 471,
-        "name": "US Sassuolo Calcio",
-        "shortName": "Sassuolo",
-        "tla": "SAS",
-        "crest": "https://crests.football-data.org/471.png"
+        "name": "Cagliari",
+        "shortName": "Cagliari"
       },
-      "playedGames": 1,
-      "form": null,
-      "won": 0,
+      "playedGames": 2,
+      "won": 1,
       "draw": 0,
       "lost": 1,
-      "points": 0,
+      "points": 3,
       "goalsFor": 1,
+      "goalsAgainst": 1,
+      "goalDifference": 0,
+      "form": "WL"
+    },
+    {
+      "position": 13,
+      "team": {
+        "name": "Lecce",
+        "shortName": "Lecce"
+      },
+      "playedGames": 2,
+      "won": 1,
+      "draw": 0,
+      "lost": 1,
+      "points": 3,
+      "goalsFor": 2,
+      "goalsAgainst": 4,
+      "goalDifference": -2,
+      "form": "WL"
+    },
+    {
+      "position": 14,
+      "team": {
+        "name": "Torino",
+        "shortName": "Torino"
+      },
+      "playedGames": 2,
+      "won": 0,
+      "draw": 0,
+      "lost": 2,
+      "points": 0,
+      "goalsFor": 2,
+      "goalsAgainst": 4,
+      "goalDifference": -2,
+      "form": "LL"
+    },
+    {
+      "position": 15,
+      "team": {
+        "name": "Bologna",
+        "shortName": "Bologna"
+      },
+      "playedGames": 2,
+      "won": 0,
+      "draw": 0,
+      "lost": 2,
+      "points": 0,
+      "goalsFor": 0,
       "goalsAgainst": 2,
-      "goalDifference": -1
+      "goalDifference": -2,
+      "form": "LL"
     },
     {
-      "position": 12,
+      "position": 16,
       "team": {
-        "id": 586,
-        "name": "Torino FC",
-        "shortName": "Torino",
-        "tla": "TOR",
-        "crest": "https://crests.football-data.org/586.png"
+        "name": "Parma",
+        "shortName": "Parma"
       },
-      "playedGames": 1,
-      "form": null,
+      "playedGames": 2,
       "won": 0,
       "draw": 0,
-      "lost": 1,
-      "points": 0,
-      "goalsFor": 1,
-      "goalsAgainst": 2,
-      "goalDifference": -1
-    },
-    {
-      "position": 14,
-      "team": {
-        "id": 103,
-        "name": "Bologna FC 1909",
-        "shortName": "Bologna",
-        "tla": "BOL",
-        "crest": "https://crests.football-data.org/103.png"
-      },
-      "playedGames": 1,
-      "form": null,
-      "won": 0,
-      "draw": 0,
-      "lost": 1,
+      "lost": 2,
       "points": 0,
       "goalsFor": 0,
-      "goalsAgainst": 1,
-      "goalDifference": -1
-    },
-    {
-      "position": 14,
-      "team": {
-        "id": 470,
-        "name": "Frosinone Calcio",
-        "shortName": "Frosinone",
-        "tla": "FRO",
-        "crest": "https://crests.football-data.org/470.png"
-      },
-      "playedGames": 1,
-      "form": null,
-      "won": 0,
-      "draw": 0,
-      "lost": 1,
-      "points": 0,
-      "goalsFor": 0,
-      "goalsAgainst": 1,
-      "goalDifference": -1
-    },
-    {
-      "position": 14,
-      "team": {
-        "id": 112,
-        "name": "Parma Calcio 1913",
-        "shortName": "Parma",
-        "tla": "PAR",
-        "crest": "https://crests.football-data.org/112.png"
-      },
-      "playedGames": 1,
-      "form": null,
-      "won": 0,
-      "draw": 0,
-      "lost": 1,
-      "points": 0,
-      "goalsFor": 0,
-      "goalsAgainst": 1,
-      "goalDifference": -1
+      "goalsAgainst": 3,
+      "goalDifference": -3,
+      "form": "LL"
     },
     {
       "position": 17,
       "team": {
-        "id": 107,
-        "name": "Genoa CFC",
-        "shortName": "Genoa",
-        "tla": "GEN",
-        "crest": "https://crests.football-data.org/107.png"
+        "name": "Genoa",
+        "shortName": "Genoa"
       },
-      "playedGames": 1,
-      "form": null,
+      "playedGames": 2,
       "won": 0,
       "draw": 0,
-      "lost": 1,
+      "lost": 2,
       "points": 0,
       "goalsFor": 0,
-      "goalsAgainst": 2,
-      "goalDifference": -2
+      "goalsAgainst": 3,
+      "goalDifference": -3,
+      "form": "LL"
     },
     {
-      "position": 17,
+      "position": 18,
       "team": {
-        "id": 454,
-        "name": "Venezia FC",
-        "shortName": "Venezia FC",
-        "tla": "VEN",
-        "crest": "https://crests.football-data.org/454.png"
+        "name": "Monza",
+        "shortName": "Monza"
       },
-      "playedGames": 1,
-      "form": null,
+      "playedGames": 2,
       "won": 0,
       "draw": 0,
-      "lost": 1,
+      "lost": 2,
       "points": 0,
-      "goalsFor": 0,
-      "goalsAgainst": 2,
-      "goalDifference": -2
+      "goalsFor": 3,
+      "goalsAgainst": 7,
+      "goalDifference": -4,
+      "form": "LL"
     },
     {
       "position": 19,
       "team": {
-        "id": 5911,
-        "name": "AC Monza",
-        "shortName": "Monza",
-        "tla": "MON",
-        "crest": "https://crests.football-data.org/5911.png"
+        "name": "Venezia",
+        "shortName": "Venezia"
       },
-      "playedGames": 1,
-      "form": null,
+      "playedGames": 2,
       "won": 0,
       "draw": 0,
-      "lost": 1,
+      "lost": 2,
       "points": 0,
-      "goalsFor": 1,
+      "goalsFor": 0,
       "goalsAgainst": 4,
-      "goalDifference": -3
+      "goalDifference": -4,
+      "form": "LL"
     },
     {
       "position": 20,
       "team": {
-        "id": 99,
-        "name": "ACF Fiorentina",
-        "shortName": "Fiorentina",
-        "tla": "FIO",
-        "crest": "https://crests.football-data.org/99.png"
+        "name": "Fiorentina",
+        "shortName": "Fiorentina"
       },
-      "playedGames": 1,
-      "form": null,
+      "playedGames": 2,
       "won": 0,
       "draw": 0,
-      "lost": 1,
+      "lost": 2,
       "points": 0,
       "goalsFor": 0,
-      "goalsAgainst": 4,
-      "goalDifference": -4
+      "goalsAgainst": 7,
+      "goalDifference": -7,
+      "form": "LL"
     }
   ],
   "stats": {
-    "Udinese": {
-      "home_w": 0,
-      "home_d": 1,
-      "home_l": 0,
-      "home_gf": 1,
-      "home_ga": 1,
-      "away_w": 0,
-      "away_d": 0,
-      "away_l": 0,
-      "away_gf": 0,
-      "away_ga": 0,
-      "form": [
-        "D"
-      ]
-    },
-    "Como": {
-      "home_w": 0,
+    "Roma": {
+      "home_w": 1,
       "home_d": 0,
       "home_l": 0,
-      "home_gf": 0,
+      "home_gf": 4,
       "home_ga": 0,
-      "away_w": 0,
-      "away_d": 1,
+      "away_w": 1,
+      "away_d": 0,
       "away_l": 0,
-      "away_gf": 1,
-      "away_ga": 1,
+      "away_gf": 4,
+      "away_ga": 0,
       "form": [
-        "D"
+        "W",
+        "W"
       ]
     },
     "Inter": {
@@ -418,200 +344,21 @@
       "home_l": 0,
       "home_gf": 4,
       "home_ga": 1,
-      "away_w": 0,
-      "away_d": 0,
-      "away_l": 0,
-      "away_gf": 0,
-      "away_ga": 0,
-      "form": [
-        "W"
-      ]
-    },
-    "Monza": {
-      "home_w": 0,
-      "home_d": 0,
-      "home_l": 0,
-      "home_gf": 0,
-      "home_ga": 0,
-      "away_w": 0,
-      "away_d": 0,
-      "away_l": 1,
-      "away_gf": 1,
-      "away_ga": 4,
-      "form": [
-        "L"
-      ]
-    },
-    "Genoa": {
-      "home_w": 0,
-      "home_d": 0,
-      "home_l": 1,
-      "home_gf": 0,
-      "home_ga": 2,
-      "away_w": 0,
-      "away_d": 0,
-      "away_l": 0,
-      "away_gf": 0,
-      "away_ga": 0,
-      "form": [
-        "L"
-      ]
-    },
-    "Napoli": {
-      "home_w": 0,
-      "home_d": 0,
-      "home_l": 0,
-      "home_gf": 0,
-      "home_ga": 0,
-      "away_w": 1,
-      "away_d": 0,
-      "away_l": 0,
-      "away_gf": 2,
-      "away_ga": 0,
-      "form": [
-        "W"
-      ]
-    },
-    "Parma": {
-      "home_w": 0,
-      "home_d": 0,
-      "home_l": 1,
-      "home_gf": 0,
-      "home_ga": 1,
-      "away_w": 0,
-      "away_d": 0,
-      "away_l": 0,
-      "away_gf": 0,
-      "away_ga": 0,
-      "form": [
-        "L"
-      ]
-    },
-    "Cagliari": {
-      "home_w": 0,
-      "home_d": 0,
-      "home_l": 0,
-      "home_gf": 0,
-      "home_ga": 0,
       "away_w": 1,
       "away_d": 0,
       "away_l": 0,
       "away_gf": 1,
       "away_ga": 0,
       "form": [
+        "W",
         "W"
       ]
     },
-    "Frosinone": {
-      "home_w": 0,
-      "home_d": 0,
-      "home_l": 1,
-      "home_gf": 0,
-      "home_ga": 1,
-      "away_w": 0,
-      "away_d": 0,
-      "away_l": 0,
-      "away_gf": 0,
-      "away_ga": 0,
-      "form": [
-        "L"
-      ]
-    },
-    "Juventus": {
-      "home_w": 0,
-      "home_d": 0,
-      "home_l": 0,
-      "home_gf": 0,
-      "home_ga": 0,
-      "away_w": 1,
-      "away_d": 0,
-      "away_l": 0,
-      "away_gf": 1,
-      "away_ga": 0,
-      "form": [
-        "W"
-      ]
-    },
-    "Venezia": {
-      "home_w": 0,
-      "home_d": 0,
-      "home_l": 1,
-      "home_gf": 0,
-      "home_ga": 2,
-      "away_w": 0,
-      "away_d": 0,
-      "away_l": 0,
-      "away_gf": 0,
-      "away_ga": 0,
-      "form": [
-        "L"
-      ]
-    },
-    "Lecce": {
-      "home_w": 0,
-      "home_d": 0,
-      "home_l": 0,
-      "home_gf": 0,
-      "home_ga": 0,
-      "away_w": 1,
-      "away_d": 0,
-      "away_l": 0,
-      "away_gf": 2,
-      "away_ga": 0,
-      "form": [
-        "W"
-      ]
-    },
-    "Atalanta": {
+    "Milan": {
       "home_w": 1,
       "home_d": 0,
       "home_l": 0,
       "home_gf": 2,
-      "home_ga": 1,
-      "away_w": 0,
-      "away_d": 0,
-      "away_l": 0,
-      "away_gf": 0,
-      "away_ga": 0,
-      "form": [
-        "W"
-      ]
-    },
-    "Sassuolo": {
-      "home_w": 0,
-      "home_d": 0,
-      "home_l": 0,
-      "home_gf": 0,
-      "home_ga": 0,
-      "away_w": 0,
-      "away_d": 0,
-      "away_l": 1,
-      "away_gf": 1,
-      "away_ga": 2,
-      "form": [
-        "L"
-      ]
-    },
-    "Torino": {
-      "home_w": 0,
-      "home_d": 0,
-      "home_l": 1,
-      "home_gf": 1,
-      "home_ga": 2,
-      "away_w": 0,
-      "away_d": 0,
-      "away_l": 0,
-      "away_gf": 0,
-      "away_ga": 0,
-      "form": [
-        "L"
-      ]
-    },
-    "Milan": {
-      "home_w": 0,
-      "home_d": 0,
-      "home_l": 0,
-      "home_gf": 0,
       "home_ga": 0,
       "away_w": 1,
       "away_d": 0,
@@ -619,6 +366,103 @@
       "away_gf": 2,
       "away_ga": 1,
       "form": [
+        "W",
+        "W"
+      ]
+    },
+    "Como": {
+      "home_w": 0,
+      "home_d": 0,
+      "home_l": 0,
+      "home_gf": 0,
+      "home_ga": 0,
+      "away_w": 1,
+      "away_d": 1,
+      "away_l": 0,
+      "away_gf": 3,
+      "away_ga": 2,
+      "form": [
+        "D",
+        "W"
+      ]
+    },
+    "Napoli": {
+      "home_w": 0,
+      "home_d": 0,
+      "home_l": 1,
+      "home_gf": 1,
+      "home_ga": 2,
+      "away_w": 1,
+      "away_d": 0,
+      "away_l": 0,
+      "away_gf": 2,
+      "away_ga": 0,
+      "form": [
+        "W",
+        "L"
+      ]
+    },
+    "Atalanta": {
+      "home_w": 2,
+      "home_d": 0,
+      "home_l": 0,
+      "home_gf": 3,
+      "home_ga": 1,
+      "away_w": 0,
+      "away_d": 0,
+      "away_l": 0,
+      "away_gf": 0,
+      "away_ga": 0,
+      "form": [
+        "W",
+        "W"
+      ]
+    },
+    "Juventus": {
+      "home_w": 1,
+      "home_d": 0,
+      "home_l": 0,
+      "home_gf": 2,
+      "home_ga": 0,
+      "away_w": 1,
+      "away_d": 0,
+      "away_l": 0,
+      "away_gf": 1,
+      "away_ga": 0,
+      "form": [
+        "W",
+        "W"
+      ]
+    },
+    "Fiorentina": {
+      "home_w": 0,
+      "home_d": 0,
+      "home_l": 1,
+      "home_gf": 0,
+      "home_ga": 3,
+      "away_w": 0,
+      "away_d": 0,
+      "away_l": 1,
+      "away_gf": 0,
+      "away_ga": 4,
+      "form": [
+        "L",
+        "L"
+      ]
+    },
+    "Lazio": {
+      "home_w": 1,
+      "home_d": 0,
+      "home_l": 0,
+      "home_gf": 1,
+      "home_ga": 0,
+      "away_w": 1,
+      "away_d": 0,
+      "away_l": 0,
+      "away_gf": 1,
+      "away_ga": 0,
+      "form": [
+        "W",
         "W"
       ]
     },
@@ -630,55 +474,171 @@
       "home_ga": 1,
       "away_w": 0,
       "away_d": 0,
-      "away_l": 0,
+      "away_l": 1,
       "away_gf": 0,
-      "away_ga": 0,
+      "away_ga": 1,
       "form": [
+        "L",
         "L"
       ]
     },
-    "Lazio": {
-      "home_w": 0,
+    "Sassuolo": {
+      "home_w": 1,
       "home_d": 0,
       "home_l": 0,
+      "home_gf": 2,
+      "home_ga": 1,
+      "away_w": 0,
+      "away_d": 0,
+      "away_l": 1,
+      "away_gf": 1,
+      "away_ga": 2,
+      "form": [
+        "L",
+        "W"
+      ]
+    },
+    "Parma": {
+      "home_w": 0,
+      "home_d": 0,
+      "home_l": 1,
       "home_gf": 0,
-      "home_ga": 0,
+      "home_ga": 1,
+      "away_w": 0,
+      "away_d": 0,
+      "away_l": 1,
+      "away_gf": 0,
+      "away_ga": 2,
+      "form": [
+        "L",
+        "L"
+      ]
+    },
+    "Genoa": {
+      "home_w": 0,
+      "home_d": 0,
+      "home_l": 1,
+      "home_gf": 0,
+      "home_ga": 2,
+      "away_w": 0,
+      "away_d": 0,
+      "away_l": 1,
+      "away_gf": 0,
+      "away_ga": 1,
+      "form": [
+        "L",
+        "L"
+      ]
+    },
+    "Udinese": {
+      "home_w": 0,
+      "home_d": 1,
+      "home_l": 0,
+      "home_gf": 1,
+      "home_ga": 1,
+      "away_w": 1,
+      "away_d": 0,
+      "away_l": 0,
+      "away_gf": 3,
+      "away_ga": 2,
+      "form": [
+        "D",
+        "W"
+      ]
+    },
+    "Torino": {
+      "home_w": 0,
+      "home_d": 0,
+      "home_l": 1,
+      "home_gf": 1,
+      "home_ga": 2,
+      "away_w": 0,
+      "away_d": 0,
+      "away_l": 1,
+      "away_gf": 1,
+      "away_ga": 2,
+      "form": [
+        "L",
+        "L"
+      ]
+    },
+    "Cagliari": {
+      "home_w": 0,
+      "home_d": 0,
+      "home_l": 1,
+      "home_gf": 0,
+      "home_ga": 1,
       "away_w": 1,
       "away_d": 0,
       "away_l": 0,
       "away_gf": 1,
       "away_ga": 0,
       "form": [
-        "W"
+        "W",
+        "L"
       ]
     },
-    "Roma": {
-      "home_w": 1,
-      "home_d": 0,
-      "home_l": 0,
-      "home_gf": 4,
-      "home_ga": 0,
-      "away_w": 0,
-      "away_d": 0,
-      "away_l": 0,
-      "away_gf": 0,
-      "away_ga": 0,
-      "form": [
-        "W"
-      ]
-    },
-    "Fiorentina": {
+    "Venezia": {
       "home_w": 0,
       "home_d": 0,
-      "home_l": 0,
+      "home_l": 1,
       "home_gf": 0,
-      "home_ga": 0,
+      "home_ga": 2,
       "away_w": 0,
       "away_d": 0,
       "away_l": 1,
       "away_gf": 0,
+      "away_ga": 2,
+      "form": [
+        "L",
+        "L"
+      ]
+    },
+    "Frosinone": {
+      "home_w": 0,
+      "home_d": 0,
+      "home_l": 1,
+      "home_gf": 0,
+      "home_ga": 1,
+      "away_w": 1,
+      "away_d": 0,
+      "away_l": 0,
+      "away_gf": 3,
+      "away_ga": 0,
+      "form": [
+        "L",
+        "W"
+      ]
+    },
+    "Lecce": {
+      "home_w": 0,
+      "home_d": 0,
+      "home_l": 1,
+      "home_gf": 0,
+      "home_ga": 4,
+      "away_w": 1,
+      "away_d": 0,
+      "away_l": 0,
+      "away_gf": 2,
+      "away_ga": 0,
+      "form": [
+        "W",
+        "L"
+      ]
+    },
+    "Monza": {
+      "home_w": 0,
+      "home_d": 0,
+      "home_l": 1,
+      "home_gf": 2,
+      "home_ga": 3,
+      "away_w": 0,
+      "away_d": 0,
+      "away_l": 1,
+      "away_gf": 1,
       "away_ga": 4,
       "form": [
+        "L",
         "L"
       ]
     }

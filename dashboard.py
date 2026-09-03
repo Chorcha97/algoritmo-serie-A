@@ -93,8 +93,7 @@ with st.sidebar:
     st.caption("Poisson + GBM + Kelly Value Bet")
     st.divider()
     page = st.radio("Sezione", [
-        "🔮 Predizione", "📅 Calendario 26/27",
-        "📊 Backtest", "📊 Classifica", "ℹ️ Info modello"
+        "📅 Calendario 26/27", "🔮 Predizione", "📊 Classifica", "🎯 Tracker", "📈 Backtest", "ℹ️ Info modello"
     ], label_visibility="collapsed")
     st.divider()
     st.caption("Impostazioni")
@@ -217,11 +216,10 @@ if page == "🔮 Predizione":
                         if a.upper() == found.upper() or a.upper() == found_title.upper():
                             found = a
                             break
-                st.write(f"DEBUG: home={home} away={away} found={found}")
-                if found:
-                    st.session_state["cal_ref"] = found
-                    st.success(f"Trovato: {found}")
-                    st.rerun()
+                    if found:
+                        st.session_state["cal_ref"] = found
+                        st.success(f"Trovato: {found}")
+                        st.rerun()
                 else:
                     st.warning("Designazione non ancora disponibile")
 
@@ -535,6 +533,18 @@ if page == "🔮 Predizione":
             else:
                 vbs = find_value_bets_extended(
                     preds, odds_clean, min_edge=min_edge, bankroll=bankroll)
+                # Salva automaticamente le stelline nel bet tracker
+                try:
+                    from utils.bet_tracker import add_bets
+                    star_vbs = [v for v in vbs if v.get("affidabile") and v.get("edge_%", 0) >= 15]
+                    if star_vbs:
+                        import datetime
+                        match_date = str(datetime.date.today())
+                        n_saved = add_bets(home, away, match_date, star_vbs)
+                        if n_saved > 0:
+                            st.toast(f"💾 {n_saved} giocate salvate nel tracker", icon="✅")
+                except Exception as _te:
+                    pass
                 if vbs:
                     for vb in vbs:
                         if not vb["affidabile"]:
@@ -555,8 +565,48 @@ if page == "🔮 Predizione":
                         Stake: <b>€{vb['stake_€']}</b>
                         </div>""", unsafe_allow_html=True)
                 else:
-                    st.markdown('<div class="no-value">❌ Nessuna value bet trovata.</div>',
+                    st.markdown('<div class="no-value" style="color:#991b1b;background:#fff1f2;padding:12px;border-radius:8px;">❌ Nessuna value bet trovata.</div>',
                                 unsafe_allow_html=True)
+            # Calcolatore cluster
+            with st.expander("🎯 Calcolatore cluster risultati esatti"):
+                st.caption("Seleziona i risultati da combinare e confronta con la quota del bookmaker")
+                try:
+                    import numpy as _np
+                    _mat = cached_model.poisson.predict_score_matrix(home, away)
+                    if _mat is not None:
+                        _flat = [(_mat[ii,jj]*100, ii, jj) for ii in range(_mat.shape[0]) for jj in range(_mat.shape[1])]
+                        _top = sorted(_flat, reverse=True)[:15]
+                        st.markdown("**Seleziona i risultati:**")
+                        _sel = []
+                        _cols = st.columns(5)
+                        for _idx, (_p, _h, _a) in enumerate(_top):
+                            _qe = round(100/_p, 2) if _p > 0 else 99.0
+                            _lbl = f"{_h}-{_a} ({_p:.1f}% QE:{_qe})"
+                            if _cols[_idx % 5].checkbox(_lbl, key=f"cl_{home}_{away}_{_h}_{_a}"):
+                                _sel.append((_p, _h, _a))
+                        if _sel:
+                            _tot = sum(_p for _p,_,_ in _sel)
+                            _qe_tot = round(100/_tot, 3) if _tot > 0 else 99.0
+                            _ris = " + ".join(f"{_h}-{_a}" for _,_h,_a in _sel)
+                            st.markdown(
+                                f'<div style="background:#e8f0fe;border-left:4px solid #3d84f7;border-radius:8px;padding:14px 18px;margin:8px 0">'
+                                f'<b>Cluster:</b> {_ris}<br>'
+                                f'<b>Probabilità totale:</b> {_tot:.1f}%<br>'
+                                f'<b>Quota equa:</b> <span style="font-size:1.2rem;font-weight:800;color:#1565c0">{_qe_tot}</span>'
+                                f'</div>', unsafe_allow_html=True)
+                            _qbk = st.number_input("Quota bookmaker per questo cluster",
+                                min_value=1.0, value=float(_qe_tot), step=0.05, format="%.2f",
+                                key=f"clq_{home}_{away}")
+                            _edge = (_tot/100 * _qbk - 1) * 100
+                            if _edge >= 15:
+                                st.success(f"✅ VALUE BET! Edge: +{_edge:.1f}% — Stake: €{bankroll*0.01:.2f}")
+                            elif _edge >= 7:
+                                st.warning(f"⚠️ Edge marginale: +{_edge:.1f}%")
+                            else:
+                                st.error(f"❌ No value: Edge {_edge:.1f}%")
+                except:
+                    st.caption("Analizza prima la partita")
+
 
 # ═══ CALENDARIO ═══
 elif page == "📅 Calendario 26/27":
@@ -570,8 +620,17 @@ elif page == "📅 Calendario 26/27":
     else:
         cal = pd.read_csv(cal_path, parse_dates=["data"])
         giornate = sorted(cal["giornata"].unique())
+        # Calcola giornata corrente in base alla data
+        from datetime import date
+        oggi = pd.Timestamp(date.today())
+        future = cal[cal["data"] >= oggi]
+        if not future.empty:
+            current_giornata = int(future.iloc[0]["giornata"])
+        else:
+            current_giornata = int(giornate[-1])
+        default_idx = giornate.index(current_giornata) if current_giornata in giornate else 0
         giornata_sel = st.selectbox("Giornata", giornate,
-            format_func=lambda x: f"Giornata {int(x)}")
+            format_func=lambda x: f"Giornata {int(x)}", index=default_idx)
         gdf = cal[cal["giornata"] == giornata_sel].copy()
         gdf = gdf.sort_values(["data","ora"])
         model_ok = False
@@ -628,9 +687,10 @@ elif page == "📅 Calendario 26/27":
                                     st.caption("**Risultati più probabili:**")
                                     cols = st.columns(5)
                                     for idx_r, (prob, i, j) in enumerate(top10):
-                                        cols[idx_r % 5].metric(f"{i}-{j}", f"{prob:.1f}%")
-                        except Exception as e:
-                            st.caption(f"Previsione non disponibile: {e}")
+                                        qe = round(100/prob, 2) if prob > 0 else 99.99
+                                        cols[idx_r % 5].metric(f"{i}-{j}", f"{prob:.1f}%", delta=f"QE: {qe}")
+                        except Exception as _ec:
+                            st.caption("-")
 elif page == "👨‍⚖️ Arbitri":
     st.title("👨‍⚖️ Statistiche Arbitri")
     st.caption("Medie calcolate sul dataset storico (Premier League, Bundesliga, La Liga, Ligue 1)")
@@ -764,6 +824,55 @@ elif page == "📊 Classifica":
             hide_index=True, use_container_width=True)
         st.caption("🔵 Champions League · 🟠 Europa League · 🟡 Conference League · 🔴 Retrocessione")
         st.caption("Trend: 🔥 in forma · 📈 positivo · ➡️ stabile · 📉 calo · ❌ crisi")
+elif page == "🎯 Tracker":
+    import sys; sys.path.insert(0,".")
+    from utils.bet_tracker import get_stats, close_bets_from_sofascore
+    st.title("🎯 Bet Tracker")
+    stats = get_stats()
+    c1,c2,c3,c4 = st.columns(4)
+    c1.metric("Giocate totali", stats["total"])
+    c2.metric("Vinte/Perse", f'{stats["won"]}/{stats["lost"]}')
+    c3.metric("Win Rate", f'{stats["win_rate"]:.1f}%')
+    c4.metric("ROI reale", f'{stats["roi"]:+.1f}%', delta=f'€{stats["total_profit"]:+.2f}')
+    st.divider()
+    col1, col2 = st.columns([2,1])
+    with col1:
+        round_num = st.number_input("Chiudi giornata", min_value=1, max_value=38, value=1, step=1)
+    with col2:
+        st.markdown("<br>", unsafe_allow_html=True)
+        if st.button("🔄 Aggiorna risultati", type="primary"):
+            with st.spinner("Scarico risultati Sofascore..."):
+                n = close_bets_from_sofascore(int(round_num))
+                st.success(f"{n} giocate chiuse!")
+                st.rerun()
+    st.divider()
+    pending = [b for b in stats["bets"] if b["status"] == "pending"]
+    if pending:
+        st.subheader(f"🕐 Pendenti ({len(pending)})")
+        for b in pending:
+            st.markdown(
+                f'<div style="background:#fff8e6;border-left:4px solid #f59e0b;border-radius:8px;padding:12px 16px;margin:6px 0">\n'
+                f'<b>{b["home"]} vs {b["away"]}</b> — {b["mercato"]} @ <b>{b["quota"]:.2f}</b>\n'
+                f'&nbsp;|&nbsp; Edge: +{b["edge_pct"]:.1f}% &nbsp;|&nbsp; Stake: €{b["stake"]:.2f}\n'
+                f'&nbsp;|&nbsp; <small style="color:#666">{b["match_date"]}</small></div>',
+                unsafe_allow_html=True)
+    closed = [b for b in stats["bets"] if b["status"] != "pending"]
+    if closed:
+        st.subheader(f"📋 Storico ({len(closed)} giocate)")
+        for b in sorted(closed, key=lambda x: x.get("closed_at",""), reverse=True):
+            won = b["status"] == "won"
+            color = "#f0fdf4" if won else "#fff1f2"
+            border = "#22c55e" if won else "#f05252"
+            icon = "✅" if won else "❌"
+            prof = b.get("profitto", 0) or 0
+            result = b.get("result", "?")
+            text_color = "#166534" if won else "#991b1b"
+            st.markdown(
+                f'<div style="background:{color};border-left:4px solid {border};border-radius:8px;padding:12px 16px;margin:6px 0">\n'
+                f'{icon} <b>{b["home"]} vs {b["away"]}</b> ({result}) — {b["mercato"]} @ <b>{b["quota"]:.2f}</b>\n'
+                f'&nbsp;|&nbsp; <b style="color:{text_color}">{prof:+.2f}€</b></div>',
+                unsafe_allow_html=True)
+
 elif page == "📊 Backtest":
     st.title("📊 Backtest Walk-Forward")
     st.caption("Il modello si allena solo sul passato e prevede solo il futuro — nessun lookahead bias")
