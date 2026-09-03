@@ -10,17 +10,16 @@ Tutte le correzioni integrate:
 import os, json, pickle
 from pathlib import Path
 from typing import Optional
-
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from datetime import datetime
 from babel.dates import format_date
-
 from backend.models.Input import OddsInput
 from backend.models.Request import PredictRequest
 from backend.models.Update import LineupUpdate, InjuryUpdate, StatsUpdate
 from backend.routers import theanalyst
 from backend.routers import sofascore
+from backend.routers import marathonbet
 
 BASE_DIR = Path(__file__).parent.parent
 os.chdir(BASE_DIR)
@@ -45,6 +44,7 @@ app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], all
 
 app.include_router(theanalyst.router)
 app.include_router(sofascore.router)
+app.include_router(marathonbet.router)
 
 def utc_to_italy(ora_str: str) -> str:
     """Converte orario UTC in ora italiana (UTC+2)."""
