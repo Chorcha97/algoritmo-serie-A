@@ -14,11 +14,18 @@ router = APIRouter(
     tags=["sofascore"],
 )
 
+@router.get("/serie-a/seasons")
+async def get_seasons(request: Request):
+    client = request.app.state.http_client
+    response = await api_get_sofascore(client, f"/unique-tournament/{T_ID}/seasons")
+    return response.json()
+
 @router.get("/serie-a/top-players")
 async def get_top_players(
     request: Request,
+    season_id: str = S_ID,
 ):
-    return await get_helper_season(request, endpoint="top-players/overall")
+    return await get_helper_season(request, endpoint="top-players/overall", s_id=season_id)
 
 @router.get("/serie-a/top-players-per-game")
 async def get_top_players_per_game(
@@ -29,8 +36,9 @@ async def get_top_players_per_game(
 @router.get("/serie-a/top-teams")
 async def get_top_teams(
     request: Request,
+    season_id: str = S_ID,
 ):
-    return await get_helper_season(request, endpoint="top-teams/overall")
+    return await get_helper_season(request, endpoint="top-teams/overall", s_id=season_id)
 
 @router.get("/serie-a/player-of-the-season-race")
 async def get_player_of_the_season_race(
@@ -154,12 +162,12 @@ async def get_helper_event(request: Request, endpoint: str, game_id: int, params
 
     return response.json()
 
-async def get_helper_season(request: Request, endpoint: str, pre_endpoint: str = "", params: dict | None = None):
+async def get_helper_season(request: Request, endpoint: str, pre_endpoint: str = "", params: dict | None = None, s_id: str = S_ID):
     client: AsyncSession = request.app.state.http_client
 
     response = await api_get_sofascore(
         client,
-        f"{pre_endpoint}/unique-tournament/{T_ID}/season/{S_ID}/{endpoint}",
+        f"{pre_endpoint}/unique-tournament/{T_ID}/season/{s_id}/{endpoint}",
         params=params,
     )
 
