@@ -54,21 +54,24 @@ async def api_get_sofascore(
 async def api_get_marathonbet(
     client: AsyncSession,
     path: str,
-    params: dict | None = None,
+    headers: dict | None = None,
+    params: dict | None = None
 ):
     url = f"{MARATHONBET_URL}{path}"
 
-    return await api_get_base(client, url, params, RefreshUrl.MARATHONBET)
+    return await api_get_base(client, url, params, RefreshUrl.MARATHONBET, headers)
 
 async def api_get_base(
     client: AsyncSession,
     url: str,
     params: dict | None = None,
     refresh_type: RefreshUrl = RefreshUrl.BASE,
+    headers: dict | None = None,
 ):
     response = await client.get(
         url,
         params=params,
+        headers=headers,
         allow_redirects=True,
     )
 
