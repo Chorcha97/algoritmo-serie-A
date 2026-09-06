@@ -152,6 +152,15 @@ def run_alerts(sport: str = "serie_a", hours_ahead: int = 96):
         for vb in vbs:
             print(f"       {vb['mercato']} @ {vb['quota']} edge +{vb['edge_%']}%")
 
+        # Salva nel bet tracker
+        try:
+            from utils.bet_tracker import add_bets
+            kickoff_date = kickoff.strftime("%Y-%m-%d")
+            n = add_bets(home, away, kickoff_date, vbs)
+            if n > 0:
+                print(f"    💾 {n} giocate salvate nel tracker")
+        except Exception as _te:
+            print(f"    Tracker error: {_te}")
         send_value_bet_alert(home, away, kickoff_str, vbs, drift_filtered)
         sent_alerts.add(alert_key)
         alerts_sent += 1
