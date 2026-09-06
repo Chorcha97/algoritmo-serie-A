@@ -369,52 +369,110 @@ def add_opta_team_stats(df):
 def add_sofascore_team_stats(df):
     """
     Aggiunge statistiche Sofascore per squadra come feature.
-    Corner, xG, falli, cartellini, tiri, big chances — aggiornati ogni settimana.
+    Usa i dati storici della stagione corretta per il backtest.
     """
     import json
     from pathlib import Path
-    path_sc = Path('cache/sofascore_team_stats_clean.json')
-    if not path_sc.exists():
-        cols = [
-            'f_sc_corners_h','f_sc_corners_a','f_sc_corners_diff',
+
+    SEASON_MAP = {
+        '2021': '2021_22', '2022': '2022_23', '2023': '2023_24',
+        '2024': '2024_25', '2025': '2025_26', '2026': '2026_27',
+    }
+    HIST_DIR = Path('cache/sofascore_historical')
+
+    def load_stats_for_season(season_year: str) -> dict:
+        """Carica stats per una stagione specifica."""
+        season_key = SEASON_MAP.get(season_year)
+        if season_key:
+            hist_file = HIST_DIR / season_key / 'team_stats_clean.json'
+            if hist_file.exists():
+                return json.loads(hist_file.read_text(encoding='utf-8'))
+        # Fallback: usa stats correnti
+        curr = Path('cache/sofascore_team_stats_clean.json')
+        if curr.exists():
+            return json.loads(curr.read_text(encoding='utf-8'))
+        return {}
+
+    KEYS = ['corners_per_match','expectedGoals_per_match','fouls_per_match',
+            'yellowCards_per_match','shots_per_match','bigChances_per_match',
+            'averageBallPossession_per_match']
+
+    cols = ['f_sc_corners_h','f_sc_corners_a','f_sc_corners_diff',
             'f_sc_xg_h','f_sc_xg_a',
             'f_sc_fouls_h','f_sc_fouls_a','f_sc_fouls_total',
             'f_sc_yellow_h','f_sc_yellow_a','f_sc_yellow_total',
             'f_sc_shots_h','f_sc_shots_a',
             'f_sc_bigch_h','f_sc_bigch_a',
-            'f_sc_possession_h','f_sc_possession_a',
-        ]
-        for c in cols: df[c] = 0.0
-        return df
-
-    stats = json.loads(path_sc.read_text())
-
-    # Medie di default
-    avg = {k: sum(s.get(k,0) for s in stats.values())/max(len(stats),1)
-           for k in ['corners_per_match','expectedGoals_per_match','fouls_per_match',
-                     'yellowCards_per_match','shots_per_match','bigChances_per_match',
-                     'averageBallPossession_per_match']}
-
-    def get(team, key): return stats.get(team, {}).get(key, avg.get(key, 0))
+            'f_sc_possession_h','f_sc_possession_a']
 
     df = df.copy()
-    df['f_sc_corners_h']     = df['HomeTeam'].apply(lambda t: get(t,'corners_per_match'))
-    df['f_sc_corners_a']     = df['AwayTeam'].apply(lambda t: get(t,'corners_per_match'))
-    df['f_sc_corners_diff']  = df['f_sc_corners_h'] - df['f_sc_corners_a']
-    df['f_sc_xg_h']          = df['HomeTeam'].apply(lambda t: get(t,'expectedGoals_per_match'))
-    df['f_sc_xg_a']          = df['AwayTeam'].apply(lambda t: get(t,'expectedGoals_per_match'))
-    df['f_sc_fouls_h']       = df['HomeTeam'].apply(lambda t: get(t,'fouls_per_match'))
-    df['f_sc_fouls_a']       = df['AwayTeam'].apply(lambda t: get(t,'fouls_per_match'))
-    df['f_sc_fouls_total']   = df['f_sc_fouls_h'] + df['f_sc_fouls_a']
-    df['f_sc_yellow_h']      = df['HomeTeam'].apply(lambda t: get(t,'yellowCards_per_match'))
-    df['f_sc_yellow_a']      = df['AwayTeam'].apply(lambda t: get(t,'yellowCards_per_match'))
-    df['f_sc_yellow_total']  = df['f_sc_yellow_h'] + df['f_sc_yellow_a']
-    df['f_sc_shots_h']       = df['HomeTeam'].apply(lambda t: get(t,'shots_per_match'))
-    df['f_sc_shots_a']       = df['AwayTeam'].apply(lambda t: get(t,'shots_per_match'))
-    df['f_sc_bigch_h']       = df['HomeTeam'].apply(lambda t: get(t,'bigChances_per_match'))
-    df['f_sc_bigch_a']       = df['AwayTeam'].apply(lambda t: get(t,'bigChances_per_match'))
-    df['f_sc_possession_h']  = df['HomeTeam'].apply(lambda t: get(t,'averageBallPossession_per_match'))
-    df['f_sc_possession_a']  = df['AwayTeam'].apply(lambda t: get(t,'averageBallPossession_per_match'))
+
+    # Se il dataframe ha la colonna Date, usa i dati della stagione corretta
+    if 'Date' in df.columns or 'date' in df.columns:
+        date_col = 'Date' if 'Date' in df.columns else 'date'
+        import pandas as pd
+
+        def get_season_year(date_val):
+            try:
+                ts = pd.Timestamp(date_val)
+                return str(ts.year) if ts.month >= 8 else str(ts.year - 1)
+            except:
+                return '2025'
+
+        # Raggruppa per stagione e applica le stats corrette
+        df['_season_year'] = df[date_col].apply(get_season_year)
+
+        for col in cols:
+            df[col] = 0.0
+
+        for season_year, group_idx in df.groupby('_season_year').groups.items():
+            stats = load_stats_for_season(season_year)
+            if not stats:
+                continue
+            avg = {k: sum(s.get(k,0) for s in stats.values())/max(len(stats),1) for k in KEYS}
+            def get(team, key): return stats.get(team, {}).get(key, avg.get(key, 0))
+
+            df.loc[group_idx, 'f_sc_corners_h']    = df.loc[group_idx, 'HomeTeam'].apply(lambda t: get(t,'corners_per_match'))
+            df.loc[group_idx, 'f_sc_corners_a']    = df.loc[group_idx, 'AwayTeam'].apply(lambda t: get(t,'corners_per_match'))
+            df.loc[group_idx, 'f_sc_xg_h']         = df.loc[group_idx, 'HomeTeam'].apply(lambda t: get(t,'expectedGoals_per_match'))
+            df.loc[group_idx, 'f_sc_xg_a']         = df.loc[group_idx, 'AwayTeam'].apply(lambda t: get(t,'expectedGoals_per_match'))
+            df.loc[group_idx, 'f_sc_fouls_h']      = df.loc[group_idx, 'HomeTeam'].apply(lambda t: get(t,'fouls_per_match'))
+            df.loc[group_idx, 'f_sc_fouls_a']      = df.loc[group_idx, 'AwayTeam'].apply(lambda t: get(t,'fouls_per_match'))
+            df.loc[group_idx, 'f_sc_yellow_h']     = df.loc[group_idx, 'HomeTeam'].apply(lambda t: get(t,'yellowCards_per_match'))
+            df.loc[group_idx, 'f_sc_yellow_a']     = df.loc[group_idx, 'AwayTeam'].apply(lambda t: get(t,'yellowCards_per_match'))
+            df.loc[group_idx, 'f_sc_shots_h']      = df.loc[group_idx, 'HomeTeam'].apply(lambda t: get(t,'shots_per_match'))
+            df.loc[group_idx, 'f_sc_shots_a']      = df.loc[group_idx, 'AwayTeam'].apply(lambda t: get(t,'shots_per_match'))
+            df.loc[group_idx, 'f_sc_bigch_h']      = df.loc[group_idx, 'HomeTeam'].apply(lambda t: get(t,'bigChances_per_match'))
+            df.loc[group_idx, 'f_sc_bigch_a']      = df.loc[group_idx, 'AwayTeam'].apply(lambda t: get(t,'bigChances_per_match'))
+            df.loc[group_idx, 'f_sc_possession_h'] = df.loc[group_idx, 'HomeTeam'].apply(lambda t: get(t,'averageBallPossession_per_match'))
+            df.loc[group_idx, 'f_sc_possession_a'] = df.loc[group_idx, 'AwayTeam'].apply(lambda t: get(t,'averageBallPossession_per_match'))
+
+        df['f_sc_corners_diff']  = df['f_sc_corners_h'] - df['f_sc_corners_a']
+        df['f_sc_fouls_total']   = df['f_sc_fouls_h'] + df['f_sc_fouls_a']
+        df['f_sc_yellow_total']  = df['f_sc_yellow_h'] + df['f_sc_yellow_a']
+        df.drop(columns=['_season_year'], inplace=True)
+    else:
+        # Senza data: usa stats correnti
+        curr_stats = load_stats_for_season('2026')
+        avg = {k: sum(s.get(k,0) for s in curr_stats.values())/max(len(curr_stats),1) for k in KEYS} if curr_stats else {k:0 for k in KEYS}
+        def get(team, key): return curr_stats.get(team, {}).get(key, avg.get(key, 0))
+        df['f_sc_corners_h']    = df['HomeTeam'].apply(lambda t: get(t,'corners_per_match'))
+        df['f_sc_corners_a']    = df['AwayTeam'].apply(lambda t: get(t,'corners_per_match'))
+        df['f_sc_corners_diff'] = df['f_sc_corners_h'] - df['f_sc_corners_a']
+        df['f_sc_xg_h']         = df['HomeTeam'].apply(lambda t: get(t,'expectedGoals_per_match'))
+        df['f_sc_xg_a']         = df['AwayTeam'].apply(lambda t: get(t,'expectedGoals_per_match'))
+        df['f_sc_fouls_h']      = df['HomeTeam'].apply(lambda t: get(t,'fouls_per_match'))
+        df['f_sc_fouls_a']      = df['AwayTeam'].apply(lambda t: get(t,'fouls_per_match'))
+        df['f_sc_fouls_total']  = df['f_sc_fouls_h'] + df['f_sc_fouls_a']
+        df['f_sc_yellow_h']     = df['HomeTeam'].apply(lambda t: get(t,'yellowCards_per_match'))
+        df['f_sc_yellow_a']     = df['AwayTeam'].apply(lambda t: get(t,'yellowCards_per_match'))
+        df['f_sc_yellow_total'] = df['f_sc_yellow_h'] + df['f_sc_yellow_a']
+        df['f_sc_shots_h']      = df['HomeTeam'].apply(lambda t: get(t,'shots_per_match'))
+        df['f_sc_shots_a']      = df['AwayTeam'].apply(lambda t: get(t,'shots_per_match'))
+        df['f_sc_bigch_h']      = df['HomeTeam'].apply(lambda t: get(t,'bigChances_per_match'))
+        df['f_sc_bigch_a']      = df['AwayTeam'].apply(lambda t: get(t,'bigChances_per_match'))
+        df['f_sc_possession_h'] = df['HomeTeam'].apply(lambda t: get(t,'averageBallPossession_per_match'))
+        df['f_sc_possession_a'] = df['AwayTeam'].apply(lambda t: get(t,'averageBallPossession_per_match'))
     return df
 
 
@@ -454,7 +512,7 @@ def add_team_values(df: pd.DataFrame) -> pd.DataFrame:
     fanta_path = Path('cache/fanta_quality_2627.json')
     val_path   = Path('cache/team_values.json')
 
-    if fanta_path.exists():
+    if False:  # fantacalcio disabilitato
         with open(fanta_path) as f:
             fanta = json.load(f)
 

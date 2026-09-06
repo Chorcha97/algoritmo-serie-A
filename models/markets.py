@@ -18,59 +18,56 @@ from scipy.stats import poisson
 # Correzione home advantage calibrata su dati reali Serie A post-Covid
 # Calibrazione per fascia - basata su analisi di 1900 partite Serie A 2021-2026
 # Mappa prob. modello -> prob. reale osservata
-HOME_WIN_CORRECTION = 0.0  # rimossa - usiamo calibrazione per fascia
-
+HOME_WIN_CORRECTION = 0.0
 # Calibrazione isotonica casa (raw Poisson -> reale)
-# Basata su 1900 partite Serie A 2021-2026
 CALIBRATION_HOME = [
-    (0.20, 0.275),  # raw 20-30% -> reale 27.5%
-    (0.30, 0.347),  # raw 30-40% -> reale 34.7%
-    (0.40, 0.417),  # raw 40-50% -> reale 41.7%
-    (0.50, 0.570),  # raw 50-60% -> reale 57.0%
-    (0.60, 0.615),  # raw 60-70% -> reale 61.5%
+    (0.20, 0.275),
+    (0.30, 0.347),
+    (0.40, 0.417),
+    (0.50, 0.570),
+    (0.60, 0.615),
 ]
 
-# Calibrazione isotonica pareggio (raw Poisson -> reale)
+# Calibrazione isotonica pareggio
 CALIBRATION_DRAW = [
-    (0.20, 0.279),  # raw 20-30% -> reale 27.9%
-    (0.30, 0.370),  # raw 30-40% -> reale 37.0%
+    (0.20, 0.279),
+    (0.30, 0.370),
 ]
 
-# Calibrazione isotonica ospite (raw Poisson -> reale)
+# Calibrazione isotonica ospite
 CALIBRATION_AWAY = [
-    (0.20, 0.236),  # raw 20-30% -> reale 23.6%
-    (0.30, 0.310),  # raw 30-40% -> reale 31.0%
-    (0.40, 0.397),  # raw 40-50% -> reale 39.7%
-    (0.50, 0.521),  # raw 50-60% -> reale 52.1%
+    (0.20, 0.236),
+    (0.30, 0.310),
+    (0.40, 0.397),
+    (0.50, 0.521),
 ]
 
 
 def calibrate_prob(prob: float, calibration: list) -> float:
-    """
-    Calibra una probabilita usando interpolazione lineare
-    tra i punti di calibrazione osservati.
-    """
+    """Calibra una probabilita usando interpolazione lineare."""
     if not calibration:
         return prob
-    
-    # Sotto il primo punto
-    if prob < calibration[0][0]:
-        return calibration[0][1] * (prob / calibration[0][0])
-    
-    # Sopra l ultimo punto
-    if prob >= calibration[-1][0] + 0.10:
-        last_calib = calibration[-1][1]
-        return min(0.95, last_calib + (prob - calibration[-1][0]) * 0.8)
-    
-    # Interpolazione lineare tra i punti
-    for i in range(len(calibration) - 1):
-        low_p,  low_r  = calibration[i]
-        high_p, high_r = calibration[i+1]
-        if low_p <= prob < high_p:
-            t = (prob - low_p) / (high_p - low_p)
-            return low_r + t * (high_r - low_r)
-    
-    return calibration[-1][1]
+    xs = [c[0] for c in calibration]
+    ys = [c[1] for c in calibration]
+    if prob <= xs[0]:
+        return ys[0] + (prob - xs[0]) * (ys[1] - ys[0]) / (xs[1] - xs[0]) if len(xs) > 1 else ys[0]
+    if prob >= xs[-1]:
+        return ys[-1] + (prob - xs[-1]) * (ys[-1] - ys[-2]) / (xs[-1] - xs[-2]) if len(xs) > 1 else ys[-1]
+    for i in range(len(xs) - 1):
+        if xs[i] <= prob <= xs[i+1]:
+            t = (prob - xs[i]) / (xs[i+1] - xs[i])
+            return ys[i] + t * (ys[i+1] - ys[i])
+    return prob
+
+  # rimossa - usiamo calibrazione per fascia
+
+# Calibrazione isotonica casa (raw Poisson -> reale)
+# Basata su 1900 partite Serie A 2021-2026
+
+# Calibrazione isotonica pareggio (raw Poisson -> reale)
+
+# Calibrazione isotonica ospite (raw Poisson -> reale)
+
 
 # Kelly frazionato 1/8
 KELLY_FRACTION = 0.125
@@ -140,8 +137,6 @@ def compute_all_markets(poisson_model, home: str, away: str, **kwargs) -> dict:
     prob_h, prob_d, prob_a = prob_h/total, prob_d/total, prob_a/total
 
     # Blend con probabilita implicita Pinnacle
-    # 1X2: 50/50 (Pinnacle molto piu preciso sulla vittoria casa)
-    # Over/Under e GG: 80/20 (nostro modello competitivo)
     W_MODEL_1X2 = 0.50
     W_BOOK_1X2  = 0.50
     bk_h = kwargs.get("odds_h") if kwargs else None

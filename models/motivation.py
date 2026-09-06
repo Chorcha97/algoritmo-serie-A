@@ -93,15 +93,11 @@ def get_temporal_multipliers(match_date: str, match_time: str = None) -> dict:
         }
 
 
-PROMOTION_PENALTY = {
-    'Frosinone': 0.83,
-    'Venezia':   0.87,
-    'Monza':     0.88,
-}
+PROMOTION_PENALTY = {}  # rimosso — GBM impara da solo con dati Sofascore
 
 
 def get_promotion_penalty(team: str) -> float:
-    return PROMOTION_PENALTY.get(team, 1.0)
+    return 1.0  # rimosso
 
 
 def get_motivation_score(
