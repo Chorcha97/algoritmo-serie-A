@@ -60,8 +60,8 @@ async def get_team_of_the_period(
     return response.json()
 
 @router.get("/serie-a/results")
-async def get_results(request: Request, round: int = 1):
-    return await get_helper_season(request, endpoint=f"events/round/{round}")
+async def get_results(request: Request, round: int = 1, season_id: str = S_ID):
+    return await get_helper_season(request, endpoint=f"events/round/{round}", s_id=season_id)
 
 # get della classifica finale
 @router.get("/serie-a/standings/total")
