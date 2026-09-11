@@ -16,7 +16,7 @@ def load_tracker() -> dict:
 def save_tracker(data: dict):
     TRACKER_PATH.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding='utf-8')
 
-def add_bets(home: str, away: str, match_date: str, vbs: list, round_num: int = None):
+def add_bets(home: str, away: str, match_date: str, vbs: list, round_num: int = None, source: str = "dashboard"):
     """Aggiunge le value bet trovate al tracker."""
     data = load_tracker()
     added = 0
@@ -50,6 +50,7 @@ def add_bets(home: str, away: str, match_date: str, vbs: list, round_num: int = 
             'stake': 4.0,
             'status': 'pending',
             'profitto': None,
+            'source': source,
             'added_at': datetime.now().isoformat()[:19],
         }
         data['bets'].append(bet)

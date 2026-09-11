@@ -336,8 +336,8 @@ def merge_all(fdco: pd.DataFrame, understat: pd.DataFrame, elo: pd.DataFrame) ->
         merged_rows.append(base)
 
     df = pd.DataFrame(merged_rows)
-    xg_coverage = df["xg_home"].notna().mean() * 100
-    elo_coverage = df["elo_home"].notna().mean() * 100
+    xg_coverage = df["xg_home"].notna().mean() * 100 if "xg_home" in df.columns else 0
+    elo_coverage = df["elo_home"].notna().mean() * 100 if "elo_home" in df.columns else 0
     print(f"  copertura xG: {xg_coverage:.1f}% delle partite")
     print(f"  copertura ELO: {elo_coverage:.1f}% delle partite")
     print(f"  totale partite nel dataset: {len(df)}")

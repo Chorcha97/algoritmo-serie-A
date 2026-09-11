@@ -156,7 +156,17 @@ def run_alerts(sport: str = "serie_a", hours_ahead: int = 96):
         try:
             from utils.bet_tracker import add_bets
             kickoff_date = kickoff.strftime("%Y-%m-%d")
-            n = add_bets(home, away, kickoff_date, vbs)
+            # Calcola giornata dal calendario
+            _round_al = None
+            try:
+                import pandas as _pd_al
+                _cal_al = _pd_al.read_csv("cache/calendario_2627.csv")
+                _m = _cal_al[(_cal_al["home"].str.lower()==home.lower()) & (_cal_al["away"].str.lower()==away.lower())]
+                if not _m.empty:
+                    _round_al = int(_m.iloc[0]["giornata"])
+            except:
+                pass
+            n = add_bets(home, away, kickoff_date, vbs, round_num=_round_al, source="telegram")
             if n > 0:
                 print(f"    💾 {n} giocate salvate nel tracker")
         except Exception as _te:

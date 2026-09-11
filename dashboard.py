@@ -248,11 +248,144 @@ if page == "🔮 Predizione":
     # ── Quote ─────────────────────────────────────────────────────────────────
     st.divider()
     st.subheader("📋 Quote bookmaker")
-    st.caption("Lascia 0.00 per i mercati che non vuoi analizzare")
     match_key = f"odds_{home}_{away}"
+    # Carica quote dal file JSON (persistenti tra riavvii)
+    import json as _json
+    from pathlib import Path as _Path
+    _odds_file = _Path("cache/saved_odds.json")
+    _all_odds = _json.loads(_odds_file.read_text()) if _odds_file.exists() else {}
     if match_key not in st.session_state:
-        st.session_state[match_key] = {}
+        st.session_state[match_key] = _all_odds.get(match_key, {})
     odds = dict(st.session_state[match_key])
+    # ── Carica quote Marathonbet automaticamente ─────────────────────────────
+    # Mappa nomi modello -> nomi Marathonbet
+    MB_NAME_MAP = {
+        "Inter": "Inter", "Milan": "Milan", "Juventus": "Juventus",
+        "Roma": "Roma", "Napoli": "Napoli", "Lazio": "Lazi",
+        "Fiorentina": "Fior", "Atalanta": "Atal", "Bologna": "Bolo",
+        "Torino": "Tori", "Udinese": "Udin", "Sassuolo": "Sass",
+        "Genoa": "Geno", "Cagliari": "Cagl", "Lecce": "Lecc",
+        "Parma": "Parm", "Como": "Como", "Venezia": "Vene",
+        "Monza": "Monz", "Frosinone": "Fros",
+    }
+    # Mappa ce -> chiave odds per 1X2
+    CE_1X2 = {1: "H", 2: "D", 3: "A"}
+    # Mappa etichette Over/Under (ce=1 -> over, ce=2 -> under per questi mercati)
+    if st.button("\U0001f4e5 Carica quote Marathonbet", help="Scarica le quote in tempo reale da Marathonbet"):
+        with st.spinner("Scarico quote Marathonbet..."):
+            try:
+                import requests as _req
+                _home_mb = home.upper()
+                _away_mb = away.upper()
+                _new_odds = {}
+                _loaded = []
+
+                def _find_match(avs, h, a):
+                    for _p in avs:
+                        _n = _p.get("dsl",{}).get("IT","").upper()
+                        if any(x in _n for x in [h[:4],h[:5]]) and any(x in _n for x in [a[:4],a[:5]]):
+                            return _p
+                    return None
+
+                # 1X2 + Over/Under gol (id=319)
+                _r1 = _req.get("http://localhost:8000/marathonbet/serie-a-bet/pre-match/eventi?id_aggregata=319",timeout=10).json()
+                _p1 = _find_match(_r1.get("avs",[]), _home_mb, _away_mb)
+                if _p1:
+                    for _si, _sc in enumerate(_p1.get("scs",[])):
+                        _eqs = _sc.get("eqs",[])
+                        _ces = {_e.get("ce") for _e in _eqs}
+                        _dsl = _sc.get("dsl",{}).get("IT","") if isinstance(_sc.get("dsl"),dict) else ""
+                        for _eq in _eqs:
+                            _ce = _eq.get("ce"); _q = round(_eq.get("q",0)/100,2)
+                            if _q <= 1: continue
+                            _csn = str(_eq.get("csn",""))
+                            if {1,2,3}.issubset(_ces) and _si==0:
+                                if _ce==1: _new_odds["H"]=_q
+                                elif _ce==2: _new_odds["D"]=_q
+                                elif _ce==3: _new_odds["A"]=_q
+                            elif len(_eqs)==2 and _ces=={1,2}:
+                                for _s,_k1,_k2 in [("15","over15","under15"),("25","over25","under25"),("35","over35","under35"),("45","over45","under45")]:
+                                    if _s in _csn or _s[0]+"."+_s[1] in _dsl:
+                                        if _ce==1: _new_odds[_k1]=_q
+                                        elif _ce==2: _new_odds[_k2]=_q
+                    if "H" in _new_odds: _loaded.append("1X2+O/U")
+
+                # GG/NG (id=3141)
+                _r2 = _req.get("http://localhost:8000/marathonbet/serie-a-bet/pre-match/eventi?id_aggregata=3141",timeout=10).json()
+                _p2 = _find_match(_r2.get("avs",[]), _home_mb, _away_mb)
+                if _p2:
+                    for _sc in _p2.get("scs",[]):
+                        _eqs = _sc.get("eqs",[])
+                        if len(_eqs)==2:
+                            for _eq in _eqs:
+                                _ce=_eq.get("ce"); _q=round(_eq.get("q",0)/100,2)
+                                if _q>1:
+                                    if _ce==1: _new_odds["gg"]=_q
+                                    elif _ce==2: _new_odds["ng"]=_q
+                    if "gg" in _new_odds: _loaded.append("GG/NG")
+
+                # U/O Corner (id=565)
+                _r3 = _req.get("http://localhost:8000/marathonbet/serie-a-bet/pre-match/eventi?id_aggregata=565",timeout=10).json()
+                _p3 = _find_match(_r3.get("avs",[]), _home_mb, _away_mb)
+                if _p3:
+                    for _sc in _p3.get("scs",[]):
+                        _eqs = _sc.get("eqs",[])
+                        if len(_eqs)==2:
+                            for _eq in _eqs:
+                                _ce=_eq.get("ce"); _q=round(_eq.get("q",0)/100,2)
+                                _csn=str(_eq.get("csn",""))
+                                if _q>1:
+                                    for _s,_k1,_k2 in [("85","corner_over85","corner_under85"),("95","corner_over95","corner_under95"),("105","corner_over105","corner_under105")]:
+                                        if _s in _csn:
+                                            if _ce==1: _new_odds[_k1]=_q
+                                            elif _ce==2: _new_odds[_k2]=_q
+                    if any("corner" in k for k in _new_odds): _loaded.append("Corner")
+
+                # U/O Cartellini (id=1690)
+                _r4 = _req.get("http://localhost:8000/marathonbet/serie-a-bet/pre-match/eventi?id_aggregata=1690",timeout=10).json()
+                _p4 = _find_match(_r4.get("avs",[]), _home_mb, _away_mb)
+                if _p4:
+                    for _sc in _p4.get("scs",[]):
+                        _eqs = _sc.get("eqs",[])
+                        if len(_eqs)==2:
+                            for _eq in _eqs:
+                                _ce=_eq.get("ce"); _q=round(_eq.get("q",0)/100,2)
+                                _csn=str(_eq.get("csn",""))
+                                if _q>1:
+                                    for _s,_k1,_k2 in [("25","cards_over25","cards_under25"),("35","cards_over35","cards_under35"),("45","cards_over45","cards_under45")]:
+                                        if _s in _csn:
+                                            if _ce==1: _new_odds[_k1]=_q
+                                            elif _ce==2: _new_odds[_k2]=_q
+                    if any("cards" in k for k in _new_odds): _loaded.append("Cartellini")
+
+                # U/O Primo Tempo (id=344)
+                _r5 = _req.get("http://localhost:8000/marathonbet/serie-a-bet/pre-match/eventi?id_aggregata=344",timeout=10).json()
+                _p5 = _find_match(_r5.get("avs",[]), _home_mb, _away_mb)
+                if _p5:
+                    for _sc in _p5.get("scs",[]):
+                        _eqs = _sc.get("eqs",[])
+                        if len(_eqs)==2:
+                            for _eq in _eqs:
+                                _ce=_eq.get("ce"); _q=round(_eq.get("q",0)/100,2)
+                                _csn=str(_eq.get("csn",""))
+                                if _q>1:
+                                    for _s,_k1,_k2 in [("05","ht_over05","ht_under05"),("15","ht_over15","ht_under15"),("25","ht_over25","ht_under25")]:
+                                        if _s in _csn:
+                                            if _ce==1: _new_odds[_k1]=_q
+                                            elif _ce==2: _new_odds[_k2]=_q
+                    if any("ht_" in k for k in _new_odds): _loaded.append("HT O/U")
+
+                if _new_odds.get("H"):
+                    if match_key not in st.session_state:
+                        st.session_state[match_key] = {}
+                    st.session_state[match_key].update(_new_odds)
+                    st.success(f"\u2705 Quote caricate: {chr(44).join(_loaded)}")
+                    st.rerun()
+                else:
+                    st.warning("Partita non trovata su Marathonbet")
+            except Exception as _me:
+                st.warning(f"Marathonbet non disponibile: {_me}")
+
     tab1, tab2, tab3, tab4, tab5 = st.tabs([
         "1X2 & Doppia Chance", "Gol Over/Under", "GG/NG", "Cartellini", "Primo Tempo"])
 
@@ -272,14 +405,14 @@ if page == "🔮 Predizione":
             st.caption("Over")
             for t in ["15","25","35","45","55"]:
                 odds[f"over{t}"] = st.number_input(
-                    f"Over {t[0]}.{t[1]}", min_value=0.0, value=0.0,
-                    step=0.05, format="%.2f")
+                    f"Over {t[0]}.{t[1]}", min_value=0.0,
+                    step=0.05, format="%.2f", value=st.session_state.get(match_key, {}).get(f"over{t}", 0.0), key=f"{match_key}_over{t}")
         with c2:
             st.caption("Under")
             for t in ["15","25","35","45","55"]:
                 odds[f"under{t}"] = st.number_input(
-                    f"Under {t[0]}.{t[1]}", min_value=0.0, value=0.0,
-                    step=0.05, format="%.2f")
+                    f"Under {t[0]}.{t[1]}", min_value=0.0,
+                    step=0.05, format="%.2f", value=st.session_state.get(match_key, {}).get(f"under{t}", 0.0), key=f"{match_key}_under{t}")
 
     with tab3:
         c1,c2 = st.columns(2)
@@ -299,14 +432,14 @@ if page == "🔮 Predizione":
             st.caption("Over")
             for t in ["25","35","45","55"]:
                 odds[f"cards_over{t}"] = st.number_input(
-                    f"Cart. Over {t[0]}.{t[1]}", min_value=0.0, value=0.0,
-                    step=0.05, format="%.2f")
+                    f"Cart. Over {t[0]}.{t[1]}", min_value=0.0,
+                    step=0.05, format="%.2f", value=st.session_state.get(match_key, {}).get(f"cards_over{t}", 0.0), key=f"{match_key}_cards_over{t}")
         with c2:
             st.caption("Under")
             for t in ["25","35","45","55"]:
                 odds[f"cards_under{t}"] = st.number_input(
-                    f"Cart. Under {t[0]}.{t[1]}", min_value=0.0, value=0.0,
-                    step=0.05, format="%.2f")
+                    f"Cart. Under {t[0]}.{t[1]}", min_value=0.0,
+                    step=0.05, format="%.2f", value=st.session_state.get(match_key, {}).get(f"cards_under{t}", 0.0), key=f"{match_key}_cards_under{t}")
 
     with tab5:
         st.caption("Mercati sul risultato del primo tempo")
@@ -331,6 +464,8 @@ if page == "🔮 Predizione":
     st.divider()
 
     st.session_state[match_key] = {k: v for k, v in odds.items() if v > 0}
+    _all_odds[match_key] = st.session_state[match_key]
+    _odds_file.write_text(_json.dumps(_all_odds, ensure_ascii=False, indent=2))
     if st.button("⚡ Analizza partita", type="primary", use_container_width=True):
         from models.markets import compute_all_markets, find_value_bets_extended, UNRELIABLE_MARKETS
         from models.features import get_feature_columns
@@ -375,6 +510,7 @@ if page == "🔮 Predizione":
                                     odds_h=pinnacle_odds.get('H'),
                                     odds_d=pinnacle_odds.get('D'),
                                     odds_a=pinnacle_odds.get('A'))
+        st.session_state[f"preds_{home}_{away}"] = preds
         if not preds:
             st.error("Squadre non trovate nel modello. Controlla i nomi.")
         else:
@@ -540,7 +676,17 @@ if page == "🔮 Predizione":
                     if star_vbs:
                         import datetime
                         match_date = str(datetime.date.today())
-                        n_saved = add_bets(home, away, match_date, star_vbs)
+                        # Calcola giornata dal calendario
+                        _round = None
+                        try:
+                            import pandas as _pd2
+                            _cal = _pd2.read_csv("cache/calendario_2627.csv")
+                            _match = _cal[(_cal["home"].str.lower() == home.lower()) & (_cal["away"].str.lower() == away.lower())]
+                            if not _match.empty:
+                                _round = int(_match.iloc[0]["giornata"])
+                        except:
+                            pass
+                        n_saved = add_bets(home, away, match_date, star_vbs, round_num=_round)
                         if n_saved > 0:
                             st.toast(f"💾 {n_saved} giocate salvate nel tracker", icon="✅")
                 except Exception as _te:
@@ -567,48 +713,49 @@ if page == "🔮 Predizione":
                 else:
                     st.markdown('<div class="no-value" style="color:#991b1b;background:#fff1f2;padding:12px;border-radius:8px;">❌ Nessuna value bet trovata.</div>',
                                 unsafe_allow_html=True)
-            # Calcolatore cluster
-            with st.expander("🎯 Calcolatore cluster risultati esatti"):
-                st.caption("Seleziona i risultati da combinare e confronta con la quota del bookmaker")
-                try:
-                    import numpy as _np
-                    _mat = cached_model.poisson.predict_score_matrix(home, away)
-                    if _mat is not None:
-                        _flat = [(_mat[ii,jj]*100, ii, jj) for ii in range(_mat.shape[0]) for jj in range(_mat.shape[1])]
-                        _top = sorted(_flat, reverse=True)[:15]
-                        st.markdown("**Seleziona i risultati:**")
-                        _sel = []
-                        _cols = st.columns(5)
-                        for _idx, (_p, _h, _a) in enumerate(_top):
-                            _qe = round(100/_p, 2) if _p > 0 else 99.0
-                            _lbl = f"{_h}-{_a} ({_p:.1f}% QE:{_qe})"
-                            if _cols[_idx % 5].checkbox(_lbl, key=f"cl_{home}_{away}_{_h}_{_a}"):
-                                _sel.append((_p, _h, _a))
-                        if _sel:
-                            _tot = sum(_p for _p,_,_ in _sel)
-                            _qe_tot = round(100/_tot, 3) if _tot > 0 else 99.0
-                            _ris = " + ".join(f"{_h}-{_a}" for _,_h,_a in _sel)
-                            st.markdown(
-                                f'<div style="background:#e8f0fe;border-left:4px solid #3d84f7;border-radius:8px;padding:14px 18px;margin:8px 0">'
-                                f'<b>Cluster:</b> {_ris}<br>'
-                                f'<b>Probabilità totale:</b> {_tot:.1f}%<br>'
-                                f'<b>Quota equa:</b> <span style="font-size:1.2rem;font-weight:800;color:#1565c0">{_qe_tot}</span>'
-                                f'</div>', unsafe_allow_html=True)
-                            _qbk = st.number_input("Quota bookmaker per questo cluster",
-                                min_value=1.0, value=float(_qe_tot), step=0.05, format="%.2f",
-                                key=f"clq_{home}_{away}")
-                            _edge = (_tot/100 * _qbk - 1) * 100
-                            if _edge >= 15:
-                                st.success(f"✅ VALUE BET! Edge: +{_edge:.1f}% — Stake: €{bankroll*0.01:.2f}")
-                            elif _edge >= 7:
-                                st.warning(f"⚠️ Edge marginale: +{_edge:.1f}%")
-                            else:
-                                st.error(f"❌ No value: Edge {_edge:.1f}%")
-                except:
-                    st.caption("Analizza prima la partita")
-
 
 # ═══ CALENDARIO ═══
+    # Calcolatore cluster
+    with st.expander("🎯 Calcolatore cluster risultati esatti"):
+        st.caption("Seleziona i risultati da combinare e confronta con la quota del bookmaker")
+        try:
+            import numpy as _np
+            _preds_key = f"preds_{home}_{away}"
+            _mat = model.poisson.predict_score_matrix(home, away)
+            if _mat is not None:
+                _flat = [(_mat[ii,jj]*100, ii, jj) for ii in range(_mat.shape[0]) for jj in range(_mat.shape[1])]
+                _top = sorted(_flat, reverse=True)[:15]
+                st.markdown("**Seleziona i risultati:**")
+                _sel = []
+                _cols = st.columns(5)
+                for _idx, (_p, _h, _a) in enumerate(_top):
+                    _qe = round(100/_p, 2) if _p > 0 else 99.0
+                    _lbl = f"{_h}-{_a} ({_p:.1f}% QE:{_qe})"
+                    if _cols[_idx % 5].checkbox(_lbl, key=f"cl_{home}_{away}_{_h}_{_a}"):
+                        _sel.append((_p, _h, _a))
+                if _sel:
+                    _tot = sum(_p for _p,_,_ in _sel)
+                    _qe_tot = round(100/_tot, 3) if _tot > 0 else 99.0
+                    _ris = " + ".join(f"{_h}-{_a}" for _,_h,_a in _sel)
+                    st.markdown(
+                        f'<div style="background:#e8f0fe;border-left:4px solid #3d84f7;border-radius:8px;padding:14px 18px;margin:8px 0">'
+                        f'<b>Cluster:</b> {_ris}<br>'
+                        f'<b>Probabilità totale:</b> {_tot:.1f}%<br>'
+                        f'<b>Quota equa:</b> <span style="font-size:1.2rem;font-weight:800;color:#1565c0">{_qe_tot}</span>'
+                        f'</div>', unsafe_allow_html=True)
+                    _qbk = st.number_input("Quota bookmaker per questo cluster",
+                        min_value=1.0, value=float(_qe_tot), step=0.05, format="%.2f",
+                        key=f"clq_{home}_{away}")
+                    _edge = (_tot/100 * _qbk - 1) * 100
+                    if _edge >= 15:
+                        st.success(f"✅ VALUE BET! Edge: +{_edge:.1f}% — Stake: €{bankroll*0.01:.2f}")
+                    elif _edge >= 7:
+                        st.warning(f"⚠️ Edge marginale: +{_edge:.1f}%")
+                    else:
+                        st.error(f"❌ No value: Edge {_edge:.1f}%")
+        except:
+            st.caption("Analizza prima la partita")
+
 elif page == "📅 Calendario 26/27":
     import pickle, numpy as np
     from pathlib import Path
@@ -829,11 +976,56 @@ elif page == "🎯 Tracker":
     from utils.bet_tracker import get_stats, close_bets_from_sofascore
     st.title("🎯 Bet Tracker")
     stats = get_stats()
-    c1,c2,c3,c4 = st.columns(4)
+    c1,c2,c3,c4,c5 = st.columns(5)
     c1.metric("Giocate totali", stats["total"])
     c2.metric("Vinte/Perse", f'{stats["won"]}/{stats["lost"]}')
     c3.metric("Win Rate", f'{stats["win_rate"]:.1f}%')
-    c4.metric("ROI reale", f'{stats["roi"]:+.1f}%', delta=f'€{stats["total_profit"]:+.2f}')
+    c4.metric("ROI reale", f'{stats["roi"]:+.1f}%')
+    c5.metric("Profitto (€4 stake)", f'€{stats["total_profit"]:+.2f}', delta=f'€{stats["total_profit"]/max(stats["closed"],1)*stats["total"]:.2f} proiettato')
+
+    # ── Riepilogo per giornata ──────────────────────────────────────────────────
+    closed_bets = [b for b in stats["bets"] if b["status"] != "pending"]
+    if closed_bets:
+        st.divider()
+        st.subheader("📊 Risultati per giornata")
+        # Raggruppa per round
+        from collections import defaultdict
+        giornate = defaultdict(list)
+        for b in closed_bets:
+            g = b.get("round") or "?"
+            giornate[g].append(b)
+        # Mostra per giornata (ordine inverso)
+        for g in sorted(giornate.keys(), reverse=True):
+            bets_g = giornate[g]
+            profit_g = sum(b.get("profitto",0) or 0 for b in bets_g)
+            stake_g = sum(b.get("stake",4) for b in bets_g)
+            roi_g = profit_g / stake_g * 100 if stake_g > 0 else 0
+            vinte_g = sum(1 for b in bets_g if b["status"] == "won")
+            emoji = "✅" if profit_g > 0 else "❌"
+            color = "#f0fdf4" if profit_g > 0 else "#fff1f2"
+            border = "#22c55e" if profit_g > 0 else "#f05252"
+            text_c = "#166534" if profit_g > 0 else "#991b1b"
+            label = f"Giornata {g}" if g != "?" else "Giornata non specificata"
+            st.markdown(
+                f'<div style="background:{color};border-left:4px solid {border};border-radius:10px;padding:14px 20px;margin:6px 0;display:flex;justify-content:space-between;align-items:center">'
+                f'<div><b style="font-size:1rem">{emoji} {label}</b>'
+                f'&nbsp;&nbsp;<span style="color:#666;font-size:0.85rem">{len(bets_g)} giocate &nbsp;|&nbsp; {vinte_g} vinte &nbsp;|&nbsp; ROI {roi_g:+.1f}%</span></div>'
+                f'<div style="font-size:1.3rem;font-weight:800;color:{text_c}">{profit_g:+.2f}€</div>'
+                f'</div>',
+                unsafe_allow_html=True)
+        # Totale stagione
+        tot_profit = sum(b.get("profitto",0) or 0 for b in closed_bets)
+        tot_stake = sum(b.get("stake",4) for b in closed_bets)
+        tot_roi = tot_profit/tot_stake*100 if tot_stake > 0 else 0
+        color_t = "#1d4ed8" 
+        st.markdown(
+            f'<div style="background:#eff6ff;border:2px solid #3d84f7;border-radius:12px;padding:16px 20px;margin:12px 0;display:flex;justify-content:space-between;align-items:center">'
+            f'<div><b style="font-size:1.1rem;color:#1d4ed8">📈 Totale stagione</b>'
+            f'&nbsp;&nbsp;<span style="color:#666;font-size:0.85rem">{len(closed_bets)} giocate &nbsp;|&nbsp; ROI {tot_roi:+.1f}%</span></div>'
+            f'<div style="font-size:1.5rem;font-weight:800;color:#1d4ed8">{tot_profit:+.2f}€</div>'
+            f'</div>',
+            unsafe_allow_html=True)
+
     st.divider()
     col1, col2 = st.columns([2,1])
     with col1:
@@ -850,12 +1042,41 @@ elif page == "🎯 Tracker":
     if pending:
         st.subheader(f"🕐 Pendenti ({len(pending)})")
         for b in pending:
+            try:
+                prob_mod = (b["edge_pct"]/100 + 1) / b["quota"] * 100
+            except:
+                prob_mod = 0
             st.markdown(
-                f'<div style="background:#fff8e6;border-left:4px solid #f59e0b;border-radius:8px;padding:12px 16px;margin:6px 0">\n'
-                f'<b>{b["home"]} vs {b["away"]}</b> — {b["mercato"]} @ <b>{b["quota"]:.2f}</b>\n'
-                f'&nbsp;|&nbsp; Edge: +{b["edge_pct"]:.1f}% &nbsp;|&nbsp; Stake: €{b["stake"]:.2f}\n'
-                f'&nbsp;|&nbsp; <small style="color:#666">{b["match_date"]}</small></div>',
+                f'<div style="background:#fff8e6;border-left:4px solid #f59e0b;border-radius:8px;padding:12px 16px;margin:6px 0">'
+                f'<b>{b["home"]} vs {b["away"]}</b> — {b["mercato"]} @ <b>{b["quota"]:.2f}</b>'
+                f' &nbsp;|&nbsp; Prob: <b>{prob_mod:.1f}%</b> &nbsp;|&nbsp; Edge: +{b["edge_pct"]:.1f}% &nbsp;|&nbsp; Stake: €{b["stake"]:.2f}'
+                f' &nbsp;|&nbsp; <small style="color:#666">{b["match_date"]}</small></div>',
                 unsafe_allow_html=True)
+            _c1, _c2, _c3 = st.columns([1,1,4])
+            if _c1.button("✅ Vinta", key=f"win_{b[chr(105)+chr(100)]}"):
+                from utils.bet_tracker import load_tracker, save_tracker
+                import datetime as _dt
+                _d = load_tracker()
+                for _b in _d["bets"]:
+                    if _b["id"] == b["id"]:
+                        _b["status"] = "won"
+                        _b["profitto"] = round(_b["stake"]*(_b["quota"]-1),2)
+                        _b["closed_at"] = _dt.datetime.now().isoformat()[:19]
+                        _b["result"] = "manuale"
+                        break
+                save_tracker(_d); st.rerun()
+            if _c2.button("❌ Persa", key=f"loss_{b[chr(105)+chr(100)]}"):
+                from utils.bet_tracker import load_tracker, save_tracker
+                import datetime as _dt
+                _d = load_tracker()
+                for _b in _d["bets"]:
+                    if _b["id"] == b["id"]:
+                        _b["status"] = "lost"
+                        _b["profitto"] = -_b["stake"]
+                        _b["closed_at"] = _dt.datetime.now().isoformat()[:19]
+                        _b["result"] = "manuale"
+                        break
+                save_tracker(_d); st.rerun()
     closed = [b for b in stats["bets"] if b["status"] != "pending"]
     if closed:
         st.subheader(f"📋 Storico ({len(closed)} giocate)")
@@ -863,6 +1084,8 @@ elif page == "🎯 Tracker":
             won = b["status"] == "won"
             color = "#f0fdf4" if won else "#fff1f2"
             border = "#22c55e" if won else "#f05252"
+            source = b.get("source", "dashboard")
+            source_badge = " <span style='background:#6366f1;color:white;font-size:0.7rem;padding:2px 7px;border-radius:10px;margin-left:4px'>📱 Telegram</span>" if source == "telegram" else ""
             icon = "✅" if won else "❌"
             prof = b.get("profitto", 0) or 0
             result = b.get("result", "?")
@@ -873,8 +1096,7 @@ elif page == "🎯 Tracker":
                 f'&nbsp;|&nbsp; <b style="color:{text_color}">{prof:+.2f}€</b></div>',
                 unsafe_allow_html=True)
 
-elif page == "📊 Backtest":
-    st.title("📊 Backtest Walk-Forward")
+elif page == "📈 Backtest":
     st.caption("Il modello si allena solo sul passato e prevede solo il futuro — nessun lookahead bias")
 
     st.info("""
