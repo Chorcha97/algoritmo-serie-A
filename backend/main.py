@@ -35,7 +35,7 @@ async def lifespan(app: FastAPI):
     # impersonate="chrome" imita l'handshake TLS reale di Chrome
     async with AsyncSession(impersonate="chrome") as client:
         app.state.http_client = client
-        await refresh_session(client)
+        pass  # refresh_session disabilitato
         yield
 
 
