@@ -689,6 +689,20 @@ if page == "🔮 Predizione":
                         n_saved = add_bets(home, away, match_date, star_vbs, round_num=_round)
                         if n_saved > 0:
                             st.toast(f"💾 {n_saved} giocate salvate nel tracker", icon="✅")
+                        # Invia anche su Telegram
+                        try:
+                            from utils.telegram_bot import send_value_bet_alert
+                            from datetime import datetime as _dt
+                            _kickoff_str = f"{home} vs {away}"
+                            _tg_msg = f"📊 DASHBOARD
+{_kickoff_str}
+"
+                            for _vb in star_vbs:
+                                _tg_msg += f"⭐ {_vb['mercato']} @ {_vb['quota']:.2f} edge +{_vb['edge_%']:.1f}%
+"
+                            send_value_bet_alert(home, away, match_date, star_vbs, {})
+                        except Exception as _tge:
+                            pass
                 except Exception as _te:
                     pass
                 if vbs:
@@ -982,6 +996,40 @@ elif page == "🎯 Tracker":
     c3.metric("Win Rate", f'{stats["win_rate"]:.1f}%')
     c4.metric("ROI reale", f'{stats["roi"]:+.1f}%')
     c5.metric("Profitto (€4 stake)", f'€{stats["total_profit"]:+.2f}', delta=f'€{stats["total_profit"]/max(stats["closed"],1)*stats["total"]:.2f} proiettato')
+
+
+    # ── Stats per fonte ─────────────────────────────────────────────────────────
+    _dash_bets = [b for b in stats["bets"] if b.get("source","dashboard") == "dashboard"]
+    _tg_bets = [b for b in stats["bets"] if b.get("source") == "telegram"]
+    _dash_closed = [b for b in _dash_bets if b["status"] != "pending"]
+    _tg_closed = [b for b in _tg_bets if b["status"] != "pending"]
+
+    if _dash_bets or _tg_bets:
+        st.markdown("---")
+        cd1, cd2 = st.columns(2)
+        # Dashboard
+        with cd1:
+            _d_prof = sum(b.get("profitto",0) or 0 for b in _dash_closed)
+            _d_stake = sum(b.get("stake",4) for b in _dash_closed)
+            _d_roi = _d_prof/_d_stake*100 if _d_stake > 0 else 0
+            _d_won = sum(1 for b in _dash_closed if b["status"] == "won")
+            st.markdown(f'''<div style="background:#eff6ff;border-radius:12px;padding:16px;text-align:center">
+            <div style="font-size:0.85rem;color:#666;font-weight:600">📊 DASHBOARD</div>
+            <div style="font-size:1.5rem;font-weight:800;color:#1d4ed8">{_d_prof:+.2f}€</div>
+            <div style="font-size:0.8rem;color:#666">{len(_dash_closed)} chiuse · {_d_won} vinte · ROI {_d_roi:+.1f}%</div>
+            </div>''', unsafe_allow_html=True)
+        # Telegram
+        with cd2:
+            _t_prof = sum(b.get("profitto",0) or 0 for b in _tg_closed)
+            _t_stake = sum(b.get("stake",4) for b in _tg_closed)
+            _t_roi = _t_prof/_t_stake*100 if _t_stake > 0 else 0
+            _t_won = sum(1 for b in _tg_closed if b["status"] == "won")
+            _t_pend = sum(1 for b in _tg_bets if b["status"] == "pending")
+            st.markdown(f'''<div style="background:#f0fdf4;border-radius:12px;padding:16px;text-align:center">
+            <div style="font-size:0.85rem;color:#666;font-weight:600">📱 TELEGRAM</div>
+            <div style="font-size:1.5rem;font-weight:800;color:#166534">{_t_prof:+.2f}€</div>
+            <div style="font-size:0.8rem;color:#666">{len(_tg_closed)} chiuse · {_t_won} vinte · ROI {_t_roi:+.1f}% · {_t_pend} pending</div>
+            </div>''', unsafe_allow_html=True)
 
     # ── Riepilogo per giornata ──────────────────────────────────────────────────
     closed_bets = [b for b in stats["bets"] if b["status"] != "pending"]

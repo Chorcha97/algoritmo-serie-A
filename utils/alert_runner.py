@@ -147,7 +147,7 @@ def run_alerts(sport: str = "serie_a", hours_ahead: int = 96):
             continue
 
         # Invia alert
-        kickoff_str = kickoff.strftime("%d/%m %H:%M")
+        kickoff_str = (kickoff + pd.Timedelta(hours=2)).strftime("%d/%m %H:%M")  # UTC -> UTC+2
         print(f"    ✅ {len(vbs)} value bet trovate — invio alert")
         for vb in vbs:
             print(f"       {vb['mercato']} @ {vb['quota']} edge +{vb['edge_%']}%")
