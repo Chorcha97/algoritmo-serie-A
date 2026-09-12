@@ -366,52 +366,6 @@ def add_opta_team_stats(df):
     return df
 
 
-
-
-def add_sofascore_match_features(df):
-    """
-    Aggiunge feature EMA calcolate dai dati Sofascore per partita:
-    xG, big chances, corner, cross, tiri, possesso, parate, falli, sprint.
-    Coverage: ~76-95% delle partite (2021-2026).
-    """
-    SOFA_COLS = [
-        'home_xg_avg', 'away_xg_avg',
-        'home_xg_conceded_avg', 'away_xg_conceded_avg',
-        'home_bigchances_avg', 'away_bigchances_avg',
-        'home_corners_avg', 'away_corners_avg',
-        'home_crosses_avg', 'away_crosses_avg',
-        'home_shots_avg', 'away_shots_avg',
-        'home_possession_avg', 'away_possession_avg',
-        'home_saves_avg', 'away_saves_avg',
-        'home_fouls_avg', 'away_fouls_avg',
-        'home_sprints_avg', 'away_sprints_avg',
-    ]
-    
-    for col in SOFA_COLS:
-        if col in df.columns:
-            f_name = f'f_sofa_{col}'
-            df[f_name] = pd.to_numeric(df[col], errors='coerce')
-    
-    # Feature derivate
-    if 'home_xg_avg' in df.columns and 'away_xg_avg' in df.columns:
-        df['f_sofa_xg_diff'] = pd.to_numeric(df['home_xg_avg'], errors='coerce') -                                 pd.to_numeric(df['away_xg_avg'], errors='coerce')
-        df['f_sofa_xg_total_avg'] = pd.to_numeric(df['home_xg_avg'], errors='coerce') +                                      pd.to_numeric(df['away_xg_avg'], errors='coerce')
-    
-    if 'home_xg_avg' in df.columns and 'home_xg_conceded_avg' in df.columns:
-        df['f_sofa_xg_net_h'] = pd.to_numeric(df['home_xg_avg'], errors='coerce') -                                   pd.to_numeric(df['home_xg_conceded_avg'], errors='coerce')
-        df['f_sofa_xg_net_a'] = pd.to_numeric(df['away_xg_avg'], errors='coerce') -                                   pd.to_numeric(df['away_xg_conceded_avg'], errors='coerce')
-    
-    if 'home_corners_avg' in df.columns and 'away_corners_avg' in df.columns:
-        df['f_sofa_corners_total_avg'] = pd.to_numeric(df['home_corners_avg'], errors='coerce') +                                           pd.to_numeric(df['away_corners_avg'], errors='coerce')
-    
-    if 'home_crosses_avg' in df.columns and 'away_crosses_avg' in df.columns:
-        df['f_sofa_crosses_total_avg'] = pd.to_numeric(df['home_crosses_avg'], errors='coerce') +                                           pd.to_numeric(df['away_crosses_avg'], errors='coerce')
-    
-    if 'home_bigchances_avg' in df.columns and 'away_bigchances_avg' in df.columns:
-        df['f_sofa_bigchances_diff'] = pd.to_numeric(df['home_bigchances_avg'], errors='coerce') -                                         pd.to_numeric(df['away_bigchances_avg'], errors='coerce')
-    
-    return df
-
 def add_sofascore_team_stats(df):
     """
     Aggiunge statistiche Sofascore per squadra come feature.
@@ -558,7 +512,7 @@ def add_team_values(df: pd.DataFrame) -> pd.DataFrame:
     fanta_path = Path('cache/fanta_quality_2627.json')
     val_path   = Path('cache/team_values.json')
 
-    if False:  # fantacalcio disabilitato
+    if fanta_path.exists():
         with open(fanta_path) as f:
             fanta = json.load(f)
 
@@ -669,7 +623,6 @@ def build_features(df_raw: pd.DataFrame, verbose: bool = True) -> pd.DataFrame:
     df = add_opta_powerranking(df)
     df = add_opta_team_stats(df)
     df = add_sofascore_team_stats(df)
-    df = add_sofascore_match_features(df)
 
     if verbose: print("  → Colonne target ...")
     df = add_targets(df)
@@ -731,22 +684,6 @@ def get_feature_columns() -> list:
         "f_att_vs_def",    "f_att_vs_def_away",
         # Tendenza cartellini
         "f_cards_ema_home", "f_cards_ema_away", "f_cards_ema_total",
-        # Feature Sofascore per partita (EMA ultime 5 partite)
-        "f_sofa_home_xg_avg", "f_sofa_away_xg_avg",
-        "f_sofa_home_xg_conceded_avg", "f_sofa_away_xg_conceded_avg",
-        "f_sofa_xg_diff", "f_sofa_xg_total_avg",
-        "f_sofa_xg_net_h", "f_sofa_xg_net_a",
-        "f_sofa_home_bigchances_avg", "f_sofa_away_bigchances_avg",
-        "f_sofa_bigchances_diff",
-        "f_sofa_home_corners_avg", "f_sofa_away_corners_avg",
-        "f_sofa_corners_total_avg",
-        "f_sofa_home_crosses_avg", "f_sofa_away_crosses_avg",
-        "f_sofa_crosses_total_avg",
-        "f_sofa_home_shots_avg", "f_sofa_away_shots_avg",
-        "f_sofa_home_possession_avg", "f_sofa_away_possession_avg",
-        "f_sofa_home_saves_avg", "f_sofa_away_saves_avg",
-        "f_sofa_home_fouls_avg", "f_sofa_away_fouls_avg",
-        "f_sofa_home_sprints_avg", "f_sofa_away_sprints_avg",
     ]
 
 

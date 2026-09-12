@@ -1,52 +1,52 @@
 [
   {
-    "home": "MILAN",
-    "away": "VENEZIA",
-    "referee": "MANGANIELLO"
+    "home": "GENOA",
+    "away": "COMO",
+    "referee": "GUIDA"
   },
   {
     "home": "FIORENTINA",
-    "away": "FROSINONE",
-    "referee": "COLLU"
-  },
-  {
-    "home": "MONZA",
-    "away": "UDINESE",
-    "referee": "ALLEGRETTA"
-  },
-  {
-    "home": "SASSUOLO",
     "away": "TORINO",
-    "referee": "DI MARCO"
+    "referee": "MASSA"
+  },
+  {
+    "home": "INTER",
+    "away": "NAPOLI",
+    "referee": "SOZZA"
+  },
+  {
+    "home": "FROSINONE",
+    "away": "VENEZIA",
+    "referee": "PERRI"
+  },
+  {
+    "home": "PARMA",
+    "away": "MONZA",
+    "referee": "LA PENNA"
+  },
+  {
+    "home": "BOLOGNA",
+    "away": "SASSUOLO",
+    "referee": "DI BELLO"
   },
   {
     "home": "JUVENTUS",
-    "away": "PARMA",
-    "referee": "FOURNEAU"
-  },
-  {
-    "home": "NAPOLI",
-    "away": "COMO",
-    "referee": "PAIRETTO"
+    "away": "MILAN",
+    "referee": "MARIANI"
   },
   {
     "home": "CAGLIARI",
-    "away": "INTER",
-    "referee": "FABBRI"
+    "away": "LECCE",
+    "referee": "SACCHI J.L."
   },
   {
-    "home": "LAZIO",
-    "away": "GENOA",
-    "referee": "FELICIANI"
+    "home": "UDINESE",
+    "away": "LAZIO",
+    "referee": "TREMOLADA"
   },
   {
-    "home": "LECCE",
-    "away": "ROMA",
-    "referee": "CHIFFI"
-  },
-  {
-    "home": "ATALANTA",
-    "away": "BOLOGNA",
-    "referee": "DOVERI"
+    "home": "ROMA",
+    "away": "ATALANTA",
+    "referee": "Colombo"
   }
 ]
