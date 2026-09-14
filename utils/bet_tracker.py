@@ -33,7 +33,7 @@ def add_bets(home: str, away: str, match_date: str, vbs: list, round_num: int = 
         # Evita duplicati
         exists = any(
             b['home'] == home and b['away'] == away and
-            b['mercato'] == mercato and b['status'] == 'pending'
+            b['mercato'] == mercato
             for b in data['bets']
         )
         if exists:

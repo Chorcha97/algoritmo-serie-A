@@ -717,29 +717,137 @@ if page == "🔮 Predizione":
                             pass
                 except Exception as _te:
                     pass
-                if vbs:
-                    for vb in vbs:
-                        if not vb["affidabile"]:
-                            css = "value-bet-warn"
-                            icon = "⚠️"
-                            note = "<br><small style='color:#c0a000'>Mercato con ROI storico negativo — prudenza</small>"
-                        else:
-                            css = "value-bet"
-                            icon = "⭐" if vb["edge_%"] >= 10 else "✅"
-                            note = ""
-                        corr_note = " &nbsp;<span style='color:#c0a000;font-size:0.85em'>⚠️ correlato −40% stake</span>" if vb.get('correlato') else ""
-                        st.markdown(f"""<div class="{css}">
-                        {icon} <b>{vb['mercato']}</b>{note}{corr_note}<br>
-                        Quota: <b>{vb['quota']}</b> &nbsp;|&nbsp;
-                        Prob.: <b>{vb['prob_modello_%']}%</b> &nbsp;|&nbsp;
-                        Implicita: {vb['prob_implicita_%']}% &nbsp;|&nbsp;
-                        Edge: <b style="color:#40c040">+{vb['edge_%']}%</b> &nbsp;|&nbsp;
-                        Stake: <b>€{vb['stake_€']}</b>
-                        </div>""", unsafe_allow_html=True)
-                else:
-                    st.markdown('<div class="no-value" style="color:#991b1b;background:#fff1f2;padding:12px;border-radius:8px;">❌ Nessuna value bet trovata.</div>',
-                                unsafe_allow_html=True)
+                # ── Nuovi modelli: corner, cartellini, multigoal, giocatori ──────
+                try:
+                    from models.corner_model import CornerModel
+                    from models.cards_model import CardsModel
+                    from models.multigoal import multigoal_probs as mg_probs, score_matrix
+                    from models.player_stats import PlayerStatsBuilder
+                    from components.match_analysis import render_compact_analysis
 
+                    _corner_model = CornerModel(df_raw)
+                    _cards_model = CardsModel(df_raw, ref_stats if ref_adj.get('affidabile') else None)
+                    _player_builder = PlayerStatsBuilder()
+
+                    _corner_pred = _corner_model.predict(home, away)
+                    _cards_pred = _cards_model.predict(home, away, referee if referee else None)
+
+                    # Lambda Poisson per multigoal e marcatori
+                    _lam_h = _lam_a = None
+                    try:
+                        _mat = model.poisson.predict_score_matrix(home, away)
+                        if _mat is not None:
+                            import numpy as _np
+                            if home in model.poisson.attack and away in model.poisson.attack:
+                                _lam_h = float(model.poisson.attack[home] / model.poisson.defense[away] * model.poisson.avg_goals * _np.exp(model.poisson.home_adv))
+                                _lam_a = float(model.poisson.attack[away] / model.poisson.defense[home] * model.poisson.avg_goals)
+                    except Exception:
+                        pass
+
+                    _mg = mg_probs(_lam_h or 1.4, _lam_a or 1.2) if _lam_h else {}
+                    _score_data = score_matrix(_lam_h or 1.4, _lam_a or 1.2) if _lam_h else {}
+
+                    _h_exp_goals = _lam_h or 1.4
+                    _a_exp_goals = _lam_a or 1.2
+                    _h_exp_cards = _cards_pred.get('home_expected', 1.5)
+                    _a_exp_cards = _cards_pred.get('away_expected', 1.5)
+
+                    _home_scorers = _player_builder.scorer_probability(home, _h_exp_goals)
+                    _away_scorers = _player_builder.scorer_probability(away, _a_exp_goals)
+                    _home_bookings = _player_builder.booking_probability(home, _h_exp_cards)
+                    _away_bookings = _player_builder.booking_probability(away, _a_exp_cards)
+
+                    _probs_dict = {
+                        'home': preds.get('prob_H', 0),
+                        'draw': preds.get('prob_D', 0),
+                        'away': preds.get('prob_A', 0),
+                    }
+
+                    st.divider()
+                    st.session_state["_new_analysis_active"] = True
+                    render_compact_analysis(
+                        home=home, away=away,
+                        preds=preds,
+                        corner_pred=_corner_pred,
+                        cards_pred=_cards_pred,
+                        lam_h=_lam_h,
+                        lam_a=_lam_a,
+                        vbs=vbs,
+                        referee=referee if referee else None,
+                        home_scorers=_home_scorers,
+                        away_scorers=_away_scorers,
+                        home_bookings=_home_bookings,
+                        away_bookings=_away_bookings,
+                    )
+                except Exception as _upgrade_err:
+                    pass  # Fall back silenzioso se i nuovi modelli non caricano
+
+                # ── Nuovi modelli: corner, cartellini, multigoal, giocatori ──────
+                try:
+                    from models.corner_model import CornerModel
+                    from models.cards_model import CardsModel
+                    from models.multigoal import multigoal_probs as mg_probs, score_matrix
+                    from models.player_stats import PlayerStatsBuilder
+                    from components.match_analysis import render_compact_analysis
+
+                    _corner_model = CornerModel(df_raw)
+                    _cards_model = CardsModel(df_raw, ref_stats if ref_adj.get('affidabile') else None)
+                    _player_builder = PlayerStatsBuilder()
+
+                    _corner_pred = _corner_model.predict(home, away)
+                    _cards_pred = _cards_model.predict(home, away, referee if referee else None)
+
+                    # Lambda Poisson per multigoal e marcatori
+                    _lam_h = _lam_a = None
+                    try:
+                        _mat = model.poisson.predict_score_matrix(home, away)
+                        if _mat is not None:
+                            import numpy as _np
+                            if home in model.poisson.attack and away in model.poisson.attack:
+                                _lam_h = float(model.poisson.attack[home] / model.poisson.defense[away] * model.poisson.avg_goals * _np.exp(model.poisson.home_adv))
+                                _lam_a = float(model.poisson.attack[away] / model.poisson.defense[home] * model.poisson.avg_goals)
+                    except Exception:
+                        pass
+
+                    _mg = mg_probs(_lam_h or 1.4, _lam_a or 1.2) if _lam_h else {}
+                    _score_data = score_matrix(_lam_h or 1.4, _lam_a or 1.2) if _lam_h else {}
+
+                    _h_exp_goals = _lam_h or 1.4
+                    _a_exp_goals = _lam_a or 1.2
+                    _h_exp_cards = _cards_pred.get('home_expected', 1.5)
+                    _a_exp_cards = _cards_pred.get('away_expected', 1.5)
+
+                    _home_scorers = _player_builder.scorer_probability(home, _h_exp_goals)
+                    _away_scorers = _player_builder.scorer_probability(away, _a_exp_goals)
+                    _home_bookings = _player_builder.booking_probability(home, _h_exp_cards)
+                    _away_bookings = _player_builder.booking_probability(away, _a_exp_cards)
+
+                    _probs_dict = {
+                        'home': preds.get('prob_H', 0),
+                        'draw': preds.get('prob_D', 0),
+                        'away': preds.get('prob_A', 0),
+                    }
+
+                    st.divider()
+                    st.session_state["_new_analysis_active"] = True
+                    render_compact_analysis(
+                        home=home, away=away,
+                        preds=preds,
+                        corner_pred=_corner_pred,
+                        cards_pred=_cards_pred,
+                        lam_h=_lam_h,
+                        lam_a=_lam_a,
+                        vbs=vbs,
+                        referee=referee if referee else None,
+                        home_scorers=_home_scorers,
+                        away_scorers=_away_scorers,
+                        home_bookings=_home_bookings,
+                        away_bookings=_away_bookings,
+                    )
+                except Exception as _upgrade_err:
+                    pass  # Fall back silenzioso se i nuovi modelli non caricano
+
+                # vecchia sezione VB rimossa — gestita dal componente
 # ═══ CALENDARIO ═══
     # Calcolatore cluster
     with st.expander("🎯 Calcolatore cluster risultati esatti"):
