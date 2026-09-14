@@ -21,8 +21,8 @@ def add_bets(home: str, away: str, match_date: str, vbs: list, round_num: int = 
     data = load_tracker()
     added = 0
     for vb in vbs:
-        if not vb.get('affidabile', True):
-            continue  # Skip mercati con ROI storico negativo
+        # Salva tutte le giocate con edge >= 15% (filtro affidabile rimosso)
+        # if not vb.get("affidabile", True): continue
         mercato = vb.get('mercato', '')
         # Solo mercati positivi con stellina
         if not any(m in mercato for m in ['Pareggio', 'Under 2.5', 'Over 2.5',

@@ -95,8 +95,11 @@ def load_model():
     # Carica modello da disco se esiste, altrimenti allena e salva
     if Path(model_path).exists():
         with open(model_path, "rb") as f:
-            model = pickle.load(f)
-    else:
+            loaded = pickle.load(f)
+            if isinstance(loaded, tuple):
+                model = loaded[0]
+            else:
+                model = loaded
         model = EnsembleModel()
         model.fit(df)
         with open(model_path, "wb") as f:
@@ -1149,6 +1152,54 @@ elif page == "🎯 Tracker":
             <div class="src-profit" style="color:{_t_col}">{_t_prof:+.2f}€</div>
             <div class="src-detail">{len(tg_closed)} chiuse · {_t_won} vinte · {len(tg_pend)} pendenti</div>
         </div>''', unsafe_allow_html=True)
+
+    # ── Filtro per mercato ────────────────────────────────────────────────────
+    if closed:
+        st.markdown('<div class="sec-label">Analisi per mercato</div>', unsafe_allow_html=True)
+        _all_markets = sorted(set(b["mercato"] for b in closed))
+        _mkt_sel = st.selectbox("Seleziona mercato", ["Tutti"] + _all_markets, key="mkt_filter")
+
+        _filtered = closed if _mkt_sel == "Tutti" else [b for b in closed if b["mercato"] == _mkt_sel]
+
+        if _filtered:
+            _f_won = [b for b in _filtered if b["status"] == "won"]
+            _f_lost = [b for b in _filtered if b["status"] == "lost"]
+            _f_profit = sum(b.get("profitto",0) or 0 for b in _filtered)
+            _f_stake = sum(b.get("stake",4) for b in _filtered)
+            _f_roi = _f_profit/_f_stake*100 if _f_stake > 0 else 0
+            _f_wr = len(_f_won)/len(_filtered)*100 if _filtered else 0
+            _avg_odds = sum(b.get("quota",0) for b in _filtered)/len(_filtered) if _filtered else 0
+            _avg_edge = sum(b.get("edge_pct",0) for b in _filtered)/len(_filtered) if _filtered else 0
+
+            _col1, _col2, _col3, _col4 = st.columns(4)
+            _col1.metric("Giocate", len(_filtered))
+            _col2.metric("Win Rate", f"{_f_wr:.0f}%")
+            _col3.metric("ROI", f"{_f_roi:+.1f}%")
+            _col4.metric("Profitto", f"€{_f_profit:+.2f}")
+
+            _c1, _c2 = st.columns(2)
+            _c1.metric("Quota media", f"{_avg_odds:.2f}")
+            _c2.metric("Edge medio", f"+{_avg_edge:.1f}%")
+
+            # Mini grafico P&L per mercato
+            if len(_filtered) > 1:
+                import pandas as _pd_mkt
+                _df_mkt = _pd_mkt.DataFrame(_filtered).sort_values("closed_at", na_position="last")
+                _df_mkt["cum"] = _df_mkt["profitto"].fillna(0).cumsum()
+                _vals = _df_mkt["cum"].tolist()
+                _mn, _mx = min(_vals), max(_vals)
+                _rng = _mx - _mn if _mx != _mn else 1
+                _pts = " ".join([f"{int(i*300/max(len(_vals)-1,1))},{int(38-(_v-_mn)/_rng*34)}" for i, _v in enumerate(_vals)])
+                _area = _pts + f" {int((len(_vals)-1)*300/max(len(_vals)-1,1))},40 0,40"
+                _spline_color = "#16a34a" if _f_profit >= 0 else "#dc2626"
+                _area_color = "#bbf7d0" if _f_profit >= 0 else "#fee2e2"
+                st.markdown(f'''<div style="margin:8px 0 4px;font-size:11px;color:#9ca3af">P&L cumulativo — {_mkt_sel}</div>
+                <svg width="100%" height="42" viewBox="0 0 300 42" preserveAspectRatio="none">
+                    <polygon points="{_area}" fill="{_area_color}" opacity="0.6"/>
+                    <polyline points="{_pts}" fill="none" stroke="{_spline_color}" stroke-width="1.5"/>
+                </svg>''', unsafe_allow_html=True)
+
+    st.divider()
 
     # ── Chiudi giornata ──────────────────────────────────────────────────────────
     st.markdown('<div class="sec-label">Chiudi giornata</div>', unsafe_allow_html=True)
