@@ -61,7 +61,7 @@ def update_calendario():
                     continue
                 
                 # Converti UTC -> UTC+2 (ora italiana)
-                dt_it = datetime.datetime.utcfromtimestamp(ts) + datetime.timedelta(hours=2)
+                dt_it = datetime.datetime.utcfromtimestamp(ts)
                 data_str = dt_it.strftime('%Y-%m-%d')
                 ora_str = dt_it.strftime('%H:%M')
                 

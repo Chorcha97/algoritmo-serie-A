@@ -46,30 +46,27 @@ def run_weekly_update():
         send_message(f"⚠️ Errore aggiornamento settimanale: {e}")
         return
 
-    # 3. Rigenera features e modello
-    print("\n[3/4] Rigenero modello...")
-    try:
-        df = build_features(df_raw, verbose=False)
-        model = EnsembleModel()
-        
-    # [STEP] Integra partite 2026/27 nel dataset
-    print('
-[STEP] Aggiornamento dataset 2026/27...')
+    # 3. Integra partite 2026/27 e aggiorna dataset
+    print("[3/4] Aggiornamento dataset 2026/27...")
     try:
         from utils.update_dataset_2627 import update_dataset_2627, update_standings_from_results
         update_dataset_2627()
         update_standings_from_results()
     except Exception as e:
-        print(f'  [WARN] {e}')
+        print(f"  [WARN] {e}")
 
-    # Rigenera modello
-df)
+    # 3b. Rigenera features e modello
+    print("[3/4] Aggiornamento dataset 2026/27...")
+    print("[3b/4] Rigenero modello...")
+    try:
+        df = build_features(df_raw, verbose=False)
+        model = EnsembleModel()
+        model.fit(df)
         with open("model_cache.pkl", "wb") as f:
             pickle.dump(model, f)
         print("  Modello rigenerato e salvato")
     except Exception as e:
         print(f"  Errore training: {e}")
-        send_message(f"⚠️ Errore training modello: {e}")
         return
 
     # 4. Aggiorna classifica da football-data.org

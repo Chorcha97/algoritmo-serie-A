@@ -425,23 +425,48 @@ class PlayerStatsBuilder:
 
         return sorted(result, key=lambda x: -x['prob_score'])[:limit]
 
-    def booking_probability(self, team, exp_cards, opp_context=None, limit=5):
+    def booking_probability(self, team, exp_cards, opp_context=None,
+                             referee_factor=1.0, limit=5):
+        """
+        Probabilità ammonizione con:
+        - Fattore posizione: M > D > F > G
+        - Fattore pressing avversario
+        - Fattore arbitro (da CardsModel)
+        """
+        # Fattori per posizione (statistiche Serie A storiche)
+        POSITION_FACTORS = {
+            'M': 1.35,   # Centrocampisti — più falli, più cartellini
+            'D': 1.15,   # Difensori — tackle duri
+            'F': 1.00,   # Attaccanti — baseline
+            'G': 0.35,   # Portieri — raramente ammoniti
+        }
+
         players = self.get_team_players(team)
         if not players:
             return []
+
         opp = opp_context or {}
         press_factor = opp.get('sprints_avg', LEAGUE_AVG_SPRINTS) / LEAGUE_AVG_SPRINTS
 
-        total_rate = sum(p['cards_per90'] * press_factor for p in players) or 1
-        result = []
+        # Calcola score ponderato per ogni giocatore
+        enriched = []
         for p in players:
-            rate = p['cards_per90'] * press_factor
-            share = rate / total_rate
-            prob = round(1 - np.exp(-share * exp_cards), 3)
+            pos = p.get('position', 'F')
+            pos_factor = POSITION_FACTORS.get(pos, 1.0)
+            rate = p['cards_per90'] * press_factor * pos_factor * referee_factor
+            enriched.append({**p, '_rate': rate})
+
+        total_rate = sum(p['_rate'] for p in enriched) or 1
+        result = []
+        for p in enriched:
+            share = p['_rate'] / total_rate
+            prob = round(1 - np.exp(-share * exp_cards * referee_factor), 3)
+            pos = p.get('position', 'F')
             result.append({
                 **p,
                 'yellow_cards': p['yellow_cards'],
                 'prob_booking': prob,
                 'card_share': round(share, 2),
+                'position': pos,
             })
         return sorted(result, key=lambda x: -x['prob_booking'])[:limit]
