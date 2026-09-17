@@ -242,5 +242,14 @@ def update_standings_from_api():
         return {}
 
 
+
+    # [4/4] Aggiorna calendario con orari ufficiali Sofascore
+    print("\n[4/4] Calendario orari...")
+    try:
+        from update_calendario_sofascore import update_calendario
+        update_calendario()
+    except Exception as e:
+        print(f"  [WARN] Calendario: {e}")
+
 if __name__ == "__main__":
     run_weekly_update()

@@ -778,6 +778,8 @@ if page == "🔮 Predizione":
                         away_scorers=_away_scorers,
                         home_bookings=_home_bookings,
                         away_bookings=_away_bookings,
+                        opp_ctx_home=_opp_ctx_home if "_opp_ctx_home" in dir() else None,
+                        opp_ctx_away=_opp_ctx_away if "_opp_ctx_away" in dir() else None,
                     )
                 except Exception as _upgrade_err:
                     pass  # Fall back silenzioso se i nuovi modelli non caricano
@@ -797,57 +799,42 @@ if page == "🔮 Predizione":
                     _corner_pred = _corner_model.predict(home, away)
                     _cards_pred = _cards_model.predict(home, away, referee if referee else None)
 
-                    # Lambda Poisson per multigoal e marcatori
+                    # Lambda Poisson
                     _lam_h = _lam_a = None
                     try:
                         _mat = model.poisson.predict_score_matrix(home, away)
-                        if _mat is not None:
+                        if _mat is not None and home in model.poisson.attack:
                             import numpy as _np
-                            if home in model.poisson.attack and away in model.poisson.attack:
-                                _lam_h = float(model.poisson.attack[home] / model.poisson.defense[away] * model.poisson.avg_goals * _np.exp(model.poisson.home_adv))
-                                _lam_a = float(model.poisson.attack[away] / model.poisson.defense[home] * model.poisson.avg_goals)
+                            _lam_h = float(model.poisson.attack[home] / model.poisson.defense[away] * model.poisson.avg_goals * _np.exp(model.poisson.home_adv))
+                            _lam_a = float(model.poisson.attack[away] / model.poisson.defense[home] * model.poisson.avg_goals)
                     except Exception:
                         pass
-
-                    _mg = mg_probs(_lam_h or 1.4, _lam_a or 1.2) if _lam_h else {}
-                    _score_data = score_matrix(_lam_h or 1.4, _lam_a or 1.2) if _lam_h else {}
-
-                    _h_exp_goals = _lam_h or 1.4
-                    _a_exp_goals = _lam_a or 1.2
-                    _h_exp_cards = _cards_pred.get('home_expected', 1.5)
-                    _a_exp_cards = _cards_pred.get('away_expected', 1.5)
-
-                    _home_scorers = _player_builder.scorer_probability(home, _h_exp_goals)
-                    _away_scorers = _player_builder.scorer_probability(away, _a_exp_goals)
-                    _home_bookings = _player_builder.booking_probability(home, _h_exp_cards)
-                    _away_bookings = _player_builder.booking_probability(away, _a_exp_cards)
-
-                    _probs_dict = {
-                        'home': preds.get('prob_H', 0),
-                        'draw': preds.get('prob_D', 0),
-                        'away': preds.get('prob_A', 0),
-                    }
-
-                    st.divider()
+                    try:
+                        _opp_ctx_home = _player_builder.get_team_context(away)
+                        _opp_ctx_away = _player_builder.get_team_context(home)
+                        _h_exp = _lam_h or 1.4
+                        _a_exp = _lam_a or 1.2
+                        _hc = _cards_pred.get("home_expected",1.5)
+                        _ac = _cards_pred.get("away_expected",1.5)
+                        _home_scorers = _player_builder.scorer_probability(home, _h_exp, opp_context=_opp_ctx_home, limit=5)
+                        _away_scorers = _player_builder.scorer_probability(away, _a_exp, opp_context=_opp_ctx_away, limit=5)
+                        _home_bookings = _player_builder.booking_probability(home, _hc, opp_context=_opp_ctx_home, limit=5)
+                        _away_bookings = _player_builder.booking_probability(away, _ac, opp_context=_opp_ctx_away, limit=5)
+                    except Exception:
+                        _home_scorers = _away_scorers = _home_bookings = _away_bookings = []
+                        _opp_ctx_home = _opp_ctx_away = None
                     st.session_state["_new_analysis_active"] = True
                     render_compact_analysis(
-                        home=home, away=away,
-                        preds=preds,
-                        corner_pred=_corner_pred,
-                        cards_pred=_cards_pred,
-                        lam_h=_lam_h,
-                        lam_a=_lam_a,
-                        vbs=vbs,
+                        home=home, away=away, preds=preds,
+                        corner_pred=_corner_pred, cards_pred=_cards_pred,
+                        lam_h=_lam_h, lam_a=_lam_a, vbs=vbs,
                         referee=referee if referee else None,
-                        home_scorers=_home_scorers,
-                        away_scorers=_away_scorers,
-                        home_bookings=_home_bookings,
-                        away_bookings=_away_bookings,
+                        home_scorers=_home_scorers, away_scorers=_away_scorers,
+                        home_bookings=_home_bookings, away_bookings=_away_bookings,
+                        opp_ctx_home=_opp_ctx_home, opp_ctx_away=_opp_ctx_away,
                     )
-                except Exception as _upgrade_err:
-                    pass  # Fall back silenzioso se i nuovi modelli non caricano
-
-                # vecchia sezione VB rimossa — gestita dal componente
+                except Exception:
+                    pass
 # ═══ CALENDARIO ═══
     # Calcolatore cluster
     with st.expander("🎯 Calcolatore cluster risultati esatti"):
@@ -904,7 +891,10 @@ elif page == "📅 Calendario 26/27":
         # Calcola giornata corrente in base alla data
         from datetime import date
         oggi = pd.Timestamp(date.today())
-        future = cal[cal["data"] >= oggi]
+        import datetime as _dt
+        adesso = pd.Timestamp(_dt.datetime.now())
+        cal["datetime"] = pd.to_datetime(cal["data"].astype(str) + " " + cal["ora"].astype(str), errors="coerce")
+        future = cal[cal["datetime"] >= adesso]
         if not future.empty:
             current_giornata = int(future.iloc[0]["giornata"])
         else:
