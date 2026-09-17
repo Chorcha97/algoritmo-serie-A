@@ -6,14 +6,14 @@
         "name": "Roma",
         "shortName": "Roma"
       },
-      "playedGames": 3,
-      "won": 3,
+      "playedGames": 4,
+      "won": 4,
       "draw": 0,
       "lost": 0,
-      "points": 9,
-      "goalsFor": 10,
+      "points": 12,
+      "goalsFor": 12,
       "goalsAgainst": 1,
-      "goalDifference": 9,
+      "goalDifference": 11,
       "form": "WW"
     },
     {
@@ -22,78 +22,78 @@
         "name": "Inter",
         "shortName": "Inter"
       },
-      "playedGames": 3,
-      "won": 3,
+      "playedGames": 4,
+      "won": 4,
       "draw": 0,
       "lost": 0,
-      "points": 9,
-      "goalsFor": 8,
-      "goalsAgainst": 3,
-      "goalDifference": 5,
-      "form": "WW"
-    },
-    {
-      "position": 3,
-      "team": {
-        "name": "Lazio",
-        "shortName": "Lazio"
-      },
-      "playedGames": 3,
-      "won": 3,
-      "draw": 0,
-      "lost": 0,
-      "points": 9,
-      "goalsFor": 4,
-      "goalsAgainst": 1,
-      "goalDifference": 3,
+      "points": 12,
+      "goalsFor": 13,
+      "goalsAgainst": 6,
+      "goalDifference": 7,
       "form": "WW"
     },
     {
       "position": 4,
       "team": {
-        "name": "Como",
-        "shortName": "Como"
+        "name": "Lazio",
+        "shortName": "Lazio"
       },
-      "playedGames": 3,
-      "won": 2,
+      "playedGames": 4,
+      "won": 3,
       "draw": 1,
       "lost": 0,
-      "points": 7,
-      "goalsFor": 7,
+      "points": 10,
+      "goalsFor": 6,
       "goalsAgainst": 3,
-      "goalDifference": 4,
-      "form": "DW"
-    },
-    {
-      "position": 5,
-      "team": {
-        "name": "Milan",
-        "shortName": "Milan"
-      },
-      "playedGames": 3,
-      "won": 2,
-      "draw": 1,
-      "lost": 0,
-      "points": 7,
-      "goalsFor": 5,
-      "goalsAgainst": 2,
       "goalDifference": 3,
       "form": "WW"
     },
     {
+      "position": 3,
+      "team": {
+        "name": "Como",
+        "shortName": "Como"
+      },
+      "playedGames": 4,
+      "won": 3,
+      "draw": 1,
+      "lost": 0,
+      "points": 10,
+      "goalsFor": 9,
+      "goalsAgainst": 4,
+      "goalDifference": 5,
+      "form": "DW"
+    },
+    {
       "position": 6,
+      "team": {
+        "name": "Milan",
+        "shortName": "Milan"
+      },
+      "playedGames": 4,
+      "won": 2,
+      "draw": 2,
+      "lost": 0,
+      "points": 8,
+      "goalsFor": 7,
+      "goalsAgainst": 4,
+      "goalDifference": 3,
+      "form": "WW"
+    },
+    {
+      "position": 8,
       "team": {
         "name": "Juventus",
         "shortName": "Juventus"
       },
-      "playedGames": 3,
+      "playedGames": 4,
       "won": 2,
       "draw": 1,
-      "lost": 0,
+      "lost": 1,
       "points": 7,
-      "goalsFor": 4,
-      "goalsAgainst": 1,
-      "goalDifference": 3,
+      "goalsFor": 6,
+      "goalsAgainst": 4,
+      "goalDifference": 2,
       "form": "WW"
     },
     {
@@ -102,190 +102,190 @@
         "name": "Frosinone",
         "shortName": "Frosinone"
       },
-      "playedGames": 3,
+      "playedGames": 4,
       "won": 2,
-      "draw": 0,
+      "draw": 1,
       "lost": 1,
-      "points": 6,
-      "goalsFor": 6,
-      "goalsAgainst": 3,
+      "points": 7,
+      "goalsFor": 7,
+      "goalsAgainst": 4,
       "goalDifference": 3,
       "form": "LW"
     },
     {
-      "position": 8,
+      "position": 11,
       "team": {
         "name": "Atalanta",
         "shortName": "Atalanta"
       },
-      "playedGames": 3,
+      "playedGames": 4,
       "won": 2,
       "draw": 0,
-      "lost": 1,
+      "lost": 2,
       "points": 6,
-      "goalsFor": 4,
-      "goalsAgainst": 3,
-      "goalDifference": 1,
+      "goalsFor": 5,
+      "goalsAgainst": 5,
+      "goalDifference": 0,
       "form": "WW"
     },
     {
-      "position": 9,
+      "position": 5,
       "team": {
         "name": "Cagliari",
         "shortName": "Cagliari"
       },
-      "playedGames": 3,
-      "won": 2,
+      "playedGames": 4,
+      "won": 3,
       "draw": 0,
       "lost": 1,
-      "points": 6,
-      "goalsFor": 2,
-      "goalsAgainst": 1,
-      "goalDifference": 1,
-      "form": "WL"
-    },
-    {
-      "position": 10,
-      "team": {
-        "name": "Udinese",
-        "shortName": "Udinese"
-      },
-      "playedGames": 3,
-      "won": 1,
-      "draw": 1,
-      "lost": 1,
-      "points": 4,
-      "goalsFor": 5,
-      "goalsAgainst": 5,
-      "goalDifference": 0,
-      "form": "DW"
-    },
-    {
-      "position": 11,
-      "team": {
-        "name": "Sassuolo",
-        "shortName": "Sassuolo"
-      },
-      "playedGames": 3,
-      "won": 1,
-      "draw": 1,
-      "lost": 1,
-      "points": 4,
-      "goalsFor": 5,
-      "goalsAgainst": 5,
-      "goalDifference": 0,
-      "form": "LW"
-    },
-    {
-      "position": 12,
-      "team": {
-        "name": "Napoli",
-        "shortName": "Napoli"
-      },
-      "playedGames": 3,
-      "won": 1,
-      "draw": 0,
-      "lost": 2,
-      "points": 3,
-      "goalsFor": 5,
-      "goalsAgainst": 5,
-      "goalDifference": 0,
+      "points": 9,
+      "goalsFor": 4,
+      "goalsAgainst": 2,
+      "goalDifference": 2,
       "form": "WL"
     },
     {
       "position": 13,
       "team": {
-        "name": "Torino",
-        "shortName": "Torino"
+        "name": "Udinese",
+        "shortName": "Udinese"
       },
-      "playedGames": 3,
+      "playedGames": 4,
       "won": 1,
+      "draw": 1,
+      "lost": 2,
+      "points": 4,
+      "goalsFor": 8,
+      "goalsAgainst": 10,
+      "goalDifference": -2,
+      "form": "DW"
+    },
+    {
+      "position": 9,
+      "team": {
+        "name": "Sassuolo",
+        "shortName": "Sassuolo"
+      },
+      "playedGames": 4,
+      "won": 2,
+      "draw": 1,
+      "lost": 1,
+      "points": 7,
+      "goalsFor": 8,
+      "goalsAgainst": 7,
+      "goalDifference": 1,
+      "form": "LW"
+    },
+    {
+      "position": 10,
+      "team": {
+        "name": "Napoli",
+        "shortName": "Napoli"
+      },
+      "playedGames": 4,
+      "won": 2,
       "draw": 0,
       "lost": 2,
-      "points": 3,
-      "goalsFor": 4,
+      "points": 6,
+      "goalsFor": 6,
       "goalsAgainst": 5,
-      "goalDifference": -1,
-      "form": "LL"
+      "goalDifference": 1,
+      "form": "WL"
     },
     {
       "position": 14,
       "team": {
+        "name": "Torino",
+        "shortName": "Torino"
+      },
+      "playedGames": 4,
+      "won": 1,
+      "draw": 0,
+      "lost": 3,
+      "points": 3,
+      "goalsFor": 4,
+      "goalsAgainst": 7,
+      "goalDifference": -3,
+      "form": "LL"
+    },
+    {
+      "position": 12,
+      "team": {
         "name": "Lecce",
         "shortName": "Lecce"
       },
-      "playedGames": 3,
-      "won": 1,
+      "playedGames": 4,
+      "won": 2,
       "draw": 0,
       "lost": 2,
-      "points": 3,
-      "goalsFor": 2,
-      "goalsAgainst": 5,
-      "goalDifference": -3,
-      "form": "WL"
-    },
-    {
-      "position": 15,
-      "team": {
-        "name": "Bologna",
-        "shortName": "Bologna"
-      },
-      "playedGames": 3,
-      "won": 0,
-      "draw": 1,
-      "lost": 2,
-      "points": 1,
-      "goalsFor": 2,
-      "goalsAgainst": 4,
+      "points": 6,
+      "goalsFor": 5,
+      "goalsAgainst": 7,
       "goalDifference": -2,
-      "form": "LL"
+      "form": "WL"
     },
     {
       "position": 16,
       "team": {
-        "name": "Parma",
-        "shortName": "Parma"
+        "name": "Bologna",
+        "shortName": "Bologna"
       },
-      "playedGames": 3,
+      "playedGames": 4,
       "won": 0,
       "draw": 1,
-      "lost": 2,
+      "lost": 3,
       "points": 1,
-      "goalsFor": 1,
-      "goalsAgainst": 4,
+      "goalsFor": 2,
+      "goalsAgainst": 5,
       "goalDifference": -3,
       "form": "LL"
     },
     {
       "position": 17,
       "team": {
-        "name": "Monza",
-        "shortName": "Monza"
+        "name": "Parma",
+        "shortName": "Parma"
       },
-      "playedGames": 3,
+      "playedGames": 4,
       "won": 0,
       "draw": 1,
-      "lost": 2,
+      "lost": 3,
       "points": 1,
-      "goalsFor": 4,
-      "goalsAgainst": 8,
+      "goalsFor": 2,
+      "goalsAgainst": 6,
       "goalDifference": -4,
       "form": "LL"
     },
     {
       "position": 18,
       "team": {
+        "name": "Monza",
+        "shortName": "Monza"
+      },
+      "playedGames": 4,
+      "won": 0,
+      "draw": 1,
+      "lost": 3,
+      "points": 1,
+      "goalsFor": 6,
+      "goalsAgainst": 11,
+      "goalDifference": -5,
+      "form": "LL"
+    },
+    {
+      "position": 20,
+      "team": {
         "name": "Venezia",
         "shortName": "Venezia"
       },
-      "playedGames": 3,
+      "playedGames": 4,
       "won": 0,
       "draw": 0,
-      "lost": 3,
+      "lost": 4,
       "points": 0,
-      "goalsFor": 2,
-      "goalsAgainst": 7,
-      "goalDifference": -5,
+      "goalsFor": 4,
+      "goalsAgainst": 11,
+      "goalDifference": -7,
       "form": "LL"
     },
     {
@@ -294,30 +294,30 @@
         "name": "Genoa",
         "shortName": "Genoa"
       },
-      "playedGames": 3,
+      "playedGames": 4,
       "won": 0,
-      "draw": 0,
+      "draw": 1,
       "lost": 3,
-      "points": 0,
-      "goalsFor": 1,
-      "goalsAgainst": 7,
+      "points": 1,
+      "goalsFor": 2,
+      "goalsAgainst": 8,
       "goalDifference": -6,
       "form": "LL"
     },
     {
-      "position": 20,
+      "position": 15,
       "team": {
         "name": "Fiorentina",
         "shortName": "Fiorentina"
       },
-      "playedGames": 3,
-      "won": 0,
+      "playedGames": 4,
+      "won": 1,
       "draw": 0,
       "lost": 3,
-      "points": 0,
-      "goalsFor": 1,
-      "goalsAgainst": 9,
-      "goalDifference": -8,
+      "points": 3,
+      "goalsFor": 5,
+      "goalsAgainst": 11,
+      "goalDifference": -6,
       "form": "LL"
     }
   ],

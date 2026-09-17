@@ -51,7 +51,19 @@ def run_weekly_update():
     try:
         df = build_features(df_raw, verbose=False)
         model = EnsembleModel()
-        model.fit(df)
+        
+    # [STEP] Integra partite 2026/27 nel dataset
+    print('
+[STEP] Aggiornamento dataset 2026/27...')
+    try:
+        from utils.update_dataset_2627 import update_dataset_2627, update_standings_from_results
+        update_dataset_2627()
+        update_standings_from_results()
+    except Exception as e:
+        print(f'  [WARN] {e}')
+
+    # Rigenera modello
+df)
         with open("model_cache.pkl", "wb") as f:
             pickle.dump(model, f)
         print("  Modello rigenerato e salvato")
