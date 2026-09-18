@@ -241,6 +241,12 @@ class PlayerStatsBuilder:
                             elif n == 'Total tackles':
                                 team_ctx[home]['tackles'].append(hv)
                                 team_ctx[away]['tackles'].append(av)
+                            elif n == 'Total shots':
+                                team_ctx[home]['shots'].append(hv)
+                                team_ctx[away]['shots'].append(av)
+                            elif n == 'Shots on target':
+                                team_ctx[home]['shots_ot'].append(hv)
+                                team_ctx[away]['shots_ot'].append(av)
 
             self._rosters[season_key] = {t: dict(d) for t, d in roster.items()}
             self._team_ctx[season_key] = {
@@ -304,6 +310,8 @@ class PlayerStatsBuilder:
             'sprints_avg':  ctx.get('sprints',  LEAGUE_AVG_SPRINTS),
             'fouls_avg':    ctx.get('fouls',    12.0),
             'tackles_avg':  ctx.get('tackles',  15.0),
+            'shots_avg':    ctx.get('shots',    11.0),
+            'shots_ot_avg': ctx.get('shots_ot', 4.0),
         }
 
     # ── Roster squadra ────────────────────────────────────────────────────────
@@ -311,8 +319,14 @@ class PlayerStatsBuilder:
         if not self._built:
             self._parse_all()
         roster = self._rosters.get('2026_27', {}).get(team, {})
+        if not roster or len(roster) < 3:
+            # Integra con giocatori 2025/26 che non appaiono ancora nel 2026/27
+            roster_26 = self._rosters.get('2025_26', {}).get(team, {})
+            for pid, s in roster_26.items():
+                if pid not in roster:
+                    roster[pid] = s
         if not roster:
-            roster = self._rosters.get('2025_26', {}).get(team, {})
+            roster = self._rosters.get('2024_25', {}).get(team, {})
 
         players = []
         for pid, s in roster.items():

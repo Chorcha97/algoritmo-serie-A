@@ -205,6 +205,121 @@ def compute_all_markets(poisson_model, home: str, away: str, **kwargs) -> dict:
         "prob_cards_under55": 0.85,
     }
 
+    # ── Nuovi mercati dalla matrice Poisson ───────────────────────────────────
+    from scipy.stats import poisson as _poisson
+
+    # Lambda delle due squadre
+    _lam_h = _lam_a = None
+    try:
+        if home in poisson_model.attack and away in poisson_model.attack:
+            _lam_h = float(poisson_model.attack[home] / poisson_model.defense[away] * poisson_model.avg_goals * np.exp(poisson_model.home_adv))
+            _lam_a = float(poisson_model.attack[away] / poisson_model.defense[home] * poisson_model.avg_goals)
+    except Exception:
+        pass
+
+    # Over 0.5 (mancava)
+    preds["prob_over05"]  = float(np.sum(mat[goals_matrix > 0.5]))
+    preds["prob_under05"] = 1 - preds["prob_over05"]
+
+    # Clean Sheet
+    preds["prob_cs_home"] = float(mat[:, 0].sum())   # away non segna
+    preds["prob_cs_away"] = float(mat[0, :].sum())   # home non segna
+
+    # Win to nil
+    preds["prob_wtn_home"] = float(mat[1:, 0].sum())  # home vince e away non segna
+    preds["prob_wtn_away"] = float(mat[0, 1:].sum())  # away vince e home non segna
+
+    # GG + Over/Under combo
+    _gg_mask = np.zeros_like(mat, dtype=bool)
+    _gg_mask[1:, 1:] = True
+    preds["prob_gg_over25"]  = float(np.sum(mat[_gg_mask & (goals_matrix > 2.5)]))
+    preds["prob_gg_under25"] = float(np.sum(mat[_gg_mask & (goals_matrix <= 2.5)]))
+    preds["prob_ng_under25"] = float(np.sum(mat[~_gg_mask & (goals_matrix <= 2.5)]))
+
+    # 2° Tempo (53% dei gol nel secondo tempo)
+    if _lam_h and _lam_a:
+        _lam_2h = (_lam_h + _lam_a) * 0.559
+        _lam_2h_h = _lam_h * 0.559
+        _lam_2h_a = _lam_a * 0.559
+        # 2HT 1X2
+        _mat_2ht = np.outer(
+            [_poisson.pmf(i, _lam_2h_h) for i in range(9)],
+            [_poisson.pmf(j, _lam_2h_a) for j in range(9)]
+        )
+        preds["prob_st_H"] = float(np.tril(_mat_2ht, -1).sum())
+        preds["prob_st_D"] = float(np.trace(_mat_2ht))
+        preds["prob_st_A"] = float(np.triu(_mat_2ht, 1).sum())
+        preds["prob_st_1X"] = preds["prob_st_H"] + preds["prob_st_D"]
+        preds["prob_st_X2"] = preds["prob_st_D"] + preds["prob_st_A"]
+        _g2ht = np.array([[i+j for j in range(9)] for i in range(9)])
+        preds["prob_st_over05"]  = float(np.sum(_mat_2ht[_g2ht > 0.5]))
+        preds["prob_st_under05"] = 1 - preds["prob_st_over05"]
+        preds["prob_st_over15"]  = float(np.sum(_mat_2ht[_g2ht > 1.5]))
+        preds["prob_st_under15"] = 1 - preds["prob_st_over15"]
+        preds["prob_st_over25"]  = float(np.sum(_mat_2ht[_g2ht > 2.5]))
+        preds["prob_st_under25"] = 1 - preds["prob_st_over25"]
+        _gg_2ht = np.zeros_like(_mat_2ht, dtype=bool)
+        _gg_2ht[1:, 1:] = True
+        preds["prob_st_gg"] = float(np.sum(_mat_2ht[_gg_2ht]))
+        preds["prob_st_ng"] = 1 - preds["prob_st_gg"]
+
+    # HT/FT (9 combinazioni)
+    try:
+        _ht_preds = preds.copy()
+        _ht_h = _ht_preds.get("prob_ht_H", 0.35)
+        _ht_d = _ht_preds.get("prob_ht_D", 0.37)
+        _ht_a = _ht_preds.get("prob_ht_A", 0.28)
+        # P(HT=X, FT=Y) ≈ P(HT=X) * P(FT=Y | HT=X) — approssimazione indipendente
+        for _ht, _ph in [("1",_ht_h),("X",_ht_d),("2",_ht_a)]:
+            for _ft, _pf in [("1",prob_h),("X",prob_d),("2",prob_a)]:
+                preds[f"prob_htft_{_ht}{_ft}"] = round(_ph * _pf, 4)
+    except Exception:
+        pass
+
+    # Corner O/U (usando CornerModel se disponibile)
+    try:
+        from models.corner_model import CornerModel as _CM
+        import pandas as _pd_m
+        _df_c = _pd_m.read_csv("serie_a_dataset.csv")
+        _cm = _CM(_df_c)
+        _cp = _cm.predict(home, away)
+        _cpp = _cp.get("probabilities", {})
+        for _t in ["75","85","95","105","115"]:
+            _thresh = float(f"{_t[:-1]}.{_t[-1]}")
+            _key = f"over_{_thresh}"
+            preds[f"prob_corn_over{_t}"]  = _cpp.get(_key, 0.5)
+            preds[f"prob_corn_under{_t}"] = 1 - preds[f"prob_corn_over{_t}"]
+        # Corner per squadra (Poisson indipendente)
+        _lam_c_h = _cp.get("home_expected", 4.7)
+        _lam_c_a = _cp.get("away_expected", 4.6)
+        for _t in ["35","45","55"]:
+            _thresh = float(f"{_t[0]}.{_t[1]}")
+            preds[f"prob_corn_h_over{_t}"]  = float(1 - _poisson.cdf(int(_thresh), _lam_c_h))
+            preds[f"prob_corn_h_under{_t}"] = float(_poisson.cdf(int(_thresh), _lam_c_h))
+            preds[f"prob_corn_a_over{_t}"]  = float(1 - _poisson.cdf(int(_thresh), _lam_c_a))
+            preds[f"prob_corn_a_under{_t}"] = float(_poisson.cdf(int(_thresh), _lam_c_a))
+    except Exception:
+        pass
+
+    # Cartellini con Poisson (sostituisce valori fissi)
+    try:
+        from models.cards_model import CardsModel as _CardsM
+        _dfcards = _pd_m.read_csv("serie_a_dataset.csv")
+        _cmod = _CardsM(_dfcards)
+        _ref = kwargs.get("referee") if kwargs else None
+        _cpreds = _cmod.predict(home, away, _ref)
+        _cprobs = _cpreds.get("probabilities", {})
+        for _t in ["15","25","35","45","55","65"]:
+            _thresh = float(f"{_t[0]}.{_t[1]}")
+            _ok = f"over_{_thresh}"
+            _uk = f"under_{_thresh}"
+            if _ok in _cprobs:
+                preds[f"prob_cards_over{_t}"]  = _cprobs[_ok]
+                preds[f"prob_cards_under{_t}"] = _cprobs[_uk]
+    except Exception:
+        pass
+
+
     # Mercati primo tempo
     try:
         from models.halftime import compute_ht_markets

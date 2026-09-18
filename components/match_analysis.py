@@ -109,8 +109,8 @@ def render_compact_analysis(home, away, preds, corner_pred, cards_pred,
     la = lam_a or 1.2
     lam_t = lh + la
 
-    tabs = st.tabs(["⚽ Gol", "🎯 MultiGoal", "📐 Corner & Tiri",
-                    "🟨 Cartellini", "⏱ 1° Tempo",
+    tabs = st.tabs(["⚽ Gol", "🎯 MultiGoal", "📐 Corner",
+                    "🎯 Tiri", "🟨 Cartellini", "⏱ 1° Tempo",
                     "👤 Marcatori", "⚠️ Ammoniti", "💰 Value Bet"])
 
     # ── GOL ──────────────────────────────────────────────────────────────────
@@ -167,51 +167,52 @@ def render_compact_analysis(home, away, preds, corner_pred, cards_pred,
 
     # ── CORNER & TIRI ────────────────────────────────────────────────────────
     with tabs[2]:
-        # Header squadre con statistiche
-        c_h = corner_pred.get('home_expected', '—') if corner_pred else '—'
-        c_a = corner_pred.get('away_expected', '—') if corner_pred else '—'
-        c_t = corner_pred.get('total_expected', '—') if corner_pred else '—'
-
-        # Statistiche tiri dai context
-        shots_h = round(opp_ctx_away.get('shots_conceded_avg', 0), 1) if opp_ctx_away else '—'
-        shots_a = round(opp_ctx_home.get('shots_conceded_avg', 0), 1) if opp_ctx_home else '—'
-
+        c_h = corner_pred.get("home_expected", "—") if corner_pred else "—"
+        c_a = corner_pred.get("away_expected", "—") if corner_pred else "—"
+        c_t = corner_pred.get("total_expected", "—") if corner_pred else "—"
+        ctx_h = opp_ctx_home or {}
+        ctx_a = opp_ctx_away or {}
+        real_h = round(ctx_h.get("corners_avg", 4.7), 1)
+        real_a = round(ctx_a.get("corners_avg", 4.6), 1)
         col1, col2 = st.columns(2)
         with col1:
-            st.markdown(f'<div class="th th-home"><span class="th-name">{home}</span>'
-                        f'<span class="th-stat">{c_h} corner attesi</span></div>', unsafe_allow_html=True)
+            st.markdown(f'<div class="th th-home"><span class="th-name">{home}</span><span class="th-stat">{c_h} corner attesi</span></div>', unsafe_allow_html=True)
+            st.markdown(f'<div class="cr"><span class="cr-l">Media stagionale</span><span class="cr-p">{real_h}</span><span class="cr-q">⌀ lega 4.7</span></div>', unsafe_allow_html=True)
         with col2:
-            st.markdown(f'<div class="th th-away"><span class="th-name">{away}</span>'
-                        f'<span class="th-stat">{c_a} corner attesi</span></div>', unsafe_allow_html=True)
-
-        html = f'<div class="sl">Totale previsto: {c_t} corner</div><div class="ou-grid">'
+            st.markdown(f'<div class="th th-away"><span class="th-name">{away}</span><span class="th-stat">{c_a} corner attesi</span></div>', unsafe_allow_html=True)
+            st.markdown(f'<div class="cr"><span class="cr-l">Media stagionale</span><span class="cr-p">{real_a}</span><span class="cr-q">⌀ lega 4.6</span></div>', unsafe_allow_html=True)
+        html = f'<div class="sl">Totale previsto: {c_t} · Media lega: 9.3</div><div class="ou-grid">'
         if corner_pred:
-            cp = corner_pred.get('probabilities', {})
+            cp = corner_pred.get("probabilities", {})
             for t in [7.5, 8.5, 9.5, 10.5, 11.5, 12.5]:
-                p_o = cp.get(f'over_{t}', 0)
-                p_u = cp.get(f'under_{t}', 0)
+                p_o = cp.get(f"over_{t}", 0)
+                p_u = cp.get(f"under_{t}", 0)
                 html += _ou_pair(f"Over {t}", f"Under {t}", p_o, p_u, vbs_map)
-        html += '</div>'
+        html += "</div>"
         st.markdown(html, unsafe_allow_html=True)
 
-        # Tiri da context avversario
-        if opp_ctx_home or opp_ctx_away:
-            st.markdown('<div class="sl" style="margin-top:8px">Stile di gioco (media stagione)</div>', unsafe_allow_html=True)
-            ctx_h = opp_ctx_home or {}
-            ctx_a = opp_ctx_away or {}
-            rows_data = [
-                ("Crosses", ctx_h.get('crosses_avg',0), ctx_a.get('crosses_avg',0)),
-                ("Sprints", ctx_h.get('sprints_avg',0), ctx_a.get('sprints_avg',0)),
-                ("Falli commessi", ctx_h.get('fouls_avg',0), ctx_a.get('fouls_avg',0)),
-            ]
-            html2 = f'<div class="cr" style="font-weight:600;color:#6b7280;font-size:11px"><span class="cr-l">Stat</span><span class="cr-p">{home[:10]}</span><span class="cr-q">{away[:10]}</span></div>'
-            for label, vh, va in rows_data:
-                if vh or va:
-                    html2 += f'<div class="cr"><span class="cr-l">{label}</span><span class="cr-p">{vh:.1f}</span><span class="cr-q">{va:.1f}</span></div>'
-            st.markdown(html2, unsafe_allow_html=True)
+    with tabs[3]:
+        sh_h = round(ctx_h.get("shots_avg", 0), 1)
+        sh_a = round(ctx_a.get("shots_avg", 0), 1)
+        sh_ot_h = round(ctx_h.get("shots_ot_avg", 0), 1)
+        sh_ot_a = round(ctx_a.get("shots_ot_avg", 0), 1)
+        cr_h = round(ctx_h.get("crosses_avg", 0), 1)
+        cr_a = round(ctx_a.get("crosses_avg", 0), 1)
+        sp_h = int(ctx_h.get("sprints_avg", 0))
+        sp_a = int(ctx_a.get("sprints_avg", 0))
+        col1, col2 = st.columns(2)
+        with col1:
+            st.markdown(f'<div class="th th-home"><span class="th-name">{home}</span><span class="th-stat">{sh_h} tiri/p · {sh_ot_h} in porta</span></div>', unsafe_allow_html=True)
+        with col2:
+            st.markdown(f'<div class="th th-away"><span class="th-name">{away}</span><span class="th-stat">{sh_a} tiri/p · {sh_ot_a} in porta</span></div>', unsafe_allow_html=True)
+        html = '<div class="sl">Media stagionale per partita</div>'
+        html += f'<div class="cr" style="font-weight:600;color:#6b7280;font-size:11px"><span class="cr-l">Statistica</span><span class="cr-p">{home[:10]}</span><span class="cr-q">{away[:10]}</span><span class="cr-e" style="color:#9ca3af;font-size:11px">⌀ Lega</span></div>'
+        for label, vh, va, avg in [("Tiri totali", sh_h, sh_a, "11.0"), ("Tiri in porta", sh_ot_h, sh_ot_a, "4.0"), ("Cross", cr_h, cr_a, "12.0"), ("Sprint", sp_h, sp_a, "170")]:
+            html += f'<div class="cr"><span class="cr-l">{label}</span><span class="cr-p">{vh}</span><span class="cr-q">{va}</span><span class="cr-e" style="color:#9ca3af;font-size:11px">{avg}</span></div>'
+        st.markdown(html, unsafe_allow_html=True)
 
     # ── CARTELLINI ───────────────────────────────────────────────────────────
-    with tabs[3]:
+    with tabs[8]:
         if cards_pred:
             c1, c2 = st.columns(2)
             with c1:
@@ -235,8 +236,8 @@ def render_compact_analysis(home, away, preds, corner_pred, cards_pred,
             st.markdown(html, unsafe_allow_html=True)
 
     # ── PRIMO TEMPO ──────────────────────────────────────────────────────────
-    with tabs[4]:
-        lht_h, lht_a = lh*0.47, la*0.47
+    with tabs[8]:
+        lht_h, lht_a = lh*0.441, la*0.441
         lht = lht_h + lht_a
         p_ht_h = sum(poisson.pmf(h, lht_h)*sum(poisson.pmf(a, lht_a) for a in range(h)) for h in range(1,7))
         p_ht_d = sum(poisson.pmf(k, lht_h)*poisson.pmf(k, lht_a) for k in range(7))
@@ -254,7 +255,7 @@ def render_compact_analysis(home, away, preds, corner_pred, cards_pred,
         st.markdown(html, unsafe_allow_html=True)
 
     # ── MARCATORI ────────────────────────────────────────────────────────────
-    with tabs[5]:
+    with tabs[8]:
         c1, c2 = st.columns(2)
         with c1:
             st.markdown(f'<div class="th th-home"><span class="th-name">{home}</span></div>',
@@ -264,9 +265,11 @@ def render_compact_analysis(home, away, preds, corner_pred, cards_pred,
                 for p in home_scorers:
                     tags = f'<span class="pr-t">({p["tags"]})</span>' if p.get("tags") else ''
                     pos_h = f'{p.get("position","?")}/{p.get("height",0)}cm'
-                    html += (f'<div class="pr"><span class="pr-n">{p["name"]}{tags}</span>'
+                    qe = round(1/p["prob_score"],2) if p["prob_score"] > 0.01 else 99
+                html += (f'<div class="pr"><span class="pr-n">{p["name"]}{tags}</span>'
                              f'<span class="pr-s" title="{pos_h}">⚽{p["goals"]}</span>'
-                             f'<span class="pr-p">{int(p["prob_score"]*100)}%</span></div>')
+                             f'<span class="pr-p">{int(p["prob_score"]*100)}%</span>'
+                             f'<span class="cr-q" style="min-width:52px;text-align:right">QE {qe}</span></div>')
                 st.markdown(html, unsafe_allow_html=True)
             else:
                 st.caption("Dati non disponibili")
@@ -277,15 +280,17 @@ def render_compact_analysis(home, away, preds, corner_pred, cards_pred,
                 html = ''
                 for p in away_scorers:
                     tags = f'<span class="pr-t">({p["tags"]})</span>' if p.get("tags") else ''
-                    html += (f'<div class="pr"><span class="pr-n">{p["name"]}{tags}</span>'
+                    qe = round(1/p["prob_score"],2) if p["prob_score"] > 0.01 else 99
+                html += (f'<div class="pr"><span class="pr-n">{p["name"]}{tags}</span>'
                              f'<span class="pr-s">⚽{p["goals"]}</span>'
-                             f'<span class="pr-p">{int(p["prob_score"]*100)}%</span></div>')
+                             f'<span class="pr-p">{int(p["prob_score"]*100)}%</span>'
+                             f'<span class="cr-q" style="min-width:52px;text-align:right">QE {qe}</span></div>')
                 st.markdown(html, unsafe_allow_html=True)
             else:
                 st.caption("Dati non disponibili")
 
     # ── AMMONITI ─────────────────────────────────────────────────────────────
-    with tabs[6]:
+    with tabs[8]:
         c1, c2 = st.columns(2)
         with c1:
             st.markdown(f'<div class="th th-home"><span class="th-name">{home}</span></div>',
@@ -293,9 +298,11 @@ def render_compact_analysis(home, away, preds, corner_pred, cards_pred,
             if home_bookings:
                 html = ''
                 for p in home_bookings:
+                    qe = round(1/p["prob_booking"],2) if p["prob_booking"] > 0.01 else 99
                     html += (f'<div class="pr"><span class="pr-n">{p["name"]}</span>'
                              f'<span class="pr-s">🟨{p["yellow_cards"]}</span>'
-                             f'<span class="pr-p">{int(p["prob_booking"]*100)}%</span></div>')
+                             f'<span class="pr-p">{int(p["prob_booking"]*100)}%</span>'
+                             f'<span class="cr-q" style="min-width:52px;text-align:right">QE {qe}</span></div>')
                 st.markdown(html, unsafe_allow_html=True)
             else:
                 st.caption("Dati non disponibili")
@@ -305,16 +312,19 @@ def render_compact_analysis(home, away, preds, corner_pred, cards_pred,
             if away_bookings:
                 html = ''
                 for p in away_bookings:
+                    qe = round(1/p["prob_booking"],2) if p["prob_booking"] > 0.01 else 99
                     html += (f'<div class="pr"><span class="pr-n">{p["name"]}</span>'
                              f'<span class="pr-s">🟨{p["yellow_cards"]}</span>'
-                             f'<span class="pr-p">{int(p["prob_booking"]*100)}%</span></div>')
+                             f'<span class="pr-p">{int(p["prob_booking"]*100)}%</span>'
+                             f'<span class="cr-q" style="min-width:52px;text-align:right">QE {qe}</span></div>')
                 st.markdown(html, unsafe_allow_html=True)
             else:
                 st.caption("Dati non disponibili")
 
     # ── VALUE BET ────────────────────────────────────────────────────────────
-    with tabs[7]:
+    with tabs[8]:
         if vbs:
+            st.caption("⚡ Value bet calcolate rispetto alle quote di mercato Pinnacle (blend 50/50). Inserisci le quote Marathonbet nei campi sopra per un confronto personalizzato.")
             html = '<div class="sl">Ordinate per edge</div>'
             for vb in sorted(vbs, key=lambda x: -x.get('edge_%', 0)):
                 edge = vb.get('edge_%', 0)

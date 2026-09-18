@@ -405,79 +405,197 @@ if page == "🔮 Predizione":
             except Exception as _me:
                 st.warning(f"Marathonbet non disponibile: {_me}")
 
-    tab1, tab2, tab3, tab4, tab5 = st.tabs([
-        "1X2 & Doppia Chance", "Gol Over/Under", "GG/NG", "Cartellini", "Primo Tempo"])
+    tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8, tab9 = st.tabs([
+        "1X2 & DC", "Gol O/U", "GG/NG & Combo", "Cartellini",
+        "1° Tempo", "2° Tempo", "Corner", "Marcatori", "Ammoniti"])
 
+    def _inp(key, label):
+        return st.number_input(label, min_value=0.0,
+            value=st.session_state.get(match_key, {}).get(key, 0.0),
+            step=0.05, format="%.2f", key=f"{match_key}_{key}")
+
+    # ── TAB 1: 1X2 & Doppia Chance ───────────────────────────────────────────
     with tab1:
         c1,c2,c3 = st.columns(3)
-        odds["H"]  = c1.number_input("1 (Casa)",     min_value=0.0, value=st.session_state.get(match_key, {}).get("H", 0.0), step=0.05, format="%.2f", key=f"{match_key}_H")
-        odds["D"]  = c2.number_input("X (Pareggio)", min_value=0.0, value=st.session_state.get(match_key, {}).get("D", 0.0), step=0.05, format="%.2f", key=f"{match_key}_D")
-        odds["A"]  = c3.number_input("2 (Ospite)",   min_value=0.0, value=st.session_state.get(match_key, {}).get("A", 0.0), step=0.05, format="%.2f", key=f"{match_key}_A")
+        with c1: odds["H"]  = _inp("H",  "1 (Casa)")
+        with c2: odds["D"]  = _inp("D",  "X (Pareggio)")
+        with c3: odds["A"]  = _inp("A",  "2 (Ospite)")
         c4,c5,c6 = st.columns(3)
-        odds["1X"] = c4.number_input("1X", min_value=0.0, value=st.session_state.get(match_key, {}).get("1X", 0.0), step=0.05, format="%.2f", key=f"{match_key}_1X")
-        odds["X2"] = c5.number_input("X2", min_value=0.0, value=st.session_state.get(match_key, {}).get("X2", 0.0), step=0.05, format="%.2f", key=f"{match_key}_X2")
-        odds["12"] = c6.number_input("12", min_value=0.0, value=st.session_state.get(match_key, {}).get("12", 0.0), step=0.05, format="%.2f", key=f"{match_key}_12")
+        with c4: odds["1X"] = _inp("1X", "1X")
+        with c5: odds["X2"] = _inp("X2", "X2")
+        with c6: odds["12"] = _inp("12", "12")
+        st.divider()
+        st.caption("Clean Sheet / Win to nil")
+        c1,c2,c3,c4 = st.columns(4)
+        with c1: odds["cs_home"]     = _inp("cs_home",     "CS Casa")
+        with c2: odds["cs_away"]     = _inp("cs_away",     "CS Ospite")
+        with c3: odds["wtn_home"]    = _inp("wtn_home",    "Win to nil Casa")
+        with c4: odds["wtn_away"]    = _inp("wtn_away",    "Win to nil Ospite")
 
+    # ── TAB 2: Gol Over/Under ─────────────────────────────────────────────────
     with tab2:
         c1,c2 = st.columns(2)
         with c1:
             st.caption("Over")
-            for t in ["15","25","35","45","55"]:
-                odds[f"over{t}"] = st.number_input(
-                    f"Over {t[0]}.{t[1]}", min_value=0.0,
-                    step=0.05, format="%.2f", value=st.session_state.get(match_key, {}).get(f"over{t}", 0.0), key=f"{match_key}_over{t}")
+            for t in ["05","15","25","35","45","55"]:
+                odds[f"over{t}"] = _inp(f"over{t}", f"Over {t[0]}.{t[1]}")
         with c2:
             st.caption("Under")
-            for t in ["15","25","35","45","55"]:
-                odds[f"under{t}"] = st.number_input(
-                    f"Under {t[0]}.{t[1]}", min_value=0.0,
-                    step=0.05, format="%.2f", value=st.session_state.get(match_key, {}).get(f"under{t}", 0.0), key=f"{match_key}_under{t}")
+            for t in ["05","15","25","35","45","55"]:
+                odds[f"under{t}"] = _inp(f"under{t}", f"Under {t[0]}.{t[1]}")
 
+    # ── TAB 3: GG/NG & Combo ──────────────────────────────────────────────────
     with tab3:
         c1,c2 = st.columns(2)
-        odds["gg"] = c1.number_input("Goal/Goal", min_value=0.0, value=st.session_state.get(match_key, {}).get("gg", 0.0), step=0.05, format="%.2f", key=f"{match_key}_gg")
-        odds["ng"] = c2.number_input("No Goal", min_value=0.0, value=st.session_state.get(match_key, {}).get("ng", 0.0), step=0.05, format="%.2f", key=f"{match_key}_ng")
+        with c1: odds["gg"] = _inp("gg", "Goal/Goal")
+        with c2: odds["ng"] = _inp("ng", "No Goal")
+        st.caption("Combo GG + Over/Under")
+        c1,c2,c3 = st.columns(3)
+        with c1: odds["gg_over25"]  = _inp("gg_over25",  "GG + Over 2.5")
+        with c2: odds["gg_under25"] = _inp("gg_under25", "GG + Under 2.5")
+        with c3: odds["ng_under25"] = _inp("ng_under25", "NG + Under 2.5")
+        st.caption("HT/FT")
+        c1,c2,c3 = st.columns(3)
+        with c1:
+            odds["htft_11"] = _inp("htft_11", "1/1")
+            odds["htft_1X"] = _inp("htft_1X", "1/X")
+            odds["htft_12"] = _inp("htft_12", "1/2")
+        with c2:
+            odds["htft_X1"] = _inp("htft_X1", "X/1")
+            odds["htft_XX"] = _inp("htft_XX", "X/X")
+            odds["htft_X2"] = _inp("htft_X2", "X/2")
+        with c3:
+            odds["htft_21"] = _inp("htft_21", "2/1")
+            odds["htft_2X"] = _inp("htft_2X", "2/X")
+            odds["htft_22"] = _inp("htft_22", "2/2")
 
+    # ── TAB 4: Cartellini ─────────────────────────────────────────────────────
     with tab4:
         try:
             from models.referee import get_referee_adjustments
             _adj = get_referee_adjustments(referee)
             if _adj["affidabile"]:
-                st.info(f"🎯 Calibrato su {referee} ({_adj['gialli_attesi']:.1f} gialli/partita)")
+                st.info(f"🎯 Calibrato su {referee} ({_adj['gialli_attesi']:.1f} gialli/p)")
         except:
             pass
         c1,c2 = st.columns(2)
         with c1:
             st.caption("Over")
-            for t in ["25","35","45","55"]:
-                odds[f"cards_over{t}"] = st.number_input(
-                    f"Cart. Over {t[0]}.{t[1]}", min_value=0.0,
-                    step=0.05, format="%.2f", value=st.session_state.get(match_key, {}).get(f"cards_over{t}", 0.0), key=f"{match_key}_cards_over{t}")
+            for t in ["15","25","35","45","55","65"]:
+                odds[f"cards_over{t}"] = _inp(f"cards_over{t}", f"Cart. Over {t[0]}.{t[1]}")
         with c2:
             st.caption("Under")
-            for t in ["25","35","45","55"]:
-                odds[f"cards_under{t}"] = st.number_input(
-                    f"Cart. Under {t[0]}.{t[1]}", min_value=0.0,
-                    step=0.05, format="%.2f", value=st.session_state.get(match_key, {}).get(f"cards_under{t}", 0.0), key=f"{match_key}_cards_under{t}")
+            for t in ["15","25","35","45","55","65"]:
+                odds[f"cards_under{t}"] = _inp(f"cards_under{t}", f"Cart. Under {t[0]}.{t[1]}")
 
+    # ── TAB 5: Primo Tempo (1HT) ──────────────────────────────────────────────
     with tab5:
-        st.caption("Mercati sul risultato del primo tempo")
         c1, c2 = st.columns(2)
         with c1:
             st.caption("1X2 Primo Tempo")
-            odds["ht_H"]  = st.number_input("HT 1 (Casa)",   min_value=0.0, value=st.session_state.get(match_key, {}).get("ht_H", 0.0), step=0.05, format="%.2f", key=f"{match_key}_ht_H")
-            odds["ht_D"]  = st.number_input("HT X (Pari)",   min_value=0.0, value=st.session_state.get(match_key, {}).get("ht_D", 0.0), step=0.05, format="%.2f", key=f"{match_key}_ht_D")
-            odds["ht_A"]  = st.number_input("HT 2 (Ospite)", min_value=0.0, value=st.session_state.get(match_key, {}).get("ht_A", 0.0), step=0.05, format="%.2f", key=f"{match_key}_ht_A")
-            odds["ht_1X"] = st.number_input("HT 1X",         min_value=0.0, value=st.session_state.get(match_key, {}).get("ht_1X", 0.0), step=0.05, format="%.2f", key=f"{match_key}_ht_1X")
-            odds["ht_X2"] = st.number_input("HT X2",         min_value=0.0, value=st.session_state.get(match_key, {}).get("ht_X2", 0.0), step=0.05, format="%.2f", key=f"{match_key}_ht_X2")
+            odds["ht_H"]  = _inp("ht_H",  "HT 1 (Casa)")
+            odds["ht_D"]  = _inp("ht_D",  "HT X (Pari)")
+            odds["ht_A"]  = _inp("ht_A",  "HT 2 (Ospite)")
+            odds["ht_1X"] = _inp("ht_1X", "HT 1X")
+            odds["ht_X2"] = _inp("ht_X2", "HT X2")
         with c2:
             st.caption("Gol Primo Tempo")
-            odds["ht_over05"]  = st.number_input("HT Over 0.5",  min_value=0.0, value=st.session_state.get(match_key, {}).get("ht_over05", 0.0), step=0.05, format="%.2f", key=f"{match_key}_ht_over05")
-            odds["ht_under05"] = st.number_input("HT Under 0.5", min_value=0.0, value=st.session_state.get(match_key, {}).get("ht_under05", 0.0), step=0.05, format="%.2f", key=f"{match_key}_ht_under05")
-            odds["ht_over15"]  = st.number_input("HT Over 1.5",  min_value=0.0, value=st.session_state.get(match_key, {}).get("ht_over15", 0.0), step=0.05, format="%.2f", key=f"{match_key}_ht_over15")
-            odds["ht_under15"] = st.number_input("HT Under 1.5", min_value=0.0, value=st.session_state.get(match_key, {}).get("ht_under15", 0.0), step=0.05, format="%.2f", key=f"{match_key}_ht_under15")
-            odds["ht_gg"]      = st.number_input("HT GG",        min_value=0.0, value=st.session_state.get(match_key, {}).get("ht_gg", 0.0), step=0.05, format="%.2f", key=f"{match_key}_ht_gg")
-            odds["ht_ng"]      = st.number_input("HT NG",        min_value=0.0, value=st.session_state.get(match_key, {}).get("ht_ng", 0.0), step=0.05, format="%.2f", key=f"{match_key}_ht_ng")
+            for t in ["05","15","25"]:
+                odds[f"ht_over{t}"]  = _inp(f"ht_over{t}",  f"HT Over {t[0]}.{t[1]}")
+                odds[f"ht_under{t}"] = _inp(f"ht_under{t}", f"HT Under {t[0]}.{t[1]}")
+            odds["ht_gg"] = _inp("ht_gg", "HT GG")
+            odds["ht_ng"] = _inp("ht_ng", "HT NG")
+
+    # ── TAB 6: Secondo Tempo (2HT) ────────────────────────────────────────────
+    with tab6:
+        c1, c2 = st.columns(2)
+        with c1:
+            st.caption("1X2 Secondo Tempo")
+            odds["st_H"]  = _inp("st_H",  "2HT 1 (Casa)")
+            odds["st_D"]  = _inp("st_D",  "2HT X (Pari)")
+            odds["st_A"]  = _inp("st_A",  "2HT 2 (Ospite)")
+            odds["st_1X"] = _inp("st_1X", "2HT 1X")
+            odds["st_X2"] = _inp("st_X2", "2HT X2")
+        with c2:
+            st.caption("Gol Secondo Tempo")
+            for t in ["05","15","25"]:
+                odds[f"st_over{t}"]  = _inp(f"st_over{t}",  f"2HT Over {t[0]}.{t[1]}")
+                odds[f"st_under{t}"] = _inp(f"st_under{t}", f"2HT Under {t[0]}.{t[1]}")
+            odds["st_gg"] = _inp("st_gg", "2HT GG")
+            odds["st_ng"] = _inp("st_ng", "2HT NG")
+
+    # ── TAB 7: Corner ─────────────────────────────────────────────────────────
+    with tab7:
+        st.caption("Corner totali")
+        c1,c2 = st.columns(2)
+        with c1:
+            for t in ["75","85","95","105","115"]:
+                odds[f"corn_over{t}"]  = _inp(f"corn_over{t}",  f"Corner Over {t[:-1]}.{t[-1]}")
+        with c2:
+            for t in ["75","85","95","105","115"]:
+                odds[f"corn_under{t}"] = _inp(f"corn_under{t}", f"Corner Under {t[:-1]}.{t[-1]}")
+        st.caption("Corner Casa / Ospite")
+        c1,c2 = st.columns(2)
+        with c1:
+            st.caption(f"Corner {home[:12]}")
+            for t in ["35","45","55"]:
+                odds[f"corn_h_over{t}"]  = _inp(f"corn_h_over{t}",  f"Casa Over {t[0]}.{t[1]}")
+                odds[f"corn_h_under{t}"] = _inp(f"corn_h_under{t}", f"Casa Under {t[0]}.{t[1]}")
+        with c2:
+            st.caption(f"Corner {away[:12]}")
+            for t in ["35","45","55"]:
+                odds[f"corn_a_over{t}"]  = _inp(f"corn_a_over{t}",  f"Ospite Over {t[0]}.{t[1]}")
+                odds[f"corn_a_under{t}"] = _inp(f"corn_a_under{t}", f"Ospite Under {t[0]}.{t[1]}")
+
+    # ── TAB 8: Marcatori top 5 ────────────────────────────────────────────────
+    with tab8:
+        try:
+            from models.player_stats import PlayerStatsBuilder
+            _pb8 = PlayerStatsBuilder()
+            _opp_h = _pb8.get_team_context(away)
+            _opp_a = _pb8.get_team_context(home)
+            _sc_h = _pb8.scorer_probability(home, 1.4, opp_context=_opp_h, limit=5)
+            _sc_a = _pb8.scorer_probability(away, 1.2, opp_context=_opp_a, limit=5)
+            c1, c2 = st.columns(2)
+            with c1:
+                st.caption(f"⚽ Marcatori {home}")
+                for p in _sc_h:
+                    pid = str(p['id'])
+                    label = f"{p['name']} ({int(p['prob_score']*100)}% QE {round(1/p['prob_score'],1) if p['prob_score']>0 else 99})"
+                    odds[f"scorer_h_{pid}"] = _inp(f"scorer_h_{pid}", label)
+            with c2:
+                st.caption(f"⚽ Marcatori {away}")
+                for p in _sc_a:
+                    pid = str(p['id'])
+                    label = f"{p['name']} ({int(p['prob_score']*100)}% QE {round(1/p['prob_score'],1) if p['prob_score']>0 else 99})"
+                    odds[f"scorer_a_{pid}"] = _inp(f"scorer_a_{pid}", label)
+        except Exception as _e:
+            st.info(f"Dati marcatori non disponibili: {_e}")
+
+    # ── TAB 9: Ammoniti top 5 ────────────────────────────────────────────────
+    with tab9:
+        try:
+            from models.player_stats import PlayerStatsBuilder
+            _pb9 = PlayerStatsBuilder()
+            _opp_h9 = _pb9.get_team_context(away)
+            _opp_a9 = _pb9.get_team_context(home)
+            _bk_h = _pb9.booking_probability(home, 1.8, opp_context=_opp_h9, limit=5)
+            _bk_a = _pb9.booking_probability(away, 1.8, opp_context=_opp_a9, limit=5)
+            c1, c2 = st.columns(2)
+            with c1:
+                st.caption(f"🟨 Ammoniti {home}")
+                for p in _bk_h:
+                    pid = str(p['id'])
+                    label = f"{p['name']} ({p.get('position','?')}) — {int(p['prob_booking']*100)}% QE {round(1/p['prob_booking'],1) if p['prob_booking']>0 else 99}"
+                    odds[f"booking_h_{pid}"] = _inp(f"booking_h_{pid}", label)
+            with c2:
+                st.caption(f"🟨 Ammoniti {away}")
+                for p in _bk_a:
+                    pid = str(p['id'])
+                    label = f"{p['name']} ({p.get('position','?')}) — {int(p['prob_booking']*100)}% QE {round(1/p['prob_booking'],1) if p['prob_booking']>0 else 99}"
+                    odds[f"booking_a_{pid}"] = _inp(f"booking_a_{pid}", label)
+        except Exception as _e:
+            st.info(f"Dati ammoniti non disponibili: {_e}")
 
     odds_clean = {k: v for k, v in odds.items() if v > 1.0}
     st.divider()
@@ -785,56 +903,6 @@ if page == "🔮 Predizione":
                     pass  # Fall back silenzioso se i nuovi modelli non caricano
 
                 # ── Nuovi modelli: corner, cartellini, multigoal, giocatori ──────
-                try:
-                    from models.corner_model import CornerModel
-                    from models.cards_model import CardsModel
-                    from models.multigoal import multigoal_probs as mg_probs, score_matrix
-                    from models.player_stats import PlayerStatsBuilder
-                    from components.match_analysis import render_compact_analysis
-
-                    _corner_model = CornerModel(df_raw)
-                    _cards_model = CardsModel(df_raw, ref_stats if ref_adj.get('affidabile') else None)
-                    _player_builder = PlayerStatsBuilder()
-
-                    _corner_pred = _corner_model.predict(home, away)
-                    _cards_pred = _cards_model.predict(home, away, referee if referee else None)
-
-                    # Lambda Poisson
-                    _lam_h = _lam_a = None
-                    try:
-                        _mat = model.poisson.predict_score_matrix(home, away)
-                        if _mat is not None and home in model.poisson.attack:
-                            import numpy as _np
-                            _lam_h = float(model.poisson.attack[home] / model.poisson.defense[away] * model.poisson.avg_goals * _np.exp(model.poisson.home_adv))
-                            _lam_a = float(model.poisson.attack[away] / model.poisson.defense[home] * model.poisson.avg_goals)
-                    except Exception:
-                        pass
-                    try:
-                        _opp_ctx_home = _player_builder.get_team_context(away)
-                        _opp_ctx_away = _player_builder.get_team_context(home)
-                        _h_exp = _lam_h or 1.4
-                        _a_exp = _lam_a or 1.2
-                        _hc = _cards_pred.get("home_expected",1.5)
-                        _ac = _cards_pred.get("away_expected",1.5)
-                        _home_scorers = _player_builder.scorer_probability(home, _h_exp, opp_context=_opp_ctx_home, limit=5)
-                        _away_scorers = _player_builder.scorer_probability(away, _a_exp, opp_context=_opp_ctx_away, limit=5)
-                        _home_bookings = _player_builder.booking_probability(home, _hc, opp_context=_opp_ctx_home, limit=5)
-                        _away_bookings = _player_builder.booking_probability(away, _ac, opp_context=_opp_ctx_away, limit=5)
-                    except Exception:
-                        _home_scorers = _away_scorers = _home_bookings = _away_bookings = []
-                        _opp_ctx_home = _opp_ctx_away = None
-                    st.session_state["_new_analysis_active"] = True
-                    render_compact_analysis(
-                        home=home, away=away, preds=preds,
-                        corner_pred=_corner_pred, cards_pred=_cards_pred,
-                        lam_h=_lam_h, lam_a=_lam_a, vbs=vbs,
-                        referee=referee if referee else None,
-                        home_scorers=_home_scorers, away_scorers=_away_scorers,
-                        home_bookings=_home_bookings, away_bookings=_away_bookings,
-                        opp_ctx_home=_opp_ctx_home, opp_ctx_away=_opp_ctx_away,
-                    )
-                except Exception:
-                    pass
 # ═══ CALENDARIO ═══
     # Calcolatore cluster
     with st.expander("🎯 Calcolatore cluster risultati esatti"):
@@ -1037,10 +1105,12 @@ elif page == "📊 Classifica":
             "Torino FC":"Torino","Cagliari Calcio":"Cagliari","Venezia FC":"Venezia",
             "Frosinone Calcio":"Frosinone","US Lecce":"Lecce","AC Monza":"Monza",
         }
-        def form_icon(results):
-            last5 = results[-5:]
-            icons = {"W":"🟢","D":"🟡","L":"🔴"}
-            return " ".join(icons.get(r,"-") for r in last5)
+        def form_icon(results, n=5):
+            last = results[-n:] if len(results) >= n else results
+            c = {'W':'#16a34a','D':'#f59e0b','L':'#dc2626'}
+            padding = '<span style="color:#e5e7eb">&#9679;</span>' * (n - len(last))
+            dots = ''.join('<span style="color:' + c.get(r,'#e5e7eb') + ';font-size:14px">&#9679;</span>' for r in last)
+            return padding + dots
         def trend_icon(results):
             last3 = results[-3:]
             pts = sum(3 if r=="W" else 1 if r=="D" else 0 for r in last3)
@@ -1090,9 +1160,26 @@ elif page == "📊 Classifica":
             elif pos == 7: return ["background-color:#fffbe6"]*len(row)
             elif pos >= 18: return ["background-color:#ffe8e8"]*len(row)
             return [""]*len(row)
-        st.dataframe(
-            df_class.style.apply(color_zone, axis=1),
-            hide_index=True, use_container_width=True)
+        st.markdown('<style>.cr2{display:flex;align-items:center;padding:6px 8px;border-bottom:1px solid #f1f5f9;font-size:13px;gap:6px}.cp2{min-width:30px;color:#9ca3af;font-size:12px}.ct2{flex:1;font-weight:500}.cg2{min-width:25px;text-align:center;color:#6b7280;font-size:11px}.cw2{min-width:52px;color:#6b7280;font-size:11px}.cgol2{min-width:38px;color:#6b7280;font-size:11px;text-align:center}.cdr2{min-width:28px;text-align:center;font-size:11px}.cpts2{min-width:34px;text-align:center;font-size:18px;font-weight:800;color:#111827}.cform2{letter-spacing:2px;min-width:80px;text-align:right}</style>', unsafe_allow_html=True)
+        zone = {1:'#e8f0fe',2:'#e8f0fe',3:'#e8f0fe',4:'#e8f0fe',5:'#fff3e6',6:'#fff3e6',7:'#fffbe6',18:'#ffe8e8',19:'#ffe8e8',20:'#ffe8e8'}
+        html_c = ''
+        for r in rows:
+            bg = zone.get(r['Pos'],'')
+            bg_s = ('background:' + bg + ';') if bg else ''
+            dr = r['DR']
+            dr_col = '#16a34a' if dr>0 else ('#dc2626' if dr<0 else '#6b7280')
+            dr_s = ('+' + str(dr)) if dr>0 else str(dr)
+            html_c += '<div class="cr2" style="' + bg_s + '">'
+            html_c += '<span class="cp2">' + str(r['Trend']) + ' ' + str(r['Pos']) + '</span>'
+            html_c += '<span class="ct2">' + str(r['Squadra']) + '</span>'
+            html_c += '<span class="cg2">' + str(r['PG']) + 'G</span>'
+            html_c += '<span class="cw2">' + str(r['V']) + 'V ' + str(r['P']) + 'P ' + str(r['S']) + 'S</span>'
+            html_c += '<span class="cgol2">' + str(r['GF']) + ':' + str(r['GS']) + '</span>'
+            html_c += '<span class="cdr2" style="color:' + dr_col + '">' + dr_s + '</span>'
+            html_c += '<span class="cpts2">' + str(r['Pts']) + '</span>'
+            html_c += '<span class="cform2">' + str(r['Form']) + '</span>'
+            html_c += '</div>'
+        st.markdown(html_c, unsafe_allow_html=True)
         st.caption("🔵 Champions League · 🟠 Europa League · 🟡 Conference League · 🔴 Retrocessione")
         st.caption("Trend: 🔥 in forma · 📈 positivo · ➡️ stabile · 📉 calo · ❌ crisi")
 elif page == "🎯 Tracker":
