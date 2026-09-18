@@ -4,7 +4,7 @@ import pandas as pd
 from scipy.stats import poisson
 
 LEAGUE_AVG_CARDS = 4.7   # media storica (2021-2023)
-LEAGUE_AVG_CARDS_2627 = 3.0  # stima nuove direttive 2026/27
+LEAGUE_AVG_CARDS_2627 = 3.5  # stima nuove direttive 2026/27
 
 class CardsModel:
     def __init__(self, df: pd.DataFrame = None, ref_stats: pd.DataFrame = None):
