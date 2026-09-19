@@ -324,15 +324,40 @@ class PlayerStatsBuilder:
     def get_team_players(self, team):
         if not self._built:
             self._parse_all()
-        roster = self._rosters.get('2026_27', {}).get(team, {})
-        if not roster or len(roster) < 3:
-            # Integra con giocatori 2025/26 che non appaiono ancora nel 2026/27
-            roster_26 = self._rosters.get('2025_26', {}).get(team, {})
-            for pid, s in roster_26.items():
-                if pid not in roster:
-                    roster[pid] = s
-        if not roster:
-            roster = self._rosters.get('2024_25', {}).get(team, {})
+        # Usa roster ufficiale da lineup G3-G4 (post mercato)
+        import json as _json
+        from pathlib import Path as _Path
+        _roster_file = _Path('cache/rosters_2627.json')
+        if _roster_file.exists():
+            _official = _json.loads(_roster_file.read_text()).get(team, {})
+            # Filtra solo i giocatori ufficialmente in rosa
+            roster_all = self._rosters.get('2026_27', {}).get(team, {})
+            roster_26  = self._rosters.get('2025_26', {}).get(team, {})
+            roster_25  = self._rosters.get('2024_25', {}).get(team, {})
+            roster = {}
+            for pid_str, pdata in _official.items():
+                pid = int(pid_str) if str(pid_str).isdigit() else pid_str
+                # Prendi stats da qualsiasi stagione disponibile
+                stats = roster_all.get(pid) or roster_26.get(pid) or roster_25.get(pid)
+                if stats:
+                    roster[pid] = stats
+                else:
+                    # Giocatore in rosa ma senza stats — aggiungilo con dati minimi
+                    roster[pid] = {
+                        'name': pdata.get('name',''),
+                        'team': team,
+                        'position': pdata.get('position','F'),
+                        'height': pdata.get('height', 180) or 180,
+                        'apps': 0, 'minutes': 0.0,
+                        'goals': 0, 'assists': 0,
+                        'goals_head': 0, 'goals_foot': 0,
+                        'goals_setpiece': 0, 'goals_penalty': 0, 'goals_open': 0,
+                        'yellow': 0, 'red': 0, 'shots': 0, 'xg': 0.0,
+                    }
+        else:
+            roster = self._rosters.get('2026_27', {}).get(team, {})
+            if not roster:
+                roster = self._rosters.get('2025_26', {}).get(team, {})
 
         players = []
         for pid, s in roster.items():

@@ -1,3808 +1,3591 @@
 {
-  "Milan": {
-    "players": [
-      {
-        "name": "Pietro Terracciano",
-        "position": "Goalkeeper",
-        "nationality": "Italy",
-        "dob": "1990-03-08"
-      },
-      {
-        "name": "Mike Maignan",
-        "position": "Goalkeeper",
-        "nationality": "France",
-        "dob": "1995-07-03"
-      },
-      {
-        "name": "Lorenzo Torriani",
-        "position": "Goalkeeper",
-        "nationality": "Italy",
-        "dob": "2005-01-31"
-      },
-      {
-        "name": "Matteo Gabbia",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "1999-10-21"
-      },
-      {
-        "name": "Fikayo Tomori",
-        "position": "Defence",
-        "nationality": "England",
-        "dob": "1997-12-19"
-      },
-      {
-        "name": "Pervis Estupiñán",
-        "position": "Defence",
-        "nationality": "Ecuador",
-        "dob": "1998-01-21"
-      },
-      {
-        "name": "Strahinja Pavlović",
-        "position": "Defence",
-        "nationality": "Serbia",
-        "dob": "2001-05-24"
-      },
-      {
-        "name": "Filippo Terracciano",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "2003-02-08"
-      },
-      {
-        "name": "Koni De Winter",
-        "position": "Defence",
-        "nationality": "Belgium",
-        "dob": "2002-06-12"
-      },
-      {
-        "name": "Gila",
-        "position": "Defence",
-        "nationality": "Spain",
-        "dob": "2000-08-29"
-      },
-      {
-        "name": "Davide Bartesaghi",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "2005-12-29"
-      },
-      {
-        "name": "Sankhoun Diawara",
-        "position": "Defence",
-        "nationality": "France",
-        "dob": "2006-01-13"
-      },
-      {
-        "name": "Luka Modrić",
-        "position": "Midfield",
-        "nationality": "Croatia",
-        "dob": "1985-09-09"
-      },
-      {
-        "name": "Adrien Rabiot",
-        "position": "Midfield",
-        "nationality": "France",
-        "dob": "1995-04-03"
-      },
-      {
-        "name": "Ruben Loftus-Cheek",
-        "position": "Midfield",
-        "nationality": "England",
-        "dob": "1996-01-23"
-      },
-      {
-        "name": "Alexis Saelemaekers",
-        "position": "Midfield",
-        "nationality": "Belgium",
-        "dob": "1999-06-27"
-      },
-      {
-        "name": "Youssouf Fofana",
-        "position": "Midfield",
-        "nationality": "France",
-        "dob": "1999-01-10"
-      },
-      {
-        "name": "Samuele Ricci",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "2001-08-21"
-      },
-      {
-        "name": "Ardon Jasari",
-        "position": "Midfield",
-        "nationality": "Switzerland",
-        "dob": "2002-07-30"
-      },
-      {
-        "name": "Yunus Musah",
-        "position": "Midfield",
-        "nationality": "USA",
-        "dob": "2002-11-29"
-      },
-      {
-        "name": "Warren Bondo",
-        "position": "Midfield",
-        "nationality": "France",
-        "dob": "2003-09-15"
-      },
-      {
-        "name": "Alphadjo Cisse",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "2006-10-22"
-      },
-      {
-        "name": "Christian Comotto",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "2008-04-25"
-      },
-      {
-        "name": "Christian Pulisic",
-        "position": "Offence",
-        "nationality": "USA",
-        "dob": "1998-09-18"
-      },
-      {
-        "name": "Christopher Nkunku",
-        "position": "Offence",
-        "nationality": "France",
-        "dob": "1997-11-14"
-      },
-      {
-        "name": "Rafael Leão",
-        "position": "Offence",
-        "nationality": "Portugal",
-        "dob": "1999-06-10"
-      },
-      {
-        "name": "Samuel Chukwueze",
-        "position": "Offence",
-        "nationality": "Nigeria",
-        "dob": "1999-05-22"
-      },
-      {
-        "name": "Santiago Giménez",
-        "position": "Offence",
-        "nationality": "Mexico",
-        "dob": "2001-04-18"
-      },
-      {
-        "name": "Gonçalo Ramos",
-        "position": "Offence",
-        "nationality": "Portugal",
-        "dob": "2001-06-20"
-      },
-      {
-        "name": "Francesco Camarda",
-        "position": "Offence",
-        "nationality": "Italy",
-        "dob": "2008-03-10"
-      },
-      {
-        "name": "Andrej Kostić",
-        "position": "Offence",
-        "nationality": "Montenegro",
-        "dob": "2007-01-16"
-      }
-    ]
-  },
-  "Fiorentina": {
-    "players": [
-      {
-        "name": "Luca Lezzerini",
-        "position": "Goalkeeper",
-        "nationality": "Italy",
-        "dob": "1995-03-24"
-      },
-      {
-        "name": "David De Gea",
-        "position": "Goalkeeper",
-        "nationality": "Spain",
-        "dob": "1990-11-07"
-      },
-      {
-        "name": "Oliver Christensen",
-        "position": "Goalkeeper",
-        "nationality": "Denmark",
-        "dob": "1999-03-22"
-      },
-      {
-        "name": "Luca Ranieri",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "1999-04-23"
-      },
-      {
-        "name": "Marin Pongračić",
-        "position": "Defence",
-        "nationality": "Croatia",
-        "dob": "1997-09-11"
-      },
-      {
-        "name": "Dodô",
-        "position": "Defence",
-        "nationality": "Brazil",
-        "dob": "1998-11-17"
-      },
-      {
-        "name": "João Mário Lopes",
-        "position": "Defence",
-        "nationality": "Portugal",
-        "dob": "2000-01-03"
-      },
-      {
-        "name": "Fabiano Parisi",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "2000-11-09"
-      },
-      {
-        "name": "Radu Drăgușin",
-        "position": "Defence",
-        "nationality": "Romania",
-        "dob": "2002-02-03"
-      },
-      {
-        "name": "Viery",
-        "position": "Defence",
-        "nationality": "Brazil",
-        "dob": "2005-01-02"
-      },
-      {
-        "name": "Álex Jiménez",
-        "position": "Defence",
-        "nationality": "Spain",
-        "dob": "2005-05-08"
-      },
-      {
-        "name": "Niccolò Fortini",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "2006-02-13"
-      },
-      {
-        "name": "Víctor Valdepeñas",
-        "position": "Defence",
-        "nationality": "Spain",
-        "dob": "2006-10-20"
-      },
-      {
-        "name": "Eman Košpo",
-        "position": "Defence",
-        "nationality": "Bosnia-Herzegovina",
-        "dob": "2007-05-17"
-      },
-      {
-        "name": "Antonín Barák",
-        "position": "Midfield",
-        "nationality": "Czech Republic",
-        "dob": "1994-12-03"
-      },
-      {
-        "name": "Rolando Mandragora",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "1997-06-29"
-      },
-      {
-        "name": "Nicolò Fagioli",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "2001-02-12"
-      },
-      {
-        "name": "Marco Brescianini",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "2000-01-20"
-      },
-      {
-        "name": "Giovanni Fabbian",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "2003-01-14"
-      },
-      {
-        "name": "Arthur Atta",
-        "position": "Midfield",
-        "nationality": "France",
-        "dob": "2003-01-14"
-      },
-      {
-        "name": "Cher Ndour",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "2004-07-27"
-      },
-      {
-        "name": "Christ Ravynel Inao Oulaï",
-        "position": "Midfield",
-        "nationality": "Ivory Coast",
-        "dob": "2006-04-06"
-      },
-      {
-        "name": "Riccardo Sottil",
-        "position": "Offence",
-        "nationality": "Italy",
-        "dob": "1999-06-03"
-      },
-      {
-        "name": "Moise Kean",
-        "position": "Offence",
-        "nationality": "Italy",
-        "dob": "2000-02-28"
-      },
-      {
-        "name": "Mbala N'Zola",
-        "position": "Offence",
-        "nationality": "Angola",
-        "dob": "1996-08-18"
-      },
-      {
-        "name": "Albert Guðmundsson",
-        "position": "Offence",
-        "nationality": "Iceland",
-        "dob": "1997-06-15"
-      },
-      {
-        "name": "Mateo Pellegrino",
-        "position": "Offence",
-        "nationality": "Argentina",
-        "dob": "2001-10-22"
-      },
-      {
-        "name": "Franco Mastantuono",
-        "position": "Offence",
-        "nationality": "Argentina",
-        "dob": "2007-08-14"
-      }
-    ]
-  },
-  "Roma": {
-    "players": [
-      {
-        "name": "Pierluigi Gollini",
-        "position": "Goalkeeper",
-        "nationality": "Italy",
-        "dob": "1995-03-18"
-      },
-      {
-        "name": "Mile Svilar",
-        "position": "Goalkeeper",
-        "nationality": "Serbia",
-        "dob": "1999-08-27"
-      },
-      {
-        "name": "Devis Vásquez",
-        "position": "Goalkeeper",
-        "nationality": "Colombia",
-        "dob": "2026-06-30"
-      },
-      {
-        "name": "Giorgio De Marzi",
-        "position": "Goalkeeper",
-        "nationality": "USA",
-        "dob": "2007-04-18"
-      },
-      {
-        "name": "Evan N'Dicka",
-        "position": "Defence",
-        "nationality": "Ivory Coast",
-        "dob": "1999-08-20"
-      },
-      {
-        "name": "Gianluca Mancini",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "1996-04-17"
-      },
-      {
-        "name": "Mario Hermoso",
-        "position": "Defence",
-        "nationality": "Spain",
-        "dob": "1995-06-18"
-      },
-      {
-        "name": "Nahuel Molina",
-        "position": "Defence",
-        "nationality": "Argentina",
-        "dob": "1998-04-06"
-      },
-      {
-        "name": "Anass Salah-Eddine",
-        "position": "Defence",
-        "nationality": "Morocco",
-        "dob": "2002-01-18"
-      },
-      {
-        "name": "Devyne Rensch",
-        "position": "Defence",
-        "nationality": "Netherlands",
-        "dob": "2003-01-18"
-      },
-      {
-        "name": "Konstantinos Koulierakis",
-        "position": "Defence",
-        "nationality": "Greece",
-        "dob": "2003-11-28"
-      },
-      {
-        "name": "Wesley",
-        "position": "Defence",
-        "nationality": "Brazil",
-        "dob": "2003-09-06"
-      },
-      {
-        "name": "Daniele Ghilardi",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "2003-01-06"
-      },
-      {
-        "name": "Jan Ziółkowski",
-        "position": "Defence",
-        "nationality": "Poland",
-        "dob": "2005-06-05"
-      },
-      {
-        "name": "Mattia Mannini",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "2006-07-08"
-      },
-      {
-        "name": "Filippo Reale",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "2006-02-24"
-      },
-      {
-        "name": "Lorenzo Pellegrini",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "1996-06-19"
-      },
-      {
-        "name": "Bryan Cristante",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "1995-03-03"
-      },
-      {
-        "name": "Manu Koné",
-        "position": "Midfield",
-        "nationality": "France",
-        "dob": "2001-05-17"
-      },
-      {
-        "name": "Neil El Aynaoui",
-        "position": "Midfield",
-        "nationality": "Morocco",
-        "dob": "2001-07-02"
-      },
-      {
-        "name": "Niccolo Pisilli",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "2004-09-23"
-      },
-      {
-        "name": "Muhammed Bah",
-        "position": "Midfield",
-        "nationality": "Gambia",
-        "dob": "2007-02-24"
-      },
-      {
-        "name": "Paulo Dybala",
-        "position": "Offence",
-        "nationality": "Argentina",
-        "dob": "1993-11-15"
-      },
-      {
-        "name": "Donyell Malen",
-        "position": "Offence",
-        "nationality": "Netherlands",
-        "dob": "1999-01-19"
-      },
-      {
-        "name": "Santiago Castro",
-        "position": "Offence",
-        "nationality": "Argentina",
-        "dob": "2004-09-18"
-      },
-      {
-        "name": "Matias Soule",
-        "position": "Offence",
-        "nationality": "Argentina",
-        "dob": "2003-04-15"
-      },
-      {
-        "name": "Robinio Vaz",
-        "position": "Offence",
-        "nationality": "France",
-        "dob": "2007-02-17"
-      }
-    ]
-  },
-  "Atalanta": {
-    "players": [
-      {
-        "name": "Marco Sportiello",
-        "position": "Goalkeeper",
-        "nationality": "Italy",
-        "dob": "1992-05-10"
-      },
-      {
-        "name": "Francesco Rossi",
-        "position": "Goalkeeper",
-        "nationality": "Italy",
-        "dob": "1991-04-27"
-      },
-      {
-        "name": "Marco Carnesecchi",
-        "position": "Goalkeeper",
-        "nationality": "Italy",
-        "dob": "2000-07-01"
-      },
-      {
-        "name": "Paolo Vismara",
-        "position": "Goalkeeper",
-        "nationality": "Italy",
-        "dob": "2003-03-28"
-      },
-      {
-        "name": "Sead Kolašinac",
-        "position": "Defence",
-        "nationality": "Bosnia-Herzegovina",
-        "dob": "1993-06-20"
-      },
-      {
-        "name": "Thomas Kristensen",
-        "position": "Defence",
-        "nationality": "Denmark",
-        "dob": "2002-01-17"
-      },
-      {
-        "name": "Giorgio Scalvini",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "2003-12-11"
-      },
-      {
-        "name": "Isak Hien",
-        "position": "Defence",
-        "nationality": "Sweden",
-        "dob": "1999-01-13"
-      },
-      {
-        "name": "Odilon Kossounou",
-        "position": "Defence",
-        "nationality": "Ivory Coast",
-        "dob": "2001-01-04"
-      },
-      {
-        "name": "Honest Ahanor",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "2008-02-23"
-      },
-      {
-        "name": "Éderson",
-        "position": "Midfield",
-        "nationality": "Brazil",
-        "dob": "1989-03-13"
-      },
-      {
-        "name": "Raoul Bellanova",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "2000-05-17"
-      },
-      {
-        "name": "Marten de Roon",
-        "position": "Midfield",
-        "nationality": "Netherlands",
-        "dob": "1991-03-29"
-      },
-      {
-        "name": "Mario Pašalić",
-        "position": "Midfield",
-        "nationality": "Croatia",
-        "dob": "1995-02-09"
-      },
-      {
-        "name": "Mitchel Bakker",
-        "position": "Midfield",
-        "nationality": "Netherlands",
-        "dob": "2000-06-20"
-      },
-      {
-        "name": "Davide Zappacosta",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "1992-06-11"
-      },
-      {
-        "name": "Gianluca Gaetano",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "2000-05-05"
-      },
-      {
-        "name": "Charles De Ketelaere",
-        "position": "Midfield",
-        "nationality": "Belgium",
-        "dob": "2001-03-10"
-      },
-      {
-        "name": "Lazar Samardzic",
-        "position": "Midfield",
-        "nationality": "Serbia",
-        "dob": "2002-02-24"
-      },
-      {
-        "name": "Lorenzo Bernasconi",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "2003-11-16"
-      },
-      {
-        "name": "Nicola Zalewski",
-        "position": "Midfield",
-        "nationality": "Poland",
-        "dob": "2002-01-23"
-      },
-      {
-        "name": "Ibrahim Sulemana",
-        "position": "Midfield",
-        "nationality": "Ghana",
-        "dob": "2003-05-22"
-      },
-      {
-        "name": "Gianluca Scamacca",
-        "position": "Offence",
-        "nationality": "Italy",
-        "dob": "1999-01-01"
-      },
-      {
-        "name": "Giacomo Raspadori",
-        "position": "Offence",
-        "nationality": "Italy",
-        "dob": "2000-02-18"
-      },
-      {
-        "name": "Nikola Krstović",
-        "position": "Offence",
-        "nationality": "Montenegro",
-        "dob": "2000-04-05"
-      },
-      {
-        "name": "Kamal Deen Sulemana",
-        "position": "Offence",
-        "nationality": "Ghana",
-        "dob": "2002-02-15"
-      },
-      {
-        "name": "Vanja Vlahovic",
-        "position": "Offence",
-        "nationality": "Serbia",
-        "dob": "2004-03-23"
-      }
-    ]
-  },
   "Bologna": {
-    "players": [
-      {
-        "name": "Łukasz Skorupski",
-        "position": "Goalkeeper",
-        "nationality": "Poland",
-        "dob": "1991-05-05"
-      },
-      {
-        "name": "Massimo Pessina",
-        "position": "Goalkeeper",
-        "nationality": "Italy",
-        "dob": "2007-12-25"
-      },
-      {
-        "name": "Ukko Happonen",
-        "position": "Goalkeeper",
-        "nationality": "Finland",
-        "dob": "2007-03-13"
-      },
-      {
-        "name": "Lorenzo De Silvestri",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "1988-05-23"
-      },
-      {
-        "name": "Torbjørn Heggem",
-        "position": "Defence",
-        "nationality": "Norway",
-        "dob": "1999-01-12"
-      },
-      {
-        "name": "Juan Miranda",
-        "position": "Defence",
-        "nationality": "Spain",
-        "dob": "2000-01-19"
-      },
-      {
-        "name": "Nicolò Casale",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "1998-02-14"
-      },
-      {
-        "name": "Emil Holm",
-        "position": "Defence",
-        "nationality": "Sweden",
-        "dob": "2000-05-13"
-      },
-      {
-        "name": "Nadir Zortea",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "1999-06-19"
-      },
-      {
-        "name": "Martin Vitík",
-        "position": "Defence",
-        "nationality": "Czech Republic",
-        "dob": "2003-01-21"
-      },
-      {
-        "name": "Eivind Helland",
-        "position": "Defence",
-        "nationality": "Norway",
-        "dob": "2005-04-25"
-      },
-      {
-        "name": "Rahim Alhassane",
-        "position": "Defence",
-        "nationality": "Niger",
-        "dob": "2002-01-01"
-      },
-      {
-        "name": "Jens Odgaard",
-        "position": "Midfield",
-        "nationality": "Denmark",
-        "dob": "1999-03-31"
-      },
-      {
-        "name": "Nikola Moro",
-        "position": "Midfield",
-        "nationality": "Croatia",
-        "dob": "1998-03-12"
-      },
-      {
-        "name": "Lewis Ferguson",
-        "position": "Midfield",
-        "nationality": "Scotland",
-        "dob": "1999-08-24"
-      },
-      {
-        "name": "Tommaso Pobega",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "1999-07-15"
-      },
-      {
-        "name": "Oussama El Azzouzi",
-        "position": "Midfield",
-        "nationality": "Morocco",
-        "dob": "2001-05-29"
-      },
-      {
-        "name": "Mikel Amondarain",
-        "position": "Midfield",
-        "nationality": "Argentina",
-        "dob": "2005-01-06"
-      },
-      {
-        "name": "Riccardo Orsolini",
-        "position": "Offence",
-        "nationality": "Italy",
-        "dob": "1997-01-24"
-      },
-      {
-        "name": "Federico Bernardeschi",
-        "position": "Offence",
-        "nationality": "Italy",
-        "dob": "1994-02-16"
-      },
-      {
-        "name": "Artem Dovbyk",
-        "position": "Offence",
-        "nationality": "Ukraine",
-        "dob": "1997-06-21"
-      },
-      {
-        "name": "Jesper Karlsson",
-        "position": "Offence",
-        "nationality": "Sweden",
-        "dob": "1998-07-25"
-      },
-      {
-        "name": "Roberto Piccoli",
-        "position": "Offence",
-        "nationality": "Italy",
-        "dob": "2001-01-27"
-      },
-      {
-        "name": "Jonathan Rowe",
-        "position": "Offence",
-        "nationality": "England",
-        "dob": "2003-04-30"
-      },
-      {
-        "name": "Nicolò Cambiaghi",
-        "position": "Offence",
-        "nationality": "Italy",
-        "dob": "2024-06-30"
-      }
-    ]
-  },
-  "Cagliari": {
-    "players": [
-      {
-        "name": "Boris Radunović",
-        "position": "Goalkeeper",
-        "nationality": "Serbia",
-        "dob": "1996-05-26"
-      },
-      {
-        "name": "Elia Caprile",
-        "position": "Goalkeeper",
-        "nationality": "Italy",
-        "dob": "2001-08-25"
-      },
-      {
-        "name": "Alen Sherri",
-        "position": "Goalkeeper",
-        "nationality": "Albania",
-        "dob": "1997-12-15"
-      },
-      {
-        "name": "Yerry Mina",
-        "position": "Defence",
-        "nationality": "Colombia",
-        "dob": "1994-09-23"
-      },
-      {
-        "name": "Zé Pedro Figueiredo",
-        "position": "Defence",
-        "nationality": "Portugal",
-        "dob": "1997-06-06"
-      },
-      {
-        "name": "Gabriele Zappa",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "1999-12-22"
-      },
-      {
-        "name": "Giuseppe Aurelio",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "2000-03-22"
-      },
-      {
-        "name": "Adam Obert",
-        "position": "Defence",
-        "nationality": "Slovakia",
-        "dob": "2002-08-23"
-      },
-      {
-        "name": "Raphael Kofler",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "2005-04-26"
-      },
-      {
-        "name": "Juan Martín Rodriguez",
-        "position": "Defence",
-        "nationality": "Uruguay",
-        "dob": "2005-05-30"
-      },
-      {
-        "name": "Riyad Idrissi",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "2005-06-13"
-      },
-      {
-        "name": "Alessandro Deiola",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "1995-08-01"
-      },
-      {
-        "name": "Harry Winks",
-        "position": "Midfield",
-        "nationality": "England",
-        "dob": "1996-02-02"
-      },
-      {
-        "name": "Daniel Maldini",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "2001-10-11"
-      },
-      {
-        "name": "Matteo Prati",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "2003-12-28"
-      },
-      {
-        "name": "Nicolo Cavuoti",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "2003-04-04"
-      },
-      {
-        "name": "Jacopo Fazzini",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "2003-03-16"
-      },
-      {
-        "name": "Michel Adopo",
-        "position": "Midfield",
-        "nationality": "France",
-        "dob": "2000-07-19"
-      },
-      {
-        "name": "Alessandro Romano",
-        "position": "Midfield",
-        "nationality": "Switzerland",
-        "dob": "2006-06-17"
-      },
-      {
-        "name": "Joseph Liteta",
-        "position": "Midfield",
-        "nationality": "Zambia",
-        "dob": "2006-02-22"
-      },
-      {
-        "name": "Nicola Grandu",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "2006-07-15"
-      },
-      {
-        "name": "Ivan Sulev",
-        "position": "Midfield",
-        "nationality": "Bulgaria",
-        "dob": "2006-09-11"
-      },
-      {
-        "name": "Mattia Felici",
-        "position": "Offence",
-        "nationality": "Italy",
-        "dob": "2001-04-17"
-      },
-      {
-        "name": "Sebastiano Esposito",
-        "position": "Offence",
-        "nationality": "Italy",
-        "dob": "2002-07-02"
-      },
-      {
-        "name": "Gennaro Borrelli",
-        "position": "Offence",
-        "nationality": "Italy",
-        "dob": "2000-03-10"
-      },
-      {
-        "name": "Kevin Carlos",
-        "position": "Offence",
-        "nationality": "Spain",
-        "dob": "2001-04-10"
-      },
-      {
-        "name": "Kingstone Mutandwa",
-        "position": "Offence",
-        "nationality": "Zambia",
-        "dob": "2003-01-05"
-      },
-      {
-        "name": "Agustín Albarracín",
-        "position": "Offence",
-        "nationality": "Uruguay",
-        "dob": "2005-08-29"
-      },
-      {
-        "name": "Sebastiano Di Paolo",
-        "position": "Offence",
-        "nationality": "Italy",
-        "dob": "2006-10-09"
-      },
-      {
-        "name": "Yael Trepy",
-        "position": "Offence",
-        "nationality": "France",
-        "dob": "2006-05-20"
-      },
-      {
-        "name": "Paul Mendy",
-        "position": "Offence",
-        "nationality": "Senegal",
-        "dob": "2007-01-13"
-      }
-    ]
-  },
-  "Genoa": {
-    "players": [
-      {
-        "name": "Justin Bijlow",
-        "position": "Goalkeeper",
-        "nationality": "Netherlands",
-        "dob": "1998-01-22"
-      },
-      {
-        "name": "Daniele Sommariva",
-        "position": "Goalkeeper",
-        "nationality": "Italy",
-        "dob": "1997-07-18"
-      },
-      {
-        "name": "Franz Stolz",
-        "position": "Goalkeeper",
-        "nationality": "Austria",
-        "dob": "2001-02-14"
-      },
-      {
-        "name": "Ernestas Lysionok",
-        "position": "Goalkeeper",
-        "nationality": "Lithuania",
-        "dob": "2007-03-09"
-      },
-      {
-        "name": "Stefano Sabelli",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "1993-01-13"
-      },
-      {
-        "name": "Aaron Martín",
-        "position": "Defence",
-        "nationality": "Spain",
-        "dob": "1997-04-22"
-      },
-      {
-        "name": "Johan Vásquez",
-        "position": "Defence",
-        "nationality": "Mexico",
-        "dob": "1998-10-22"
-      },
-      {
-        "name": "Leo Østigård",
-        "position": "Defence",
-        "nationality": "Norway",
-        "dob": "1999-11-28"
-      },
-      {
-        "name": "Mario Mitaj",
-        "position": "Defence",
-        "nationality": "Albania",
-        "dob": "2003-08-06"
-      },
-      {
-        "name": "Brooke Norton-Cuffy",
-        "position": "Defence",
-        "nationality": "England",
-        "dob": "2004-01-12"
-      },
-      {
-        "name": "Sebastian Otoa",
-        "position": "Defence",
-        "nationality": "Denmark",
-        "dob": "2004-05-13"
-      },
-      {
-        "name": "Alessandro Marcandalli",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "2002-10-25"
-      },
-      {
-        "name": "Alan Matturro",
-        "position": "Defence",
-        "nationality": "Uruguay",
-        "dob": "2004-10-11"
-      },
-      {
-        "name": "David Puczka",
-        "position": "Defence",
-        "nationality": "Austria",
-        "dob": "2005-01-26"
-      },
-      {
-        "name": "Matteo Barbini",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "2006-12-11"
-      },
-      {
-        "name": "Mamedi Doucouré",
-        "position": "Defence",
-        "nationality": "France",
-        "dob": "2007-01-19"
-      },
-      {
-        "name": "Marcelo Vaz",
-        "position": "Defence",
-        "nationality": "Guinea-Bissau",
-        "dob": "2007-07-31"
-      },
-      {
-        "name": "Djibril Sow",
-        "position": "Midfield",
-        "nationality": "Switzerland",
-        "dob": "1997-02-06"
-      },
-      {
-        "name": "Morten Frendrup",
-        "position": "Midfield",
-        "nationality": "Denmark",
-        "dob": "2001-04-07"
-      },
-      {
-        "name": "Tommaso Baldanzi",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "2003-03-23"
-      },
-      {
-        "name": "Mikael Egill Ellertsson",
-        "position": "Midfield",
-        "nationality": "Iceland",
-        "dob": "2002-03-11"
-      },
-      {
-        "name": "Alexsandro Amorim",
-        "position": "Midfield",
-        "nationality": "Brazil",
-        "dob": "2005-05-18"
-      },
-      {
-        "name": "Ethan Meichtry",
-        "position": "Midfield",
-        "nationality": "Switzerland",
-        "dob": "2005-07-08"
-      },
-      {
-        "name": "Samuel Wiafe",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "2008-06-22"
-      },
-      {
-        "name": "Hamed Traoré",
-        "position": "Offence",
-        "nationality": "Ivory Coast",
-        "dob": "2000-02-16"
-      },
-      {
-        "name": "Junior Messias",
-        "position": "Offence",
-        "nationality": "Brazil",
-        "dob": "1991-05-13"
-      },
-      {
-        "name": "Lorenzo Colombo",
-        "position": "Offence",
-        "nationality": "Italy",
-        "dob": "2002-03-08"
-      },
-      {
-        "name": "Vitor Oliveira",
-        "position": "Offence",
-        "nationality": "Portugal",
-        "dob": "2000-03-15"
-      },
-      {
-        "name": "Elias Havel",
-        "position": "Offence",
-        "nationality": "Austria",
-        "dob": "2003-04-16"
-      },
-      {
-        "name": "Lorenzo Venturino",
-        "position": "Offence",
-        "nationality": "Italy",
-        "dob": "2006-06-22"
-      }
-    ]
-  },
-  "Inter": {
-    "players": [
-      {
-        "name": "Ivan Provedel",
-        "position": "Goalkeeper",
-        "nationality": "Italy",
-        "dob": "1994-03-17"
-      },
-      {
-        "name": "Raffaele Di Gennaro",
-        "position": "Goalkeeper",
-        "nationality": "Italy",
-        "dob": "1993-10-03"
-      },
-      {
-        "name": "Josep Martinez",
-        "position": "Goalkeeper",
-        "nationality": "Spain",
-        "dob": "1998-05-27"
-      },
-      {
-        "name": "Manuel Akanji",
-        "position": "Defence",
-        "nationality": "Switzerland",
-        "dob": "1995-07-19"
-      },
-      {
-        "name": "Yann Aurel Bisseck",
-        "position": "Defence",
-        "nationality": "Germany",
-        "dob": "2000-11-29"
-      },
-      {
-        "name": "Alessandro Bastoni",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "1999-04-13"
-      },
-      {
-        "name": "John Stones",
-        "position": "Defence",
-        "nationality": "England",
-        "dob": "1994-05-28"
-      },
-      {
-        "name": "Benjamin Pavard",
-        "position": "Defence",
-        "nationality": "France",
-        "dob": "1996-03-28"
-      },
-      {
-        "name": "Carlos",
-        "position": "Defence",
-        "nationality": "Brazil",
-        "dob": "1999-01-07"
-      },
-      {
-        "name": "Federico Dimarco",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "1997-11-10"
-      },
-      {
-        "name": "Djed Spence",
-        "position": "Defence",
-        "nationality": "England",
-        "dob": "2000-08-09"
-      },
-      {
-        "name": "Hakan Çalhanoğlu",
-        "position": "Midfield",
-        "nationality": "Turkey",
-        "dob": "1994-02-08"
-      },
-      {
-        "name": "Nicolò Barella",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "1997-02-07"
-      },
-      {
-        "name": "Piotr Zieliński",
-        "position": "Midfield",
-        "nationality": "Poland",
-        "dob": "1994-05-20"
-      },
-      {
-        "name": "Henrikh Mkhitaryan",
-        "position": "Midfield",
-        "nationality": "Armenia",
-        "dob": "1989-01-21"
-      },
-      {
-        "name": "Luis Henrique",
-        "position": "Midfield",
-        "nationality": "Brazil",
-        "dob": "2001-12-14"
-      },
-      {
-        "name": "Petar Sucic",
-        "position": "Midfield",
-        "nationality": "Croatia",
-        "dob": "2003-10-25"
-      },
-      {
-        "name": "Kristjan Asllani",
-        "position": "Midfield",
-        "nationality": "Albania",
-        "dob": "2002-03-09"
-      },
-      {
-        "name": "Andy Diouf",
-        "position": "Midfield",
-        "nationality": "France",
-        "dob": "2003-05-17"
-      },
-      {
-        "name": "Yanis Massolin",
-        "position": "Midfield",
-        "nationality": "France",
-        "dob": "2002-09-20"
-      },
-      {
-        "name": "Aleksandar Stankovic",
-        "position": "Midfield",
-        "nationality": "Serbia",
-        "dob": "2005-08-03"
-      },
-      {
-        "name": "Lautaro Martínez",
-        "position": "Offence",
-        "nationality": "Argentina",
-        "dob": "1997-08-22"
-      },
-      {
-        "name": "Marcus Thuram-Ulien",
-        "position": "Offence",
-        "nationality": "France",
-        "dob": "1997-08-06"
-      },
-      {
-        "name": "Ange-Yoan Bonny",
-        "position": "Offence",
-        "nationality": "Ivory Coast",
-        "dob": "2003-10-25"
-      },
-      {
-        "name": "Francesco Esposito",
-        "position": "Offence",
-        "nationality": "Italy",
-        "dob": "2005-06-28"
-      }
-    ]
-  },
-  "Juventus": {
-    "players": [
-      {
-        "name": "Mattia Perin",
-        "position": "Goalkeeper",
-        "nationality": "Italy",
-        "dob": "1992-11-10"
-      },
-      {
-        "name": "Carlo Pinsoglio",
-        "position": "Goalkeeper",
-        "nationality": "Italy",
-        "dob": "1990-03-16"
-      },
-      {
-        "name": "Guglielmo Vicario",
-        "position": "Goalkeeper",
-        "nationality": "Italy",
-        "dob": "1996-10-07"
-      },
-      {
-        "name": "Michele Di Gregorio",
-        "position": "Goalkeeper",
-        "nationality": "Italy",
-        "dob": "1997-07-27"
-      },
-      {
-        "name": "Bremer",
-        "position": "Defence",
-        "nationality": "Brazil",
-        "dob": "1997-03-18"
-      },
-      {
-        "name": "Daniele Rugani",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "1994-07-29"
-      },
-      {
-        "name": "Lloyd Kelly",
-        "position": "Defence",
-        "nationality": "England",
-        "dob": "1998-10-06"
-      },
-      {
-        "name": "Jhon Lucumí",
-        "position": "Defence",
-        "nationality": "Colombia",
-        "dob": "1998-06-26"
-      },
-      {
-        "name": "Zeki Çelik",
-        "position": "Defence",
-        "nationality": "Turkey",
-        "dob": "1997-02-17"
-      },
-      {
-        "name": "Juan Cabal",
-        "position": "Defence",
-        "nationality": "Colombia",
-        "dob": "2001-01-08"
-      },
-      {
-        "name": "Andrea Cambiaso",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "2000-02-20"
-      },
-      {
-        "name": "Pierre Kalulu",
-        "position": "Defence",
-        "nationality": "France",
-        "dob": "2000-06-05"
-      },
-      {
-        "name": "Federico Gatti",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "1998-06-24"
-      },
-      {
-        "name": "Arthur",
-        "position": "Midfield",
-        "nationality": "Brazil",
-        "dob": "1996-08-12"
-      },
-      {
-        "name": "Manuel Locatelli",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "1998-01-08"
-      },
-      {
-        "name": "Weston McKennie",
-        "position": "Midfield",
-        "nationality": "USA",
-        "dob": "1998-08-28"
-      },
-      {
-        "name": "Teun Koopmeiners",
-        "position": "Midfield",
-        "nationality": "Netherlands",
-        "dob": "1998-02-28"
-      },
-      {
-        "name": "Douglas Luiz",
-        "position": "Midfield",
-        "nationality": "Brazil",
-        "dob": "1998-05-09"
-      },
-      {
-        "name": "Khéphren Thuram-Ulie",
-        "position": "Midfield",
-        "nationality": "France",
-        "dob": "2001-03-26"
-      },
-      {
-        "name": "Fabio Miretti",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "2003-08-03"
-      },
-      {
-        "name": "Arkadiusz Milik",
-        "position": "Offence",
-        "nationality": "Poland",
-        "dob": "1994-02-28"
-      },
-      {
-        "name": "Jérémie Boga",
-        "position": "Offence",
-        "nationality": "Ivory Coast",
-        "dob": "1997-01-03"
-      },
-      {
-        "name": "Randal Kolo Muani",
-        "position": "Offence",
-        "nationality": "France",
-        "dob": "1998-12-05"
-      },
-      {
-        "name": "Jonathan David",
-        "position": "Offence",
-        "nationality": "Canada",
-        "dob": "2000-01-14"
-      },
-      {
-        "name": "Edon Zhegrova",
-        "position": "Offence",
-        "nationality": "Kosovo",
-        "dob": "1999-03-31"
-      },
-      {
-        "name": "Nicolás González",
-        "position": "Offence",
-        "nationality": "Argentina",
-        "dob": "1998-04-06"
-      },
-      {
-        "name": "Francisco Conceição",
-        "position": "Offence",
-        "nationality": "Portugal",
-        "dob": "2002-12-14"
-      },
-      {
-        "name": "Kenan Yıldız",
-        "position": "Offence",
-        "nationality": "Turkey",
-        "dob": "2005-05-04"
-      },
-      {
-        "name": "Jeff Ekhator",
-        "position": "Offence",
-        "nationality": "Italy",
-        "dob": "2006-11-11"
-      },
-      {
-        "name": "Kerim Alajbegović",
-        "position": "Offence",
-        "nationality": "Bosnia-Herzegovina",
-        "dob": "2007-09-21"
-      }
-    ]
-  },
-  "Lazio": {
-    "players": [
-      {
-        "name": "Christos Mandas",
-        "position": "Goalkeeper",
-        "nationality": "Greece",
-        "dob": "2001-09-17"
-      },
-      {
-        "name": "Alessio Furlanetto",
-        "position": "Goalkeeper",
-        "nationality": "Italy",
-        "dob": "2002-02-07"
-      },
-      {
-        "name": "Davide Renzetti",
-        "position": "Goalkeeper",
-        "nationality": "Italy",
-        "dob": "2006-06-09"
-      },
-      {
-        "name": "Edoardo Motta",
-        "position": "Goalkeeper",
-        "nationality": "Italy",
-        "dob": "2005-01-13"
-      },
-      {
-        "name": "Alfonso Pedraza",
-        "position": "Defence",
-        "nationality": "Spain",
-        "dob": "1996-04-09"
-      },
-      {
-        "name": "Alessio Romagnoli",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "1995-01-12"
-      },
-      {
-        "name": "Luca Pellegrini",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "1999-03-07"
-      },
-      {
-        "name": "Patric",
-        "position": "Defence",
-        "nationality": "Spain",
-        "dob": "1993-04-17"
-      },
-      {
-        "name": "Adam Marušić",
-        "position": "Defence",
-        "nationality": "Montenegro",
-        "dob": "1992-10-17"
-      },
-      {
-        "name": "Mohamed Salim Fares",
-        "position": "Defence",
-        "nationality": "Algeria",
-        "dob": "1996-02-15"
-      },
-      {
-        "name": "Manuel Lazzari",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "1993-11-29"
-      },
-      {
-        "name": "Samuel Gigot",
-        "position": "Defence",
-        "nationality": "France",
-        "dob": "1993-10-12"
-      },
-      {
-        "name": "Danilho Doekhi",
-        "position": "Defence",
-        "nationality": "Suriname",
-        "dob": "1998-06-30"
-      },
-      {
-        "name": "Nuno Tavares",
-        "position": "Defence",
-        "nationality": "Portugal",
-        "dob": "2000-01-26"
-      },
-      {
-        "name": "Romano Floriani",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "2003-01-27"
-      },
-      {
-        "name": "Oliver Nielsen",
-        "position": "Defence",
-        "nationality": "Denmark",
-        "dob": "2003-06-04"
-      },
-      {
-        "name": "Filipe",
-        "position": "Defence",
-        "nationality": "Brazil",
-        "dob": "2005-06-24"
-      },
-      {
-        "name": "Davide Frattesi",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "1999-09-22"
-      },
-      {
-        "name": "Danilo Cataldi",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "1994-08-06"
-      },
-      {
-        "name": "Kenneth Taylor",
-        "position": "Midfield",
-        "nationality": "Netherlands",
-        "dob": "2002-05-16"
-      },
-      {
-        "name": "Nicolò Rovella",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "2001-12-04"
-      },
-      {
-        "name": "Fisayo Dele-Bashiru",
-        "position": "Midfield",
-        "nationality": "Nigeria",
-        "dob": "2001-02-06"
-      },
-      {
-        "name": "Reda Belahyane",
-        "position": "Midfield",
-        "nationality": "Morocco",
-        "dob": "2004-06-01"
-      },
-      {
-        "name": "Adrian Przyborek",
-        "position": "Midfield",
-        "nationality": "Poland",
-        "dob": "2007-01-01"
-      },
-      {
-        "name": "Valerio Farcomeni",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "2006-01-18"
-      },
-      {
-        "name": "Bruno Galassi",
-        "position": "Midfield",
-        "nationality": "Spain",
-        "dob": "2007-02-07"
-      },
-      {
-        "name": "Mattia Zaccagni",
-        "position": "Offence",
-        "nationality": "Italy",
-        "dob": "1995-06-16"
-      },
-      {
-        "name": "Boulaye Dia",
-        "position": "Offence",
-        "nationality": "Senegal",
-        "dob": "1996-11-16"
-      },
-      {
-        "name": "Gustav Isaksen",
-        "position": "Offence",
-        "nationality": "Denmark",
-        "dob": "2001-04-19"
-      },
-      {
-        "name": "Gabriele Artistico",
-        "position": "Offence",
-        "nationality": "Italy",
-        "dob": "2002-07-14"
-      },
-      {
-        "name": "Matteo Cancellieri",
-        "position": "Offence",
-        "nationality": "Italy",
-        "dob": "2002-02-12"
-      },
-      {
-        "name": "Tijjani Noslin",
-        "position": "Offence",
-        "nationality": "Netherlands",
-        "dob": "1999-07-07"
-      },
-      {
-        "name": "Petar Ratkov",
-        "position": "Offence",
-        "nationality": "Serbia",
-        "dob": "2003-08-18"
-      },
-      {
-        "name": "Federico Serra",
-        "position": "Offence",
-        "nationality": "Italy",
-        "dob": "2006-01-03"
-      }
-    ]
-  },
-  "Parma": {
-    "players": [
-      {
-        "name": "Zion Suzuki",
-        "position": "Goalkeeper",
-        "nationality": "Japan",
-        "dob": "2002-08-21"
-      },
-      {
-        "name": "Edoardo Corvi",
-        "position": "Goalkeeper",
-        "nationality": "Italy",
-        "dob": "2001-03-23"
-      },
-      {
-        "name": "Giovanni Daffara",
-        "position": "Goalkeeper",
-        "nationality": "Italy",
-        "dob": "2004-12-05"
-      },
-      {
-        "name": "Enrico Del Prato",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "1999-11-10"
-      },
-      {
-        "name": "Emanuele Valeri",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "1998-12-07"
-      },
-      {
-        "name": "Lautaro Valenti",
-        "position": "Defence",
-        "nationality": "Argentina",
-        "dob": "1999-01-14"
-      },
-      {
-        "name": "Botond Balogh",
-        "position": "Defence",
-        "nationality": "Hungary",
-        "dob": "2002-06-06"
-      },
-      {
-        "name": "Franco Carboni",
-        "position": "Defence",
-        "nationality": "Argentina",
-        "dob": "2003-04-04"
-      },
-      {
-        "name": "Alessandro Circati",
-        "position": "Defence",
-        "nationality": "Australia",
-        "dob": "2003-10-10"
-      },
-      {
-        "name": "Abdoulaye N'Diaye",
-        "position": "Defence",
-        "nationality": "Senegal",
-        "dob": "2002-04-10"
-      },
-      {
-        "name": "Mariano Troilo",
-        "position": "Defence",
-        "nationality": "Argentina",
-        "dob": "2003-06-22"
-      },
-      {
-        "name": "Peter Amoran",
-        "position": "Defence",
-        "nationality": "Sweden",
-        "dob": "2004-05-22"
-      },
-      {
-        "name": "Sascha Britschgi",
-        "position": "Defence",
-        "nationality": "Switzerland",
-        "dob": "2006-08-27"
-      },
-      {
-        "name": "Dominik Drobnič",
-        "position": "Defence",
-        "nationality": "Slovenia",
-        "dob": "2007-04-05"
-      },
-      {
-        "name": "Adrián Bernabé",
-        "position": "Midfield",
-        "nationality": "Spain",
-        "dob": "2001-05-26"
-      },
-      {
-        "name": "Hans Nicolussi Caviglia",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "2000-06-18"
-      },
-      {
-        "name": "Mandela Keita",
-        "position": "Midfield",
-        "nationality": "Belgium",
-        "dob": "2002-05-10"
-      },
-      {
-        "name": "Oliver Sørensen",
-        "position": "Midfield",
-        "nationality": "Denmark",
-        "dob": "2002-03-10"
-      },
-      {
-        "name": "Rachid Kouda",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "2002-07-25"
-      },
-      {
-        "name": "Christian Ordonez",
-        "position": "Midfield",
-        "nationality": "Argentina",
-        "dob": "2004-07-24"
-      },
-      {
-        "name": "Abdou-Salam Konate",
-        "position": "Midfield",
-        "nationality": "France",
-        "dob": "2006-11-25"
-      },
-      {
-        "name": "Pontus Almqvist",
-        "position": "Offence",
-        "nationality": "Sweden",
-        "dob": "1999-07-10"
-      },
-      {
-        "name": "El Bilal Touré",
-        "position": "Offence",
-        "nationality": "Mali",
-        "dob": "2001-10-03"
-      },
-      {
-        "name": "José Romero",
-        "position": "Offence",
-        "nationality": "Argentina",
-        "dob": "2003-03-25"
-      },
-      {
-        "name": "Matija Frigan",
-        "position": "Offence",
-        "nationality": "Croatia",
-        "dob": "2003-02-11"
-      },
-      {
-        "name": "Antoine Joujou",
-        "position": "Offence",
-        "nationality": "France",
-        "dob": "2003-03-12"
-      },
-      {
-        "name": "Nesta Elphege",
-        "position": "Offence",
-        "nationality": "France",
-        "dob": "2001-01-09"
-      },
-      {
-        "name": "Ousmane Diallo",
-        "position": "Offence",
-        "nationality": "Spain",
-        "dob": "2007-06-12"
-      },
-      {
-        "name": "Thomas de Martis",
-        "position": "Offence",
-        "nationality": "Argentina",
-        "dob": "2008-06-26"
-      },
-      {
-        "name": "Aymen Zouin",
-        "position": "Offence",
-        "nationality": "Morocco",
-        "dob": "2006-01-01"
-      },
-      {
-        "name": "Simone Lontani",
-        "position": "Offence",
-        "nationality": "Italy",
-        "dob": "2008-01-18"
-      }
-    ]
-  },
-  "Napoli": {
-    "players": [
-      {
-        "name": "Vanja Milinković-Savić",
-        "position": "Goalkeeper",
-        "nationality": "Serbia",
-        "dob": "1997-02-20"
-      },
-      {
-        "name": "Alex Meret",
-        "position": "Goalkeeper",
-        "nationality": "Italy",
-        "dob": "1997-03-22"
-      },
-      {
-        "name": "Nikita Contini Baranovsky",
-        "position": "Goalkeeper",
-        "nationality": "Italy",
-        "dob": "1996-05-21"
-      },
-      {
-        "name": "Leonardo Spinazzola",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "1993-03-25"
-      },
-      {
-        "name": "Alessandro Buongiorno",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "1999-06-06"
-      },
-      {
-        "name": "Pasquale Mazzocchi",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "1995-07-27"
-      },
-      {
-        "name": "Giovanni Di Lorenzo",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "1993-08-04"
-      },
-      {
-        "name": "Amir Rrahmani",
-        "position": "Defence",
-        "nationality": "Kosovo",
-        "dob": "1994-02-24"
-      },
-      {
-        "name": "Mathías Olivera",
-        "position": "Defence",
-        "nationality": "Uruguay",
-        "dob": "1997-10-31"
-      },
-      {
-        "name": "Sam Beukema",
-        "position": "Defence",
-        "nationality": "Netherlands",
-        "dob": "1998-11-17"
-      },
-      {
-        "name": "Rafa Marin",
-        "position": "Defence",
-        "nationality": "Spain",
-        "dob": "2002-05-19"
-      },
-      {
-        "name": "Nosa Edward Obaretin",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "2003-01-26"
-      },
-      {
-        "name": "Luca Marianucci",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "2004-07-23"
-      },
-      {
-        "name": "Christian Garofalo",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "2007-01-04"
-      },
-      {
-        "name": "Kevin De Bruyne",
-        "position": "Midfield",
-        "nationality": "Belgium",
-        "dob": "1991-06-28"
-      },
-      {
-        "name": "Scott McTominay",
-        "position": "Midfield",
-        "nationality": "Scotland",
-        "dob": "1996-12-08"
-      },
-      {
-        "name": "André Zambo Anguissa",
-        "position": "Midfield",
-        "nationality": "Cameroon",
-        "dob": "1995-11-16"
-      },
-      {
-        "name": "Jens Cajuste",
-        "position": "Midfield",
-        "nationality": "Sweden",
-        "dob": "1999-08-10"
-      },
-      {
-        "name": "Stanislav Lobotka",
-        "position": "Midfield",
-        "nationality": "Slovakia",
-        "dob": "1994-11-25"
-      },
-      {
-        "name": "Michael Folorunsho",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "1998-02-07"
-      },
-      {
-        "name": "Billy Gilmour",
-        "position": "Midfield",
-        "nationality": "Scotland",
-        "dob": "2001-06-11"
-      },
-      {
-        "name": "Antonio Vergara",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "2003-01-16"
-      },
-      {
-        "name": "Matteo Politano",
-        "position": "Offence",
-        "nationality": "Italy",
-        "dob": "1993-08-03"
-      },
-      {
-        "name": "Noa Lang",
-        "position": "Offence",
-        "nationality": "Netherlands",
-        "dob": "1999-06-17"
-      },
-      {
-        "name": "David Neres",
-        "position": "Offence",
-        "nationality": "Brazil",
-        "dob": "1997-03-03"
-      },
-      {
-        "name": "Lorenzo Lucca",
-        "position": "Offence",
-        "nationality": "Italy",
-        "dob": "2000-09-10"
-      },
-      {
-        "name": "Jesper Lindstrøm",
-        "position": "Offence",
-        "nationality": "Denmark",
-        "dob": "2000-02-29"
-      },
-      {
-        "name": "Cyril Ngonge",
-        "position": "Offence",
-        "nationality": "Belgium",
-        "dob": "2000-05-26"
-      },
-      {
-        "name": "Walid Cheddira",
-        "position": "Offence",
-        "nationality": "Morocco",
-        "dob": "1998-01-22"
-      },
-      {
-        "name": "Rasmus Højlund",
-        "position": "Offence",
-        "nationality": "Denmark",
-        "dob": "2003-02-04"
-      },
-      {
-        "name": "Giovane Nascimento",
-        "position": "Offence",
-        "nationality": "Brazil",
-        "dob": "2003-11-24"
-      },
-      {
-        "name": "Alisson Santos",
-        "position": "Offence",
-        "nationality": "Brazil",
-        "dob": "2002-09-27"
-      }
-    ]
-  },
-  "Udinese": {
-    "players": [
-      {
-        "name": "Daniele Padelli",
-        "position": "Goalkeeper",
-        "nationality": "Italy",
-        "dob": "1985-10-25"
-      },
-      {
-        "name": "Maduka Okoye",
-        "position": "Goalkeeper",
-        "nationality": "Nigeria",
-        "dob": "1999-08-28"
-      },
-      {
-        "name": "Edoardo Piana",
-        "position": "Goalkeeper",
-        "nationality": "Italy",
-        "dob": "2003-09-29"
-      },
-      {
-        "name": "Enzo Ebosse",
-        "position": "Defence",
-        "nationality": "Cameroon",
-        "dob": "1999-03-11"
-      },
-      {
-        "name": "Hassane Kamara",
-        "position": "Defence",
-        "nationality": "Ivory Coast",
-        "dob": "1994-03-05"
-      },
-      {
-        "name": "Alessandro Zanoli",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "2000-10-03"
-      },
-      {
-        "name": "Christian Kabasele",
-        "position": "Defence",
-        "nationality": "Belgium",
-        "dob": "1991-02-24"
-      },
-      {
-        "name": "Oumar Solet",
-        "position": "Defence",
-        "nationality": "France",
-        "dob": "2000-02-07"
-      },
-      {
-        "name": "Mërgim Vojvoda",
-        "position": "Defence",
-        "nationality": "Kosovo",
-        "dob": "1995-02-01"
-      },
-      {
-        "name": "Nicolo Bertola",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "2003-03-23"
-      },
-      {
-        "name": "Leonardo Buta",
-        "position": "Defence",
-        "nationality": "Portugal",
-        "dob": "2002-06-05"
-      },
-      {
-        "name": "James Abankwah",
-        "position": "Defence",
-        "nationality": "Ireland",
-        "dob": "2004-01-16"
-      },
-      {
-        "name": "Saba Goglichidze",
-        "position": "Defence",
-        "nationality": "Georgia",
-        "dob": "2004-06-25"
-      },
-      {
-        "name": "Matteo Palma",
-        "position": "Defence",
-        "nationality": "Germany",
-        "dob": "2008-03-13"
-      },
-      {
-        "name": "Branimir Mlacic",
-        "position": "Defence",
-        "nationality": "Croatia",
-        "dob": "2007-03-12"
-      },
-      {
-        "name": "Jurgen Ekkelenkamp",
-        "position": "Midfield",
-        "nationality": "Netherlands",
-        "dob": "2000-04-05"
-      },
-      {
-        "name": "Giorgi Chakvetadze",
-        "position": "Midfield",
-        "nationality": "Georgia",
-        "dob": "1999-08-29"
-      },
-      {
-        "name": "Sandi Lovric",
-        "position": "Midfield",
-        "nationality": "Slovenia",
-        "dob": "1998-03-28"
-      },
-      {
-        "name": "Jesper Karlström",
-        "position": "Midfield",
-        "nationality": "Sweden",
-        "dob": "1995-06-21"
-      },
-      {
-        "name": "Jakub Piotrowski",
-        "position": "Midfield",
-        "nationality": "Poland",
-        "dob": "1997-10-04"
-      },
-      {
-        "name": "Oier Zarraga",
-        "position": "Midfield",
-        "nationality": "Spain",
-        "dob": "1999-01-04"
-      },
-      {
-        "name": "Rui Modesto",
-        "position": "Midfield",
-        "nationality": "Angola",
-        "dob": "1999-10-07"
-      },
-      {
-        "name": "Lennon Miller",
-        "position": "Midfield",
-        "nationality": "Scotland",
-        "dob": "2006-08-25"
-      },
-      {
-        "name": "Unai Gomez",
-        "position": "Midfield",
-        "nationality": "Spain",
-        "dob": "2003-05-25"
-      },
-      {
-        "name": "Juan Arizala",
-        "position": "Midfield",
-        "nationality": "Colombia",
-        "dob": "2005-10-10"
-      },
-      {
-        "name": "David Pejičić",
-        "position": "Midfield",
-        "nationality": "Slovenia",
-        "dob": "2007-06-14"
-      },
-      {
-        "name": "Abdoulaye Camara",
-        "position": "Midfield",
-        "nationality": "France",
-        "dob": "2008-09-28"
-      },
-      {
-        "name": "Nicolò Zaniolo",
-        "position": "Offence",
-        "nationality": "Italy",
-        "dob": "1999-07-02"
-      },
-      {
-        "name": "Keinan Davis",
-        "position": "Offence",
-        "nationality": "England",
-        "dob": "1998-02-13"
-      },
-      {
-        "name": "Adam Buksa",
-        "position": "Offence",
-        "nationality": "Poland",
-        "dob": "1996-07-12"
-      },
-      {
-        "name": "Vakoun Issouf Bayo",
-        "position": "Offence",
-        "nationality": "Ivory Coast",
-        "dob": "1997-01-10"
-      },
-      {
-        "name": "Idrissa Guèye",
-        "position": "Offence",
-        "nationality": "Senegal",
-        "dob": "2006-09-16"
-      },
-      {
-        "name": "Giulio Vinciati",
-        "position": "Offence",
-        "nationality": "Italy",
-        "dob": "2007-08-29"
-      }
-    ]
-  },
-  "Venezia": {
-    "players": [
-      {
-        "name": "Alessio Pozzi",
-        "position": "Goalkeeper",
-        "nationality": "Italy",
-        "dob": "2000-12-14"
-      },
-      {
-        "name": "Matteo Grandi",
-        "position": "Goalkeeper",
-        "nationality": "Italy",
-        "dob": "1992-10-12"
-      },
-      {
-        "name": "Filip Stankovic",
-        "position": "Goalkeeper",
-        "nationality": "Serbia",
-        "dob": "2002-02-25"
-      },
-      {
-        "name": "Marin Šverko",
-        "position": "Defence",
-        "nationality": "Croatia",
-        "dob": "1998-02-04"
-      },
-      {
-        "name": "Ridgeciano Haps",
-        "position": "Defence",
-        "nationality": "Suriname",
-        "dob": "1993-06-12"
-      },
-      {
-        "name": "Thierry Correia",
-        "position": "Defence",
-        "nationality": "Portugal",
-        "dob": "1999-03-09"
-      },
-      {
-        "name": "Armel Bella Kotchap",
-        "position": "Defence",
-        "nationality": "Germany",
-        "dob": "2001-12-11"
-      },
-      {
-        "name": "Bartol Franjić",
-        "position": "Defence",
-        "nationality": "Croatia",
-        "dob": "2000-01-14"
-      },
-      {
-        "name": "Redouane Halhal",
-        "position": "Defence",
-        "nationality": "Morocco",
-        "dob": "2003-03-05"
-      },
-      {
-        "name": "Richie Sagrado",
-        "position": "Defence",
-        "nationality": "Belgium",
-        "dob": "2004-01-30"
-      },
-      {
-        "name": "Antoine Hainaut",
-        "position": "Defence",
-        "nationality": "France",
-        "dob": "2002-02-18"
-      },
-      {
-        "name": "Joel Schingtienne",
-        "position": "Defence",
-        "nationality": "Belgium",
-        "dob": "2002-08-14"
-      },
-      {
-        "name": "Calixte Ligue",
-        "position": "Defence",
-        "nationality": "Switzerland",
-        "dob": "2005-03-21"
-      },
-      {
-        "name": "Matias Moreno",
-        "position": "Defence",
-        "nationality": "Argentina",
-        "dob": "2003-09-24"
-      },
-      {
-        "name": "Ale Gomes",
-        "position": "Defence",
-        "nationality": "Spain",
-        "dob": "2008-01-01"
-      },
-      {
-        "name": "Alfred Duncan",
-        "position": "Midfield",
-        "nationality": "Ghana",
-        "dob": "1993-03-10"
-      },
-      {
-        "name": "Þórir Jóhann Helgason",
-        "position": "Midfield",
-        "nationality": "Iceland",
-        "dob": "2000-09-28"
-      },
-      {
-        "name": "Toma Bašić",
-        "position": "Midfield",
-        "nationality": "Croatia",
-        "dob": "1996-11-25"
-      },
-      {
-        "name": "Kike Pérez",
-        "position": "Midfield",
-        "nationality": "Spain",
-        "dob": "1997-02-14"
-      },
-      {
-        "name": "Emil Bohinen",
-        "position": "Midfield",
-        "nationality": "Norway",
-        "dob": "1999-03-12"
-      },
-      {
-        "name": "Gianluca Busio",
-        "position": "Midfield",
-        "nationality": "USA",
-        "dob": "2002-05-28"
-      },
-      {
-        "name": "Simon Sohm",
-        "position": "Midfield",
-        "nationality": "Switzerland",
-        "dob": "2001-04-11"
-      },
-      {
-        "name": "Simone Panada",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "2002-06-02"
-      },
-      {
-        "name": "Matteo Dagasso",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "2004-04-01"
-      },
-      {
-        "name": "Lamine Dabo",
-        "position": "Midfield",
-        "nationality": "Spain",
-        "dob": "2004-01-30"
-      },
-      {
-        "name": "Saad El Haddad",
-        "position": "Midfield",
-        "nationality": "Morocco",
-        "dob": "2005-07-24"
-      },
-      {
-        "name": "Lorenzo Berardi",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "2006-04-05"
-      },
-      {
-        "name": "Lion Lauberbach",
-        "position": "Offence",
-        "nationality": "Germany",
-        "dob": "1998-02-15"
-      },
-      {
-        "name": "Akor Adams",
-        "position": "Offence",
-        "nationality": "Nigeria",
-        "dob": "2000-01-29"
-      },
-      {
-        "name": "John Yeboah",
-        "position": "Offence",
-        "nationality": "Ecuador",
-        "dob": "2000-06-23"
-      },
-      {
-        "name": "Andrea Adorante",
-        "position": "Offence",
-        "nationality": "Italy",
-        "dob": "2000-02-05"
-      },
-      {
-        "name": "Alvin Okoro",
-        "position": "Offence",
-        "nationality": "Nigeria",
-        "dob": "2005-03-26"
-      },
-      {
-        "name": "Albion Rrahmani",
-        "position": "Offence",
-        "nationality": "Kosovo",
-        "dob": "2000-08-31"
-      },
-      {
-        "name": "Marko Farji",
-        "position": "Offence",
-        "nationality": "Iraq",
-        "dob": "2004-03-16"
-      },
-      {
-        "name": "Kornel Lisman",
-        "position": "Offence",
-        "nationality": "Poland",
-        "dob": "2006-02-20"
-      },
-      {
-        "name": "Antonio Casas",
-        "position": "Offence",
-        "nationality": "Spain",
-        "dob": "2000-03-30"
-      },
-      {
-        "name": "Mohamed Malang Touré",
-        "position": "Offence",
-        "nationality": "Senegal",
-        "dob": "2006-12-31"
-      }
-    ]
-  },
-  "Frosinone": {
-    "players": [
-      {
-        "name": "Matteo Pisseri",
-        "position": "Goalkeeper",
-        "nationality": "Italy",
-        "dob": "1991-11-21"
-      },
-      {
-        "name": "Sebastiano Desplanches",
-        "position": "Goalkeeper",
-        "nationality": "Italy",
-        "dob": "2003-03-11"
-      },
-      {
-        "name": "Lorenzo Palmisani",
-        "position": "Goalkeeper",
-        "nationality": "Italy",
-        "dob": "2004-01-01"
-      },
-      {
-        "name": "Eldin Lolic",
-        "position": "Goalkeeper",
-        "nationality": "Bosnia-Herzegovina",
-        "dob": "2004-05-15"
-      },
-      {
-        "name": "Kevin Akpoguma",
-        "position": "Defence",
-        "nationality": "Nigeria",
-        "dob": "1995-04-19"
-      },
-      {
-        "name": "Aleksa Terzić",
-        "position": "Defence",
-        "nationality": "Serbia",
-        "dob": "1999-08-17"
-      },
-      {
-        "name": "Sergio Kalaj",
-        "position": "Defence",
-        "nationality": "Albania",
-        "dob": "2000-01-28"
-      },
-      {
-        "name": "Niccolò Corrado",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "2000-03-19"
-      },
-      {
-        "name": "Ilario Monterisi",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "2001-12-19"
-      },
-      {
-        "name": "Anthony Oyono",
-        "position": "Defence",
-        "nationality": "Gabon",
-        "dob": "2001-04-12"
-      },
-      {
-        "name": "Wisdom Amey",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "2005-08-11"
-      },
-      {
-        "name": "Giorgio Cittadini",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "2002-04-18"
-      },
-      {
-        "name": "Gabriele Bracaglia",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "2003-07-19"
-      },
-      {
-        "name": "Jacopo Gelli",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "2001-05-11"
-      },
-      {
-        "name": "Gabriele Calvani",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "2004-01-12"
-      },
-      {
-        "name": "Jèrèmy Oyono",
-        "position": "Defence",
-        "nationality": "Gabon",
-        "dob": "2001-04-12"
-      },
-      {
-        "name": "Florian Grillitsch",
-        "position": "Midfield",
-        "nationality": "Austria",
-        "dob": "1995-08-07"
-      },
-      {
-        "name": "Alessio Zerbin",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "1999-03-03"
-      },
-      {
-        "name": "Ben Lhassine Kone",
-        "position": "Midfield",
-        "nationality": "Ivory Coast",
-        "dob": "2000-03-14"
-      },
-      {
-        "name": "Romano Schmid",
-        "position": "Midfield",
-        "nationality": "Austria",
-        "dob": "2000-01-27"
-      },
-      {
-        "name": "Francesco Gelli",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "1996-10-15"
-      },
-      {
-        "name": "Giacomo Calò",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "1997-02-05"
-      },
-      {
-        "name": "Ilias Koutsoupias",
-        "position": "Midfield",
-        "nationality": "Greece",
-        "dob": "2001-05-10"
-      },
-      {
-        "name": "Patrizio Masini",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "2001-01-27"
-      },
-      {
-        "name": "Anouar El Azzouzi",
-        "position": "Midfield",
-        "nationality": "Morocco",
-        "dob": "2001-05-29"
-      },
-      {
-        "name": "Luis Hasa",
-        "position": "Midfield",
-        "nationality": "Albania",
-        "dob": "2004-01-06"
-      },
-      {
-        "name": "Matteo Cichella",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "2005-10-04"
-      },
-      {
-        "name": "Filippo Grosso",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "2006-09-07"
-      },
-      {
-        "name": "Antonio Raimondo",
-        "position": "Offence",
-        "nationality": "Italy",
-        "dob": "2004-03-18"
-      },
-      {
-        "name": "Seydou Fini",
-        "position": "Offence",
-        "nationality": "Italy",
-        "dob": "2006-06-02"
-      },
-      {
-        "name": "Giorgi Kvernadze",
-        "position": "Offence",
-        "nationality": "Georgia",
-        "dob": "2003-02-07"
-      },
-      {
-        "name": "Kevin Barcella",
-        "position": "Offence",
-        "nationality": "Italy",
-        "dob": "2006-06-17"
-      },
-      {
-        "name": "Farés Ghedjemis",
-        "position": "Offence",
-        "nationality": "Algeria",
-        "dob": "2002-09-06"
-      },
-      {
-        "name": "Alejandro Cichero",
-        "position": "Offence",
-        "nationality": "Venezuela",
-        "dob": "2006-07-11"
-      },
-      {
-        "name": "Muhammed Colley",
-        "position": "Offence",
-        "nationality": "Gambia",
-        "dob": "2006-03-01"
-      }
-    ]
+    "44906": {
+      "name": "Łukasz Skorupski",
+      "position": "G",
+      "height": 187,
+      "jerseyNumber": "1",
+      "id": 44906
+    },
+    "965264": {
+      "name": "Emil Holm",
+      "position": "D",
+      "height": 191,
+      "jerseyNumber": "2",
+      "id": 965264
+    },
+    "933264": {
+      "name": "Torbjørn Heggem",
+      "position": "D",
+      "height": 192,
+      "jerseyNumber": "14",
+      "id": 933264
+    },
+    "965778": {
+      "name": "Arthur Theate",
+      "position": "D",
+      "height": 186,
+      "jerseyNumber": "3",
+      "id": 965778
+    },
+    "1120504": {
+      "name": "Abdel Rahim",
+      "position": "D",
+      "height": 184,
+      "jerseyNumber": "23",
+      "id": 1120504
+    },
+    "907152": {
+      "name": "Lewis Ferguson",
+      "position": "M",
+      "height": 181,
+      "jerseyNumber": "19",
+      "id": 907152
+    },
+    "928796": {
+      "name": "Tommaso Pobega",
+      "position": "M",
+      "height": 188,
+      "jerseyNumber": "4",
+      "id": 928796
+    },
+    "294597": {
+      "name": "Federico Bernardeschi",
+      "position": "F",
+      "height": 185,
+      "jerseyNumber": "10",
+      "id": 294597
+    },
+    "826064": {
+      "name": "Jens Odgaard",
+      "position": "M",
+      "height": 188,
+      "jerseyNumber": "21",
+      "id": 826064
+    },
+    "971005": {
+      "name": "Nicolò Cambiaghi",
+      "position": "F",
+      "height": 173,
+      "jerseyNumber": "28",
+      "id": 971005
+    },
+    "958982": {
+      "name": "Roberto Piccoli",
+      "position": "F",
+      "height": 190,
+      "jerseyNumber": "91",
+      "id": 958982
+    },
+    "855829": {
+      "name": "Juan Miranda",
+      "position": "D",
+      "height": 185,
+      "jerseyNumber": "33",
+      "id": 855829
+    },
+    "1986578": {
+      "name": "Marco Libra",
+      "position": "M",
+      "height": 182,
+      "jerseyNumber": "18",
+      "id": 1986578
+    },
+    "814882": {
+      "name": "Nikola Moro",
+      "position": "M",
+      "height": 182,
+      "jerseyNumber": "6",
+      "id": 814882
+    },
+    "798820": {
+      "name": "Artem Dovbyk",
+      "position": "F",
+      "height": 189,
+      "jerseyNumber": "9",
+      "id": 798820
+    },
+    "1100836": {
+      "name": "Samuel Mbangula",
+      "position": "M",
+      "height": 180,
+      "jerseyNumber": "11",
+      "id": 1100836
+    },
+    "1526395": {
+      "name": "Ukko Happonen",
+      "position": "G",
+      "height": 193,
+      "jerseyNumber": "72",
+      "id": 1526395
+    },
+    "1530540": {
+      "name": "Massimo Pessina",
+      "position": "G",
+      "height": 186,
+      "jerseyNumber": "25",
+      "id": 1530540
+    },
+    "1486808": {
+      "name": "Eivind Helland",
+      "position": "D",
+      "height": 196,
+      "jerseyNumber": "5",
+      "id": 1486808
+    },
+    "928104": {
+      "name": "Nadir Zortea",
+      "position": "D",
+      "height": 187,
+      "jerseyNumber": "20",
+      "id": 928104
+    },
+    "1085913": {
+      "name": "Martin Vitík",
+      "position": "D",
+      "height": 192,
+      "jerseyNumber": "41",
+      "id": 1085913
+    },
+    "14718": {
+      "name": "Lorenzo De Silvestri",
+      "position": "D",
+      "height": 185,
+      "jerseyNumber": "29",
+      "id": 14718
+    },
+    "1510920": {
+      "name": "Mikel Amondarain",
+      "position": "M",
+      "height": 184,
+      "jerseyNumber": "8",
+      "id": 1510920
+    },
+    "1937553": {
+      "name": "Jay Enem",
+      "position": "F",
+      "height": 193,
+      "jerseyNumber": "22",
+      "id": 1937553
+    },
+    "2223023": {
+      "name": "Matteo Franceschelli",
+      "position": "G",
+      "height": 189,
+      "jerseyNumber": "82",
+      "id": 2223023
+    },
+    "862697": {
+      "name": "Nicolò Casale",
+      "position": "D",
+      "height": 191,
+      "jerseyNumber": "16",
+      "id": 862697
+    }
   },
   "Sassuolo": {
-    "players": [
-      {
-        "name": "Giacomo Satalino",
-        "position": "Goalkeeper",
-        "nationality": "Italy",
-        "dob": "1999-05-20"
-      },
-      {
-        "name": "Stefano Turati",
-        "position": "Goalkeeper",
-        "nationality": "Italy",
-        "dob": "2001-09-05"
-      },
-      {
-        "name": "Arijanet Muric",
-        "position": "Goalkeeper",
-        "nationality": "Kosovo",
-        "dob": "1998-11-07"
-      },
-      {
-        "name": "Lorenzo Nyarko",
-        "position": "Goalkeeper",
-        "nationality": "Italy",
-        "dob": "2007-10-20"
-      },
-      {
-        "name": "Jay Idzes",
-        "position": "Defence",
-        "nationality": "Indonesia",
-        "dob": "2000-06-02"
-      },
-      {
-        "name": "Sebastian Walukiewicz",
-        "position": "Defence",
-        "nationality": "Poland",
-        "dob": "2000-04-05"
-      },
-      {
-        "name": "Fali Candé",
-        "position": "Defence",
-        "nationality": "Guinea-Bissau",
-        "dob": "1998-01-24"
-      },
-      {
-        "name": "Josh Doig",
-        "position": "Defence",
-        "nationality": "Scotland",
-        "dob": "2002-01-01"
-      },
-      {
-        "name": "Cas Odenthal",
-        "position": "Defence",
-        "nationality": "Netherlands",
-        "dob": "2000-09-26"
-      },
-      {
-        "name": "Filippo Missori",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "2004-03-24"
-      },
-      {
-        "name": "Edoardo Pieragnolo",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "2003-01-03"
-      },
-      {
-        "name": "Yeferson Paz",
-        "position": "Defence",
-        "nationality": "Colombia",
-        "dob": "2002-06-13"
-      },
-      {
-        "name": "Rafa Obrador",
-        "position": "Defence",
-        "nationality": "Spain",
-        "dob": "2004-02-24"
-      },
-      {
-        "name": "Alessandro Di Bitonto",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "2005-10-08"
-      },
-      {
-        "name": "Tommaso Macchioni",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "2006-04-04"
-      },
-      {
-        "name": "Giorgio Vezzosi",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "2007-01-14"
-      },
-      {
-        "name": "Fabrizio Caligara",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "2000-04-12"
-      },
-      {
-        "name": "Nemanja Matić",
-        "position": "Midfield",
-        "nationality": "Serbia",
-        "dob": "1988-08-01"
-      },
-      {
-        "name": "Kristian Thorstvedt",
-        "position": "Midfield",
-        "nationality": "Norway",
-        "dob": "1999-03-13"
-      },
-      {
-        "name": "Andrea Ghion",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "2000-02-23"
-      },
-      {
-        "name": "Daniel Boloca",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "1998-12-22"
-      },
-      {
-        "name": "Edoardo Iannoni",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "2001-04-11"
-      },
-      {
-        "name": "Ismaël Koné",
-        "position": "Midfield",
-        "nationality": "Canada",
-        "dob": "2002-06-16"
-      },
-      {
-        "name": "Vasilije Adzic",
-        "position": "Midfield",
-        "nationality": "Montenegro",
-        "dob": "2006-05-12"
-      },
-      {
-        "name": "Luca Lipani",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "2005-05-18"
-      },
-      {
-        "name": "Cristian Volpato",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "2026-06-30"
-      },
-      {
-        "name": "Darryl Bakola",
-        "position": "Midfield",
-        "nationality": "France",
-        "dob": "2007-11-30"
-      },
-      {
-        "name": "Simone Cinquegrano",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "2004-06-25"
-      },
-      {
-        "name": "Andrea Pinamonti",
-        "position": "Offence",
-        "nationality": "Italy",
-        "dob": "1999-05-19"
-      },
-      {
-        "name": "Domenico Berardi",
-        "position": "Offence",
-        "nationality": "Italy",
-        "dob": "1994-08-01"
-      },
-      {
-        "name": "Nicholas Pierini",
-        "position": "Offence",
-        "nationality": "Italy",
-        "dob": "1998-08-06"
-      },
-      {
-        "name": "Armand Lauriente",
-        "position": "Offence",
-        "nationality": "France",
-        "dob": "1998-12-04"
-      },
-      {
-        "name": "Kieron Bowie",
-        "position": "Offence",
-        "nationality": "Scotland",
-        "dob": "2002-09-21"
-      },
-      {
-        "name": "Luca Moro",
-        "position": "Offence",
-        "nationality": "Italy",
-        "dob": "2001-01-25"
-      },
-      {
-        "name": "Riccardo Ciervo",
-        "position": "Offence",
-        "nationality": "Italy",
-        "dob": "2002-04-01"
-      },
-      {
-        "name": "Patrick Nuamah",
-        "position": "Offence",
-        "nationality": "Italy",
-        "dob": "2005-12-31"
-      },
-      {
-        "name": "Benjamín Domínguez",
-        "position": "Offence",
-        "nationality": "Argentina",
-        "dob": "2003-09-19"
-      },
-      {
-        "name": "Laurs Skjellerup",
-        "position": "Offence",
-        "nationality": "Denmark",
-        "dob": "2002-08-12"
-      }
-    ]
+    "888971": {
+      "name": "Arijanet Murić",
+      "position": "G",
+      "height": 198,
+      "jerseyNumber": "49",
+      "id": 888971
+    },
+    "1461516": {
+      "name": "Simone Cinquegrano",
+      "position": "D",
+      "height": 192,
+      "jerseyNumber": "46",
+      "id": 1461516
+    },
+    "933641": {
+      "name": "Jay Idzes",
+      "position": "D",
+      "height": 190,
+      "jerseyNumber": "21",
+      "id": 933641
+    },
+    "1088899": {
+      "name": "Fedde Leysen",
+      "position": "D",
+      "height": 191,
+      "jerseyNumber": "16",
+      "id": 1088899
+    },
+    "989276": {
+      "name": "Josh Doig",
+      "position": "D",
+      "height": 189,
+      "jerseyNumber": "3",
+      "id": 989276
+    },
+    "1149288": {
+      "name": "Vasilije Adžić",
+      "position": "M",
+      "height": 187,
+      "jerseyNumber": "17",
+      "id": 1149288
+    },
+    "44241": {
+      "name": "Nemanja Matić",
+      "position": "M",
+      "height": 194,
+      "jerseyNumber": "18",
+      "id": 44241
+    },
+    "1154898": {
+      "name": "Luca Lipani",
+      "position": "M",
+      "height": 185,
+      "jerseyNumber": "35",
+      "id": 1154898
+    },
+    "1155625": {
+      "name": "Cristian Volpato",
+      "position": "F",
+      "height": 187,
+      "jerseyNumber": "7",
+      "id": 1155625
+    },
+    "983601": {
+      "name": "Kieron Bowie",
+      "position": "F",
+      "height": 190,
+      "jerseyNumber": "9",
+      "id": 983601
+    },
+    "932643": {
+      "name": "Armand Laurienté",
+      "position": "F",
+      "height": 177,
+      "jerseyNumber": "45",
+      "id": 932643
+    },
+    "253367": {
+      "name": "Domenico Berardi",
+      "position": "F",
+      "height": 185,
+      "jerseyNumber": "10",
+      "id": 253367
+    },
+    "105905": {
+      "name": "Ibrahim Sulemana",
+      "position": "M",
+      "height": 180,
+      "jerseyNumber": "55",
+      "id": 105905
+    },
+    "924973": {
+      "name": "Kristian Thorstvedt",
+      "position": "M",
+      "height": 187,
+      "jerseyNumber": "42",
+      "id": 924973
+    },
+    "1142692": {
+      "name": "Rafael Obrador",
+      "position": "M",
+      "height": 181,
+      "jerseyNumber": "33",
+      "id": 1142692
+    },
+    "928879": {
+      "name": "Andrea Ghion",
+      "position": "M",
+      "height": 180,
+      "jerseyNumber": "8",
+      "id": 928879
+    },
+    "893752": {
+      "name": "Stefano Turati",
+      "position": "G",
+      "height": 188,
+      "jerseyNumber": "80",
+      "id": 893752
+    },
+    "832375": {
+      "name": "Giacomo Satalino",
+      "position": "G",
+      "height": 188,
+      "jerseyNumber": "12",
+      "id": 832375
+    },
+    "989186": {
+      "name": "Ignace Van der Brempt",
+      "position": "D",
+      "height": 187,
+      "jerseyNumber": "20",
+      "id": 989186
+    },
+    "991677": {
+      "name": "Cas Odenthal",
+      "position": "D",
+      "height": 190,
+      "jerseyNumber": "26",
+      "id": 991677
+    },
+    "257091": {
+      "name": "Duje Ćaleta-Car",
+      "position": "D",
+      "height": 192,
+      "jerseyNumber": "15",
+      "id": 257091
+    },
+    "1162611": {
+      "name": "Benjamín Domínguez",
+      "position": "M",
+      "height": 172,
+      "jerseyNumber": "25",
+      "id": 1162611
+    },
+    "965008": {
+      "name": "Sebastiano Esposito",
+      "position": "F",
+      "height": 186,
+      "jerseyNumber": "94",
+      "id": 965008
+    },
+    "1034241": {
+      "name": "Laurs Skjellerup",
+      "position": "F",
+      "height": 192,
+      "jerseyNumber": "19",
+      "id": 1034241
+    },
+    "829581": {
+      "name": "Nicholas Pierini",
+      "position": "F",
+      "height": 176,
+      "jerseyNumber": "77",
+      "id": 829581
+    },
+    "1823916": {
+      "name": "Darryl Bakola",
+      "position": "M",
+      "height": 178,
+      "jerseyNumber": "50",
+      "id": 1823916
+    },
+    "1868065": {
+      "name": "Lorenzo Nyarko",
+      "position": "G",
+      "height": 189,
+      "jerseyNumber": "22",
+      "id": 1868065
+    }
   },
-  "Torino": {
-    "players": [
-      {
-        "name": "Alberto Paleari",
-        "position": "Goalkeeper",
-        "nationality": "Italy",
-        "dob": "1992-08-29"
-      },
-      {
-        "name": "Franco Israel",
-        "position": "Goalkeeper",
-        "nationality": "Uruguay",
-        "dob": "2000-04-22"
-      },
-      {
-        "name": "Lapo Siviero",
-        "position": "Goalkeeper",
-        "nationality": "Italy",
-        "dob": "2006-11-23"
-      },
-      {
-        "name": "Diego Mascardi",
-        "position": "Goalkeeper",
-        "nationality": "Italy",
-        "dob": "2006-09-26"
-      },
-      {
-        "name": "Cristiano Biraghi",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "1992-09-01"
-      },
-      {
-        "name": "Ardian Ismajli",
-        "position": "Defence",
-        "nationality": "Albania",
-        "dob": "1996-09-30"
-      },
-      {
-        "name": "Eray Cömert",
-        "position": "Defence",
-        "nationality": "Switzerland",
-        "dob": "1998-02-04"
-      },
-      {
-        "name": "Marcus Pedersen",
-        "position": "Defence",
-        "nationality": "Norway",
-        "dob": "2000-07-16"
-      },
-      {
-        "name": "Saúl Coco",
-        "position": "Defence",
-        "nationality": "Equatorial Guinea",
-        "dob": "1999-02-09"
-      },
-      {
-        "name": "Ali Dembele",
-        "position": "Defence",
-        "nationality": "France",
-        "dob": "2004-01-05"
-      },
-      {
-        "name": "Pietro Comuzzo",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "2005-02-20"
-      },
-      {
-        "name": "Côme Bianay Balcot",
-        "position": "Defence",
-        "nationality": "France",
-        "dob": "2005-05-13"
-      },
-      {
-        "name": "Nikola Vlašić",
-        "position": "Midfield",
-        "nationality": "Croatia",
-        "dob": "1997-10-04"
-      },
-      {
-        "name": "Ivan Ilić",
-        "position": "Midfield",
-        "nationality": "Serbia",
-        "dob": "2001-03-17"
-      },
-      {
-        "name": "Faustino Anjorin",
-        "position": "Midfield",
-        "nationality": "England",
-        "dob": "2001-11-23"
-      },
-      {
-        "name": "Kian Fitz-Jim",
-        "position": "Midfield",
-        "nationality": "Netherlands",
-        "dob": "2003-07-05"
-      },
-      {
-        "name": "Gaetano Oristanio",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "2002-09-28"
-      },
-      {
-        "name": "Emirhan Ilkhan",
-        "position": "Midfield",
-        "nationality": "Turkey",
-        "dob": "2004-06-01"
-      },
-      {
-        "name": "Cesare Casadei",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "2003-01-10"
-      },
-      {
-        "name": "Gvidas Gineitis",
-        "position": "Midfield",
-        "nationality": "Lithuania",
-        "dob": "2004-04-15"
-      },
-      {
-        "name": "Aaron Ciammaglichella",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "2005-01-26"
-      },
-      {
-        "name": "Marco Dalla Vecchia",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "2005-02-13"
-      },
-      {
-        "name": "Alessio Cacciamani",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "2007-06-29"
-      },
-      {
-        "name": "Andrea Luongo",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "2008-02-16"
-      },
-      {
-        "name": "Giovanni Simeone",
-        "position": "Offence",
-        "nationality": "Argentina",
-        "dob": "1995-07-05"
-      },
-      {
-        "name": "Duván Zapata",
-        "position": "Offence",
-        "nationality": "Colombia",
-        "dob": "1991-04-01"
-      },
-      {
-        "name": "Che Adams",
-        "position": "Offence",
-        "nationality": "Scotland",
-        "dob": "1996-07-13"
-      },
-      {
-        "name": "Pietro Pellegri",
-        "position": "Offence",
-        "nationality": "Italy",
-        "dob": "2001-03-17"
-      },
-      {
-        "name": "Sandro Kulenović",
-        "position": "Offence",
-        "nationality": "Croatia",
-        "dob": "1999-12-04"
-      },
-      {
-        "name": "Zakaria Aboukhlal",
-        "position": "Offence",
-        "nationality": "Morocco",
-        "dob": "2000-02-18"
-      },
-      {
-        "name": "Alieu Njie",
-        "position": "Offence",
-        "nationality": "Sweden",
-        "dob": "2005-05-14"
-      },
-      {
-        "name": "Tommaso Gabellini",
-        "position": "Offence",
-        "nationality": "Italy",
-        "dob": "2006-10-21"
-      }
-    ]
+  "Cagliari": {
+    "947954": {
+      "name": "Elia Caprile",
+      "position": "G",
+      "height": 191,
+      "jerseyNumber": "1",
+      "id": 947954
+    },
+    "945448": {
+      "name": "Zé Pedro",
+      "position": "D",
+      "height": 187,
+      "jerseyNumber": "2",
+      "id": 945448
+    },
+    "328109": {
+      "name": "Alessandro Deiola",
+      "position": "M",
+      "height": 189,
+      "jerseyNumber": "14",
+      "id": 328109
+    },
+    "1485391": {
+      "name": "Juan Rodríguez",
+      "position": "D",
+      "height": 190,
+      "jerseyNumber": "15",
+      "id": 1485391
+    },
+    "964153": {
+      "name": "Adam Obert",
+      "position": "D",
+      "height": 186,
+      "jerseyNumber": "33",
+      "id": 964153
+    },
+    "928777": {
+      "name": "Michel Adopo",
+      "position": "M",
+      "height": 187,
+      "jerseyNumber": "8",
+      "id": 928777
+    },
+    "1417034": {
+      "name": "Alessandro Romano",
+      "position": "M",
+      "height": 180,
+      "jerseyNumber": "4",
+      "id": 1417034
+    },
+    "545780": {
+      "name": "Harry Winks",
+      "position": "M",
+      "height": 178,
+      "jerseyNumber": "6",
+      "id": 545780
+    },
+    "970928": {
+      "name": "Daniel Maldini",
+      "position": "F",
+      "height": 187,
+      "jerseyNumber": "70",
+      "id": 970928
+    },
+    "1012179": {
+      "name": "Jacopo Fazzini",
+      "position": "M",
+      "height": 178,
+      "jerseyNumber": "10",
+      "id": 1012179
+    },
+    "2049928": {
+      "name": "Paul Mendy",
+      "position": "F",
+      "height": 196,
+      "jerseyNumber": "31",
+      "id": 2049928
+    },
+    "975811": {
+      "name": "Mattia Felici",
+      "position": "F",
+      "height": 180,
+      "jerseyNumber": "17",
+      "id": 975811
+    },
+    "1392774": {
+      "name": "Raphael Kofler",
+      "position": "D",
+      "height": 193,
+      "jerseyNumber": "22",
+      "id": 1392774
+    },
+    "1031548": {
+      "name": "Alieu Fadera",
+      "position": "F",
+      "height": 181,
+      "jerseyNumber": "39",
+      "id": 1031548
+    },
+    "287057": {
+      "name": "Roberto Gagliardini",
+      "position": "M",
+      "height": 188,
+      "jerseyNumber": "21",
+      "id": 287057
+    },
+    "1861673": {
+      "name": "Alessandro Sugamele",
+      "position": "F",
+      "height": 167,
+      "jerseyNumber": "35",
+      "id": 1861673
+    },
+    "795926": {
+      "name": "Boris Radunović",
+      "position": "G",
+      "height": 193,
+      "jerseyNumber": "23",
+      "id": 795926
+    },
+    "363380": {
+      "name": "Alen Sherri",
+      "position": "G",
+      "height": 196,
+      "jerseyNumber": "12",
+      "id": 363380
+    },
+    "1798927": {
+      "name": "Nicola Grandu",
+      "position": "D",
+      "height": 181,
+      "jerseyNumber": "36",
+      "id": 1798927
+    },
+    "1019953": {
+      "name": "Riccardo Ciervo",
+      "position": "M",
+      "height": 190,
+      "jerseyNumber": "20",
+      "id": 1019953
+    },
+    "928889": {
+      "name": "Giuseppe Aurelio",
+      "position": "M",
+      "height": 185,
+      "jerseyNumber": "24",
+      "id": 928889
+    },
+    "1151647": {
+      "name": "Ivan Sulev",
+      "position": "M",
+      "height": 180,
+      "jerseyNumber": "32",
+      "id": 1151647
+    },
+    "1384651": {
+      "name": "Yanis Massolin",
+      "position": "M",
+      "height": 197,
+      "jerseyNumber": "79",
+      "id": 1384651
+    },
+    "1910527": {
+      "name": "Joseph Liteta",
+      "position": "M",
+      "height": 175,
+      "jerseyNumber": "27",
+      "id": 1910527
+    },
+    "1899742": {
+      "name": "Demi Akarakiri",
+      "position": "M",
+      "height": 190,
+      "jerseyNumber": "30",
+      "id": 1899742
+    },
+    "905347": {
+      "name": "Yukinari Sugawara",
+      "position": "D",
+      "height": 179,
+      "jerseyNumber": "28",
+      "id": 905347
+    },
+    "1035619": {
+      "name": "Kevin Carlos Omoruyi",
+      "position": "F",
+      "height": 188,
+      "jerseyNumber": "9",
+      "id": 1035619
+    },
+    "360396": {
+      "name": "Yerry Mina",
+      "position": "D",
+      "height": 195,
+      "jerseyNumber": "26",
+      "id": 360396
+    }
   },
   "Lecce": {
-    "players": [
-      {
-        "name": "Wladimiro Falcone",
-        "position": "Goalkeeper",
-        "nationality": "Italy",
-        "dob": "1995-04-12"
-      },
-      {
-        "name": "Alexandru Borbei",
-        "position": "Goalkeeper",
-        "nationality": "Romania",
-        "dob": "2003-06-27"
-      },
-      {
-        "name": "Plamen Penev",
-        "position": "Goalkeeper",
-        "nationality": "Bulgaria",
-        "dob": "2008-04-22"
-      },
-      {
-        "name": "Antonino Gallo",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "2000-01-05"
-      },
-      {
-        "name": "Gaby Jean",
-        "position": "Defence",
-        "nationality": "France",
-        "dob": "2000-02-19"
-      },
-      {
-        "name": "Corrie Ndaba",
-        "position": "Defence",
-        "nationality": "Ireland",
-        "dob": "1999-12-25"
-      },
-      {
-        "name": "Jamil Siebert",
-        "position": "Defence",
-        "nationality": "Germany",
-        "dob": "2002-04-02"
-      },
-      {
-        "name": "Danilo Veiga",
-        "position": "Defence",
-        "nationality": "Portugal",
-        "dob": "2002-09-25"
-      },
-      {
-        "name": "Sebastian Esposito",
-        "position": "Defence",
-        "nationality": "Australia",
-        "dob": "2003-07-21"
-      },
-      {
-        "name": "Kialonda Gaspar",
-        "position": "Defence",
-        "nationality": "Angola",
-        "dob": "1997-09-27"
-      },
-      {
-        "name": "Tiago Gabriel",
-        "position": "Defence",
-        "nationality": "Portugal",
-        "dob": "2004-12-26"
-      },
-      {
-        "name": "Christ-Owen Kouassi Bathele",
-        "position": "Defence",
-        "nationality": "Ivory Coast",
-        "dob": "2003-04-15"
-      },
-      {
-        "name": "Vernon Addo",
-        "position": "Defence",
-        "nationality": "Netherlands",
-        "dob": "2005-05-24"
-      },
-      {
-        "name": "Marlon Ubani",
-        "position": "Defence",
-        "nationality": "Germany",
-        "dob": "2005-03-26"
-      },
-      {
-        "name": "Lassana Coulibaly",
-        "position": "Midfield",
-        "nationality": "Mali",
-        "dob": "1996-04-10"
-      },
-      {
-        "name": "Youssef Maleh",
-        "position": "Midfield",
-        "nationality": "Morocco",
-        "dob": "1998-08-22"
-      },
-      {
-        "name": "Omri Gandelman",
-        "position": "Midfield",
-        "nationality": "Israel",
-        "dob": "2000-05-16"
-      },
-      {
-        "name": "Mohamed Kaba",
-        "position": "Midfield",
-        "nationality": "France",
-        "dob": "2001-10-27"
-      },
-      {
-        "name": "Sadik Fofana",
-        "position": "Midfield",
-        "nationality": "Togo",
-        "dob": "2003-05-16"
-      },
-      {
-        "name": "Oumar Ngom",
-        "position": "Midfield",
-        "nationality": "Mauritania",
-        "dob": "2004-03-09"
-      },
-      {
-        "name": "Medon Berisha",
-        "position": "Midfield",
-        "nationality": "Albania",
-        "dob": "2003-10-21"
-      },
-      {
-        "name": "Olaf Gorter",
-        "position": "Midfield",
-        "nationality": "Netherlands",
-        "dob": "2005-01-31"
-      },
-      {
-        "name": "Niko Kovač",
-        "position": "Midfield",
-        "nationality": "Bosnia-Herzegovina",
-        "dob": "2005-04-08"
-      },
-      {
-        "name": "Willem Geubbels",
-        "position": "Offence",
-        "nationality": "France",
-        "dob": "2001-08-16"
-      },
-      {
-        "name": "Santiago Pierotti",
-        "position": "Offence",
-        "nationality": "Argentina",
-        "dob": "2001-04-03"
-      },
-      {
-        "name": "Lameck Banda",
-        "position": "Offence",
-        "nationality": "Zambia",
-        "dob": "2001-01-29"
-      },
-      {
-        "name": "Nikola Štulić",
-        "position": "Offence",
-        "nationality": "Serbia",
-        "dob": "2001-09-08"
-      },
-      {
-        "name": "Konan N'Dri",
-        "position": "Offence",
-        "nationality": "Ivory Coast",
-        "dob": "2000-10-27"
-      },
-      {
-        "name": "Miloš Jović",
-        "position": "Offence",
-        "nationality": "Serbia",
-        "dob": "2006-05-22"
-      },
-      {
-        "name": "Hjalte Laerke",
-        "position": "Offence",
-        "nationality": "Denmark",
-        "dob": "2007-04-23"
-      },
-      {
-        "name": "Paco Esteban",
-        "position": "Offence",
-        "nationality": "Spain",
-        "dob": "2006-05-02"
-      }
-    ]
+    "256667": {
+      "name": "Wladimiro Falcone",
+      "position": "G",
+      "height": 195,
+      "jerseyNumber": "30",
+      "id": 256667
+    },
+    "1002045": {
+      "name": "Danilo Veiga",
+      "position": "D",
+      "height": 183,
+      "jerseyNumber": "17",
+      "id": 1002045
+    },
+    "1090374": {
+      "name": "Kialonda Gaspar",
+      "position": "D",
+      "height": 193,
+      "jerseyNumber": "4",
+      "id": 1090374
+    },
+    "1651825": {
+      "name": "Tiago Gabriel",
+      "position": "D",
+      "height": 194,
+      "jerseyNumber": "44",
+      "id": 1651825
+    },
+    "945616": {
+      "name": "Antonino Gallo",
+      "position": "D",
+      "height": 183,
+      "jerseyNumber": "25",
+      "id": 945616
+    },
+    "877371": {
+      "name": "Ivan Ilić",
+      "position": "M",
+      "height": 185,
+      "jerseyNumber": "20",
+      "id": 877371
+    },
+    "1175854": {
+      "name": "Oumar Ngom",
+      "position": "M",
+      "height": 184,
+      "jerseyNumber": "79",
+      "id": 1175854
+    },
+    "984998": {
+      "name": "Santiago Pierotti",
+      "position": "F",
+      "height": 189,
+      "jerseyNumber": "50",
+      "id": 984998
+    },
+    "804621": {
+      "name": "Lassana Coulibaly",
+      "position": "M",
+      "height": 183,
+      "jerseyNumber": "29",
+      "id": 804621
+    },
+    "1065154": {
+      "name": "Joël Monteiro",
+      "position": "M",
+      "height": 192,
+      "jerseyNumber": "99",
+      "id": 1065154
+    },
+    "1029748": {
+      "name": "Nikola Štulić",
+      "position": "F",
+      "height": 188,
+      "jerseyNumber": "9",
+      "id": 1029748
+    },
+    "1157829": {
+      "name": "Amar Fatah",
+      "position": "F",
+      "height": 180,
+      "jerseyNumber": "7",
+      "id": 1157829
+    },
+    "1014287": {
+      "name": "Jamil Siebert",
+      "position": "D",
+      "height": 193,
+      "jerseyNumber": "5",
+      "id": 1014287
+    },
+    "849274": {
+      "name": "Youssef Maleh",
+      "position": "M",
+      "height": 177,
+      "jerseyNumber": "14",
+      "id": 849274
+    },
+    "978327": {
+      "name": "Konan N'Dri",
+      "position": "F",
+      "height": 174,
+      "jerseyNumber": "11",
+      "id": 978327
+    },
+    "1142149": {
+      "name": "Medon Berisha",
+      "position": "M",
+      "height": 186,
+      "jerseyNumber": "10",
+      "id": 1142149
+    },
+    "1587294": {
+      "name": "Plamen Penev",
+      "position": "G",
+      "height": 191,
+      "jerseyNumber": "33",
+      "id": 1587294
+    },
+    "307036": {
+      "name": "Marco Bleve",
+      "position": "G",
+      "height": 184,
+      "jerseyNumber": "1",
+      "id": 307036
+    },
+    "981470": {
+      "name": "Corrie Ndaba",
+      "position": "D",
+      "height": 188,
+      "jerseyNumber": "3",
+      "id": 981470
+    },
+    "1392819": {
+      "name": "Gaby Jean",
+      "position": "D",
+      "height": 191,
+      "jerseyNumber": "18",
+      "id": 1392819
+    },
+    "1397347": {
+      "name": "Ali Dembélé",
+      "position": "D",
+      "height": 185,
+      "jerseyNumber": "2",
+      "id": 1397347
+    },
+    "1609269": {
+      "name": "Elijah Scott",
+      "position": "D",
+      "height": 177,
+      "jerseyNumber": "31",
+      "id": 1609269
+    },
+    "1019125": {
+      "name": "Omri Gandelman",
+      "position": "M",
+      "height": 188,
+      "jerseyNumber": "16",
+      "id": 1019125
+    },
+    "1130662": {
+      "name": "Sadik Fofana",
+      "position": "M",
+      "height": 192,
+      "jerseyNumber": "8",
+      "id": 1130662
+    },
+    "1403088": {
+      "name": "Olaf Gorter",
+      "position": "M",
+      "height": 182,
+      "jerseyNumber": "28",
+      "id": 1403088
+    },
+    "1417383": {
+      "name": "Paco Esteban",
+      "position": "F",
+      "height": 185,
+      "jerseyNumber": "22",
+      "id": 1417383
+    },
+    "1127590": {
+      "name": "Mohamed Kaba",
+      "position": "M",
+      "height": 185,
+      "jerseyNumber": "77",
+      "id": 1127590
+    },
+    "1000347": {
+      "name": "Alexandru Borbei",
+      "position": "G",
+      "height": 183,
+      "jerseyNumber": "32",
+      "id": 1000347
+    }
   },
-  "Monza": {
-    "players": [
-      {
-        "name": "Semuel Pizzignacco",
-        "position": "Goalkeeper",
-        "nationality": "Italy",
-        "dob": "2001-09-01"
-      },
-      {
-        "name": "Demba Thiam",
-        "position": "Goalkeeper",
-        "nationality": "Senegal",
-        "dob": "1998-03-09"
-      },
-      {
-        "name": "Aljaž Strajnar",
-        "position": "Goalkeeper",
-        "nationality": "Slovenia",
-        "dob": "2007-08-16"
-      },
-      {
-        "name": "Valentin Antov",
-        "position": "Defence",
-        "nationality": "Bulgaria",
-        "dob": "2000-11-09"
-      },
-      {
-        "name": "Samuele Birindelli",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "1999-07-19"
-      },
-      {
-        "name": "Ricardo Mangas",
-        "position": "Defence",
-        "nationality": "Portugal",
-        "dob": "1998-03-19"
-      },
-      {
-        "name": "Filippo Delli Carri",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "1999-05-03"
-      },
-      {
-        "name": "Andrea Carboni",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "2001-02-04"
-      },
-      {
-        "name": "Lorenzo Lucchesi",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "2003-05-09"
-      },
-      {
-        "name": "Eddy Kouadio",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "2006-05-07"
-      },
-      {
-        "name": "Adam Bakoune",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "2006-02-06"
-      },
-      {
-        "name": "Andrea Colpani",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "1999-05-11"
-      },
-      {
-        "name": "Matteo Pessina",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "1997-04-21"
-      },
-      {
-        "name": "Patrick Ciurria",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "1995-02-09"
-      },
-      {
-        "name": "Nicolas Galazzi",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "2000-12-18"
-      },
-      {
-        "name": "Leonardo Colombo",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "2005-06-04"
-      },
-      {
-        "name": "Ebenezer Akinsanmiro",
-        "position": "Midfield",
-        "nationality": "Nigeria",
-        "dob": "2004-11-25"
-      },
-      {
-        "name": "Manga Foe Ondoa",
-        "position": "Midfield",
-        "nationality": "France",
-        "dob": "2005-12-12"
-      },
-      {
-        "name": "Alessandro Berretta",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "2006-01-01"
-      },
-      {
-        "name": "Mathis Mout",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "2007-08-06"
-      },
-      {
-        "name": "Patrick Cutrone",
-        "position": "Offence",
-        "nationality": "Italy",
-        "dob": "1998-01-03"
-      },
-      {
-        "name": "Andrea Petagna",
-        "position": "Offence",
-        "nationality": "Italy",
-        "dob": "1995-06-30"
-      },
-      {
-        "name": "Dany Mota Carvalho",
-        "position": "Offence",
-        "nationality": "Portugal",
-        "dob": "1998-05-02"
-      },
-      {
-        "name": "Keïta Baldé",
-        "position": "Offence",
-        "nationality": "Senegal",
-        "dob": "1995-03-08"
-      },
-      {
-        "name": "Omari Forson",
-        "position": "Offence",
-        "nationality": "England",
-        "dob": "2004-07-20"
-      },
-      {
-        "name": "Gustavo Varela",
-        "position": "Offence",
-        "nationality": "Portugal",
-        "dob": "2005-01-30"
-      },
-      {
-        "name": "Jay Robinson",
-        "position": "Offence",
-        "nationality": "England",
-        "dob": "2007-03-15"
-      },
-      {
-        "name": "Kevin Martins",
-        "position": "Offence",
-        "nationality": "Italy",
-        "dob": "2005-01-31"
-      },
-      {
-        "name": "Solomon Loubao",
-        "position": "Offence",
-        "nationality": "France",
-        "dob": "2005-12-03"
-      }
-    ]
+  "Fiorentina": {
+    "69378": {
+      "name": "David De Gea",
+      "position": "G",
+      "height": 192,
+      "jerseyNumber": "43",
+      "id": 69378
+    },
+    "902031": {
+      "name": "João Mário",
+      "position": "D",
+      "height": 178,
+      "jerseyNumber": "17",
+      "id": 902031
+    },
+    "997103": {
+      "name": "Radu Drăguşin",
+      "position": "D",
+      "height": 191,
+      "jerseyNumber": "3",
+      "id": 997103
+    },
+    "1907760": {
+      "name": "Viery",
+      "position": "D",
+      "height": 187,
+      "jerseyNumber": "33",
+      "id": 1907760
+    },
+    "1901143": {
+      "name": "Víctor Valdepeñas",
+      "position": "D",
+      "height": 188,
+      "jerseyNumber": "21",
+      "id": 1901143
+    },
+    "901850": {
+      "name": "Nicolò Fagioli",
+      "position": "M",
+      "height": 178,
+      "jerseyNumber": "44",
+      "id": 901850
+    },
+    "1888002": {
+      "name": "Christ Inao Oulaï",
+      "position": "M",
+      "height": 173,
+      "jerseyNumber": "42",
+      "id": 1888002
+    },
+    "928800": {
+      "name": "Marco Brescianini",
+      "position": "M",
+      "height": 188,
+      "jerseyNumber": "4",
+      "id": 928800
+    },
+    "1403559": {
+      "name": "Franco Mastantuono",
+      "position": "F",
+      "height": 177,
+      "jerseyNumber": "30",
+      "id": 1403559
+    },
+    "1099296": {
+      "name": "Mateo Pellegrino",
+      "position": "F",
+      "height": 192,
+      "jerseyNumber": "32",
+      "id": 1099296
+    },
+    "1493157": {
+      "name": "Alieu Njie",
+      "position": "F",
+      "height": 185,
+      "jerseyNumber": "25",
+      "id": 1493157
+    },
+    "1114422": {
+      "name": "Cher Ndour",
+      "position": "M",
+      "height": 190,
+      "jerseyNumber": "27",
+      "id": 1114422
+    },
+    "1444690": {
+      "name": "Arthur Atta",
+      "position": "M",
+      "height": 189,
+      "jerseyNumber": "14",
+      "id": 1444690
+    },
+    "998951": {
+      "name": "Wilfried Gnonto",
+      "position": "F",
+      "height": 170,
+      "jerseyNumber": "29",
+      "id": 998951
+    },
+    "987489": {
+      "name": "Beto",
+      "position": "F",
+      "height": 194,
+      "jerseyNumber": "23",
+      "id": 987489
+    },
+    "895764": {
+      "name": "Pedro Gonçalves",
+      "position": "M",
+      "height": 173,
+      "jerseyNumber": "28",
+      "id": 895764
+    },
+    "860306": {
+      "name": "Oliver Christensen",
+      "position": "G",
+      "height": 190,
+      "jerseyNumber": "53",
+      "id": 860306
+    },
+    "139272": {
+      "name": "Luca Lezzerini",
+      "position": "G",
+      "height": 195,
+      "jerseyNumber": "19",
+      "id": 139272
+    },
+    "847467": {
+      "name": "Marin Pongračić",
+      "position": "D",
+      "height": 193,
+      "jerseyNumber": "5",
+      "id": 847467
+    },
+    "822518": {
+      "name": "Dodô",
+      "position": "D",
+      "height": 166,
+      "jerseyNumber": "2",
+      "id": 822518
+    },
+    "893998": {
+      "name": "Luca Ranieri",
+      "position": "D",
+      "height": 187,
+      "jerseyNumber": "6",
+      "id": 893998
+    },
+    "1184308": {
+      "name": "Álex Jiménez",
+      "position": "D",
+      "height": 177,
+      "jerseyNumber": "20",
+      "id": 1184308
+    }
+  },
+  "Torino": {
+    "871290": {
+      "name": "Lucas Perri",
+      "position": "G",
+      "height": 196,
+      "jerseyNumber": "20",
+      "id": 871290
+    },
+    "814023": {
+      "name": "Eray Cömert",
+      "position": "D",
+      "height": 183,
+      "jerseyNumber": "5",
+      "id": 814023
+    },
+    "1089453": {
+      "name": "Saúl Coco",
+      "position": "D",
+      "height": 188,
+      "jerseyNumber": "23",
+      "id": 1089453
+    },
+    "1210848": {
+      "name": "Pietro Comuzzo",
+      "position": "D",
+      "height": 185,
+      "jerseyNumber": "15",
+      "id": 1210848
+    },
+    "548178": {
+      "name": "Rolando Mandragora",
+      "position": "M",
+      "height": 183,
+      "jerseyNumber": "8",
+      "id": 548178
+    },
+    "1526934": {
+      "name": "Niccolò Fortini",
+      "position": "D",
+      "height": 185,
+      "jerseyNumber": "29",
+      "id": 1526934
+    },
+    "1030829": {
+      "name": "Gvidas Gineitis",
+      "position": "M",
+      "height": 191,
+      "jerseyNumber": "66",
+      "id": 1030829
+    },
+    "1001945": {
+      "name": "Kian Fitz-Jim",
+      "position": "M",
+      "height": 173,
+      "jerseyNumber": "28",
+      "id": 1001945
+    },
+    "1868036": {
+      "name": "Alessio Cacciamani",
+      "position": "M",
+      "height": 170,
+      "jerseyNumber": "77",
+      "id": 1868036
+    },
+    "773409": {
+      "name": "Che Adams",
+      "position": "F",
+      "height": 175,
+      "jerseyNumber": "19",
+      "id": 773409
+    },
+    "357596": {
+      "name": "Nikola Vlašić",
+      "position": "M",
+      "height": 178,
+      "jerseyNumber": "10",
+      "id": 357596
+    },
+    "840414": {
+      "name": "Ardian Ismajli",
+      "position": "D",
+      "height": 188,
+      "jerseyNumber": "44",
+      "id": 840414
+    },
+    "1020141": {
+      "name": "Nathan Patterson",
+      "position": "D",
+      "height": 189,
+      "jerseyNumber": "2",
+      "id": 1020141
+    },
+    "1103488": {
+      "name": "Rafik Belghali",
+      "position": "M",
+      "height": 177,
+      "jerseyNumber": "45",
+      "id": 1103488
+    },
+    "861979": {
+      "name": "Daniel Bragança",
+      "position": "M",
+      "height": 178,
+      "jerseyNumber": "21",
+      "id": 861979
+    },
+    "341143": {
+      "name": "Giovanni Simeone",
+      "position": "F",
+      "height": 179,
+      "jerseyNumber": "18",
+      "id": 341143
+    },
+    "1471046": {
+      "name": "Diego Mascardi",
+      "position": "G",
+      "height": 198,
+      "jerseyNumber": "26",
+      "id": 1471046
+    },
+    "1519010": {
+      "name": "Lapo Siviero",
+      "position": "G",
+      "height": 195,
+      "jerseyNumber": "76",
+      "id": 1519010
+    },
+    "2220262": {
+      "name": "Manuel Carrascosa",
+      "position": "D",
+      "height": 193,
+      "jerseyNumber": "63",
+      "id": 2220262
+    },
+    "122848": {
+      "name": "Cristiano Biraghi",
+      "position": "D",
+      "height": 184,
+      "jerseyNumber": "3",
+      "id": 122848
+    },
+    "1142612": {
+      "name": "Emirhan İlkhan",
+      "position": "M",
+      "height": 175,
+      "jerseyNumber": "6",
+      "id": 1142612
+    },
+    "1985762": {
+      "name": "Andrea Luongo",
+      "position": "M",
+      "height": 178,
+      "jerseyNumber": "79",
+      "id": 1985762
+    },
+    "965009": {
+      "name": "Gaetano Oristanio",
+      "position": "M",
+      "height": 174,
+      "jerseyNumber": "11",
+      "id": 965009
+    },
+    "826026": {
+      "name": "Sandro Kulenović",
+      "position": "F",
+      "height": 191,
+      "jerseyNumber": "17",
+      "id": 826026
+    },
+    "856737": {
+      "name": "Zakaria Aboukhlal",
+      "position": "F",
+      "height": 179,
+      "jerseyNumber": "7",
+      "id": 856737
+    },
+    "38162": {
+      "name": "Duván Zapata",
+      "position": "F",
+      "height": 189,
+      "jerseyNumber": "91",
+      "id": 38162
+    },
+    "67769": {
+      "name": "Ricardo Rodríguez",
+      "position": "D",
+      "height": 182,
+      "jerseyNumber": "13",
+      "id": 67769
+    }
+  },
+  "Frosinone": {
+    "1134623": {
+      "name": "Lorenzo Palmisani",
+      "position": "G",
+      "height": 196,
+      "jerseyNumber": "22",
+      "id": 1134623
+    },
+    "1106257": {
+      "name": "Anthony Oyono",
+      "position": "D",
+      "height": 179,
+      "jerseyNumber": "20",
+      "id": 1106257
+    },
+    "1425050": {
+      "name": "Gabriele Calvani",
+      "position": "D",
+      "height": 184,
+      "jerseyNumber": "3",
+      "id": 1425050
+    },
+    "1001847": {
+      "name": "Giorgio Cittadini",
+      "position": "D",
+      "height": 184,
+      "jerseyNumber": "2",
+      "id": 1001847
+    },
+    "1394498": {
+      "name": "Gabriele Bracaglia",
+      "position": "D",
+      "height": 185,
+      "jerseyNumber": "79",
+      "id": 1394498
+    },
+    "839487": {
+      "name": "Giacomo Calò",
+      "position": "M",
+      "height": 178,
+      "jerseyNumber": "14",
+      "id": 839487
+    },
+    "970998": {
+      "name": "Patrizio Masini",
+      "position": "M",
+      "height": 182,
+      "jerseyNumber": "73",
+      "id": 970998
+    },
+    "1164381": {
+      "name": "Seydou Fini",
+      "position": "F",
+      "height": 178,
+      "jerseyNumber": "40",
+      "id": 1164381
+    },
+    "830127": {
+      "name": "Romano Schmid",
+      "position": "M",
+      "height": 168,
+      "jerseyNumber": "10",
+      "id": 830127
+    },
+    "1140001": {
+      "name": "Giorgi Kvernadze",
+      "position": "F",
+      "height": 183,
+      "jerseyNumber": "17",
+      "id": 1140001
+    },
+    "1121578": {
+      "name": "Antonio Raimondo",
+      "position": "F",
+      "height": 185,
+      "jerseyNumber": "9",
+      "id": 1121578
+    },
+    "1493209": {
+      "name": "Matteo Cichella",
+      "position": "M",
+      "height": 169,
+      "jerseyNumber": "16",
+      "id": 1493209
+    },
+    "1445228": {
+      "name": "Farès Ghedjemis",
+      "position": "F",
+      "height": 183,
+      "jerseyNumber": "7",
+      "id": 1445228
+    },
+    "1009363": {
+      "name": "Ilario Monterisi",
+      "position": "D",
+      "height": 190,
+      "jerseyNumber": "30",
+      "id": 1009363
+    },
+    "970969": {
+      "name": "Daniel Bîrligea",
+      "position": "F",
+      "height": 181,
+      "jerseyNumber": "11",
+      "id": 970969
+    },
+    "1118232": {
+      "name": "Wisdom Amey",
+      "position": "D",
+      "height": 187,
+      "jerseyNumber": "5",
+      "id": 1118232
+    },
+    "170885": {
+      "name": "Matteo Pisseri",
+      "position": "G",
+      "height": 188,
+      "jerseyNumber": "12",
+      "id": 170885
+    },
+    "1068715": {
+      "name": "Sebastiano Desplanches",
+      "position": "G",
+      "height": 188,
+      "jerseyNumber": "91",
+      "id": 1068715
+    },
+    "1393731": {
+      "name": "Omar Fayed",
+      "position": "D",
+      "height": 189,
+      "jerseyNumber": "74",
+      "id": 1393731
+    },
+    "1103548": {
+      "name": "Enzo Tchato Mbiayi",
+      "position": "D",
+      "height": 180,
+      "jerseyNumber": "90",
+      "id": 1103548
+    },
+    "876860": {
+      "name": "Aleksa Terzić",
+      "position": "D",
+      "height": 184,
+      "jerseyNumber": "71",
+      "id": 876860
+    },
+    "1082407": {
+      "name": "Luis Hasa",
+      "position": "M",
+      "height": 172,
+      "jerseyNumber": "70",
+      "id": 1082407
+    },
+    "1021104": {
+      "name": "Anouar El Azzouzi",
+      "position": "M",
+      "height": 181,
+      "jerseyNumber": "34",
+      "id": 1021104
+    },
+    "869888": {
+      "name": "Alessio Zerbin",
+      "position": "M",
+      "height": 182,
+      "jerseyNumber": "24",
+      "id": 869888
+    },
+    "186719": {
+      "name": "Florian Grillitsch",
+      "position": "M",
+      "height": 187,
+      "jerseyNumber": "27",
+      "id": 186719
+    },
+    "918481": {
+      "name": "Tomáš Bobček",
+      "position": "F",
+      "height": 185,
+      "jerseyNumber": "89",
+      "id": 918481
+    },
+    "187423": {
+      "name": "Kevin Akpoguma",
+      "position": "D",
+      "height": 192,
+      "jerseyNumber": "25",
+      "id": 187423
+    }
+  },
+  "Venezia": {
+    "986355": {
+      "name": "Filip Stanković",
+      "position": "G",
+      "height": 188,
+      "jerseyNumber": "1",
+      "id": 986355
+    },
+    "1388438": {
+      "name": "Joel Schingtienne",
+      "position": "D",
+      "height": 188,
+      "jerseyNumber": "3",
+      "id": 1388438
+    },
+    "976025": {
+      "name": "Armel Bella-Kotchap",
+      "position": "D",
+      "height": 190,
+      "jerseyNumber": "17",
+      "id": 976025
+    },
+    "1143667": {
+      "name": "Redouane Halhal",
+      "position": "D",
+      "height": 187,
+      "jerseyNumber": "25",
+      "id": 1143667
+    },
+    "1394202": {
+      "name": "Antoine Hainaut",
+      "position": "M",
+      "height": 188,
+      "jerseyNumber": "18",
+      "id": 1394202
+    },
+    "857178": {
+      "name": "Kike Pérez",
+      "position": "M",
+      "height": 184,
+      "jerseyNumber": "71",
+      "id": 857178
+    },
+    "896180": {
+      "name": "Gianluca Busio",
+      "position": "M",
+      "height": 170,
+      "jerseyNumber": "6",
+      "id": 896180
+    },
+    "909991": {
+      "name": "Simon Sohm",
+      "position": "M",
+      "height": 188,
+      "jerseyNumber": "19",
+      "id": 909991
+    },
+    "250501": {
+      "name": "Ridgeciano Haps",
+      "position": "M",
+      "height": 175,
+      "jerseyNumber": "5",
+      "id": 250501
+    },
+    "1124624": {
+      "name": "Albion Rrahmani",
+      "position": "F",
+      "height": 187,
+      "jerseyNumber": "7",
+      "id": 1124624
+    },
+    "946381": {
+      "name": "Akor Adams",
+      "position": "F",
+      "height": 190,
+      "jerseyNumber": "45",
+      "id": 946381
+    },
+    "1198069": {
+      "name": "Richie Sagrado",
+      "position": "M",
+      "height": 182,
+      "jerseyNumber": "20",
+      "id": 1198069
+    },
+    "1590761": {
+      "name": "Toni Fernández",
+      "position": "M",
+      "height": 175,
+      "jerseyNumber": "77",
+      "id": 1590761
+    },
+    "879802": {
+      "name": "John Yeboah",
+      "position": "F",
+      "height": 170,
+      "jerseyNumber": "10",
+      "id": 879802
+    },
+    "886171": {
+      "name": "Lion Lauberbach",
+      "position": "F",
+      "height": 197,
+      "jerseyNumber": "29",
+      "id": 886171
+    },
+    "1496360": {
+      "name": "Matias Moreno",
+      "position": "D",
+      "height": 195,
+      "jerseyNumber": "2",
+      "id": 1496360
+    },
+    "253391": {
+      "name": "Lorenzo Montipò",
+      "position": "G",
+      "height": 191,
+      "jerseyNumber": "96",
+      "id": 253391
+    },
+    "2144390": {
+      "name": "Ale Gomes",
+      "position": "D",
+      "height": 187,
+      "jerseyNumber": "95",
+      "id": 2144390
+    },
+    "851282": {
+      "name": "Thierry Correia",
+      "position": "D",
+      "height": 176,
+      "jerseyNumber": "14",
+      "id": 851282
+    },
+    "377512": {
+      "name": "Pasquale Mazzocchi",
+      "position": "M",
+      "height": 183,
+      "jerseyNumber": "70",
+      "id": 377512
+    },
+    "965005": {
+      "name": "Simone Panada",
+      "position": "M",
+      "height": 175,
+      "jerseyNumber": "55",
+      "id": 965005
+    },
+    "1137526": {
+      "name": "Matteo Dagasso",
+      "position": "M",
+      "height": 185,
+      "jerseyNumber": "30",
+      "id": 1137526
+    },
+    "1435035": {
+      "name": "Lamine Fanne",
+      "position": "M",
+      "height": 185,
+      "jerseyNumber": "8",
+      "id": 1435035
+    },
+    "1513549": {
+      "name": "Kornel Lisman",
+      "position": "M",
+      "height": 186,
+      "jerseyNumber": "56",
+      "id": 1513549
+    },
+    "2066755": {
+      "name": "Lorenzo Berardi",
+      "position": "M",
+      "height": 181,
+      "jerseyNumber": "36",
+      "id": 2066755
+    },
+    "886628": {
+      "name": "Þórir Jóhann Helgason",
+      "position": "M",
+      "height": 187,
+      "jerseyNumber": "21",
+      "id": 886628
+    },
+    "108484": {
+      "name": "Juan Jesus",
+      "position": "D",
+      "height": 185,
+      "jerseyNumber": "15",
+      "id": 108484
+    },
+    "1882599": {
+      "name": "Rufai Mohammed",
+      "position": "D",
+      "height": 185,
+      "jerseyNumber": "16",
+      "id": 1882599
+    }
+  },
+  "Genoa": {
+    "556696": {
+      "name": "Justin Bijlow",
+      "position": "G",
+      "height": 190,
+      "jerseyNumber": "1",
+      "id": 556696
+    },
+    "1068885": {
+      "name": "Alessandro Marcandalli",
+      "position": "D",
+      "height": 190,
+      "jerseyNumber": "27",
+      "id": 1068885
+    },
+    "879746": {
+      "name": "Leo Østigård",
+      "position": "D",
+      "height": 182,
+      "jerseyNumber": "5",
+      "id": 879746
+    },
+    "889785": {
+      "name": "Johan Vásquez",
+      "position": "D",
+      "height": 185,
+      "jerseyNumber": "22",
+      "id": 889785
+    },
+    "184421": {
+      "name": "Stefano Sabelli",
+      "position": "M",
+      "height": 179,
+      "jerseyNumber": "20",
+      "id": 184421
+    },
+    "799054": {
+      "name": "Djibril Sow",
+      "position": "M",
+      "height": 184,
+      "jerseyNumber": "97",
+      "id": 799054
+    },
+    "1012172": {
+      "name": "Tommaso Baldanzi",
+      "position": "M",
+      "height": 170,
+      "jerseyNumber": "8",
+      "id": 1012172
+    },
+    "933203": {
+      "name": "Mikael Ellertsson",
+      "position": "M",
+      "height": 182,
+      "jerseyNumber": "77",
+      "id": 933203
+    },
+    "918440": {
+      "name": "Morten Frendrup",
+      "position": "M",
+      "height": 178,
+      "jerseyNumber": "32",
+      "id": 918440
+    },
+    "930191": {
+      "name": "Lorenzo Colombo",
+      "position": "F",
+      "height": 183,
+      "jerseyNumber": "29",
+      "id": 930191
+    },
+    "928047": {
+      "name": "Milutin Osmajić",
+      "position": "F",
+      "height": 186,
+      "jerseyNumber": "18",
+      "id": 928047
+    },
+    "1093695": {
+      "name": "Vitinha",
+      "position": "F",
+      "height": 183,
+      "jerseyNumber": "9",
+      "id": 1093695
+    },
+    "609206": {
+      "name": "Kingsley Ehizibue",
+      "position": "M",
+      "height": 189,
+      "jerseyNumber": "3",
+      "id": 609206
+    },
+    "888219": {
+      "name": "Junior Messias",
+      "position": "F",
+      "height": 179,
+      "jerseyNumber": "10",
+      "id": 888219
+    },
+    "1511706": {
+      "name": "Alexsandro Amorim",
+      "position": "M",
+      "height": 177,
+      "jerseyNumber": "4",
+      "id": 1511706
+    },
+    "1819079": {
+      "name": "Franz-Ethan Meichtry",
+      "position": "M",
+      "height": 186,
+      "jerseyNumber": "11",
+      "id": 1819079
+    },
+    "985848": {
+      "name": "Franz Stolz",
+      "position": "G",
+      "height": 193,
+      "jerseyNumber": "99",
+      "id": 985848
+    },
+    "595572": {
+      "name": "Daniele Sommariva",
+      "position": "G",
+      "height": 186,
+      "jerseyNumber": "39",
+      "id": 595572
+    },
+    "1526308": {
+      "name": "Mamedi Doucoure",
+      "position": "D",
+      "height": 180,
+      "jerseyNumber": "74",
+      "id": 1526308
+    },
+    "1404639": {
+      "name": "Sebastian Otoa",
+      "position": "D",
+      "height": 198,
+      "jerseyNumber": "34",
+      "id": 1404639
+    },
+    "1399888": {
+      "name": "David Puczka",
+      "position": "D",
+      "height": 183,
+      "jerseyNumber": "31",
+      "id": 1399888
+    },
+    "1006089": {
+      "name": "Mario Mitaj",
+      "position": "D",
+      "height": 180,
+      "jerseyNumber": "2",
+      "id": 1006089
+    },
+    "1985772": {
+      "name": "Samuel Wiafe",
+      "position": "M",
+      "height": 181,
+      "jerseyNumber": "71",
+      "id": 1985772
+    },
+    "892924": {
+      "name": "Hamed Junior Traorè",
+      "position": "M",
+      "height": 177,
+      "jerseyNumber": "25",
+      "id": 892924
+    },
+    "45925": {
+      "name": "Stephan El Shaarawy",
+      "position": "F",
+      "height": 178,
+      "jerseyNumber": "92",
+      "id": 45925
+    },
+    "991577": {
+      "name": "Cody Drameh",
+      "position": "D",
+      "height": 175,
+      "jerseyNumber": "16",
+      "id": 991577
+    }
   },
   "Como": {
-    "players": [
-      {
-        "name": "Mauro Vigorito",
-        "position": "Goalkeeper",
-        "nationality": "Italy",
-        "dob": "1990-05-22"
-      },
-      {
-        "name": "Emil Audero",
-        "position": "Goalkeeper",
-        "nationality": "Indonesia",
-        "dob": "1997-01-18"
-      },
-      {
-        "name": "Jean Butez",
-        "position": "Goalkeeper",
-        "nationality": "France",
-        "dob": "1995-06-08"
-      },
-      {
-        "name": "Noel Törnqvist",
-        "position": "Goalkeeper",
-        "nationality": "Sweden",
-        "dob": "2002-02-01"
-      },
-      {
-        "name": "Edoardo Goldaniga",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "1993-11-02"
-      },
-      {
-        "name": "Trevoh Chalobah",
-        "position": "Defence",
-        "nationality": "England",
-        "dob": "1999-07-05"
-      },
-      {
-        "name": "Marc-Oliver Kempf",
-        "position": "Defence",
-        "nationality": "Germany",
-        "dob": "1995-01-28"
-      },
-      {
-        "name": "Alberto Dossena",
-        "position": "Defence",
-        "nationality": "Italy",
-        "dob": "1998-10-13"
-      },
-      {
-        "name": "Ivan Smolčić",
-        "position": "Defence",
-        "nationality": "Croatia",
-        "dob": "2000-08-17"
-      },
-      {
-        "name": "Ignace Van Der Brempt",
-        "position": "Defence",
-        "nationality": "Belgium",
-        "dob": "2002-04-01"
-      },
-      {
-        "name": "Yan Couto",
-        "position": "Defence",
-        "nationality": "Brazil",
-        "dob": "2002-06-03"
-      },
-      {
-        "name": "Kaiki",
-        "position": "Defence",
-        "nationality": "Brazil",
-        "dob": "2002-03-08"
-      },
-      {
-        "name": "Alex Valle",
-        "position": "Defence",
-        "nationality": "Spain",
-        "dob": "2004-04-25"
-      },
-      {
-        "name": "Jacobo Ramón",
-        "position": "Defence",
-        "nationality": "Spain",
-        "dob": "2005-06-06"
-      },
-      {
-        "name": "Luca Mazzitelli",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "1995-11-15"
-      },
-      {
-        "name": "Luis Milla",
-        "position": "Midfield",
-        "nationality": "Spain",
-        "dob": "1994-10-07"
-      },
-      {
-        "name": "Maxence Caqueret",
-        "position": "Midfield",
-        "nationality": "France",
-        "dob": "2000-02-15"
-      },
-      {
-        "name": "Lucas Da Cunha",
-        "position": "Midfield",
-        "nationality": "France",
-        "dob": "2001-06-09"
-      },
-      {
-        "name": "Matthias Braunöder",
-        "position": "Midfield",
-        "nationality": "Austria",
-        "dob": "2002-03-27"
-      },
-      {
-        "name": "Martin Baturina",
-        "position": "Midfield",
-        "nationality": "Croatia",
-        "dob": "2003-02-16"
-      },
-      {
-        "name": "Maximo Perrone",
-        "position": "Midfield",
-        "nationality": "Argentina",
-        "dob": "2003-01-07"
-      },
-      {
-        "name": "Nico Paz",
-        "position": "Midfield",
-        "nationality": "Argentina",
-        "dob": "2004-09-08"
-      },
-      {
-        "name": "Adrian Lahdo",
-        "position": "Midfield",
-        "nationality": "Sweden",
-        "dob": "2007-12-26"
-      },
-      {
-        "name": "Mattia Liberali",
-        "position": "Midfield",
-        "nationality": "Italy",
-        "dob": "2007-04-06"
-      },
-      {
-        "name": "Álvaro Morata",
-        "position": "Offence",
-        "nationality": "Spain",
-        "dob": "1992-10-23"
-      },
-      {
-        "name": "Anastasios Douvikas",
-        "position": "Offence",
-        "nationality": "Greece",
-        "dob": "1999-08-02"
-      },
-      {
-        "name": "Nicolas Kühn",
-        "position": "Offence",
-        "nationality": "Germany",
-        "dob": "2000-01-01"
-      },
-      {
-        "name": "Alessandro Gabrielloni",
-        "position": "Offence",
-        "nationality": "Italy",
-        "dob": "1994-07-10"
-      },
-      {
-        "name": "Tommaso Fumagalli",
-        "position": "Offence",
-        "nationality": "Italy",
-        "dob": "2000-02-20"
-      },
-      {
-        "name": "Suliman Mustapha",
-        "position": "Offence",
-        "nationality": "Austria",
-        "dob": "2001-05-24"
-      },
-      {
-        "name": "Ivan Azón",
-        "position": "Offence",
-        "nationality": "Spain",
-        "dob": "2002-12-24"
-      },
-      {
-        "name": "Jayden Addai",
-        "position": "Offence",
-        "nationality": "Netherlands",
-        "dob": "2005-08-26"
-      },
-      {
-        "name": "Alieu Fadera",
-        "position": "Offence",
-        "nationality": "Gambia",
-        "dob": "2001-11-03"
-      },
-      {
-        "name": "Assane Diao",
-        "position": "Offence",
-        "nationality": "Senegal",
-        "dob": "2005-09-07"
-      },
-      {
-        "name": "Jesús Rodríguez",
-        "position": "Offence",
-        "nationality": "Spain",
-        "dob": "2005-11-21"
-      }
-    ]
+    "599114": {
+      "name": "Jean Butez",
+      "position": "G",
+      "height": 188,
+      "jerseyNumber": "1",
+      "id": 599114
+    },
+    "1002813": {
+      "name": "Yan Couto",
+      "position": "M",
+      "height": 169,
+      "jerseyNumber": "27",
+      "id": 1002813
+    },
+    "1403348": {
+      "name": "Jacobo Ramón",
+      "position": "D",
+      "height": 196,
+      "jerseyNumber": "4",
+      "id": 1403348
+    },
+    "826134": {
+      "name": "Trevoh Chalobah",
+      "position": "D",
+      "height": 190,
+      "jerseyNumber": "99",
+      "id": 826134
+    },
+    "1142238": {
+      "name": "Álex Valle",
+      "position": "D",
+      "height": 178,
+      "jerseyNumber": "3",
+      "id": 1142238
+    },
+    "1086286": {
+      "name": "Máximo Perrone",
+      "position": "M",
+      "height": 178,
+      "jerseyNumber": "23",
+      "id": 1086286
+    },
+    "911848": {
+      "name": "Lucas Da Cunha",
+      "position": "M",
+      "height": 174,
+      "jerseyNumber": "7",
+      "id": 911848
+    },
+    "1493689": {
+      "name": "Assane Diao",
+      "position": "M",
+      "height": 185,
+      "jerseyNumber": "38",
+      "id": 1493689
+    },
+    "1171451": {
+      "name": "Nico Paz",
+      "position": "M",
+      "height": 185,
+      "jerseyNumber": "10",
+      "id": 1171451
+    },
+    "1090019": {
+      "name": "Martin Baturina",
+      "position": "M",
+      "height": 178,
+      "jerseyNumber": "20",
+      "id": 1090019
+    },
+    "894863": {
+      "name": "Anastasios Douvikas",
+      "position": "F",
+      "height": 184,
+      "jerseyNumber": "9",
+      "id": 894863
+    },
+    "859027": {
+      "name": "Maxence Caqueret",
+      "position": "M",
+      "height": 174,
+      "jerseyNumber": "8",
+      "id": 859027
+    },
+    "835601": {
+      "name": "Moise Kean",
+      "position": "F",
+      "height": 183,
+      "jerseyNumber": "90",
+      "id": 835601
+    },
+    "811629": {
+      "name": "Luis Milla",
+      "position": "M",
+      "height": 175,
+      "jerseyNumber": "6",
+      "id": 811629
+    },
+    "930189": {
+      "name": "Samuele Ricci",
+      "position": "M",
+      "height": 182,
+      "jerseyNumber": "21",
+      "id": 930189
+    },
+    "1475557": {
+      "name": "Mattia Liberali",
+      "position": "F",
+      "height": 172,
+      "jerseyNumber": "30",
+      "id": 1475557
+    },
+    "41444": {
+      "name": "Mauro Vigorito",
+      "position": "G",
+      "height": 186,
+      "jerseyNumber": "22",
+      "id": 41444
+    },
+    "920546": {
+      "name": "Robert Sánchez",
+      "position": "G",
+      "height": 197,
+      "jerseyNumber": "97",
+      "id": 920546
+    },
+    "1112484": {
+      "name": "Kaiki",
+      "position": "D",
+      "height": 172,
+      "jerseyNumber": "16",
+      "id": 1112484
+    },
+    "1136721": {
+      "name": "Willy Kambwala",
+      "position": "D",
+      "height": 192,
+      "jerseyNumber": "53",
+      "id": 1136721
+    },
+    "974581": {
+      "name": "Ivan Smolčić",
+      "position": "D",
+      "height": 181,
+      "jerseyNumber": "28",
+      "id": 974581
+    },
+    "870211": {
+      "name": "Alberto Dossena",
+      "position": "D",
+      "height": 195,
+      "jerseyNumber": "13",
+      "id": 870211
+    },
+    "295133": {
+      "name": "Edoardo Goldaniga",
+      "position": "D",
+      "height": 193,
+      "jerseyNumber": "5",
+      "id": 295133
+    },
+    "226974": {
+      "name": "Marc Kempf",
+      "position": "D",
+      "height": 186,
+      "jerseyNumber": "2",
+      "id": 226974
+    },
+    "1802689": {
+      "name": "Adrian Lahdo",
+      "position": "M",
+      "height": 179,
+      "jerseyNumber": "15",
+      "id": 1802689
+    },
+    "1800245": {
+      "name": "Jesús Rodriguez",
+      "position": "M",
+      "height": 185,
+      "jerseyNumber": "17",
+      "id": 1800245
+    }
+  },
+  "Inter": {
+    "845291": {
+      "name": "Josep Martínez",
+      "position": "G",
+      "height": 191,
+      "jerseyNumber": "1",
+      "id": 845291
+    },
+    "906275": {
+      "name": "Yann Bisseck",
+      "position": "D",
+      "height": 194,
+      "jerseyNumber": "31",
+      "id": 906275
+    },
+    "383560": {
+      "name": "Manuel Akanji",
+      "position": "D",
+      "height": 187,
+      "jerseyNumber": "25",
+      "id": 383560
+    },
+    "826188": {
+      "name": "Alessandro Bastoni",
+      "position": "D",
+      "height": 190,
+      "jerseyNumber": "95",
+      "id": 826188
+    },
+    "1048889": {
+      "name": "Andy Diouf",
+      "position": "M",
+      "height": 187,
+      "jerseyNumber": "17",
+      "id": 1048889
+    },
+    "363856": {
+      "name": "Nicolò Barella",
+      "position": "M",
+      "height": 175,
+      "jerseyNumber": "23",
+      "id": 363856
+    },
+    "138605": {
+      "name": "Piotr Zieliński",
+      "position": "M",
+      "height": 180,
+      "jerseyNumber": "7",
+      "id": 138605
+    },
+    "1091303": {
+      "name": "Petar Sučić",
+      "position": "M",
+      "height": 184,
+      "jerseyNumber": "8",
+      "id": 1091303
+    },
+    "284361": {
+      "name": "Federico Dimarco",
+      "position": "M",
+      "height": 174,
+      "jerseyNumber": "32",
+      "id": 284361
+    },
+    "1156616": {
+      "name": "Pio Esposito",
+      "position": "F",
+      "height": 189,
+      "jerseyNumber": "94",
+      "id": 1156616
+    },
+    "823984": {
+      "name": "Lautaro Martínez",
+      "position": "F",
+      "height": 175,
+      "jerseyNumber": "10",
+      "id": 823984
+    },
+    "927353": {
+      "name": "Curtis Jones",
+      "position": "M",
+      "height": 185,
+      "jerseyNumber": "21",
+      "id": 927353
+    },
+    "791702": {
+      "name": "Marcus Thuram",
+      "position": "F",
+      "height": 192,
+      "jerseyNumber": "9",
+      "id": 791702
+    },
+    "929199": {
+      "name": "Carlos Augusto",
+      "position": "D",
+      "height": 184,
+      "jerseyNumber": "30",
+      "id": 929199
+    },
+    "135700": {
+      "name": "Hakan Çalhanoğlu",
+      "position": "M",
+      "height": 178,
+      "jerseyNumber": "20",
+      "id": 135700
+    },
+    "1086223": {
+      "name": "Ange-Yoan Bonny",
+      "position": "F",
+      "height": 189,
+      "jerseyNumber": "14",
+      "id": 1086223
+    },
+    "308182": {
+      "name": "Ivan Provedel",
+      "position": "G",
+      "height": 194,
+      "jerseyNumber": "49",
+      "id": 308182
+    },
+    "301162": {
+      "name": "Raffaele Di Gennaro",
+      "position": "G",
+      "height": 188,
+      "jerseyNumber": "12",
+      "id": 301162
+    },
+    "787505": {
+      "name": "Benjamin Pavard",
+      "position": "D",
+      "height": 186,
+      "jerseyNumber": "28",
+      "id": 787505
+    },
+    "152077": {
+      "name": "John Stones",
+      "position": "D",
+      "height": 188,
+      "jerseyNumber": "6",
+      "id": 152077
+    },
+    "37151": {
+      "name": "Henrikh Mkhitaryan",
+      "position": "M",
+      "height": 178,
+      "jerseyNumber": "22",
+      "id": 37151
+    },
+    "977679": {
+      "name": "Luís Henrique",
+      "position": "M",
+      "height": 181,
+      "jerseyNumber": "11",
+      "id": 977679
+    },
+    "1153957": {
+      "name": "Aleksandar Stanković",
+      "position": "M",
+      "height": 187,
+      "jerseyNumber": "5",
+      "id": 1153957
+    },
+    "1530727": {
+      "name": "Mattia Mosconi",
+      "position": "F",
+      "height": 176,
+      "jerseyNumber": "48",
+      "id": 1530727
+    }
+  },
+  "Napoli": {
+    "592794": {
+      "name": "Alex Meret",
+      "position": "G",
+      "height": 190,
+      "jerseyNumber": "1",
+      "id": 592794
+    },
+    "153257": {
+      "name": "Giovanni Di Lorenzo",
+      "position": "D",
+      "height": 182,
+      "jerseyNumber": "22",
+      "id": 153257
+    },
+    "332155": {
+      "name": "Amir Rrahmani",
+      "position": "D",
+      "height": 190,
+      "jerseyNumber": "13",
+      "id": 332155
+    },
+    "984623": {
+      "name": "Rafa Marín",
+      "position": "D",
+      "height": 190,
+      "jerseyNumber": "16",
+      "id": 984623
+    },
+    "148899": {
+      "name": "Leonardo Spinazzola",
+      "position": "D",
+      "height": 185,
+      "jerseyNumber": "37",
+      "id": 148899
+    },
+    "787941": {
+      "name": "Frank Anguissa",
+      "position": "M",
+      "height": 184,
+      "jerseyNumber": "99",
+      "id": 787941
+    },
+    "150383": {
+      "name": "Stanislav Lobotka",
+      "position": "M",
+      "height": 170,
+      "jerseyNumber": "68",
+      "id": 150383
+    },
+    "1069560": {
+      "name": "Antonio Vergara",
+      "position": "F",
+      "height": 182,
+      "jerseyNumber": "26",
+      "id": 1069560
+    },
+    "235672": {
+      "name": "Matteo Politano",
+      "position": "M",
+      "height": 171,
+      "jerseyNumber": "21",
+      "id": 235672
+    },
+    "1086417": {
+      "name": "Rasmus Højlund",
+      "position": "F",
+      "height": 191,
+      "jerseyNumber": "19",
+      "id": 1086417
+    },
+    "1122835": {
+      "name": "Alisson Santos",
+      "position": "F",
+      "height": 177,
+      "jerseyNumber": "27",
+      "id": 1122835
+    },
+    "70996": {
+      "name": "Kevin De Bruyne",
+      "position": "M",
+      "height": 181,
+      "jerseyNumber": "11",
+      "id": 70996
+    },
+    "850993": {
+      "name": "David Neres",
+      "position": "F",
+      "height": 175,
+      "jerseyNumber": "7",
+      "id": 850993
+    },
+    "962364": {
+      "name": "Lorenzo Lucca",
+      "position": "F",
+      "height": 201,
+      "jerseyNumber": "20",
+      "id": 962364
+    },
+    "907668": {
+      "name": "Billy Gilmour",
+      "position": "M",
+      "height": 169,
+      "jerseyNumber": "6",
+      "id": 907668
+    },
+    "904827": {
+      "name": "Benoît Badiashile",
+      "position": "D",
+      "height": 194,
+      "jerseyNumber": "5",
+      "id": 904827
+    },
+    "356160": {
+      "name": "Vanja Milinković-Savić",
+      "position": "G",
+      "height": 202,
+      "jerseyNumber": "32",
+      "id": 356160
+    },
+    "352728": {
+      "name": "Nikita Contini",
+      "position": "G",
+      "height": 190,
+      "jerseyNumber": "14",
+      "id": 352728
+    },
+    "898815": {
+      "name": "Sam Beukema",
+      "position": "D",
+      "height": 188,
+      "jerseyNumber": "31",
+      "id": 898815
+    },
+    "805078": {
+      "name": "Mathías Olivera",
+      "position": "D",
+      "height": 184,
+      "jerseyNumber": "17",
+      "id": 805078
+    },
+    "1100544": {
+      "name": "Costantino Favasuli",
+      "position": "M",
+      "height": 178,
+      "jerseyNumber": "2",
+      "id": 1100544
+    },
+    "875136": {
+      "name": "Noa Lang",
+      "position": "F",
+      "height": 173,
+      "jerseyNumber": "70",
+      "id": 875136
+    },
+    "2220248": {
+      "name": "Claudio Pugliese",
+      "position": "G",
+      "height": 180,
+      "jerseyNumber": "12",
+      "id": 2220248
+    }
+  },
+  "Juventus": {
+    "553606": {
+      "name": "Guglielmo Vicario",
+      "position": "G",
+      "height": 194,
+      "jerseyNumber": "25",
+      "id": 553606
+    },
+    "965330": {
+      "name": "Pierre Kalulu",
+      "position": "D",
+      "height": 183,
+      "jerseyNumber": "15",
+      "id": 965330
+    },
+    "885197": {
+      "name": "Gleison Bremer",
+      "position": "D",
+      "height": 188,
+      "jerseyNumber": "3",
+      "id": 885197
+    },
+    "818481": {
+      "name": "Jhon Lucumí",
+      "position": "D",
+      "height": 185,
+      "jerseyNumber": "26",
+      "id": 818481
+    },
+    "893008": {
+      "name": "Zeki Çelik",
+      "position": "D",
+      "height": 180,
+      "jerseyNumber": "2",
+      "id": 893008
+    },
+    "363860": {
+      "name": "Manuel Locatelli",
+      "position": "M",
+      "height": 185,
+      "jerseyNumber": "5",
+      "id": 363860
+    },
+    "867887": {
+      "name": "Douglas Luiz",
+      "position": "M",
+      "height": 175,
+      "jerseyNumber": "12",
+      "id": 867887
+    },
+    "979222": {
+      "name": "Francisco Conceição",
+      "position": "F",
+      "height": 166,
+      "jerseyNumber": "7",
+      "id": 979222
+    },
+    "901325": {
+      "name": "Nicolás González",
+      "position": "M",
+      "height": 180,
+      "jerseyNumber": "31",
+      "id": 901325
+    },
+    "1425366": {
+      "name": "Kerim Alajbegović",
+      "position": "M",
+      "height": 185,
+      "jerseyNumber": "17",
+      "id": 1425366
+    },
+    "871706": {
+      "name": "Randal Kolo Muani",
+      "position": "F",
+      "height": 187,
+      "jerseyNumber": "9",
+      "id": 871706
+    },
+    "803033": {
+      "name": "Teun Koopmeiners",
+      "position": "M",
+      "height": 183,
+      "jerseyNumber": "8",
+      "id": 803033
+    },
+    "367056": {
+      "name": "Jérémie Boga",
+      "position": "F",
+      "height": 172,
+      "jerseyNumber": "13",
+      "id": 367056
+    },
+    "980623": {
+      "name": "Nick Woltemade",
+      "position": "F",
+      "height": 198,
+      "jerseyNumber": "27",
+      "id": 980623
+    },
+    "1128063": {
+      "name": "Federico Gatti",
+      "position": "D",
+      "height": 190,
+      "jerseyNumber": "4",
+      "id": 1128063
+    },
+    "887766": {
+      "name": "Edon Zhegrova",
+      "position": "F",
+      "height": 181,
+      "jerseyNumber": "11",
+      "id": 887766
+    },
+    "46420": {
+      "name": "Carlo Pinsoglio",
+      "position": "G",
+      "height": 194,
+      "jerseyNumber": "23",
+      "id": 46420
+    },
+    "902080": {
+      "name": "Kamil Grabara",
+      "position": "G",
+      "height": 195,
+      "jerseyNumber": "1",
+      "id": 902080
+    },
+    "865167": {
+      "name": "Lloyd Kelly",
+      "position": "D",
+      "height": 191,
+      "jerseyNumber": "6",
+      "id": 865167
+    },
+    "139273": {
+      "name": "Daniele Rugani",
+      "position": "D",
+      "height": 188,
+      "jerseyNumber": "24",
+      "id": 139273
+    },
+    "1526401": {
+      "name": "Augusto Owusu",
+      "position": "M",
+      "height": 189,
+      "jerseyNumber": "41",
+      "id": 1526401
+    },
+    "1466133": {
+      "name": "Filippo Pagnucco",
+      "position": "M",
+      "height": 180,
+      "jerseyNumber": "43",
+      "id": 1466133
+    },
+    "1002711": {
+      "name": "Pape Matar Sarr",
+      "position": "M",
+      "height": 185,
+      "jerseyNumber": "29",
+      "id": 1002711
+    },
+    "1400670": {
+      "name": "Justin Oboavwoduo",
+      "position": "F",
+      "height": 179,
+      "jerseyNumber": "45",
+      "id": 1400670
+    }
+  },
+  "Milan": {
+    "191210": {
+      "name": "Mike Maignan",
+      "position": "G",
+      "height": 190,
+      "jerseyNumber": "16",
+      "id": 191210
+    },
+    "965828": {
+      "name": "Mario Gila",
+      "position": "D",
+      "height": 185,
+      "jerseyNumber": "34",
+      "id": 965828
+    },
+    "1001828": {
+      "name": "Koni De Winter",
+      "position": "D",
+      "height": 191,
+      "jerseyNumber": "5",
+      "id": 1001828
+    },
+    "965893": {
+      "name": "Strahinja Pavlović",
+      "position": "D",
+      "height": 194,
+      "jerseyNumber": "31",
+      "id": 965893
+    },
+    "1142233": {
+      "name": "Diego Moreira",
+      "position": "M",
+      "height": 179,
+      "jerseyNumber": "22",
+      "id": 1142233
+    },
+    "15466": {
+      "name": "Luka Modrić",
+      "position": "M",
+      "height": 173,
+      "jerseyNumber": "14",
+      "id": 15466
+    },
+    "983815": {
+      "name": "Yunus Musah",
+      "position": "M",
+      "height": 178,
+      "jerseyNumber": "80",
+      "id": 983815
+    },
+    "805465": {
+      "name": "Pervis Estupiñán",
+      "position": "M",
+      "height": 175,
+      "jerseyNumber": "2",
+      "id": 805465
+    },
+    "250737": {
+      "name": "Adrien Rabiot",
+      "position": "M",
+      "height": 191,
+      "jerseyNumber": "12",
+      "id": 250737
+    },
+    "901891": {
+      "name": "Alexis Saelemaekers",
+      "position": "M",
+      "height": 180,
+      "jerseyNumber": "56",
+      "id": 901891
+    },
+    "934510": {
+      "name": "Gonçalo Ramos",
+      "position": "F",
+      "height": 185,
+      "jerseyNumber": "9",
+      "id": 934510
+    },
+    "284441": {
+      "name": "Ruben Loftus-Cheek",
+      "position": "M",
+      "height": 191,
+      "jerseyNumber": "8",
+      "id": 284441
+    },
+    "822470": {
+      "name": "Samuel Chukwueze",
+      "position": "F",
+      "height": 172,
+      "jerseyNumber": "21",
+      "id": 822470
+    },
+    "1169409": {
+      "name": "Alphadjo Cissè",
+      "position": "F",
+      "height": 181,
+      "jerseyNumber": "70",
+      "id": 1169409
+    },
+    "1034082": {
+      "name": "Ardon Jashari",
+      "position": "M",
+      "height": 180,
+      "jerseyNumber": "30",
+      "id": 1034082
+    },
+    "1034303": {
+      "name": "Filippo Terracciano",
+      "position": "D",
+      "height": 181,
+      "jerseyNumber": "42",
+      "id": 1034303
+    },
+    "1403294": {
+      "name": "Lorenzo Torriani",
+      "position": "G",
+      "height": 197,
+      "jerseyNumber": "96",
+      "id": 1403294
+    },
+    "136856": {
+      "name": "Pietro Terracciano",
+      "position": "G",
+      "height": 193,
+      "jerseyNumber": "1",
+      "id": 136856
+    },
+    "1899999": {
+      "name": "Sankhoun Diawara",
+      "position": "D",
+      "height": 188,
+      "jerseyNumber": "13",
+      "id": 1899999
+    },
+    "788255": {
+      "name": "Fikayo Tomori",
+      "position": "D",
+      "height": 185,
+      "jerseyNumber": "23",
+      "id": 788255
+    },
+    "1390489": {
+      "name": "Davide Bartesaghi",
+      "position": "M",
+      "height": 193,
+      "jerseyNumber": "33",
+      "id": 1390489
+    },
+    "1622149": {
+      "name": "Christian Comotto",
+      "position": "M",
+      "height": 183,
+      "jerseyNumber": "28",
+      "id": 1622149
+    },
+    "1090963": {
+      "name": "Omari Hutchinson",
+      "position": "M",
+      "height": 174,
+      "jerseyNumber": "20",
+      "id": 1090963
+    },
+    "1520771": {
+      "name": "Francesco Camarda",
+      "position": "F",
+      "height": 189,
+      "jerseyNumber": "73",
+      "id": 1520771
+    },
+    "817957": {
+      "name": "Christian Pulišić",
+      "position": "F",
+      "height": 177,
+      "jerseyNumber": "11",
+      "id": 817957
+    },
+    "826195": {
+      "name": "Matteo Gabbia",
+      "position": "D",
+      "height": 185,
+      "jerseyNumber": "46",
+      "id": 826195
+    }
+  },
+  "Roma": {
+    "793986": {
+      "name": "Mile Svilar",
+      "position": "G",
+      "height": 189,
+      "jerseyNumber": "99",
+      "id": 793986
+    },
+    "611210": {
+      "name": "Gianluca Mancini",
+      "position": "D",
+      "height": 190,
+      "jerseyNumber": "23",
+      "id": 611210
+    },
+    "848287": {
+      "name": "Evan Ndicka",
+      "position": "D",
+      "height": 190,
+      "jerseyNumber": "5",
+      "id": 848287
+    },
+    "353130": {
+      "name": "Mario Hermoso",
+      "position": "D",
+      "height": 184,
+      "jerseyNumber": "22",
+      "id": 353130
+    },
+    "1955992": {
+      "name": "Emanuele Lulli",
+      "position": "M",
+      "height": 184,
+      "jerseyNumber": "77",
+      "id": 1955992
+    },
+    "186855": {
+      "name": "Bryan Cristante",
+      "position": "M",
+      "height": 186,
+      "jerseyNumber": "4",
+      "id": 186855
+    },
+    "974087": {
+      "name": "Manu Koné",
+      "position": "M",
+      "height": 186,
+      "jerseyNumber": "17",
+      "id": 974087
+    },
+    "1134200": {
+      "name": "Wesley",
+      "position": "M",
+      "height": 178,
+      "jerseyNumber": "43",
+      "id": 1134200
+    },
+    "1410240": {
+      "name": "Rodrigo Mora",
+      "position": "M",
+      "height": 168,
+      "jerseyNumber": "86",
+      "id": 1410240
+    },
+    "256219": {
+      "name": "Paulo Dybala",
+      "position": "F",
+      "height": 177,
+      "jerseyNumber": "21",
+      "id": 256219
+    },
+    "803039": {
+      "name": "Donyell Malen",
+      "position": "F",
+      "height": 176,
+      "jerseyNumber": "14",
+      "id": 803039
+    },
+    "831799": {
+      "name": "Nahuel Molina",
+      "position": "D",
+      "height": 175,
+      "jerseyNumber": "20",
+      "id": 831799
+    },
+    "1082406": {
+      "name": "Matías Soulé",
+      "position": "F",
+      "height": 182,
+      "jerseyNumber": "18",
+      "id": 1082406
+    },
+    "1384847": {
+      "name": "Daniele Ghilardi",
+      "position": "D",
+      "height": 189,
+      "jerseyNumber": "87",
+      "id": 1384847
+    },
+    "1116577": {
+      "name": "Santiago Castro",
+      "position": "F",
+      "height": 178,
+      "jerseyNumber": "9",
+      "id": 1116577
+    },
+    "928236": {
+      "name": "Leonardo Balerdi",
+      "position": "D",
+      "height": 188,
+      "jerseyNumber": "26",
+      "id": 928236
+    },
+    "1652568": {
+      "name": "Giorgio De Marzi",
+      "position": "G",
+      "height": 186,
+      "jerseyNumber": "70",
+      "id": 1652568
+    },
+    "329175": {
+      "name": "Pierluigi Gollini",
+      "position": "G",
+      "height": 194,
+      "jerseyNumber": "95",
+      "id": 329175
+    },
+    "1184855": {
+      "name": "Konstantinos Koulierakis",
+      "position": "D",
+      "height": 188,
+      "jerseyNumber": "3",
+      "id": 1184855
+    },
+    "100389": {
+      "name": "Marten de Roon",
+      "position": "M",
+      "height": 185,
+      "jerseyNumber": "15",
+      "id": 100389
+    },
+    "1175821": {
+      "name": "Niccolò Pisilli",
+      "position": "M",
+      "height": 180,
+      "jerseyNumber": "61",
+      "id": 1175821
+    },
+    "982778": {
+      "name": "Devyne Rensch",
+      "position": "M",
+      "height": 182,
+      "jerseyNumber": "2",
+      "id": 982778
+    },
+    "1923599": {
+      "name": "Antonio Arena",
+      "position": "F",
+      "height": 188,
+      "jerseyNumber": "68",
+      "id": 1923599
+    },
+    "555540": {
+      "name": "Lorenzo Pellegrini",
+      "position": "F",
+      "height": 186,
+      "jerseyNumber": "7",
+      "id": 555540
+    }
+  },
+  "Atalanta": {
+    "865646": {
+      "name": "Marco Carnesecchi",
+      "position": "G",
+      "height": 192,
+      "jerseyNumber": "29",
+      "id": 865646
+    },
+    "826185": {
+      "name": "Raoul Bellanova",
+      "position": "M",
+      "height": 188,
+      "jerseyNumber": "16",
+      "id": 826185
+    },
+    "973437": {
+      "name": "Odilon Kossounou",
+      "position": "D",
+      "height": 191,
+      "jerseyNumber": "3",
+      "id": 973437
+    },
+    "1012176": {
+      "name": "Giorgio Scalvini",
+      "position": "D",
+      "height": 194,
+      "jerseyNumber": "42",
+      "id": 1012176
+    },
+    "142148": {
+      "name": "Sead Kolašinac",
+      "position": "D",
+      "height": 183,
+      "jerseyNumber": "23",
+      "id": 142148
+    },
+    "980624": {
+      "name": "Lazar Samardžić",
+      "position": "M",
+      "height": 183,
+      "jerseyNumber": "10",
+      "id": 980624
+    },
+    "902019": {
+      "name": "Gianluca Gaetano",
+      "position": "M",
+      "height": 183,
+      "jerseyNumber": "70",
+      "id": 902019
+    },
+    "946888": {
+      "name": "Éderson",
+      "position": "M",
+      "height": 183,
+      "jerseyNumber": "13",
+      "id": 946888
+    },
+    "960441": {
+      "name": "Charles De Ketelaere",
+      "position": "F",
+      "height": 192,
+      "jerseyNumber": "17",
+      "id": 960441
+    },
+    "807301": {
+      "name": "Gianluca Scamacca",
+      "position": "F",
+      "height": 195,
+      "jerseyNumber": "9",
+      "id": 807301
+    },
+    "838232": {
+      "name": "Eljif Elmas",
+      "position": "M",
+      "height": 182,
+      "jerseyNumber": "99",
+      "id": 838232
+    },
+    "839156": {
+      "name": "Nikola Krstović",
+      "position": "F",
+      "height": 185,
+      "jerseyNumber": "90",
+      "id": 839156
+    },
+    "984184": {
+      "name": "Nicola Zalewski",
+      "position": "M",
+      "height": 175,
+      "jerseyNumber": "59",
+      "id": 984184
+    },
+    "190437": {
+      "name": "Mario Pašalić",
+      "position": "M",
+      "height": 189,
+      "jerseyNumber": "8",
+      "id": 190437
+    },
+    "132318": {
+      "name": "Davide Zappacosta",
+      "position": "M",
+      "height": 182,
+      "jerseyNumber": "77",
+      "id": 132318
+    },
+    "359226": {
+      "name": "Franck Kessié",
+      "position": "M",
+      "height": 183,
+      "jerseyNumber": "19",
+      "id": 359226
+    },
+    "1165201": {
+      "name": "Thomas Pompei",
+      "position": "G",
+      "height": 188,
+      "jerseyNumber": "22",
+      "id": 1165201
+    },
+    "176301": {
+      "name": "Marco Sportiello",
+      "position": "G",
+      "height": 192,
+      "jerseyNumber": "57",
+      "id": 176301
+    },
+    "1063373": {
+      "name": "Thomas Kristensen",
+      "position": "D",
+      "height": 197,
+      "jerseyNumber": "31",
+      "id": 1063373
+    },
+    "1432414": {
+      "name": "Relja Obrić",
+      "position": "D",
+      "height": 194,
+      "jerseyNumber": "40",
+      "id": 1432414
+    },
+    "1012177": {
+      "name": "Lorenzo Bernasconi",
+      "position": "M",
+      "height": 190,
+      "jerseyNumber": "47",
+      "id": 1012177
+    },
+    "1065261": {
+      "name": "Jonathan Rowe",
+      "position": "F",
+      "height": 173,
+      "jerseyNumber": "11",
+      "id": 1065261
+    },
+    "865651": {
+      "name": "Giacomo Raspadori",
+      "position": "F",
+      "height": 172,
+      "jerseyNumber": "18",
+      "id": 865651
+    }
+  },
+  "Udinese": {
+    "891656": {
+      "name": "Maduka Okoye",
+      "position": "G",
+      "height": 197,
+      "jerseyNumber": "40",
+      "id": 891656
+    },
+    "1127232": {
+      "name": "James Abankwah",
+      "position": "D",
+      "height": 188,
+      "jerseyNumber": "14",
+      "id": 1127232
+    },
+    "892979": {
+      "name": "Oumar Solet",
+      "position": "D",
+      "height": 192,
+      "jerseyNumber": "28",
+      "id": 892979
+    },
+    "848279": {
+      "name": "Enzo Ebosse",
+      "position": "D",
+      "height": 185,
+      "jerseyNumber": "77",
+      "id": 848279
+    },
+    "798147": {
+      "name": "Mërgim Vojvoda",
+      "position": "D",
+      "height": 187,
+      "jerseyNumber": "23",
+      "id": 798147
+    },
+    "227894": {
+      "name": "Jesper Karlström",
+      "position": "M",
+      "height": 179,
+      "jerseyNumber": "8",
+      "id": 227894
+    },
+    "825271": {
+      "name": "Jakub Piotrowski",
+      "position": "M",
+      "height": 188,
+      "jerseyNumber": "24",
+      "id": 825271
+    },
+    "351434": {
+      "name": "Hassane Kamara",
+      "position": "M",
+      "height": 168,
+      "jerseyNumber": "11",
+      "id": 351434
+    },
+    "1391375": {
+      "name": "Unai Gómez",
+      "position": "M",
+      "height": 183,
+      "jerseyNumber": "46",
+      "id": 1391375
+    },
+    "904887": {
+      "name": "Jürgen Ekkelenkamp",
+      "position": "M",
+      "height": 188,
+      "jerseyNumber": "32",
+      "id": 904887
+    },
+    "830858": {
+      "name": "Keinan Davis",
+      "position": "F",
+      "height": 189,
+      "jerseyNumber": "9",
+      "id": 830858
+    },
+    "1154894": {
+      "name": "Lennon Miller",
+      "position": "M",
+      "height": 182,
+      "jerseyNumber": "38",
+      "id": 1154894
+    },
+    "58351": {
+      "name": "Christian Kabasele",
+      "position": "D",
+      "height": 186,
+      "jerseyNumber": "27",
+      "id": 58351
+    },
+    "796455": {
+      "name": "Vakoun Issouf Bayo",
+      "position": "F",
+      "height": 184,
+      "jerseyNumber": "15",
+      "id": 796455
+    },
+    "1136399": {
+      "name": "Nicolò Bertola",
+      "position": "D",
+      "height": 185,
+      "jerseyNumber": "13",
+      "id": 1136399
+    },
+    "1009661": {
+      "name": "Oier Zarraga",
+      "position": "M",
+      "height": 175,
+      "jerseyNumber": "6",
+      "id": 1009661
+    },
+    "886909": {
+      "name": "Bartosz Mrozek",
+      "position": "G",
+      "height": 191,
+      "jerseyNumber": "41",
+      "id": 886909
+    },
+    "2899": {
+      "name": "Daniele Padelli",
+      "position": "G",
+      "height": 191,
+      "jerseyNumber": "93",
+      "id": 2899
+    },
+    "1427148": {
+      "name": "Lazar Jovanović",
+      "position": "M",
+      "height": 182,
+      "jerseyNumber": "91",
+      "id": 1427148
+    },
+    "858191": {
+      "name": "Giorgi Chakvetadze",
+      "position": "M",
+      "height": 180,
+      "jerseyNumber": "30",
+      "id": 858191
+    },
+    "575852": {
+      "name": "Sandi Lovrić",
+      "position": "M",
+      "height": 180,
+      "jerseyNumber": "4",
+      "id": 575852
+    },
+    "1536811": {
+      "name": "Idrissa Gueye",
+      "position": "F",
+      "height": 188,
+      "jerseyNumber": "7",
+      "id": 1536811
+    },
+    "1910431": {
+      "name": "Giulio Vinciati",
+      "position": "F",
+      "height": 180,
+      "jerseyNumber": "45",
+      "id": 1910431
+    }
+  },
+  "Lazio": {
+    "913762": {
+      "name": "Christos Mandas",
+      "position": "G",
+      "height": 189,
+      "jerseyNumber": "35",
+      "id": 913762
+    },
+    "1100354": {
+      "name": "Romano Floriani Mussolini",
+      "position": "M",
+      "height": 188,
+      "jerseyNumber": "15",
+      "id": 1100354
+    },
+    "830803": {
+      "name": "Danilho Doekhi",
+      "position": "D",
+      "height": 190,
+      "jerseyNumber": "5",
+      "id": 830803
+    },
+    "1160559": {
+      "name": "Oliver Provstgaard",
+      "position": "D",
+      "height": 194,
+      "jerseyNumber": "25",
+      "id": 1160559
+    },
+    "944973": {
+      "name": "Nuno Tavares",
+      "position": "D",
+      "height": 185,
+      "jerseyNumber": "17",
+      "id": 944973
+    },
+    "835600": {
+      "name": "Davide Frattesi",
+      "position": "M",
+      "height": 178,
+      "jerseyNumber": "16",
+      "id": 835600
+    },
+    "1389689": {
+      "name": "Reda Belahyane",
+      "position": "M",
+      "height": 173,
+      "jerseyNumber": "21",
+      "id": 1389689
+    },
+    "959806": {
+      "name": "Kenneth Taylor",
+      "position": "M",
+      "height": 182,
+      "jerseyNumber": "24",
+      "id": 959806
+    },
+    "976381": {
+      "name": "Gustav Isaksen",
+      "position": "F",
+      "height": 181,
+      "jerseyNumber": "11",
+      "id": 976381
+    },
+    "826198": {
+      "name": "Andrea Pinamonti",
+      "position": "F",
+      "height": 185,
+      "jerseyNumber": "9",
+      "id": 826198
+    },
+    "293581": {
+      "name": "Mattia Zaccagni",
+      "position": "F",
+      "height": 176,
+      "jerseyNumber": "10",
+      "id": 293581
+    },
+    "1017649": {
+      "name": "Matteo Cancellieri",
+      "position": "F",
+      "height": 185,
+      "jerseyNumber": "22",
+      "id": 1017649
+    },
+    "1069244": {
+      "name": "Tijjani Noslin",
+      "position": "F",
+      "height": 177,
+      "jerseyNumber": "14",
+      "id": 1069244
+    },
+    "804909": {
+      "name": "Albert Guðmundsson",
+      "position": "F",
+      "height": 178,
+      "jerseyNumber": "80",
+      "id": 804909
+    },
+    "797290": {
+      "name": "Alfonso Pedraza",
+      "position": "D",
+      "height": 184,
+      "jerseyNumber": "23",
+      "id": 797290
+    },
+    "1518983": {
+      "name": "Edoardo Motta",
+      "position": "G",
+      "height": 194,
+      "jerseyNumber": "40",
+      "id": 1518983
+    },
+    "1472205": {
+      "name": "Davide Renzetti",
+      "position": "G",
+      "height": 194,
+      "jerseyNumber": "47",
+      "id": 1472205
+    },
+    "273405": {
+      "name": "Manuel Lazzari",
+      "position": "D",
+      "height": 173,
+      "jerseyNumber": "29",
+      "id": 273405
+    },
+    "954836": {
+      "name": "Josip Šutalo",
+      "position": "D",
+      "height": 190,
+      "jerseyNumber": "37",
+      "id": 954836
+    },
+    "2030204": {
+      "name": "Ricardo Bordon",
+      "position": "D",
+      "height": 194,
+      "jerseyNumber": "33",
+      "id": 2030204
+    },
+    "1466806": {
+      "name": "Adrian Przyborek",
+      "position": "M",
+      "height": 184,
+      "jerseyNumber": "28",
+      "id": 1466806
+    },
+    "1547464": {
+      "name": "Valerio Farcomeni",
+      "position": "M",
+      "height": 176,
+      "jerseyNumber": "71",
+      "id": 1547464
+    },
+    "1525567": {
+      "name": "Federico Serra",
+      "position": "F",
+      "height": 184,
+      "jerseyNumber": "63",
+      "id": 1525567
+    },
+    "855663": {
+      "name": "Diogo Leite",
+      "position": "D",
+      "height": 188,
+      "jerseyNumber": "2",
+      "id": 855663
+    },
+    "317301": {
+      "name": "Danilo Cataldi",
+      "position": "M",
+      "height": 180,
+      "jerseyNumber": "32",
+      "id": 317301
+    }
+  },
+  "Parma": {
+    "990411": {
+      "name": "Edoardo Corvi",
+      "position": "G",
+      "height": 183,
+      "jerseyNumber": "40",
+      "id": 990411
+    },
+    "928103": {
+      "name": "Enrico Delprato",
+      "position": "D",
+      "height": 183,
+      "jerseyNumber": "15",
+      "id": 928103
+    },
+    "604232": {
+      "name": "Diego Carlos",
+      "position": "D",
+      "height": 185,
+      "jerseyNumber": "34",
+      "id": 604232
+    },
+    "1516324": {
+      "name": "Mariano Troilo",
+      "position": "D",
+      "height": 194,
+      "jerseyNumber": "37",
+      "id": 1516324
+    },
+    "1963449": {
+      "name": "Sascha Britschgi",
+      "position": "D",
+      "height": 182,
+      "jerseyNumber": "27",
+      "id": 1963449
+    },
+    "1201388": {
+      "name": "Christian Ordoñez",
+      "position": "M",
+      "height": 177,
+      "jerseyNumber": "32",
+      "id": 1201388
+    },
+    "1110136": {
+      "name": "Mandela Keita",
+      "position": "M",
+      "height": 180,
+      "jerseyNumber": "16",
+      "id": 1110136
+    },
+    "891346": {
+      "name": "Emanuele Valeri",
+      "position": "M",
+      "height": 180,
+      "jerseyNumber": "14",
+      "id": 891346
+    },
+    "1067204": {
+      "name": "Giovanni Fabbian",
+      "position": "M",
+      "height": 186,
+      "jerseyNumber": "80",
+      "id": 1067204
+    },
+    "982615": {
+      "name": "El Bilal Touré",
+      "position": "M",
+      "height": 185,
+      "jerseyNumber": "19",
+      "id": 982615
+    },
+    "1118606": {
+      "name": "David Romero",
+      "position": "F",
+      "height": 179,
+      "jerseyNumber": "9",
+      "id": 1118606
+    },
+    "958517": {
+      "name": "Lautaro Valenti",
+      "position": "D",
+      "height": 188,
+      "jerseyNumber": "5",
+      "id": 958517
+    },
+    "794412": {
+      "name": "Vincent Sierro",
+      "position": "M",
+      "height": 184,
+      "jerseyNumber": "4",
+      "id": 794412
+    },
+    "1092081": {
+      "name": "Matija Frigan",
+      "position": "F",
+      "height": 184,
+      "jerseyNumber": "20",
+      "id": 1092081
+    },
+    "1912962": {
+      "name": "Simone Lontani",
+      "position": "F",
+      "height": 181,
+      "jerseyNumber": "76",
+      "id": 1912962
+    },
+    "856065": {
+      "name": "Pontus Almqvist",
+      "position": "F",
+      "height": 183,
+      "jerseyNumber": "11",
+      "id": 856065
+    },
+    "1100418": {
+      "name": "Giovanni Daffara",
+      "position": "G",
+      "height": 194,
+      "jerseyNumber": "30",
+      "id": 1100418
+    },
+    "865538": {
+      "name": "Simone Ghidotti",
+      "position": "G",
+      "height": 193,
+      "jerseyNumber": "22",
+      "id": 865538
+    },
+    "1584940": {
+      "name": "Dominik Drobnic ",
+      "position": "D",
+      "height": 194,
+      "jerseyNumber": "72",
+      "id": 1584940
+    },
+    "984527": {
+      "name": "Abdoulaye Ndiaye",
+      "position": "D",
+      "height": 195,
+      "jerseyNumber": "3",
+      "id": 984527
+    },
+    "1542692": {
+      "name": "Abdou-Salam Konate",
+      "position": "M",
+      "height": 189,
+      "jerseyNumber": "47",
+      "id": 1542692
+    },
+    "1459459": {
+      "name": "Benjamin Cremaschi",
+      "position": "M",
+      "height": 180,
+      "jerseyNumber": "8",
+      "id": 1459459
+    },
+    "1086199": {
+      "name": "Franco Carboni",
+      "position": "M",
+      "height": 190,
+      "jerseyNumber": "29",
+      "id": 1086199
+    },
+    "2082104": {
+      "name": "Thomas de Martis",
+      "position": "F",
+      "height": 181,
+      "jerseyNumber": "25",
+      "id": 2082104
+    },
+    "1486729": {
+      "name": "Nesta Elphege",
+      "position": "F",
+      "height": 196,
+      "jerseyNumber": "23",
+      "id": 1486729
+    },
+    "934384": {
+      "name": "Adrián Bernabé",
+      "position": "M",
+      "height": 170,
+      "jerseyNumber": "10",
+      "id": 934384
+    }
+  },
+  "Monza": {
+    "861818": {
+      "name": "Demba Thiam",
+      "position": "G",
+      "height": 202,
+      "jerseyNumber": "20",
+      "id": 861818
+    },
+    "1526933": {
+      "name": "Eddy Kouadio",
+      "position": "D",
+      "height": 191,
+      "jerseyNumber": "60",
+      "id": 1526933
+    },
+    "972567": {
+      "name": "Lorenzo Lucchesi",
+      "position": "D",
+      "height": 190,
+      "jerseyNumber": "3",
+      "id": 972567
+    },
+    "970978": {
+      "name": "Andrea Carboni",
+      "position": "D",
+      "height": 185,
+      "jerseyNumber": "44",
+      "id": 970978
+    },
+    "856729": {
+      "name": "Samuele Birindelli",
+      "position": "M",
+      "height": 175,
+      "jerseyNumber": "19",
+      "id": 856729
+    },
+    "869795": {
+      "name": "Michael Folorunsho",
+      "position": "M",
+      "height": 190,
+      "jerseyNumber": "90",
+      "id": 869795
+    },
+    "1525367": {
+      "name": "Ebenezer Akinsanmiro",
+      "position": "M",
+      "height": 184,
+      "jerseyNumber": "14",
+      "id": 1525367
+    },
+    "878496": {
+      "name": "Ricardo Mangas",
+      "position": "D",
+      "height": 179,
+      "jerseyNumber": "7",
+      "id": 878496
+    },
+    "1153434": {
+      "name": "Omari Forson",
+      "position": "F",
+      "height": 179,
+      "jerseyNumber": "11",
+      "id": 1153434
+    },
+    "1440673": {
+      "name": "Jay Robinson",
+      "position": "F",
+      "height": 176,
+      "jerseyNumber": "46",
+      "id": 1440673
+    },
+    "838907": {
+      "name": "Dany Mota",
+      "position": "F",
+      "height": 180,
+      "jerseyNumber": "47",
+      "id": 838907
+    },
+    "928122": {
+      "name": "Andrea Colpani",
+      "position": "F",
+      "height": 186,
+      "jerseyNumber": "28",
+      "id": 928122
+    },
+    "1424560": {
+      "name": "Leonardo Colombo",
+      "position": "M",
+      "height": 175,
+      "jerseyNumber": "21",
+      "id": 1424560
+    },
+    "1397353": {
+      "name": "Adam Bakoune",
+      "position": "D",
+      "height": 195,
+      "jerseyNumber": "24",
+      "id": 1397353
+    },
+    "1479355": {
+      "name": "Yvan Maye",
+      "position": "D",
+      "height": 190,
+      "jerseyNumber": "5",
+      "id": 1479355
+    },
+    "1992105": {
+      "name": "Mathis Mout",
+      "position": "M",
+      "height": 181,
+      "jerseyNumber": "80",
+      "id": 1992105
+    },
+    "1014583": {
+      "name": "Noel Törnqvist",
+      "position": "G",
+      "height": 195,
+      "jerseyNumber": "1",
+      "id": 1014583
+    },
+    "1405684": {
+      "name": "Aljaz Strajnar",
+      "position": "G",
+      "height": 185,
+      "jerseyNumber": "43",
+      "id": 1405684
+    },
+    "1126175": {
+      "name": "Saba Goglichidze",
+      "position": "D",
+      "height": 192,
+      "jerseyNumber": "2",
+      "id": 1126175
+    },
+    "827640": {
+      "name": "Valentin Antov",
+      "position": "D",
+      "height": 185,
+      "jerseyNumber": "6",
+      "id": 827640
+    },
+    "1596636": {
+      "name": "Manga Foe Ondoa",
+      "position": "M",
+      "height": 183,
+      "jerseyNumber": "8",
+      "id": 1596636
+    },
+    "1146305": {
+      "name": "Gustavo Varela",
+      "position": "F",
+      "height": 184,
+      "jerseyNumber": "9",
+      "id": 1146305
+    },
+    "795044": {
+      "name": "Patrick Cutrone",
+      "position": "F",
+      "height": 183,
+      "jerseyNumber": "10",
+      "id": 795044
+    },
+    "1003011": {
+      "name": "Exequiel Zeballos",
+      "position": "F",
+      "height": 174,
+      "jerseyNumber": "22",
+      "id": 1003011
+    }
   }
 }
