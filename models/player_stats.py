@@ -247,6 +247,12 @@ class PlayerStatsBuilder:
                             elif n == 'Shots on target':
                                 team_ctx[home]['shots_ot'].append(hv)
                                 team_ctx[away]['shots_ot'].append(av)
+                            elif n == 'Total shots':
+                                team_ctx[home]['shots'].append(hv)
+                                team_ctx[away]['shots'].append(av)
+                            elif n == 'Shots on target':
+                                team_ctx[home]['shots_ot'].append(hv)
+                                team_ctx[away]['shots_ot'].append(av)
 
             self._rosters[season_key] = {t: dict(d) for t, d in roster.items()}
             self._team_ctx[season_key] = {

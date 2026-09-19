@@ -554,8 +554,10 @@ if page == "🔮 Predizione":
             _pb8 = PlayerStatsBuilder()
             _opp_h = _pb8.get_team_context(away)
             _opp_a = _pb8.get_team_context(home)
-            _sc_h = _pb8.scorer_probability(home, 1.4, opp_context=_opp_h, limit=5)
-            _sc_a = _pb8.scorer_probability(away, 1.2, opp_context=_opp_a, limit=5)
+            _xg_h8 = _lam_h or 1.4
+            _xg_a8 = _lam_a or 1.2
+            _sc_h = _pb8.scorer_probability(home, _xg_h8, opp_context=_opp_h, limit=5)
+            _sc_a = _pb8.scorer_probability(away, _xg_a8, opp_context=_opp_a, limit=5)
             c1, c2 = st.columns(2)
             with c1:
                 st.caption(f"⚽ Marcatori {home}")
@@ -579,8 +581,10 @@ if page == "🔮 Predizione":
             _pb9 = PlayerStatsBuilder()
             _opp_h9 = _pb9.get_team_context(away)
             _opp_a9 = _pb9.get_team_context(home)
-            _bk_h = _pb9.booking_probability(home, 1.8, opp_context=_opp_h9, limit=5)
-            _bk_a = _pb9.booking_probability(away, 1.8, opp_context=_opp_a9, limit=5)
+            _exp_h9 = _cards_pred.get('home_expected', 1.8) if '_cards_pred' in dir() else 1.8
+            _exp_a9 = _cards_pred.get('away_expected', 1.8) if '_cards_pred' in dir() else 1.8
+            _bk_h = _pb9.booking_probability(home, _exp_h9, opp_context=_opp_h9, limit=5)
+            _bk_a = _pb9.booking_probability(away, _exp_a9, opp_context=_opp_a9, limit=5)
             c1, c2 = st.columns(2)
             with c1:
                 st.caption(f"🟨 Ammoniti {home}")
@@ -826,12 +830,12 @@ if page == "🔮 Predizione":
                         n_saved = add_bets(home, away, match_date, star_vbs, round_num=_round)
                         if n_saved > 0:
                             st.toast(f"💾 {n_saved} giocate salvate nel tracker", icon="✅")
-                        # Invia anche su Telegram
-                        try:
-                            from utils.telegram_bot import send_value_bet_alert
-                            send_value_bet_alert(home, away, match_date, star_vbs, {})
-                        except Exception as _tge:
-                            pass
+                            # Invia su Telegram solo se ci sono nuove giocate
+                            try:
+                                from utils.telegram_bot import send_value_bet_alert
+                                send_value_bet_alert(home, away, match_date, star_vbs, {})
+                            except Exception as _tge:
+                                pass
                             pass
                 except Exception as _te:
                     pass
