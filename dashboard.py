@@ -359,11 +359,11 @@ if page == "🔮 Predizione":
                                 _ce=_eq.get("ce"); _q=round(_eq.get("q",0)/100,2)
                                 _csn=str(_eq.get("csn",""))
                                 if _q>1:
-                                    for _s,_k1,_k2 in [("85","corner_over85","corner_under85"),("95","corner_over95","corner_under95"),("105","corner_over105","corner_under105")]:
+                                    for _s,_k1,_k2 in [("75","corn_over75","corn_under75"),("85","corn_over85","corn_under85"),("95","corn_over95","corn_under95"),("105","corn_over105","corn_under105"),("115","corn_over115","corn_under115")]:
                                         if _s in _csn:
                                             if _ce==1: _new_odds[_k1]=_q
                                             elif _ce==2: _new_odds[_k2]=_q
-                    if any("corner" in k for k in _new_odds): _loaded.append("Corner")
+                    if any(k.startswith("corn_") for k in _new_odds): _loaded.append("Corner")
 
                 # U/O Cartellini (id=1690)
                 _r4 = _req.get("http://localhost:8000/marathonbet/serie-a-bet/pre-match/eventi?id_aggregata=1690",timeout=10).json()
@@ -376,7 +376,7 @@ if page == "🔮 Predizione":
                                 _ce=_eq.get("ce"); _q=round(_eq.get("q",0)/100,2)
                                 _csn=str(_eq.get("csn",""))
                                 if _q>1:
-                                    for _s,_k1,_k2 in [("25","cards_over25","cards_under25"),("35","cards_over35","cards_under35"),("45","cards_over45","cards_under45")]:
+                                    for _s,_k1,_k2 in [("25","cards_over25","cards_under25"),("35","cards_over35","cards_under35"),("45","cards_over45","cards_under45"),("55","cards_over55","cards_under55")]:
                                         if _s in _csn:
                                             if _ce==1: _new_odds[_k1]=_q
                                             elif _ce==2: _new_odds[_k2]=_q
@@ -699,6 +699,29 @@ if page == "🔮 Predizione":
             c4.metric("Over 2.5",   f"{preds['prob_over25']*100:.1f}%")
             c5.metric("Goal/Goal",  f"{preds['prob_gg']*100:.1f}%")
             c6.metric("Gialli attesi", f"{cards_preds['cards_lambda']:.1f}")
+
+            # ── Riepilogo compatto: migliori value bet a colpo d'occhio ─────────
+            _summary_odds = odds_clean if odds_clean else {k: v for k, v in {
+                "H": pinnacle_odds.get("H"), "D": pinnacle_odds.get("D"), "A": pinnacle_odds.get("A"),
+            }.items() if v and v > 1.0} if pinnacle_odds else {}
+            if _summary_odds:
+                try:
+                    _vbs_preview = find_value_bets_extended(preds, _summary_odds, min_edge=min_edge, bankroll=bankroll)
+                    _top_vbs = sorted([v for v in _vbs_preview if v.get("edge_%", 0) > 0],
+                                       key=lambda v: -v.get("edge_%", 0))[:3]
+                    if _top_vbs:
+                        st.markdown("**🎯 Migliori value bet**")
+                        _vb_cols = st.columns(len(_top_vbs))
+                        for _col, v in zip(_vb_cols, _top_vbs):
+                            _badge = "🟢" if v.get("affidabile") else "🟡"
+                            _col.metric(f"{_badge} {v.get('mercato','?')}", f"@ {v.get('quota','?')}",
+                                        f"+{v.get('edge_%',0):.0f}% edge")
+                    else:
+                        st.caption("🎯 Nessuna value bet sopra la soglia minima con le quote inserite finora")
+                except Exception:
+                    pass
+            else:
+                st.caption("🎯 Inserisci le quote nei tab qui sotto per vedere le migliori value bet a colpo d'occhio")
 
             # ── Tabella quote eque ────────────────────────────────────────────
             st.subheader("📐 Quote eque del modello")
