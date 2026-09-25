@@ -78,6 +78,15 @@ def load_player_stats_builder():
     from models.player_stats import PlayerStatsBuilder
     return PlayerStatsBuilder()
 
+@st.cache_data(ttl=300, show_spinner=False)
+def _cached_injuries(team):
+    return api_get_injuries(team)
+
+@st.cache_data(ttl=300, show_spinner=False)
+def _cached_pinnacle_odds(home, away):
+    from data.odds_tracker import get_odds_for_match
+    return get_odds_for_match(home, away)
+
 @st.cache_resource(show_spinner="Caricamento modello in corso...")
 def load_model():
     import pickle
@@ -704,8 +713,8 @@ if page == "🔮 Predizione":
         # Scarica quote Pinnacle automaticamente
         # Infortuni dal backend
         if BACKEND_CLIENT_OK and is_backend_available():
-            infortuni_home = api_get_injuries(home)
-            infortuni_away = api_get_injuries(away)
+            infortuni_home = _cached_injuries(home)
+            infortuni_away = _cached_injuries(away)
             if infortuni_home or infortuni_away:
                 st.warning(f"🏥 Infortuni: " +
                     (f"{home}: {', '.join(i['player'] + ' (' + i['status'] + ')' for i in infortuni_home)}" if infortuni_home else "") +
@@ -714,8 +723,7 @@ if page == "🔮 Predizione":
 
         pinnacle_odds = {}
         try:
-            from data.odds_tracker import get_odds_for_match
-            pinnacle_odds = get_odds_for_match(home, away)
+            pinnacle_odds = _cached_pinnacle_odds(home, away)
         except Exception as e:
             st.caption(f"⚠️ Errore quote Pinnacle: {e}")
         if pinnacle_odds:
