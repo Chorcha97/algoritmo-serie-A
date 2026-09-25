@@ -82,6 +82,17 @@ def run_weekly_update():
     except Exception as e:
         print(f"  [WARN] Calendario: {e}")
 
+    # 4c. Aggiorna le rose ufficiali (giocatori attuali per squadra) da Sofascore.
+    # Prima non veniva mai fatto: cache/rosters_2627.json era stato generato una
+    # tantum a mano e restava congelato alla formazione di inizio stagione,
+    # ignorando i trasferimenti successivi (vedi utils/update_rosters.py).
+    print("\n[3f/4] Aggiorno rose giocatori...")
+    try:
+        from utils.update_rosters import update_rosters
+        update_rosters()
+    except Exception as e:
+        print(f"  [WARN] Rose giocatori: {e}")
+
 
     # 4b. Aggiorna statistiche Opta (xG, gol, tiri per squadra e giocatore)
     print("[3d/4] Aggiorno statistiche Opta...")

@@ -136,6 +136,11 @@ async def get_statistics_overall(request: Request, team_id: int):
 async def get_featured_players(request: Request, team_id: int):
     return await get_helper_team(request, endpoint=f"featured-players", team_id=team_id)
 
+@router.get("/serie-a/squad")
+async def get_squad(request: Request, team_id: int):
+    """Rosa completa della squadra (usata per riaggiornare cache/rosters_2627.json)."""
+    return await get_helper_team(request, endpoint="players", team_id=team_id)
+
 @router.get("/serie-a/team-statistics/seasons")
 async def get_team_statistics(request: Request, team_id: int):
      return await get_helper_team(request, endpoint=f"team-statistics/seasons", team_id=team_id)
