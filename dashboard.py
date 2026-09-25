@@ -73,6 +73,11 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
+@st.cache_resource(show_spinner="Caricamento statistiche giocatori...")
+def load_player_stats_builder():
+    from models.player_stats import PlayerStatsBuilder
+    return PlayerStatsBuilder()
+
 @st.cache_resource(show_spinner="Caricamento modello in corso...")
 def load_model():
     import pickle
@@ -550,12 +555,11 @@ if page == "🔮 Predizione":
     # ── TAB 8: Marcatori top 5 ────────────────────────────────────────────────
     with tab8:
         try:
-            from models.player_stats import PlayerStatsBuilder
-            _pb8 = PlayerStatsBuilder()
+            _pb8 = load_player_stats_builder()
             _opp_h = _pb8.get_team_context(away)
             _opp_a = _pb8.get_team_context(home)
-            _xg_h8 = _lam_h or 1.4
-            _xg_a8 = _lam_a or 1.2
+            _xg_h8 = 1.4
+            _xg_a8 = 1.2
             _sc_h = _pb8.scorer_probability(home, _xg_h8, opp_context=_opp_h, limit=5)
             _sc_a = _pb8.scorer_probability(away, _xg_a8, opp_context=_opp_a, limit=5)
             c1, c2 = st.columns(2)
@@ -577,12 +581,16 @@ if page == "🔮 Predizione":
     # ── TAB 9: Ammoniti top 5 ────────────────────────────────────────────────
     with tab9:
         try:
-            from models.player_stats import PlayerStatsBuilder
-            _pb9 = PlayerStatsBuilder()
+            from models.cards_model import CardsModel
+            _pb9 = load_player_stats_builder()
             _opp_h9 = _pb9.get_team_context(away)
             _opp_a9 = _pb9.get_team_context(home)
-            _exp_h9 = _cards_pred.get('home_expected', 1.8) if '_cards_pred' in dir() else 1.8
-            _exp_a9 = _cards_pred.get('away_expected', 1.8) if '_cards_pred' in dir() else 1.8
+            try:
+                _cp9 = CardsModel(df_raw).predict(home, away, referee if referee else None)
+                _exp_h9 = _cp9.get('home_expected', 1.8)
+                _exp_a9 = _cp9.get('away_expected', 1.8)
+            except Exception:
+                _exp_h9, _exp_a9 = 1.8, 1.8
             _bk_h = _pb9.booking_probability(home, _exp_h9, opp_context=_opp_h9, limit=5)
             _bk_a = _pb9.booking_probability(away, _exp_a9, opp_context=_opp_a9, limit=5)
             c1, c2 = st.columns(2)
@@ -660,11 +668,11 @@ if page == "🔮 Predizione":
             # Aggiustamento arbitro Serie A
             try:
                 from models.referee import get_referee_adjustments
-                ref_adj = get_referee_adjustments(selected_referee)
+                ref_adj = get_referee_adjustments(referee)
                 if ref_adj["affidabile"]:
                     cards_mult = ref_adj["cards_mult"]
                     gialli_att = ref_adj["gialli_attesi"]
-                    st.caption(f"👨‍⚖️ {selected_referee}: {gialli_att:.1f} gialli/p "
+                    st.caption(f"👨‍⚖️ {referee}: {gialli_att:.1f} gialli/p "
                               f"(media Serie A: 4.18) — moltiplicatore: {cards_mult:.2f}x")
                     # Aggiusta probabilità cartellini
                     for key in ["prob_cards_over25","prob_cards_over35",
@@ -844,12 +852,13 @@ if page == "🔮 Predizione":
                     from models.corner_model import CornerModel
                     from models.cards_model import CardsModel
                     from models.multigoal import multigoal_probs as mg_probs, score_matrix
-                    from models.player_stats import PlayerStatsBuilder
                     from components.match_analysis import render_compact_analysis
 
                     _corner_model = CornerModel(df_raw)
                     _cards_model = CardsModel(df_raw, ref_stats if ref_adj.get('affidabile') else None)
-                    _player_builder = PlayerStatsBuilder()
+                    _player_builder = load_player_stats_builder()
+                    _opp_ctx_home = _player_builder.get_team_context(away)
+                    _opp_ctx_away = _player_builder.get_team_context(home)
 
                     _corner_pred = _corner_model.predict(home, away)
                     _cards_pred = _cards_model.predict(home, away, referee if referee else None)
@@ -900,8 +909,8 @@ if page == "🔮 Predizione":
                         away_scorers=_away_scorers,
                         home_bookings=_home_bookings,
                         away_bookings=_away_bookings,
-                        opp_ctx_home=_opp_ctx_home if "_opp_ctx_home" in dir() else None,
-                        opp_ctx_away=_opp_ctx_away if "_opp_ctx_away" in dir() else None,
+                        opp_ctx_home=_opp_ctx_home,
+                        opp_ctx_away=_opp_ctx_away,
                     )
                 except Exception as _upgrade_err:
                     pass  # Fall back silenzioso se i nuovi modelli non caricano

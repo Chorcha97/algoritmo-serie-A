@@ -13,6 +13,7 @@ from pathlib import Path
 from datetime import datetime
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
+BASE_DIR = str(Path(__file__).parent.parent)
 
 from data.pipeline import build_dataset
 from models.features import build_features
@@ -72,6 +73,14 @@ def run_weekly_update():
     # 4. Aggiorna classifica da football-data.org
     print("\n[3c/4] Aggiorno classifica Serie A...")
     update_standings_from_api()
+
+    # 4b. Aggiorna calendario con orari ufficiali Sofascore
+    print("\n[3e/4] Aggiorno calendario orari Sofascore...")
+    try:
+        from utils.update_calendario_sofascore import update_calendario
+        update_calendario()
+    except Exception as e:
+        print(f"  [WARN] Calendario: {e}")
 
 
     # 4b. Aggiorna statistiche Opta (xG, gol, tiri per squadra e giocatore)
@@ -251,14 +260,6 @@ def update_standings_from_api():
         return {}
 
 
-
-    # [4/4] Aggiorna calendario con orari ufficiali Sofascore
-    print("\n[4/4] Calendario orari...")
-    try:
-        from update_calendario_sofascore import update_calendario
-        update_calendario()
-    except Exception as e:
-        print(f"  [WARN] Calendario: {e}")
 
 if __name__ == "__main__":
     run_weekly_update()

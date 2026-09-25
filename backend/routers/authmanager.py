@@ -36,23 +36,5 @@ class ExternalAPIAuth:
         print(response.json())
         return response.json()
 
-        async with httpx.AsyncClient() as client:
-            response = await client.post(
-                f"{self.api_url}/login",
-                json={"username": username, "password": password}
-            )
-            if response.status_code == status.HTTP_200_OK:
-                data = response.json()
-
-                self.token = data.get('data').get('token')
-                # Imposta scadenza (es. 1 ora)
-                self.token_expiry = datetime.now() + timedelta(hours=1)
-
-                return self.token
-            else:
-                raise HTTPException(
-                    status_code=status.HTTP_401_UNAUTHORIZED, detail='Could not validate credentials'
-                )
-
 # Singleton instance
 auth_manager = ExternalAPIAuth()

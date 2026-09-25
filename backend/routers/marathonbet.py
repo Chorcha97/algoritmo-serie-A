@@ -8,14 +8,14 @@ from typing import Any, List
 from backend.routers.authmanager import auth_manager
 from pydantic import BaseModel
 
+class SubMenuItem(BaseModel):
+    id: int
+    name: str
+
 class MenuItem(BaseModel):
     id: int
     name: str
     submenu: List[SubMenuItem] | None
-
-class SubMenuItem(BaseModel):
-    id: int
-    name: str
 
 load_dotenv()
 
