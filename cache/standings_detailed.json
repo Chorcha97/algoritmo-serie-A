@@ -322,28 +322,48 @@
     }
   ],
   "stats": {
-    "Roma": {
+    "Parma": {
+      "home_w": 0,
+      "home_d": 1,
+      "home_l": 1,
+      "home_gf": 1,
+      "home_ga": 2,
+      "away_w": 0,
+      "away_d": 0,
+      "away_l": 2,
+      "away_gf": 1,
+      "away_ga": 4,
+      "form": [
+        "L",
+        "L",
+        "D",
+        "L"
+      ]
+    },
+    "Cagliari": {
       "home_w": 1,
       "home_d": 0,
-      "home_l": 0,
-      "home_gf": 4,
-      "home_ga": 0,
-      "away_w": 1,
+      "home_l": 1,
+      "home_gf": 1,
+      "home_ga": 1,
+      "away_w": 2,
       "away_d": 0,
       "away_l": 0,
-      "away_gf": 4,
-      "away_ga": 0,
+      "away_gf": 3,
+      "away_ga": 1,
       "form": [
+        "W",
+        "L",
         "W",
         "W"
       ]
     },
     "Inter": {
-      "home_w": 1,
+      "home_w": 3,
       "home_d": 0,
       "home_l": 0,
-      "home_gf": 4,
-      "home_ga": 1,
+      "home_gf": 12,
+      "home_ga": 6,
       "away_w": 1,
       "away_d": 0,
       "away_l": 0,
@@ -351,279 +371,9 @@
       "away_ga": 0,
       "form": [
         "W",
-        "W"
-      ]
-    },
-    "Milan": {
-      "home_w": 1,
-      "home_d": 0,
-      "home_l": 0,
-      "home_gf": 2,
-      "home_ga": 0,
-      "away_w": 1,
-      "away_d": 0,
-      "away_l": 0,
-      "away_gf": 2,
-      "away_ga": 1,
-      "form": [
+        "W",
         "W",
         "W"
-      ]
-    },
-    "Como": {
-      "home_w": 0,
-      "home_d": 0,
-      "home_l": 0,
-      "home_gf": 0,
-      "home_ga": 0,
-      "away_w": 1,
-      "away_d": 1,
-      "away_l": 0,
-      "away_gf": 3,
-      "away_ga": 2,
-      "form": [
-        "D",
-        "W"
-      ]
-    },
-    "Napoli": {
-      "home_w": 0,
-      "home_d": 0,
-      "home_l": 1,
-      "home_gf": 1,
-      "home_ga": 2,
-      "away_w": 1,
-      "away_d": 0,
-      "away_l": 0,
-      "away_gf": 2,
-      "away_ga": 0,
-      "form": [
-        "W",
-        "L"
-      ]
-    },
-    "Atalanta": {
-      "home_w": 2,
-      "home_d": 0,
-      "home_l": 0,
-      "home_gf": 3,
-      "home_ga": 1,
-      "away_w": 0,
-      "away_d": 0,
-      "away_l": 0,
-      "away_gf": 0,
-      "away_ga": 0,
-      "form": [
-        "W",
-        "W"
-      ]
-    },
-    "Juventus": {
-      "home_w": 1,
-      "home_d": 0,
-      "home_l": 0,
-      "home_gf": 2,
-      "home_ga": 0,
-      "away_w": 1,
-      "away_d": 0,
-      "away_l": 0,
-      "away_gf": 1,
-      "away_ga": 0,
-      "form": [
-        "W",
-        "W"
-      ]
-    },
-    "Fiorentina": {
-      "home_w": 0,
-      "home_d": 0,
-      "home_l": 1,
-      "home_gf": 0,
-      "home_ga": 3,
-      "away_w": 0,
-      "away_d": 0,
-      "away_l": 1,
-      "away_gf": 0,
-      "away_ga": 4,
-      "form": [
-        "L",
-        "L"
-      ]
-    },
-    "Lazio": {
-      "home_w": 1,
-      "home_d": 0,
-      "home_l": 0,
-      "home_gf": 1,
-      "home_ga": 0,
-      "away_w": 1,
-      "away_d": 0,
-      "away_l": 0,
-      "away_gf": 1,
-      "away_ga": 0,
-      "form": [
-        "W",
-        "W"
-      ]
-    },
-    "Bologna": {
-      "home_w": 0,
-      "home_d": 0,
-      "home_l": 1,
-      "home_gf": 0,
-      "home_ga": 1,
-      "away_w": 0,
-      "away_d": 0,
-      "away_l": 1,
-      "away_gf": 0,
-      "away_ga": 1,
-      "form": [
-        "L",
-        "L"
-      ]
-    },
-    "Sassuolo": {
-      "home_w": 1,
-      "home_d": 0,
-      "home_l": 0,
-      "home_gf": 2,
-      "home_ga": 1,
-      "away_w": 0,
-      "away_d": 0,
-      "away_l": 1,
-      "away_gf": 1,
-      "away_ga": 2,
-      "form": [
-        "L",
-        "W"
-      ]
-    },
-    "Parma": {
-      "home_w": 0,
-      "home_d": 0,
-      "home_l": 1,
-      "home_gf": 0,
-      "home_ga": 1,
-      "away_w": 0,
-      "away_d": 0,
-      "away_l": 1,
-      "away_gf": 0,
-      "away_ga": 2,
-      "form": [
-        "L",
-        "L"
-      ]
-    },
-    "Genoa": {
-      "home_w": 0,
-      "home_d": 0,
-      "home_l": 1,
-      "home_gf": 0,
-      "home_ga": 2,
-      "away_w": 0,
-      "away_d": 0,
-      "away_l": 1,
-      "away_gf": 0,
-      "away_ga": 1,
-      "form": [
-        "L",
-        "L"
-      ]
-    },
-    "Udinese": {
-      "home_w": 0,
-      "home_d": 1,
-      "home_l": 0,
-      "home_gf": 1,
-      "home_ga": 1,
-      "away_w": 1,
-      "away_d": 0,
-      "away_l": 0,
-      "away_gf": 3,
-      "away_ga": 2,
-      "form": [
-        "D",
-        "W"
-      ]
-    },
-    "Torino": {
-      "home_w": 0,
-      "home_d": 0,
-      "home_l": 1,
-      "home_gf": 1,
-      "home_ga": 2,
-      "away_w": 0,
-      "away_d": 0,
-      "away_l": 1,
-      "away_gf": 1,
-      "away_ga": 2,
-      "form": [
-        "L",
-        "L"
-      ]
-    },
-    "Cagliari": {
-      "home_w": 0,
-      "home_d": 0,
-      "home_l": 1,
-      "home_gf": 0,
-      "home_ga": 1,
-      "away_w": 1,
-      "away_d": 0,
-      "away_l": 0,
-      "away_gf": 1,
-      "away_ga": 0,
-      "form": [
-        "W",
-        "L"
-      ]
-    },
-    "Venezia": {
-      "home_w": 0,
-      "home_d": 0,
-      "home_l": 1,
-      "home_gf": 0,
-      "home_ga": 2,
-      "away_w": 0,
-      "away_d": 0,
-      "away_l": 1,
-      "away_gf": 0,
-      "away_ga": 2,
-      "form": [
-        "L",
-        "L"
-      ]
-    },
-    "Frosinone": {
-      "home_w": 0,
-      "home_d": 0,
-      "home_l": 1,
-      "home_gf": 0,
-      "home_ga": 1,
-      "away_w": 1,
-      "away_d": 0,
-      "away_l": 0,
-      "away_gf": 3,
-      "away_ga": 0,
-      "form": [
-        "L",
-        "W"
-      ]
-    },
-    "Lecce": {
-      "home_w": 0,
-      "home_d": 0,
-      "home_l": 1,
-      "home_gf": 0,
-      "home_ga": 4,
-      "away_w": 1,
-      "away_d": 0,
-      "away_l": 0,
-      "away_gf": 2,
-      "away_ga": 0,
-      "form": [
-        "W",
-        "L"
       ]
     },
     "Monza": {
@@ -633,13 +383,303 @@
       "home_gf": 2,
       "home_ga": 3,
       "away_w": 0,
+      "away_d": 1,
+      "away_l": 2,
+      "away_gf": 4,
+      "away_ga": 8,
+      "form": [
+        "L",
+        "L",
+        "D",
+        "L"
+      ]
+    },
+    "Genoa": {
+      "home_w": 0,
+      "home_d": 1,
+      "home_l": 2,
+      "home_gf": 2,
+      "home_ga": 7,
+      "away_w": 0,
+      "away_d": 0,
+      "away_l": 1,
+      "away_gf": 0,
+      "away_ga": 1,
+      "form": [
+        "L",
+        "L",
+        "L",
+        "D"
+      ]
+    },
+    "Napoli": {
+      "home_w": 1,
+      "home_d": 0,
+      "home_l": 1,
+      "home_gf": 2,
+      "home_ga": 2,
+      "away_w": 1,
+      "away_d": 0,
+      "away_l": 1,
+      "away_gf": 4,
+      "away_ga": 3,
+      "form": [
+        "W",
+        "L",
+        "L",
+        "W"
+      ]
+    },
+    "Udinese": {
+      "home_w": 0,
+      "home_d": 1,
+      "home_l": 1,
+      "home_gf": 2,
+      "home_ga": 3,
+      "away_w": 1,
+      "away_d": 0,
+      "away_l": 1,
+      "away_gf": 6,
+      "away_ga": 7,
+      "form": [
+        "D",
+        "W",
+        "L",
+        "L"
+      ]
+    },
+    "Como": {
+      "home_w": 1,
+      "home_d": 0,
+      "home_l": 0,
+      "home_gf": 2,
+      "home_ga": 1,
+      "away_w": 2,
+      "away_d": 1,
+      "away_l": 0,
+      "away_gf": 7,
+      "away_ga": 3,
+      "form": [
+        "D",
+        "W",
+        "W",
+        "W"
+      ]
+    },
+    "Torino": {
+      "home_w": 0,
+      "home_d": 0,
+      "home_l": 2,
+      "home_gf": 1,
+      "home_ga": 4,
+      "away_w": 1,
+      "away_d": 0,
+      "away_l": 1,
+      "away_gf": 3,
+      "away_ga": 3,
+      "form": [
+        "L",
+        "L",
+        "W",
+        "L"
+      ]
+    },
+    "Milan": {
+      "home_w": 1,
+      "home_d": 0,
+      "home_l": 0,
+      "home_gf": 2,
+      "home_ga": 0,
+      "away_w": 1,
+      "away_d": 2,
+      "away_l": 0,
+      "away_gf": 5,
+      "away_ga": 4,
+      "form": [
+        "W",
+        "W",
+        "D",
+        "D"
+      ]
+    },
+    "Venezia": {
+      "home_w": 0,
+      "home_d": 0,
+      "home_l": 2,
+      "home_gf": 2,
+      "home_ga": 6,
+      "away_w": 0,
+      "away_d": 0,
+      "away_l": 2,
+      "away_gf": 2,
+      "away_ga": 5,
+      "form": [
+        "L",
+        "L",
+        "L",
+        "L"
+      ]
+    },
+    "Lecce": {
+      "home_w": 1,
+      "home_d": 0,
+      "home_l": 1,
+      "home_gf": 3,
+      "home_ga": 6,
+      "away_w": 1,
+      "away_d": 0,
+      "away_l": 1,
+      "away_gf": 2,
+      "away_ga": 1,
+      "form": [
+        "W",
+        "L",
+        "L",
+        "W"
+      ]
+    },
+    "Frosinone": {
+      "home_w": 1,
+      "home_d": 0,
+      "home_l": 1,
+      "home_gf": 3,
+      "home_ga": 3,
+      "away_w": 1,
+      "away_d": 1,
+      "away_l": 0,
+      "away_gf": 4,
+      "away_ga": 1,
+      "form": [
+        "L",
+        "W",
+        "W",
+        "D"
+      ]
+    },
+    "Juventus": {
+      "home_w": 1,
+      "home_d": 1,
+      "home_l": 0,
+      "home_gf": 3,
+      "home_ga": 1,
+      "away_w": 1,
+      "away_d": 0,
+      "away_l": 1,
+      "away_gf": 3,
+      "away_ga": 3,
+      "form": [
+        "W",
+        "W",
+        "D",
+        "L"
+      ]
+    },
+    "Atalanta": {
+      "home_w": 2,
+      "home_d": 0,
+      "home_l": 1,
+      "home_gf": 4,
+      "home_ga": 3,
+      "away_w": 0,
       "away_d": 0,
       "away_l": 1,
       "away_gf": 1,
+      "away_ga": 2,
+      "form": [
+        "W",
+        "W",
+        "L",
+        "L"
+      ]
+    },
+    "Sassuolo": {
+      "home_w": 2,
+      "home_d": 0,
+      "home_l": 0,
+      "home_gf": 5,
+      "home_ga": 3,
+      "away_w": 0,
+      "away_d": 1,
+      "away_l": 1,
+      "away_gf": 3,
       "away_ga": 4,
       "form": [
         "L",
+        "W",
+        "D",
+        "W"
+      ]
+    },
+    "Bologna": {
+      "home_w": 0,
+      "home_d": 1,
+      "home_l": 1,
+      "home_gf": 2,
+      "home_ga": 3,
+      "away_w": 0,
+      "away_d": 0,
+      "away_l": 2,
+      "away_gf": 0,
+      "away_ga": 2,
+      "form": [
+        "L",
+        "L",
+        "D",
         "L"
+      ]
+    },
+    "Lazio": {
+      "home_w": 1,
+      "home_d": 1,
+      "home_l": 0,
+      "home_gf": 3,
+      "home_ga": 2,
+      "away_w": 2,
+      "away_d": 0,
+      "away_l": 0,
+      "away_gf": 3,
+      "away_ga": 1,
+      "form": [
+        "W",
+        "W",
+        "W",
+        "D"
+      ]
+    },
+    "Roma": {
+      "home_w": 2,
+      "home_d": 0,
+      "home_l": 0,
+      "home_gf": 6,
+      "home_ga": 1,
+      "away_w": 2,
+      "away_d": 0,
+      "away_l": 0,
+      "away_gf": 6,
+      "away_ga": 0,
+      "form": [
+        "W",
+        "W",
+        "W",
+        "W"
+      ]
+    },
+    "Fiorentina": {
+      "home_w": 0,
+      "home_d": 0,
+      "home_l": 2,
+      "home_gf": 1,
+      "home_ga": 5,
+      "away_w": 1,
+      "away_d": 0,
+      "away_l": 1,
+      "away_gf": 4,
+      "away_ga": 6,
+      "form": [
+        "L",
+        "L",
+        "L",
+        "W"
       ]
     }
   }

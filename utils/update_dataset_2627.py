@@ -132,6 +132,38 @@ def update_dataset_2627():
     print(f"  Over 2.5 stagione corrente: {o25:.0f}%")
 
 
+def _rebuild_home_away_stats(df_curr):
+    """Ricostruisce lo split casa/trasferta e la forma (ordine cronologico)
+    per ogni squadra, dai risultati reali. Sostituisce lo snapshot 'stats'
+    di standings_detailed.json, che altrimenti resta congelato a quando
+    fu generato manualmente la prima volta (causa dello scostamento tra
+    Totale e Casa+Trasferta segnalato)."""
+    df_sorted = df_curr.sort_values('Date')
+    stats = {}
+    for _, r in df_sorted.iterrows():
+        h, a = r['HomeTeam'], r['AwayTeam']
+        hg, ag = int(r['FTHG']), int(r['FTAG'])
+        for team, is_home, gf, ga in [(h, True, hg, ag), (a, False, ag, hg)]:
+            st = stats.setdefault(team, {
+                'home_w': 0, 'home_d': 0, 'home_l': 0, 'home_gf': 0, 'home_ga': 0,
+                'away_w': 0, 'away_d': 0, 'away_l': 0, 'away_gf': 0, 'away_ga': 0,
+                'form': [],
+            })
+            pfx = 'home' if is_home else 'away'
+            st[f'{pfx}_gf'] += gf
+            st[f'{pfx}_ga'] += ga
+            if gf > ga:
+                st[f'{pfx}_w'] += 1
+                st['form'].append('W')
+            elif gf == ga:
+                st[f'{pfx}_d'] += 1
+                st['form'].append('D')
+            else:
+                st[f'{pfx}_l'] += 1
+                st['form'].append('L')
+    return stats
+
+
 def update_standings_from_results():
     """Aggiorna la classifica dai risultati 2026/27 nel dataset."""
     import json
@@ -150,6 +182,10 @@ def update_standings_from_results():
     df_curr = df[df['season'] == '2026-27'].copy()
     if df_curr.empty:
         return
+
+    # Ricostruisce anche lo split casa/trasferta + forma, cosi' restano
+    # sempre allineati al Totale invece di restare fermi a uno snapshot vecchio
+    data['stats'] = _rebuild_home_away_stats(df_curr)
 
     # Ricostruisci classifica da zero dai risultati
     teams = set(df_curr['HomeTeam'].tolist() + df_curr['AwayTeam'].tolist())
