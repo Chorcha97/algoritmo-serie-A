@@ -55,7 +55,12 @@ async def get_helper(request: Request, endpoint: str, params: dict | None = None
         #{"Authorization": f"Bearer {token}"},
     )
 
-    return response.json()
+    try:
+        return response.json()
+    except Exception:
+        # Mercato non disponibile per questa partita/tornei: Marathonbet
+        # a volte risponde con un body vuoto invece di un JSON valido.
+        return {"avs": []}
 
 
 def _load_json_field(raw: dict[str, Any], field: str) -> dict[str, Any]:

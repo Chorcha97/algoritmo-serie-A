@@ -399,6 +399,56 @@ if page == "🔮 Predizione":
                                             elif _ce==2: _new_odds[_k2]=_q
                     if any("ht_" in k for k in _new_odds): _loaded.append("HT O/U")
 
+                # 1X2 + DC Primo Tempo (id=341)
+                try:
+                    _r7 = _req.get("http://localhost:8000/marathonbet/serie-a-bet/pre-match/eventi?id_aggregata=341",timeout=10).json()
+                    _p7 = _find_match(_r7.get("avs",[]), _home_mb, _away_mb)
+                    if _p7:
+                        for _sc in _p7.get("scs",[]):
+                            _d = str(_sc.get("d",""))
+                            _eqs = _sc.get("eqs",[])
+                            if _d.startswith("1X2") and len(_eqs)==3:
+                                for _eq in _eqs:
+                                    _ce=_eq.get("ce"); _q=round(_eq.get("q",0)/100,2)
+                                    if _q>1:
+                                        if _ce==1: _new_odds["ht_H"]=_q
+                                        elif _ce==2: _new_odds["ht_D"]=_q
+                                        elif _ce==3: _new_odds["ht_A"]=_q
+                            elif _d.startswith("1X ") and _eqs:
+                                _q = round(_eqs[0].get("q",0)/100,2)
+                                if _q>1: _new_odds["ht_1X"]=_q
+                            elif _d.startswith("X2") and _eqs:
+                                _q = round(_eqs[0].get("q",0)/100,2)
+                                if _q>1: _new_odds["ht_X2"]=_q
+                        if "ht_H" in _new_odds: _loaded.append("1X2+DC 1T")
+                except Exception:
+                    pass
+
+                # 1X2 + DC Secondo Tempo (id=362)
+                try:
+                    _r8 = _req.get("http://localhost:8000/marathonbet/serie-a-bet/pre-match/eventi?id_aggregata=362",timeout=10).json()
+                    _p8 = _find_match(_r8.get("avs",[]), _home_mb, _away_mb)
+                    if _p8:
+                        for _sc in _p8.get("scs",[]):
+                            _d = str(_sc.get("d",""))
+                            _eqs = _sc.get("eqs",[])
+                            if _d.startswith("1X2") and len(_eqs)==3:
+                                for _eq in _eqs:
+                                    _ce=_eq.get("ce"); _q=round(_eq.get("q",0)/100,2)
+                                    if _q>1:
+                                        if _ce==1: _new_odds["st_H"]=_q
+                                        elif _ce==2: _new_odds["st_D"]=_q
+                                        elif _ce==3: _new_odds["st_A"]=_q
+                            elif _d.startswith("1X ") and _eqs:
+                                _q = round(_eqs[0].get("q",0)/100,2)
+                                if _q>1: _new_odds["st_1X"]=_q
+                            elif _d.startswith("X2") and _eqs:
+                                _q = round(_eqs[0].get("q",0)/100,2)
+                                if _q>1: _new_odds["st_X2"]=_q
+                        if "st_H" in _new_odds: _loaded.append("1X2+DC 2T")
+                except Exception:
+                    pass
+
                 # U/O Secondo Tempo (id=2903)
                 try:
                     _r6 = _req.get("http://localhost:8000/marathonbet/serie-a-bet/pre-match/eventi?id_aggregata=2903",timeout=10).json()
