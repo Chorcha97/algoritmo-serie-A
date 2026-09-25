@@ -1,53 +1,11 @@
 {
   "Bologna": {
-    "44906": {
-      "name": "Łukasz Skorupski",
-      "position": "G",
-      "height": 187,
-      "jerseyNumber": "1",
-      "id": 44906
-    },
-    "965264": {
-      "name": "Emil Holm",
-      "position": "D",
-      "height": 191,
-      "jerseyNumber": "2",
-      "id": 965264
-    },
-    "933264": {
-      "name": "Torbjørn Heggem",
-      "position": "D",
-      "height": 192,
-      "jerseyNumber": "14",
-      "id": 933264
-    },
-    "965778": {
-      "name": "Arthur Theate",
-      "position": "D",
-      "height": 186,
-      "jerseyNumber": "3",
-      "id": 965778
-    },
-    "1120504": {
-      "name": "Abdel Rahim",
-      "position": "D",
-      "height": 184,
-      "jerseyNumber": "23",
-      "id": 1120504
-    },
-    "907152": {
-      "name": "Lewis Ferguson",
-      "position": "M",
-      "height": 181,
-      "jerseyNumber": "19",
-      "id": 907152
-    },
-    "928796": {
-      "name": "Tommaso Pobega",
-      "position": "M",
-      "height": 188,
-      "jerseyNumber": "4",
-      "id": 928796
+    "798820": {
+      "name": "Artem Dovbyk",
+      "position": "F",
+      "height": 189,
+      "jerseyNumber": "9",
+      "id": 798820
     },
     "294597": {
       "name": "Federico Bernardeschi",
@@ -56,12 +14,12 @@
       "jerseyNumber": "10",
       "id": 294597
     },
-    "826064": {
-      "name": "Jens Odgaard",
-      "position": "M",
-      "height": 188,
-      "jerseyNumber": "21",
-      "id": 826064
+    "958982": {
+      "name": "Roberto Piccoli",
+      "position": "F",
+      "height": 190,
+      "jerseyNumber": "91",
+      "id": 958982
     },
     "971005": {
       "name": "Nicolò Cambiaghi",
@@ -70,40 +28,26 @@
       "jerseyNumber": "28",
       "id": 971005
     },
-    "958982": {
-      "name": "Roberto Piccoli",
+    "1937553": {
+      "name": "Jay Enem",
       "position": "F",
-      "height": 190,
-      "jerseyNumber": "91",
-      "id": 958982
+      "height": 193,
+      "jerseyNumber": "22",
+      "id": 1937553
     },
-    "855829": {
-      "name": "Juan Miranda",
-      "position": "D",
-      "height": 185,
-      "jerseyNumber": "33",
-      "id": 855829
-    },
-    "1986578": {
-      "name": "Marco Libra",
+    "1127191": {
+      "name": "Oussama El Azzouzi",
       "position": "M",
-      "height": 182,
-      "jerseyNumber": "18",
-      "id": 1986578
-    },
-    "814882": {
-      "name": "Nikola Moro",
-      "position": "M",
-      "height": 182,
-      "jerseyNumber": "6",
-      "id": 814882
-    },
-    "798820": {
-      "name": "Artem Dovbyk",
-      "position": "F",
       "height": 189,
-      "jerseyNumber": "9",
-      "id": 798820
+      "jerseyNumber": "17",
+      "id": 1127191
+    },
+    "793645": {
+      "name": "Riccardo Orsolini",
+      "position": "M",
+      "height": 183,
+      "jerseyNumber": "7",
+      "id": 793645
     },
     "1100836": {
       "name": "Samuel Mbangula",
@@ -112,47 +56,33 @@
       "jerseyNumber": "11",
       "id": 1100836
     },
-    "1526395": {
-      "name": "Ukko Happonen",
-      "position": "G",
-      "height": 193,
-      "jerseyNumber": "72",
-      "id": 1526395
+    "907152": {
+      "name": "Lewis Ferguson",
+      "position": "M",
+      "height": 181,
+      "jerseyNumber": "19",
+      "id": 907152
     },
-    "1530540": {
-      "name": "Massimo Pessina",
-      "position": "G",
-      "height": 186,
-      "jerseyNumber": "25",
-      "id": 1530540
+    "814882": {
+      "name": "Nikola Moro",
+      "position": "M",
+      "height": 182,
+      "jerseyNumber": "6",
+      "id": 814882
     },
-    "1486808": {
-      "name": "Eivind Helland",
-      "position": "D",
-      "height": 196,
-      "jerseyNumber": "5",
-      "id": 1486808
+    "826064": {
+      "name": "Jens Odgaard",
+      "position": "M",
+      "height": 188,
+      "jerseyNumber": "21",
+      "id": 826064
     },
-    "928104": {
-      "name": "Nadir Zortea",
-      "position": "D",
-      "height": 187,
-      "jerseyNumber": "20",
-      "id": 928104
-    },
-    "1085913": {
-      "name": "Martin Vitík",
-      "position": "D",
-      "height": 192,
-      "jerseyNumber": "41",
-      "id": 1085913
-    },
-    "14718": {
-      "name": "Lorenzo De Silvestri",
-      "position": "D",
-      "height": 185,
-      "jerseyNumber": "29",
-      "id": 14718
+    "928796": {
+      "name": "Tommaso Pobega",
+      "position": "M",
+      "height": 188,
+      "jerseyNumber": "4",
+      "id": 928796
     },
     "1510920": {
       "name": "Mikel Amondarain",
@@ -161,12 +91,103 @@
       "jerseyNumber": "8",
       "id": 1510920
     },
-    "1937553": {
-      "name": "Jay Enem",
-      "position": "F",
+    "1986578": {
+      "name": "Marco Libra",
+      "position": "M",
+      "height": 182,
+      "jerseyNumber": "18",
+      "id": 1986578
+    },
+    "1120504": {
+      "name": "Abdel Rahim",
+      "position": "D",
+      "height": 184,
+      "jerseyNumber": "23",
+      "id": 1120504
+    },
+    "965778": {
+      "name": "Arthur Theate",
+      "position": "D",
+      "height": 186,
+      "jerseyNumber": "3",
+      "id": 965778
+    },
+    "855829": {
+      "name": "Juan Miranda",
+      "position": "D",
+      "height": 185,
+      "jerseyNumber": "33",
+      "id": 855829
+    },
+    "933264": {
+      "name": "Torbjørn Heggem",
+      "position": "D",
+      "height": 192,
+      "jerseyNumber": "14",
+      "id": 933264
+    },
+    "965264": {
+      "name": "Emil Holm",
+      "position": "D",
+      "height": 191,
+      "jerseyNumber": "2",
+      "id": 965264
+    },
+    "1085913": {
+      "name": "Martin Vitík",
+      "position": "D",
+      "height": 192,
+      "jerseyNumber": "41",
+      "id": 1085913
+    },
+    "928104": {
+      "name": "Nadir Zortea",
+      "position": "D",
+      "height": 187,
+      "jerseyNumber": "20",
+      "id": 928104
+    },
+    "1486808": {
+      "name": "Eivind Helland",
+      "position": "D",
+      "height": 196,
+      "jerseyNumber": "5",
+      "id": 1486808
+    },
+    "862697": {
+      "name": "Nicolò Casale",
+      "position": "D",
+      "height": 191,
+      "jerseyNumber": "16",
+      "id": 862697
+    },
+    "14718": {
+      "name": "Lorenzo De Silvestri",
+      "position": "D",
+      "height": 185,
+      "jerseyNumber": "29",
+      "id": 14718
+    },
+    "44906": {
+      "name": "Łukasz Skorupski",
+      "position": "G",
+      "height": 187,
+      "jerseyNumber": "1",
+      "id": 44906
+    },
+    "1530540": {
+      "name": "Massimo Pessina",
+      "position": "G",
+      "height": 186,
+      "jerseyNumber": "25",
+      "id": 1530540
+    },
+    "1526395": {
+      "name": "Ukko Happonen",
+      "position": "G",
       "height": 193,
-      "jerseyNumber": "22",
-      "id": 1937553
+      "jerseyNumber": "72",
+      "id": 1526395
     },
     "2223023": {
       "name": "Matteo Franceschelli",
@@ -175,70 +196,35 @@
       "jerseyNumber": "82",
       "id": 2223023
     },
-    "862697": {
-      "name": "Nicolò Casale",
-      "position": "D",
-      "height": 191,
-      "jerseyNumber": "16",
-      "id": 862697
+    "1137364": {
+      "name": "Davide Franzini",
+      "position": "G",
+      "height": 188,
+      "jerseyNumber": "",
+      "id": 1137364
     }
   },
   "Sassuolo": {
-    "888971": {
-      "name": "Arijanet Murić",
-      "position": "G",
-      "height": 198,
-      "jerseyNumber": "49",
-      "id": 888971
-    },
-    "1461516": {
-      "name": "Simone Cinquegrano",
-      "position": "D",
-      "height": 192,
-      "jerseyNumber": "46",
-      "id": 1461516
-    },
-    "933641": {
-      "name": "Jay Idzes",
-      "position": "D",
-      "height": 190,
-      "jerseyNumber": "21",
-      "id": 933641
-    },
-    "1088899": {
-      "name": "Fedde Leysen",
-      "position": "D",
-      "height": 191,
-      "jerseyNumber": "16",
-      "id": 1088899
-    },
-    "989276": {
-      "name": "Josh Doig",
-      "position": "D",
-      "height": 189,
-      "jerseyNumber": "3",
-      "id": 989276
-    },
-    "1149288": {
-      "name": "Vasilije Adžić",
-      "position": "M",
-      "height": 187,
-      "jerseyNumber": "17",
-      "id": 1149288
-    },
-    "44241": {
-      "name": "Nemanja Matić",
-      "position": "M",
-      "height": 194,
-      "jerseyNumber": "18",
-      "id": 44241
-    },
-    "1154898": {
-      "name": "Luca Lipani",
-      "position": "M",
+    "253367": {
+      "name": "Domenico Berardi",
+      "position": "F",
       "height": 185,
-      "jerseyNumber": "35",
-      "id": 1154898
+      "jerseyNumber": "10",
+      "id": 253367
+    },
+    "965008": {
+      "name": "Sebastiano Esposito",
+      "position": "F",
+      "height": 186,
+      "jerseyNumber": "94",
+      "id": 965008
+    },
+    "932643": {
+      "name": "Armand Laurienté",
+      "position": "F",
+      "height": 177,
+      "jerseyNumber": "45",
+      "id": 932643
     },
     "1155625": {
       "name": "Cristian Volpato",
@@ -254,19 +240,61 @@
       "jerseyNumber": "9",
       "id": 983601
     },
-    "932643": {
-      "name": "Armand Laurienté",
+    "1957716": {
+      "name": "Gabriel Kulla",
       "position": "F",
-      "height": 177,
-      "jerseyNumber": "45",
-      "id": 932643
+      "height": 180,
+      "jerseyNumber": "14",
+      "id": 1957716
     },
-    "253367": {
-      "name": "Domenico Berardi",
+    "829581": {
+      "name": "Nicholas Pierini",
       "position": "F",
-      "height": 185,
-      "jerseyNumber": "10",
-      "id": 253367
+      "height": 176,
+      "jerseyNumber": "77",
+      "id": 829581
+    },
+    "1034241": {
+      "name": "Laurs Skjellerup",
+      "position": "F",
+      "height": 192,
+      "jerseyNumber": "19",
+      "id": 1034241
+    },
+    "1134351": {
+      "name": "Ismael Koné",
+      "position": "M",
+      "height": 188,
+      "jerseyNumber": "90",
+      "id": 1134351
+    },
+    "1149288": {
+      "name": "Vasilije Adžić",
+      "position": "M",
+      "height": 187,
+      "jerseyNumber": "17",
+      "id": 1149288
+    },
+    "44241": {
+      "name": "Nemanja Matić",
+      "position": "M",
+      "height": 194,
+      "jerseyNumber": "18",
+      "id": 44241
+    },
+    "1162611": {
+      "name": "Benjamín Domínguez",
+      "position": "M",
+      "height": 172,
+      "jerseyNumber": "25",
+      "id": 1162611
+    },
+    "1142692": {
+      "name": "Rafael Obrador",
+      "position": "M",
+      "height": 181,
+      "jerseyNumber": "33",
+      "id": 1142692
     },
     "105905": {
       "name": "Ibrahim Sulemana",
@@ -282,12 +310,26 @@
       "jerseyNumber": "42",
       "id": 924973
     },
-    "1142692": {
-      "name": "Rafael Obrador",
+    "1823916": {
+      "name": "Darryl Bakola",
       "position": "M",
-      "height": 181,
-      "jerseyNumber": "33",
-      "id": 1142692
+      "height": 178,
+      "jerseyNumber": "50",
+      "id": 1823916
+    },
+    "1154898": {
+      "name": "Luca Lipani",
+      "position": "M",
+      "height": 185,
+      "jerseyNumber": "35",
+      "id": 1154898
+    },
+    "882592": {
+      "name": "Daniel Boloca",
+      "position": "M",
+      "height": 185,
+      "jerseyNumber": "11",
+      "id": 882592
     },
     "928879": {
       "name": "Andrea Ghion",
@@ -295,6 +337,97 @@
       "height": 180,
       "jerseyNumber": "8",
       "id": 928879
+    },
+    "933641": {
+      "name": "Jay Idzes",
+      "position": "D",
+      "height": 190,
+      "jerseyNumber": "21",
+      "id": 933641
+    },
+    "257091": {
+      "name": "Duje Ćaleta-Car",
+      "position": "D",
+      "height": 192,
+      "jerseyNumber": "15",
+      "id": 257091
+    },
+    "886243": {
+      "name": "Sebastian Walukiewicz",
+      "position": "D",
+      "height": 188,
+      "jerseyNumber": "6",
+      "id": 886243
+    },
+    "989186": {
+      "name": "Ignace Van der Brempt",
+      "position": "D",
+      "height": 187,
+      "jerseyNumber": "20",
+      "id": 989186
+    },
+    "989276": {
+      "name": "Josh Doig",
+      "position": "D",
+      "height": 189,
+      "jerseyNumber": "3",
+      "id": 989276
+    },
+    "1088899": {
+      "name": "Fedde Leysen",
+      "position": "D",
+      "height": 191,
+      "jerseyNumber": "16",
+      "id": 1088899
+    },
+    "892430": {
+      "name": "Fali Candé",
+      "position": "D",
+      "height": 184,
+      "jerseyNumber": "5",
+      "id": 892430
+    },
+    "1461516": {
+      "name": "Simone Cinquegrano",
+      "position": "D",
+      "height": 192,
+      "jerseyNumber": "46",
+      "id": 1461516
+    },
+    "1069028": {
+      "name": "Edoardo Pieragnolo",
+      "position": "D",
+      "height": 184,
+      "jerseyNumber": "15",
+      "id": 1069028
+    },
+    "1000252": {
+      "name": "Yeferson Paz",
+      "position": "D",
+      "height": 176,
+      "jerseyNumber": "17",
+      "id": 1000252
+    },
+    "991677": {
+      "name": "Cas Odenthal",
+      "position": "D",
+      "height": 190,
+      "jerseyNumber": "26",
+      "id": 991677
+    },
+    "1493485": {
+      "name": "Giorgio Vezzosi",
+      "position": "D",
+      "height": 187,
+      "jerseyNumber": "36",
+      "id": 1493485
+    },
+    "888971": {
+      "name": "Arijanet Murić",
+      "position": "G",
+      "height": 198,
+      "jerseyNumber": "49",
+      "id": 888971
     },
     "893752": {
       "name": "Stefano Turati",
@@ -310,61 +443,12 @@
       "jerseyNumber": "12",
       "id": 832375
     },
-    "989186": {
-      "name": "Ignace Van der Brempt",
-      "position": "D",
-      "height": 187,
-      "jerseyNumber": "20",
-      "id": 989186
-    },
-    "991677": {
-      "name": "Cas Odenthal",
-      "position": "D",
+    "918862": {
+      "name": "Alessandro Russo",
+      "position": "G",
       "height": 190,
-      "jerseyNumber": "26",
-      "id": 991677
-    },
-    "257091": {
-      "name": "Duje Ćaleta-Car",
-      "position": "D",
-      "height": 192,
-      "jerseyNumber": "15",
-      "id": 257091
-    },
-    "1162611": {
-      "name": "Benjamín Domínguez",
-      "position": "M",
-      "height": 172,
-      "jerseyNumber": "25",
-      "id": 1162611
-    },
-    "965008": {
-      "name": "Sebastiano Esposito",
-      "position": "F",
-      "height": 186,
-      "jerseyNumber": "94",
-      "id": 965008
-    },
-    "1034241": {
-      "name": "Laurs Skjellerup",
-      "position": "F",
-      "height": 192,
-      "jerseyNumber": "19",
-      "id": 1034241
-    },
-    "829581": {
-      "name": "Nicholas Pierini",
-      "position": "F",
-      "height": 176,
-      "jerseyNumber": "77",
-      "id": 829581
-    },
-    "1823916": {
-      "name": "Darryl Bakola",
-      "position": "M",
-      "height": 178,
-      "jerseyNumber": "50",
-      "id": 1823916
+      "jerseyNumber": "",
+      "id": 918862
     },
     "1868065": {
       "name": "Lorenzo Nyarko",
@@ -375,19 +459,110 @@
     }
   },
   "Cagliari": {
-    "947954": {
-      "name": "Elia Caprile",
-      "position": "G",
-      "height": 191,
-      "jerseyNumber": "1",
-      "id": 947954
-    },
-    "945448": {
-      "name": "Zé Pedro",
-      "position": "D",
+    "970928": {
+      "name": "Daniel Maldini",
+      "position": "F",
       "height": 187,
-      "jerseyNumber": "2",
-      "id": 945448
+      "jerseyNumber": "70",
+      "id": 970928
+    },
+    "2049928": {
+      "name": "Paul Mendy",
+      "position": "F",
+      "height": 196,
+      "jerseyNumber": "31",
+      "id": 2049928
+    },
+    "788061": {
+      "name": "M'bala Nzola",
+      "position": "F",
+      "height": 185,
+      "jerseyNumber": "18",
+      "id": 788061
+    },
+    "1031548": {
+      "name": "Alieu Fadera",
+      "position": "F",
+      "height": 181,
+      "jerseyNumber": "39",
+      "id": 1031548
+    },
+    "1035619": {
+      "name": "Kevin Carlos Omoruyi",
+      "position": "F",
+      "height": 188,
+      "jerseyNumber": "9",
+      "id": 1035619
+    },
+    "975811": {
+      "name": "Mattia Felici",
+      "position": "F",
+      "height": 180,
+      "jerseyNumber": "17",
+      "id": 975811
+    },
+    "1615784": {
+      "name": "Yael Trepy",
+      "position": "F",
+      "height": 191,
+      "jerseyNumber": "19",
+      "id": 1615784
+    },
+    "1861673": {
+      "name": "Alessandro Sugamele",
+      "position": "F",
+      "height": 185,
+      "jerseyNumber": "35",
+      "id": 1861673
+    },
+    "1384651": {
+      "name": "Yanis Massolin",
+      "position": "M",
+      "height": 197,
+      "jerseyNumber": "79",
+      "id": 1384651
+    },
+    "545780": {
+      "name": "Harry Winks",
+      "position": "M",
+      "height": 178,
+      "jerseyNumber": "6",
+      "id": 545780
+    },
+    "1417034": {
+      "name": "Alessandro Romano",
+      "position": "M",
+      "height": 180,
+      "jerseyNumber": "4",
+      "id": 1417034
+    },
+    "1012179": {
+      "name": "Jacopo Fazzini",
+      "position": "M",
+      "height": 178,
+      "jerseyNumber": "10",
+      "id": 1012179
+    },
+    "928777": {
+      "name": "Michel Adopo",
+      "position": "M",
+      "height": 187,
+      "jerseyNumber": "8",
+      "id": 928777
+    },
+    "287057": {
+      "name": "Roberto Gagliardini",
+      "position": "M",
+      "height": 188,
+      "jerseyNumber": "21",
+      "id": 287057
+    },
+    "1910527": {
+      "name": "Joseph Liteta",
+      "position": "M",
+      "height": 175,
+      "jerseyNumber": "27",
+      "id": 1910527
     },
     "328109": {
       "name": "Alessandro Deiola",
@@ -395,6 +570,48 @@
       "height": 189,
       "jerseyNumber": "14",
       "id": 328109
+    },
+    "1019953": {
+      "name": "Riccardo Ciervo",
+      "position": "M",
+      "height": 190,
+      "jerseyNumber": "20",
+      "id": 1019953
+    },
+    "1151647": {
+      "name": "Ivan Sulev",
+      "position": "M",
+      "height": 180,
+      "jerseyNumber": "32",
+      "id": 1151647
+    },
+    "1899742": {
+      "name": "Demi Akarakiri",
+      "position": "M",
+      "height": 190,
+      "jerseyNumber": "30",
+      "id": 1899742
+    },
+    "928889": {
+      "name": "Giuseppe Aurelio",
+      "position": "M",
+      "height": 185,
+      "jerseyNumber": "24",
+      "id": 928889
+    },
+    "360396": {
+      "name": "Yerry Mina",
+      "position": "D",
+      "height": 195,
+      "jerseyNumber": "26",
+      "id": 360396
+    },
+    "905347": {
+      "name": "Yukinari Sugawara",
+      "position": "D",
+      "height": 179,
+      "jerseyNumber": "28",
+      "id": 905347
     },
     "1485391": {
       "name": "Juan Rodríguez",
@@ -410,54 +627,19 @@
       "jerseyNumber": "33",
       "id": 964153
     },
-    "928777": {
-      "name": "Michel Adopo",
-      "position": "M",
+    "945448": {
+      "name": "Zé Pedro",
+      "position": "D",
       "height": 187,
-      "jerseyNumber": "8",
-      "id": 928777
+      "jerseyNumber": "2",
+      "id": 945448
     },
-    "1417034": {
-      "name": "Alessandro Romano",
-      "position": "M",
-      "height": 180,
-      "jerseyNumber": "4",
-      "id": 1417034
-    },
-    "545780": {
-      "name": "Harry Winks",
-      "position": "M",
-      "height": 178,
-      "jerseyNumber": "6",
-      "id": 545780
-    },
-    "970928": {
-      "name": "Daniel Maldini",
-      "position": "F",
-      "height": 187,
-      "jerseyNumber": "70",
-      "id": 970928
-    },
-    "1012179": {
-      "name": "Jacopo Fazzini",
-      "position": "M",
-      "height": 178,
-      "jerseyNumber": "10",
-      "id": 1012179
-    },
-    "2049928": {
-      "name": "Paul Mendy",
-      "position": "F",
-      "height": 196,
-      "jerseyNumber": "31",
-      "id": 2049928
-    },
-    "975811": {
-      "name": "Mattia Felici",
-      "position": "F",
-      "height": 180,
-      "jerseyNumber": "17",
-      "id": 975811
+    "1123175": {
+      "name": "Riyad Idrissi",
+      "position": "D",
+      "height": 182,
+      "jerseyNumber": "3",
+      "id": 1123175
     },
     "1392774": {
       "name": "Raphael Kofler",
@@ -466,33 +648,19 @@
       "jerseyNumber": "22",
       "id": 1392774
     },
-    "1031548": {
-      "name": "Alieu Fadera",
-      "position": "F",
+    "1798927": {
+      "name": "Nicola Grandu",
+      "position": "D",
       "height": 181,
-      "jerseyNumber": "39",
-      "id": 1031548
+      "jerseyNumber": "36",
+      "id": 1798927
     },
-    "287057": {
-      "name": "Roberto Gagliardini",
-      "position": "M",
-      "height": 188,
-      "jerseyNumber": "21",
-      "id": 287057
-    },
-    "1861673": {
-      "name": "Alessandro Sugamele",
-      "position": "F",
-      "height": 167,
-      "jerseyNumber": "35",
-      "id": 1861673
-    },
-    "795926": {
-      "name": "Boris Radunović",
+    "947954": {
+      "name": "Elia Caprile",
       "position": "G",
-      "height": 193,
-      "jerseyNumber": "23",
-      "id": 795926
+      "height": 191,
+      "jerseyNumber": "1",
+      "id": 947954
     },
     "363380": {
       "name": "Alen Sherri",
@@ -501,126 +669,28 @@
       "jerseyNumber": "12",
       "id": 363380
     },
-    "1798927": {
-      "name": "Nicola Grandu",
-      "position": "D",
-      "height": 181,
-      "jerseyNumber": "36",
-      "id": 1798927
-    },
-    "1019953": {
-      "name": "Riccardo Ciervo",
-      "position": "M",
-      "height": 190,
-      "jerseyNumber": "20",
-      "id": 1019953
-    },
-    "928889": {
-      "name": "Giuseppe Aurelio",
-      "position": "M",
-      "height": 185,
-      "jerseyNumber": "24",
-      "id": 928889
-    },
-    "1151647": {
-      "name": "Ivan Sulev",
-      "position": "M",
-      "height": 180,
-      "jerseyNumber": "32",
-      "id": 1151647
-    },
-    "1384651": {
-      "name": "Yanis Massolin",
-      "position": "M",
-      "height": 197,
-      "jerseyNumber": "79",
-      "id": 1384651
-    },
-    "1910527": {
-      "name": "Joseph Liteta",
-      "position": "M",
-      "height": 175,
-      "jerseyNumber": "27",
-      "id": 1910527
-    },
-    "1899742": {
-      "name": "Demi Akarakiri",
-      "position": "M",
-      "height": 190,
-      "jerseyNumber": "30",
-      "id": 1899742
-    },
-    "905347": {
-      "name": "Yukinari Sugawara",
-      "position": "D",
-      "height": 179,
-      "jerseyNumber": "28",
-      "id": 905347
-    },
-    "1035619": {
-      "name": "Kevin Carlos Omoruyi",
-      "position": "F",
-      "height": 188,
-      "jerseyNumber": "9",
-      "id": 1035619
-    },
-    "360396": {
-      "name": "Yerry Mina",
-      "position": "D",
-      "height": 195,
-      "jerseyNumber": "26",
-      "id": 360396
+    "795926": {
+      "name": "Boris Radunović",
+      "position": "G",
+      "height": 193,
+      "jerseyNumber": "23",
+      "id": 795926
     }
   },
   "Lecce": {
-    "256667": {
-      "name": "Wladimiro Falcone",
-      "position": "G",
-      "height": 195,
-      "jerseyNumber": "30",
-      "id": 256667
+    "1029748": {
+      "name": "Nikola Štulić",
+      "position": "F",
+      "height": 188,
+      "jerseyNumber": "9",
+      "id": 1029748
     },
-    "1002045": {
-      "name": "Danilo Veiga",
-      "position": "D",
-      "height": 183,
-      "jerseyNumber": "17",
-      "id": 1002045
-    },
-    "1090374": {
-      "name": "Kialonda Gaspar",
-      "position": "D",
-      "height": 193,
-      "jerseyNumber": "4",
-      "id": 1090374
-    },
-    "1651825": {
-      "name": "Tiago Gabriel",
-      "position": "D",
-      "height": 194,
-      "jerseyNumber": "44",
-      "id": 1651825
-    },
-    "945616": {
-      "name": "Antonino Gallo",
-      "position": "D",
-      "height": 183,
-      "jerseyNumber": "25",
-      "id": 945616
-    },
-    "877371": {
-      "name": "Ivan Ilić",
-      "position": "M",
+    "877979": {
+      "name": "Willem Geubbels",
+      "position": "F",
       "height": 185,
-      "jerseyNumber": "20",
-      "id": 877371
-    },
-    "1175854": {
-      "name": "Oumar Ngom",
-      "position": "M",
-      "height": 184,
-      "jerseyNumber": "79",
-      "id": 1175854
+      "jerseyNumber": "69",
+      "id": 877979
     },
     "984998": {
       "name": "Santiago Pierotti",
@@ -629,26 +699,12 @@
       "jerseyNumber": "50",
       "id": 984998
     },
-    "804621": {
-      "name": "Lassana Coulibaly",
-      "position": "M",
-      "height": 183,
-      "jerseyNumber": "29",
-      "id": 804621
-    },
-    "1065154": {
-      "name": "Joël Monteiro",
-      "position": "M",
-      "height": 192,
-      "jerseyNumber": "99",
-      "id": 1065154
-    },
-    "1029748": {
-      "name": "Nikola Štulić",
+    "978327": {
+      "name": "Konan N'Dri",
       "position": "F",
-      "height": 188,
-      "jerseyNumber": "9",
-      "id": 1029748
+      "height": 174,
+      "jerseyNumber": "11",
+      "id": 978327
     },
     "1157829": {
       "name": "Amar Fatah",
@@ -657,12 +713,26 @@
       "jerseyNumber": "7",
       "id": 1157829
     },
-    "1014287": {
-      "name": "Jamil Siebert",
-      "position": "D",
-      "height": 193,
-      "jerseyNumber": "5",
-      "id": 1014287
+    "1417383": {
+      "name": "Paco Esteban",
+      "position": "F",
+      "height": 185,
+      "jerseyNumber": "22",
+      "id": 1417383
+    },
+    "804621": {
+      "name": "Lassana Coulibaly",
+      "position": "M",
+      "height": 183,
+      "jerseyNumber": "29",
+      "id": 804621
+    },
+    "877371": {
+      "name": "Ivan Ilić",
+      "position": "M",
+      "height": 185,
+      "jerseyNumber": "20",
+      "id": 877371
     },
     "849274": {
       "name": "Youssef Maleh",
@@ -671,12 +741,12 @@
       "jerseyNumber": "14",
       "id": 849274
     },
-    "978327": {
-      "name": "Konan N'Dri",
-      "position": "F",
-      "height": 174,
-      "jerseyNumber": "11",
-      "id": 978327
+    "1175854": {
+      "name": "Oumar Ngom",
+      "position": "M",
+      "height": 184,
+      "jerseyNumber": "79",
+      "id": 1175854
     },
     "1142149": {
       "name": "Medon Berisha",
@@ -685,54 +755,26 @@
       "jerseyNumber": "10",
       "id": 1142149
     },
-    "1587294": {
-      "name": "Plamen Penev",
-      "position": "G",
-      "height": 191,
-      "jerseyNumber": "33",
-      "id": 1587294
-    },
-    "307036": {
-      "name": "Marco Bleve",
-      "position": "G",
-      "height": 184,
-      "jerseyNumber": "1",
-      "id": 307036
-    },
-    "981470": {
-      "name": "Corrie Ndaba",
-      "position": "D",
-      "height": 188,
-      "jerseyNumber": "3",
-      "id": 981470
-    },
-    "1392819": {
-      "name": "Gaby Jean",
-      "position": "D",
-      "height": 191,
-      "jerseyNumber": "18",
-      "id": 1392819
-    },
-    "1397347": {
-      "name": "Ali Dembélé",
-      "position": "D",
-      "height": 185,
-      "jerseyNumber": "2",
-      "id": 1397347
-    },
-    "1609269": {
-      "name": "Elijah Scott",
-      "position": "D",
-      "height": 177,
-      "jerseyNumber": "31",
-      "id": 1609269
-    },
     "1019125": {
       "name": "Omri Gandelman",
       "position": "M",
       "height": 188,
       "jerseyNumber": "16",
       "id": 1019125
+    },
+    "1127590": {
+      "name": "Mohamed Kaba",
+      "position": "M",
+      "height": 185,
+      "jerseyNumber": "77",
+      "id": 1127590
+    },
+    "1065154": {
+      "name": "Joël Monteiro",
+      "position": "M",
+      "height": 192,
+      "jerseyNumber": "11",
+      "id": 1065154
     },
     "1130662": {
       "name": "Sadik Fofana",
@@ -748,19 +790,110 @@
       "jerseyNumber": "28",
       "id": 1403088
     },
-    "1417383": {
-      "name": "Paco Esteban",
-      "position": "F",
-      "height": 185,
-      "jerseyNumber": "22",
-      "id": 1417383
-    },
-    "1127590": {
-      "name": "Mohamed Kaba",
+    "1149067": {
+      "name": "Niko Kovač",
       "position": "M",
+      "height": 184,
+      "jerseyNumber": "80",
+      "id": 1149067
+    },
+    "1913702": {
+      "name": "Hjalte Lærke",
+      "position": "M",
+      "height": 187,
+      "jerseyNumber": "34",
+      "id": 1913702
+    },
+    "1402744": {
+      "name": "Marlon Ubani",
+      "position": "M",
+      "height": 186,
+      "jerseyNumber": "",
+      "id": 1402744
+    },
+    "1651825": {
+      "name": "Tiago Gabriel",
+      "position": "D",
+      "height": 194,
+      "jerseyNumber": "44",
+      "id": 1651825
+    },
+    "1090374": {
+      "name": "Kialonda Gaspar",
+      "position": "D",
+      "height": 193,
+      "jerseyNumber": "4",
+      "id": 1090374
+    },
+    "945616": {
+      "name": "Antonino Gallo",
+      "position": "D",
+      "height": 183,
+      "jerseyNumber": "25",
+      "id": 945616
+    },
+    "1002045": {
+      "name": "Danilo Veiga",
+      "position": "D",
+      "height": 183,
+      "jerseyNumber": "17",
+      "id": 1002045
+    },
+    "1014287": {
+      "name": "Jamil Siebert",
+      "position": "D",
+      "height": 193,
+      "jerseyNumber": "5",
+      "id": 1014287
+    },
+    "1397347": {
+      "name": "Ali Dembélé",
+      "position": "D",
       "height": 185,
-      "jerseyNumber": "77",
-      "id": 1127590
+      "jerseyNumber": "2",
+      "id": 1397347
+    },
+    "981470": {
+      "name": "Corrie Ndaba",
+      "position": "D",
+      "height": 188,
+      "jerseyNumber": "3",
+      "id": 981470
+    },
+    "1393594": {
+      "name": "Sebastian Esposito",
+      "position": "D",
+      "height": 188,
+      "jerseyNumber": "15",
+      "id": 1393594
+    },
+    "1392819": {
+      "name": "Gaby Jean",
+      "position": "D",
+      "height": 191,
+      "jerseyNumber": "18",
+      "id": 1392819
+    },
+    "1609269": {
+      "name": "Elijah Scott",
+      "position": "D",
+      "height": 177,
+      "jerseyNumber": "31",
+      "id": 1609269
+    },
+    "1517676": {
+      "name": "Vernon Addo",
+      "position": "D",
+      "height": 188,
+      "jerseyNumber": "42",
+      "id": 1517676
+    },
+    "256667": {
+      "name": "Wladimiro Falcone",
+      "position": "G",
+      "height": 195,
+      "jerseyNumber": "30",
+      "id": 256667
     },
     "1000347": {
       "name": "Alexandru Borbei",
@@ -768,106 +901,36 @@
       "height": 183,
       "jerseyNumber": "32",
       "id": 1000347
+    },
+    "1587294": {
+      "name": "Plamen Penev",
+      "position": "G",
+      "height": 191,
+      "jerseyNumber": "33",
+      "id": 1587294
+    },
+    "307036": {
+      "name": "Marco Bleve",
+      "position": "G",
+      "height": 184,
+      "jerseyNumber": "1",
+      "id": 307036
+    },
+    "1910544": {
+      "name": "Samba Sakho Dramé",
+      "position": "G",
+      "height": 190,
+      "jerseyNumber": "",
+      "id": 1910544
     }
   },
   "Fiorentina": {
-    "69378": {
-      "name": "David De Gea",
-      "position": "G",
-      "height": 192,
-      "jerseyNumber": "43",
-      "id": 69378
-    },
-    "902031": {
-      "name": "João Mário",
-      "position": "D",
-      "height": 178,
-      "jerseyNumber": "17",
-      "id": 902031
-    },
-    "997103": {
-      "name": "Radu Drăguşin",
-      "position": "D",
-      "height": 191,
-      "jerseyNumber": "3",
-      "id": 997103
-    },
-    "1907760": {
-      "name": "Viery",
-      "position": "D",
-      "height": 187,
-      "jerseyNumber": "33",
-      "id": 1907760
-    },
-    "1901143": {
-      "name": "Víctor Valdepeñas",
-      "position": "D",
-      "height": 188,
-      "jerseyNumber": "21",
-      "id": 1901143
-    },
-    "901850": {
-      "name": "Nicolò Fagioli",
-      "position": "M",
-      "height": 178,
-      "jerseyNumber": "44",
-      "id": 901850
-    },
-    "1888002": {
-      "name": "Christ Inao Oulaï",
-      "position": "M",
-      "height": 173,
-      "jerseyNumber": "42",
-      "id": 1888002
-    },
-    "928800": {
-      "name": "Marco Brescianini",
-      "position": "M",
-      "height": 188,
-      "jerseyNumber": "4",
-      "id": 928800
-    },
     "1403559": {
       "name": "Franco Mastantuono",
       "position": "F",
       "height": 177,
       "jerseyNumber": "30",
       "id": 1403559
-    },
-    "1099296": {
-      "name": "Mateo Pellegrino",
-      "position": "F",
-      "height": 192,
-      "jerseyNumber": "32",
-      "id": 1099296
-    },
-    "1493157": {
-      "name": "Alieu Njie",
-      "position": "F",
-      "height": 185,
-      "jerseyNumber": "25",
-      "id": 1493157
-    },
-    "1114422": {
-      "name": "Cher Ndour",
-      "position": "M",
-      "height": 190,
-      "jerseyNumber": "27",
-      "id": 1114422
-    },
-    "1444690": {
-      "name": "Arthur Atta",
-      "position": "M",
-      "height": 189,
-      "jerseyNumber": "14",
-      "id": 1444690
-    },
-    "998951": {
-      "name": "Wilfried Gnonto",
-      "position": "F",
-      "height": 170,
-      "jerseyNumber": "29",
-      "id": 998951
     },
     "987489": {
       "name": "Beto",
@@ -876,12 +939,166 @@
       "jerseyNumber": "23",
       "id": 987489
     },
+    "998951": {
+      "name": "Wilfried Gnonto",
+      "position": "F",
+      "height": 170,
+      "jerseyNumber": "29",
+      "id": 998951
+    },
+    "1099296": {
+      "name": "Mateo Pellegrino",
+      "position": "F",
+      "height": 192,
+      "jerseyNumber": "32",
+      "id": 1099296
+    },
+    "893640": {
+      "name": "Riccardo Sottil",
+      "position": "F",
+      "height": 180,
+      "jerseyNumber": "7",
+      "id": 893640
+    },
+    "1493157": {
+      "name": "Alieu Njie",
+      "position": "F",
+      "height": 185,
+      "jerseyNumber": "25",
+      "id": 1493157
+    },
+    "2415458": {
+      "name": "Federico Croci",
+      "position": "F",
+      "height": 170,
+      "jerseyNumber": "70",
+      "id": 2415458
+    },
+    "1656634": {
+      "name": "Jacopo Tarantino",
+      "position": "F",
+      "height": 182,
+      "jerseyNumber": "",
+      "id": 1656634
+    },
+    "1888002": {
+      "name": "Christ Inao Oulaï",
+      "position": "M",
+      "height": 173,
+      "jerseyNumber": "42",
+      "id": 1888002
+    },
     "895764": {
       "name": "Pedro Gonçalves",
       "position": "M",
       "height": 173,
       "jerseyNumber": "28",
       "id": 895764
+    },
+    "901850": {
+      "name": "Nicolò Fagioli",
+      "position": "M",
+      "height": 178,
+      "jerseyNumber": "44",
+      "id": 901850
+    },
+    "1444690": {
+      "name": "Arthur Atta",
+      "position": "M",
+      "height": 189,
+      "jerseyNumber": "14",
+      "id": 1444690
+    },
+    "1114422": {
+      "name": "Cher Ndour",
+      "position": "M",
+      "height": 190,
+      "jerseyNumber": "27",
+      "id": 1114422
+    },
+    "928800": {
+      "name": "Marco Brescianini",
+      "position": "M",
+      "height": 188,
+      "jerseyNumber": "4",
+      "id": 928800
+    },
+    "2025664": {
+      "name": "Brando Mazzeo",
+      "position": "M",
+      "height": 180,
+      "jerseyNumber": "72",
+      "id": 2025664
+    },
+    "1901143": {
+      "name": "Víctor Valdepeñas",
+      "position": "D",
+      "height": 188,
+      "jerseyNumber": "21",
+      "id": 1901143
+    },
+    "997103": {
+      "name": "Radu Drăguşin",
+      "position": "D",
+      "height": 191,
+      "jerseyNumber": "3",
+      "id": 997103
+    },
+    "1184308": {
+      "name": "Álex Jiménez",
+      "position": "D",
+      "height": 177,
+      "jerseyNumber": "20",
+      "id": 1184308
+    },
+    "822518": {
+      "name": "Dodô",
+      "position": "D",
+      "height": 166,
+      "jerseyNumber": "2",
+      "id": 822518
+    },
+    "902031": {
+      "name": "João Mário",
+      "position": "D",
+      "height": 178,
+      "jerseyNumber": "17",
+      "id": 902031
+    },
+    "847467": {
+      "name": "Marin Pongračić",
+      "position": "D",
+      "height": 193,
+      "jerseyNumber": "5",
+      "id": 847467
+    },
+    "1907760": {
+      "name": "Viery",
+      "position": "D",
+      "height": 187,
+      "jerseyNumber": "33",
+      "id": 1907760
+    },
+    "893998": {
+      "name": "Luca Ranieri",
+      "position": "D",
+      "height": 187,
+      "jerseyNumber": "6",
+      "id": 893998
+    },
+    "972886": {
+      "name": "Fabiano Parisi",
+      "position": "D",
+      "height": 178,
+      "jerseyNumber": "65",
+      "id": 972886
+    },
+    "69378": {
+      "name": "David De Gea",
+      "position": "G",
+      "height": 192,
+      "jerseyNumber": "43",
+      "id": 69378
     },
     "860306": {
       "name": "Oliver Christensen",
@@ -896,204 +1113,15 @@
       "height": 195,
       "jerseyNumber": "19",
       "id": 139272
-    },
-    "847467": {
-      "name": "Marin Pongračić",
-      "position": "D",
-      "height": 193,
-      "jerseyNumber": "5",
-      "id": 847467
-    },
-    "822518": {
-      "name": "Dodô",
-      "position": "D",
-      "height": 166,
-      "jerseyNumber": "2",
-      "id": 822518
-    },
-    "893998": {
-      "name": "Luca Ranieri",
-      "position": "D",
-      "height": 187,
-      "jerseyNumber": "6",
-      "id": 893998
-    },
-    "1184308": {
-      "name": "Álex Jiménez",
-      "position": "D",
-      "height": 177,
-      "jerseyNumber": "20",
-      "id": 1184308
     }
   },
   "Torino": {
-    "871290": {
-      "name": "Lucas Perri",
-      "position": "G",
-      "height": 196,
-      "jerseyNumber": "20",
-      "id": 871290
-    },
-    "814023": {
-      "name": "Eray Cömert",
-      "position": "D",
-      "height": 183,
-      "jerseyNumber": "5",
-      "id": 814023
-    },
-    "1089453": {
-      "name": "Saúl Coco",
-      "position": "D",
-      "height": 188,
-      "jerseyNumber": "23",
-      "id": 1089453
-    },
-    "1210848": {
-      "name": "Pietro Comuzzo",
-      "position": "D",
-      "height": 185,
-      "jerseyNumber": "15",
-      "id": 1210848
-    },
-    "548178": {
-      "name": "Rolando Mandragora",
-      "position": "M",
-      "height": 183,
-      "jerseyNumber": "8",
-      "id": 548178
-    },
-    "1526934": {
-      "name": "Niccolò Fortini",
-      "position": "D",
-      "height": 185,
-      "jerseyNumber": "29",
-      "id": 1526934
-    },
-    "1030829": {
-      "name": "Gvidas Gineitis",
-      "position": "M",
-      "height": 191,
-      "jerseyNumber": "66",
-      "id": 1030829
-    },
-    "1001945": {
-      "name": "Kian Fitz-Jim",
-      "position": "M",
-      "height": 173,
-      "jerseyNumber": "28",
-      "id": 1001945
-    },
-    "1868036": {
-      "name": "Alessio Cacciamani",
-      "position": "M",
-      "height": 170,
-      "jerseyNumber": "77",
-      "id": 1868036
-    },
-    "773409": {
-      "name": "Che Adams",
-      "position": "F",
-      "height": 175,
-      "jerseyNumber": "19",
-      "id": 773409
-    },
-    "357596": {
-      "name": "Nikola Vlašić",
-      "position": "M",
-      "height": 178,
-      "jerseyNumber": "10",
-      "id": 357596
-    },
-    "840414": {
-      "name": "Ardian Ismajli",
-      "position": "D",
-      "height": 188,
-      "jerseyNumber": "44",
-      "id": 840414
-    },
-    "1020141": {
-      "name": "Nathan Patterson",
-      "position": "D",
-      "height": 189,
-      "jerseyNumber": "2",
-      "id": 1020141
-    },
-    "1103488": {
-      "name": "Rafik Belghali",
-      "position": "M",
-      "height": 177,
-      "jerseyNumber": "45",
-      "id": 1103488
-    },
-    "861979": {
-      "name": "Daniel Bragança",
-      "position": "M",
-      "height": 178,
-      "jerseyNumber": "21",
-      "id": 861979
-    },
     "341143": {
       "name": "Giovanni Simeone",
       "position": "F",
       "height": 179,
       "jerseyNumber": "18",
       "id": 341143
-    },
-    "1471046": {
-      "name": "Diego Mascardi",
-      "position": "G",
-      "height": 198,
-      "jerseyNumber": "26",
-      "id": 1471046
-    },
-    "1519010": {
-      "name": "Lapo Siviero",
-      "position": "G",
-      "height": 195,
-      "jerseyNumber": "76",
-      "id": 1519010
-    },
-    "2220262": {
-      "name": "Manuel Carrascosa",
-      "position": "D",
-      "height": 193,
-      "jerseyNumber": "63",
-      "id": 2220262
-    },
-    "122848": {
-      "name": "Cristiano Biraghi",
-      "position": "D",
-      "height": 184,
-      "jerseyNumber": "3",
-      "id": 122848
-    },
-    "1142612": {
-      "name": "Emirhan İlkhan",
-      "position": "M",
-      "height": 175,
-      "jerseyNumber": "6",
-      "id": 1142612
-    },
-    "1985762": {
-      "name": "Andrea Luongo",
-      "position": "M",
-      "height": 178,
-      "jerseyNumber": "79",
-      "id": 1985762
-    },
-    "965009": {
-      "name": "Gaetano Oristanio",
-      "position": "M",
-      "height": 174,
-      "jerseyNumber": "11",
-      "id": 965009
-    },
-    "826026": {
-      "name": "Sandro Kulenović",
-      "position": "F",
-      "height": 191,
-      "jerseyNumber": "17",
-      "id": 826026
     },
     "856737": {
       "name": "Zakaria Aboukhlal",
@@ -1109,77 +1137,217 @@
       "jerseyNumber": "91",
       "id": 38162
     },
+    "773409": {
+      "name": "Che Adams",
+      "position": "F",
+      "height": 175,
+      "jerseyNumber": "19",
+      "id": 773409
+    },
+    "826026": {
+      "name": "Sandro Kulenović",
+      "position": "F",
+      "height": 191,
+      "jerseyNumber": "17",
+      "id": 826026
+    },
+    "839226": {
+      "name": "Pietro Pellegri",
+      "position": "F",
+      "height": 188,
+      "jerseyNumber": "11",
+      "id": 839226
+    },
+    "1103488": {
+      "name": "Rafik Belghali",
+      "position": "M",
+      "height": 177,
+      "jerseyNumber": "45",
+      "id": 1103488
+    },
+    "357596": {
+      "name": "Nikola Vlašić",
+      "position": "M",
+      "height": 178,
+      "jerseyNumber": "10",
+      "id": 357596
+    },
+    "1016788": {
+      "name": "Cesare Casadei",
+      "position": "M",
+      "height": 192,
+      "jerseyNumber": "22",
+      "id": 1016788
+    },
+    "548178": {
+      "name": "Rolando Mandragora",
+      "position": "M",
+      "height": 183,
+      "jerseyNumber": "8",
+      "id": 548178
+    },
+    "861979": {
+      "name": "Daniel Bragança",
+      "position": "M",
+      "height": 178,
+      "jerseyNumber": "21",
+      "id": 861979
+    },
+    "1030829": {
+      "name": "Gvidas Gineitis",
+      "position": "M",
+      "height": 191,
+      "jerseyNumber": "66",
+      "id": 1030829
+    },
+    "1001945": {
+      "name": "Kian Fitz-Jim",
+      "position": "M",
+      "height": 173,
+      "jerseyNumber": "28",
+      "id": 1001945
+    },
+    "1142612": {
+      "name": "Emirhan İlkhan",
+      "position": "M",
+      "height": 175,
+      "jerseyNumber": "6",
+      "id": 1142612
+    },
+    "1868036": {
+      "name": "Alessio Cacciamani",
+      "position": "M",
+      "height": 170,
+      "jerseyNumber": "77",
+      "id": 1868036
+    },
+    "965009": {
+      "name": "Gaetano Oristanio",
+      "position": "M",
+      "height": 174,
+      "jerseyNumber": "11",
+      "id": 965009
+    },
+    "1985762": {
+      "name": "Andrea Luongo",
+      "position": "M",
+      "height": 178,
+      "jerseyNumber": "79",
+      "id": 1985762
+    },
+    "1590981": {
+      "name": "Zalan Kugyela",
+      "position": "M",
+      "height": 180,
+      "jerseyNumber": "96",
+      "id": 1590981
+    },
     "67769": {
       "name": "Ricardo Rodríguez",
       "position": "D",
       "height": 182,
       "jerseyNumber": "13",
       "id": 67769
-    }
-  },
-  "Frosinone": {
-    "1134623": {
-      "name": "Lorenzo Palmisani",
-      "position": "G",
-      "height": 196,
-      "jerseyNumber": "22",
-      "id": 1134623
     },
-    "1106257": {
-      "name": "Anthony Oyono",
+    "1210848": {
+      "name": "Pietro Comuzzo",
       "position": "D",
-      "height": 179,
-      "jerseyNumber": "20",
-      "id": 1106257
+      "height": 185,
+      "jerseyNumber": "15",
+      "id": 1210848
     },
-    "1425050": {
-      "name": "Gabriele Calvani",
+    "1089453": {
+      "name": "Saúl Coco",
+      "position": "D",
+      "height": 188,
+      "jerseyNumber": "23",
+      "id": 1089453
+    },
+    "840414": {
+      "name": "Ardian Ismajli",
+      "position": "D",
+      "height": 188,
+      "jerseyNumber": "44",
+      "id": 840414
+    },
+    "122848": {
+      "name": "Cristiano Biraghi",
       "position": "D",
       "height": 184,
       "jerseyNumber": "3",
-      "id": 1425050
+      "id": 122848
     },
-    "1001847": {
-      "name": "Giorgio Cittadini",
-      "position": "D",
-      "height": 184,
-      "jerseyNumber": "2",
-      "id": 1001847
-    },
-    "1394498": {
-      "name": "Gabriele Bracaglia",
+    "1526934": {
+      "name": "Niccolò Fortini",
       "position": "D",
       "height": 185,
-      "jerseyNumber": "79",
-      "id": 1394498
+      "jerseyNumber": "29",
+      "id": 1526934
     },
-    "839487": {
-      "name": "Giacomo Calò",
-      "position": "M",
-      "height": 178,
-      "jerseyNumber": "14",
-      "id": 839487
+    "1020141": {
+      "name": "Nathan Patterson",
+      "position": "D",
+      "height": 189,
+      "jerseyNumber": "2",
+      "id": 1020141
     },
-    "970998": {
-      "name": "Patrizio Masini",
-      "position": "M",
-      "height": 182,
-      "jerseyNumber": "73",
-      "id": 970998
+    "814023": {
+      "name": "Eray Cömert",
+      "position": "D",
+      "height": 183,
+      "jerseyNumber": "5",
+      "id": 814023
     },
-    "1164381": {
-      "name": "Seydou Fini",
+    "2220262": {
+      "name": "Manuel Carrascosa",
+      "position": "D",
+      "height": 193,
+      "jerseyNumber": "63",
+      "id": 2220262
+    },
+    "871290": {
+      "name": "Lucas Perri",
+      "position": "G",
+      "height": 196,
+      "jerseyNumber": "20",
+      "id": 871290
+    },
+    "1084846": {
+      "name": "Franco Israel",
+      "position": "G",
+      "height": 189,
+      "jerseyNumber": "81",
+      "id": 1084846
+    },
+    "1471046": {
+      "name": "Diego Mascardi",
+      "position": "G",
+      "height": 198,
+      "jerseyNumber": "26",
+      "id": 1471046
+    },
+    "1519010": {
+      "name": "Lapo Siviero",
+      "position": "G",
+      "height": 195,
+      "jerseyNumber": "76",
+      "id": 1519010
+    }
+  },
+  "Frosinone": {
+    "1445228": {
+      "name": "Farès Ghedjemis",
       "position": "F",
-      "height": 178,
-      "jerseyNumber": "40",
-      "id": 1164381
+      "height": 183,
+      "jerseyNumber": "7",
+      "id": 1445228
     },
-    "830127": {
-      "name": "Romano Schmid",
-      "position": "M",
-      "height": 168,
-      "jerseyNumber": "10",
-      "id": 830127
+    "970969": {
+      "name": "Daniel Bîrligea",
+      "position": "F",
+      "height": 181,
+      "jerseyNumber": "11",
+      "id": 970969
     },
     "1140001": {
       "name": "Giorgi Kvernadze",
@@ -1195,75 +1363,26 @@
       "jerseyNumber": "9",
       "id": 1121578
     },
-    "1493209": {
-      "name": "Matteo Cichella",
+    "918481": {
+      "name": "Tomáš Bobček",
+      "position": "F",
+      "height": 185,
+      "jerseyNumber": "89",
+      "id": 918481
+    },
+    "1164381": {
+      "name": "Seydou Fini",
+      "position": "F",
+      "height": 178,
+      "jerseyNumber": "40",
+      "id": 1164381
+    },
+    "830127": {
+      "name": "Romano Schmid",
       "position": "M",
-      "height": 169,
-      "jerseyNumber": "16",
-      "id": 1493209
-    },
-    "1445228": {
-      "name": "Farès Ghedjemis",
-      "position": "F",
-      "height": 183,
-      "jerseyNumber": "7",
-      "id": 1445228
-    },
-    "1009363": {
-      "name": "Ilario Monterisi",
-      "position": "D",
-      "height": 190,
-      "jerseyNumber": "30",
-      "id": 1009363
-    },
-    "970969": {
-      "name": "Daniel Bîrligea",
-      "position": "F",
-      "height": 181,
-      "jerseyNumber": "11",
-      "id": 970969
-    },
-    "1118232": {
-      "name": "Wisdom Amey",
-      "position": "D",
-      "height": 187,
-      "jerseyNumber": "5",
-      "id": 1118232
-    },
-    "170885": {
-      "name": "Matteo Pisseri",
-      "position": "G",
-      "height": 188,
-      "jerseyNumber": "12",
-      "id": 170885
-    },
-    "1068715": {
-      "name": "Sebastiano Desplanches",
-      "position": "G",
-      "height": 188,
-      "jerseyNumber": "91",
-      "id": 1068715
-    },
-    "1393731": {
-      "name": "Omar Fayed",
-      "position": "D",
-      "height": 189,
-      "jerseyNumber": "74",
-      "id": 1393731
-    },
-    "1103548": {
-      "name": "Enzo Tchato Mbiayi",
-      "position": "D",
-      "height": 180,
-      "jerseyNumber": "90",
-      "id": 1103548
-    },
-    "876860": {
-      "name": "Aleksa Terzić",
-      "position": "D",
-      "height": 184,
-      "jerseyNumber": "71",
-      "id": 876860
+      "height": 168,
+      "jerseyNumber": "10",
+      "id": 830127
     },
     "1082407": {
       "name": "Luis Hasa",
@@ -1272,12 +1391,12 @@
       "jerseyNumber": "70",
       "id": 1082407
     },
-    "1021104": {
-      "name": "Anouar El Azzouzi",
+    "839487": {
+      "name": "Giacomo Calò",
       "position": "M",
-      "height": 181,
-      "jerseyNumber": "34",
-      "id": 1021104
+      "height": 178,
+      "jerseyNumber": "14",
+      "id": 839487
     },
     "869888": {
       "name": "Alessio Zerbin",
@@ -1293,12 +1412,82 @@
       "jerseyNumber": "27",
       "id": 186719
     },
-    "918481": {
-      "name": "Tomáš Bobček",
-      "position": "F",
+    "1021104": {
+      "name": "Anouar El Azzouzi",
+      "position": "M",
+      "height": 181,
+      "jerseyNumber": "34",
+      "id": 1021104
+    },
+    "970998": {
+      "name": "Patrizio Masini",
+      "position": "M",
+      "height": 182,
+      "jerseyNumber": "73",
+      "id": 970998
+    },
+    "915280": {
+      "name": "Ben Lhassine Kone",
+      "position": "M",
+      "height": 172,
+      "jerseyNumber": "4",
+      "id": 915280
+    },
+    "1493209": {
+      "name": "Matteo Cichella",
+      "position": "M",
+      "height": 169,
+      "jerseyNumber": "16",
+      "id": 1493209
+    },
+    "595900": {
+      "name": "Francesco Gelli",
+      "position": "M",
+      "height": 173,
+      "jerseyNumber": "96",
+      "id": 595900
+    },
+    "1393731": {
+      "name": "Omar Fayed",
+      "position": "D",
+      "height": 189,
+      "jerseyNumber": "74",
+      "id": 1393731
+    },
+    "876860": {
+      "name": "Aleksa Terzić",
+      "position": "D",
+      "height": 184,
+      "jerseyNumber": "71",
+      "id": 876860
+    },
+    "1103548": {
+      "name": "Enzo Tchato Mbiayi",
+      "position": "D",
+      "height": 180,
+      "jerseyNumber": "90",
+      "id": 1103548
+    },
+    "1106257": {
+      "name": "Anthony Oyono",
+      "position": "D",
+      "height": 179,
+      "jerseyNumber": "20",
+      "id": 1106257
+    },
+    "1394498": {
+      "name": "Gabriele Bracaglia",
+      "position": "D",
       "height": 185,
-      "jerseyNumber": "89",
-      "id": 918481
+      "jerseyNumber": "79",
+      "id": 1394498
+    },
+    "1009363": {
+      "name": "Ilario Monterisi",
+      "position": "D",
+      "height": 190,
+      "jerseyNumber": "30",
+      "id": 1009363
     },
     "187423": {
       "name": "Kevin Akpoguma",
@@ -1306,50 +1495,120 @@
       "height": 192,
       "jerseyNumber": "25",
       "id": 187423
+    },
+    "1425050": {
+      "name": "Gabriele Calvani",
+      "position": "D",
+      "height": 184,
+      "jerseyNumber": "3",
+      "id": 1425050
+    },
+    "1118232": {
+      "name": "Wisdom Amey",
+      "position": "D",
+      "height": 187,
+      "jerseyNumber": "5",
+      "id": 1118232
+    },
+    "1001847": {
+      "name": "Giorgio Cittadini",
+      "position": "D",
+      "height": 184,
+      "jerseyNumber": "2",
+      "id": 1001847
+    },
+    "1134623": {
+      "name": "Lorenzo Palmisani",
+      "position": "G",
+      "height": 196,
+      "jerseyNumber": "22",
+      "id": 1134623
+    },
+    "1068715": {
+      "name": "Sebastiano Desplanches",
+      "position": "G",
+      "height": 188,
+      "jerseyNumber": "91",
+      "id": 1068715
+    },
+    "1155425": {
+      "name": "Eldin Lolic",
+      "position": "G",
+      "height": 194,
+      "jerseyNumber": "12",
+      "id": 1155425
+    },
+    "170885": {
+      "name": "Matteo Pisseri",
+      "position": "G",
+      "height": 188,
+      "jerseyNumber": "12",
+      "id": 170885
     }
   },
   "Venezia": {
-    "986355": {
-      "name": "Filip Stanković",
-      "position": "G",
-      "height": 188,
-      "jerseyNumber": "1",
-      "id": 986355
-    },
-    "1388438": {
-      "name": "Joel Schingtienne",
-      "position": "D",
-      "height": 188,
-      "jerseyNumber": "3",
-      "id": 1388438
-    },
-    "976025": {
-      "name": "Armel Bella-Kotchap",
-      "position": "D",
+    "946381": {
+      "name": "Akor Adams",
+      "position": "F",
       "height": 190,
-      "jerseyNumber": "17",
-      "id": 976025
+      "jerseyNumber": "45",
+      "id": 946381
     },
-    "1143667": {
-      "name": "Redouane Halhal",
-      "position": "D",
+    "879802": {
+      "name": "John Yeboah",
+      "position": "F",
+      "height": 170,
+      "jerseyNumber": "10",
+      "id": 879802
+    },
+    "1124624": {
+      "name": "Albion Rrahmani",
+      "position": "F",
       "height": 187,
-      "jerseyNumber": "25",
-      "id": 1143667
+      "jerseyNumber": "7",
+      "id": 1124624
     },
-    "1394202": {
-      "name": "Antoine Hainaut",
-      "position": "M",
-      "height": 188,
-      "jerseyNumber": "18",
-      "id": 1394202
+    "928921": {
+      "name": "Andrea Adorante",
+      "position": "F",
+      "height": 182,
+      "jerseyNumber": "9",
+      "id": 928921
     },
-    "857178": {
-      "name": "Kike Pérez",
+    "886171": {
+      "name": "Lion Lauberbach",
+      "position": "F",
+      "height": 197,
+      "jerseyNumber": "29",
+      "id": 886171
+    },
+    "2670946": {
+      "name": "Mohamed Malang Touré",
+      "position": "F",
+      "height": 181,
+      "jerseyNumber": "",
+      "id": 2670946
+    },
+    "1590761": {
+      "name": "Toni Fernández",
       "position": "M",
-      "height": 184,
-      "jerseyNumber": "71",
-      "id": 857178
+      "height": 175,
+      "jerseyNumber": "77",
+      "id": 1590761
+    },
+    "377512": {
+      "name": "Pasquale Mazzocchi",
+      "position": "M",
+      "height": 183,
+      "jerseyNumber": "70",
+      "id": 377512
+    },
+    "798002": {
+      "name": "Toma Bašić",
+      "position": "M",
+      "height": 189,
+      "jerseyNumber": "26",
+      "id": 798002
     },
     "896180": {
       "name": "Gianluca Busio",
@@ -1365,96 +1624,12 @@
       "jerseyNumber": "19",
       "id": 909991
     },
-    "250501": {
-      "name": "Ridgeciano Haps",
+    "232224": {
+      "name": "Alfred Duncan",
       "position": "M",
-      "height": 175,
-      "jerseyNumber": "5",
-      "id": 250501
-    },
-    "1124624": {
-      "name": "Albion Rrahmani",
-      "position": "F",
-      "height": 187,
-      "jerseyNumber": "7",
-      "id": 1124624
-    },
-    "946381": {
-      "name": "Akor Adams",
-      "position": "F",
-      "height": 190,
-      "jerseyNumber": "45",
-      "id": 946381
-    },
-    "1198069": {
-      "name": "Richie Sagrado",
-      "position": "M",
-      "height": 182,
-      "jerseyNumber": "20",
-      "id": 1198069
-    },
-    "1590761": {
-      "name": "Toni Fernández",
-      "position": "M",
-      "height": 175,
-      "jerseyNumber": "77",
-      "id": 1590761
-    },
-    "879802": {
-      "name": "John Yeboah",
-      "position": "F",
-      "height": 170,
-      "jerseyNumber": "10",
-      "id": 879802
-    },
-    "886171": {
-      "name": "Lion Lauberbach",
-      "position": "F",
-      "height": 197,
-      "jerseyNumber": "29",
-      "id": 886171
-    },
-    "1496360": {
-      "name": "Matias Moreno",
-      "position": "D",
-      "height": 195,
-      "jerseyNumber": "2",
-      "id": 1496360
-    },
-    "253391": {
-      "name": "Lorenzo Montipò",
-      "position": "G",
-      "height": 191,
-      "jerseyNumber": "96",
-      "id": 253391
-    },
-    "2144390": {
-      "name": "Ale Gomes",
-      "position": "D",
-      "height": 187,
-      "jerseyNumber": "95",
-      "id": 2144390
-    },
-    "851282": {
-      "name": "Thierry Correia",
-      "position": "D",
-      "height": 176,
-      "jerseyNumber": "14",
-      "id": 851282
-    },
-    "377512": {
-      "name": "Pasquale Mazzocchi",
-      "position": "M",
-      "height": 183,
-      "jerseyNumber": "70",
-      "id": 377512
-    },
-    "965005": {
-      "name": "Simone Panada",
-      "position": "M",
-      "height": 175,
-      "jerseyNumber": "55",
-      "id": 965005
+      "height": 178,
+      "jerseyNumber": "32",
+      "id": 232224
     },
     "1137526": {
       "name": "Matteo Dagasso",
@@ -1463,12 +1638,12 @@
       "jerseyNumber": "30",
       "id": 1137526
     },
-    "1435035": {
-      "name": "Lamine Fanne",
+    "250501": {
+      "name": "Ridgeciano Haps",
       "position": "M",
-      "height": 185,
-      "jerseyNumber": "8",
-      "id": 1435035
+      "height": 175,
+      "jerseyNumber": "5",
+      "id": 250501
     },
     "1513549": {
       "name": "Kornel Lisman",
@@ -1477,12 +1652,26 @@
       "jerseyNumber": "56",
       "id": 1513549
     },
-    "2066755": {
-      "name": "Lorenzo Berardi",
+    "857178": {
+      "name": "Kike Pérez",
       "position": "M",
-      "height": 181,
-      "jerseyNumber": "36",
-      "id": 2066755
+      "height": 184,
+      "jerseyNumber": "71",
+      "id": 857178
+    },
+    "1435035": {
+      "name": "Lamine Fanne",
+      "position": "M",
+      "height": 185,
+      "jerseyNumber": "8",
+      "id": 1435035
+    },
+    "1198069": {
+      "name": "Richie Sagrado",
+      "position": "M",
+      "height": 182,
+      "jerseyNumber": "20",
+      "id": 1198069
     },
     "886628": {
       "name": "Þórir Jóhann Helgason",
@@ -1491,6 +1680,34 @@
       "jerseyNumber": "21",
       "id": 886628
     },
+    "1394202": {
+      "name": "Antoine Hainaut",
+      "position": "M",
+      "height": 188,
+      "jerseyNumber": "18",
+      "id": 1394202
+    },
+    "965005": {
+      "name": "Simone Panada",
+      "position": "M",
+      "height": 175,
+      "jerseyNumber": "55",
+      "id": 965005
+    },
+    "2066755": {
+      "name": "Lorenzo Berardi",
+      "position": "M",
+      "height": 181,
+      "jerseyNumber": "36",
+      "id": 2066755
+    },
+    "1143667": {
+      "name": "Redouane Halhal",
+      "position": "D",
+      "height": 187,
+      "jerseyNumber": "25",
+      "id": 1143667
+    },
     "108484": {
       "name": "Juan Jesus",
       "position": "D",
@@ -1498,49 +1715,168 @@
       "jerseyNumber": "15",
       "id": 108484
     },
+    "1496360": {
+      "name": "Matias Moreno",
+      "position": "D",
+      "height": 195,
+      "jerseyNumber": "2",
+      "id": 1496360
+    },
+    "976025": {
+      "name": "Armel Bella-Kotchap",
+      "position": "D",
+      "height": 190,
+      "jerseyNumber": "17",
+      "id": 976025
+    },
+    "851282": {
+      "name": "Thierry Correia",
+      "position": "D",
+      "height": 176,
+      "jerseyNumber": "14",
+      "id": 851282
+    },
+    "880742": {
+      "name": "Bartol Franjić",
+      "position": "D",
+      "height": 188,
+      "jerseyNumber": "4",
+      "id": 880742
+    },
+    "1388438": {
+      "name": "Joel Schingtienne",
+      "position": "D",
+      "height": 188,
+      "jerseyNumber": "3",
+      "id": 1388438
+    },
+    "822485": {
+      "name": "Marin Šverko",
+      "position": "D",
+      "height": 186,
+      "jerseyNumber": "33",
+      "id": 822485
+    },
     "1882599": {
       "name": "Rufai Mohammed",
       "position": "D",
       "height": 185,
       "jerseyNumber": "16",
       "id": 1882599
+    },
+    "2144390": {
+      "name": "Ale Gomes",
+      "position": "D",
+      "height": 187,
+      "jerseyNumber": "95",
+      "id": 2144390
+    },
+    "986355": {
+      "name": "Filip Stanković",
+      "position": "G",
+      "height": 188,
+      "jerseyNumber": "1",
+      "id": 986355
+    },
+    "253391": {
+      "name": "Lorenzo Montipò",
+      "position": "G",
+      "height": 191,
+      "jerseyNumber": "96",
+      "id": 253391
+    },
+    "125807": {
+      "name": "Matteo Grandi",
+      "position": "G",
+      "height": 190,
+      "jerseyNumber": "23",
+      "id": 125807
+    },
+    "977078": {
+      "name": "Filippo Neri",
+      "position": "G",
+      "height": 188,
+      "jerseyNumber": "",
+      "id": 977078
+    },
+    "899301": {
+      "name": "Alessio Pozzi",
+      "position": "G",
+      "height": 184,
+      "jerseyNumber": "28",
+      "id": 899301
     }
   },
   "Genoa": {
-    "556696": {
-      "name": "Justin Bijlow",
-      "position": "G",
-      "height": 190,
-      "jerseyNumber": "1",
-      "id": 556696
+    "2191860": {
+      "name": "Robinho Júnior",
+      "position": "F",
+      "height": 170,
+      "jerseyNumber": "7",
+      "id": 2191860
     },
-    "1068885": {
-      "name": "Alessandro Marcandalli",
-      "position": "D",
-      "height": 190,
-      "jerseyNumber": "27",
-      "id": 1068885
+    "45925": {
+      "name": "Stephan El Shaarawy",
+      "position": "F",
+      "height": 178,
+      "jerseyNumber": "92",
+      "id": 45925
     },
-    "879746": {
-      "name": "Leo Østigård",
-      "position": "D",
-      "height": 182,
-      "jerseyNumber": "5",
-      "id": 879746
+    "930191": {
+      "name": "Lorenzo Colombo",
+      "position": "F",
+      "height": 183,
+      "jerseyNumber": "29",
+      "id": 930191
     },
-    "889785": {
-      "name": "Johan Vásquez",
-      "position": "D",
-      "height": 185,
-      "jerseyNumber": "22",
-      "id": 889785
+    "1093695": {
+      "name": "Vitinha",
+      "position": "F",
+      "height": 183,
+      "jerseyNumber": "9",
+      "id": 1093695
     },
-    "184421": {
-      "name": "Stefano Sabelli",
-      "position": "M",
+    "888219": {
+      "name": "Junior Messias",
+      "position": "F",
       "height": 179,
-      "jerseyNumber": "20",
-      "id": 184421
+      "jerseyNumber": "10",
+      "id": 888219
+    },
+    "1618563": {
+      "name": "Lorenzo Venturino",
+      "position": "F",
+      "height": 178,
+      "jerseyNumber": "76",
+      "id": 1618563
+    },
+    "928047": {
+      "name": "Milutin Osmajić",
+      "position": "F",
+      "height": 186,
+      "jerseyNumber": "18",
+      "id": 928047
+    },
+    "1103911": {
+      "name": "Elias Havel",
+      "position": "F",
+      "height": 184,
+      "jerseyNumber": "17",
+      "id": 1103911
+    },
+    "1605324": {
+      "name": "Joi Xheto Nuredini",
+      "position": "F",
+      "height": 188,
+      "jerseyNumber": "86",
+      "id": 1605324
+    },
+    "892924": {
+      "name": "Hamed Junior Traorè",
+      "position": "M",
+      "height": 177,
+      "jerseyNumber": "25",
+      "id": 892924
     },
     "799054": {
       "name": "Djibril Sow",
@@ -1556,54 +1892,12 @@
       "jerseyNumber": "8",
       "id": 1012172
     },
-    "933203": {
-      "name": "Mikael Ellertsson",
-      "position": "M",
-      "height": 182,
-      "jerseyNumber": "77",
-      "id": 933203
-    },
     "918440": {
       "name": "Morten Frendrup",
       "position": "M",
       "height": 178,
       "jerseyNumber": "32",
       "id": 918440
-    },
-    "930191": {
-      "name": "Lorenzo Colombo",
-      "position": "F",
-      "height": 183,
-      "jerseyNumber": "29",
-      "id": 930191
-    },
-    "928047": {
-      "name": "Milutin Osmajić",
-      "position": "F",
-      "height": 186,
-      "jerseyNumber": "18",
-      "id": 928047
-    },
-    "1093695": {
-      "name": "Vitinha",
-      "position": "F",
-      "height": 183,
-      "jerseyNumber": "9",
-      "id": 1093695
-    },
-    "609206": {
-      "name": "Kingsley Ehizibue",
-      "position": "M",
-      "height": 189,
-      "jerseyNumber": "3",
-      "id": 609206
-    },
-    "888219": {
-      "name": "Junior Messias",
-      "position": "F",
-      "height": 179,
-      "jerseyNumber": "10",
-      "id": 888219
     },
     "1511706": {
       "name": "Alexsandro Amorim",
@@ -1612,54 +1906,26 @@
       "jerseyNumber": "4",
       "id": 1511706
     },
+    "609206": {
+      "name": "Kingsley Ehizibue",
+      "position": "M",
+      "height": 189,
+      "jerseyNumber": "3",
+      "id": 609206
+    },
+    "933203": {
+      "name": "Mikael Ellertsson",
+      "position": "M",
+      "height": 182,
+      "jerseyNumber": "77",
+      "id": 933203
+    },
     "1819079": {
       "name": "Franz-Ethan Meichtry",
       "position": "M",
       "height": 186,
       "jerseyNumber": "11",
       "id": 1819079
-    },
-    "985848": {
-      "name": "Franz Stolz",
-      "position": "G",
-      "height": 193,
-      "jerseyNumber": "99",
-      "id": 985848
-    },
-    "595572": {
-      "name": "Daniele Sommariva",
-      "position": "G",
-      "height": 186,
-      "jerseyNumber": "39",
-      "id": 595572
-    },
-    "1526308": {
-      "name": "Mamedi Doucoure",
-      "position": "D",
-      "height": 180,
-      "jerseyNumber": "74",
-      "id": 1526308
-    },
-    "1404639": {
-      "name": "Sebastian Otoa",
-      "position": "D",
-      "height": 198,
-      "jerseyNumber": "34",
-      "id": 1404639
-    },
-    "1399888": {
-      "name": "David Puczka",
-      "position": "D",
-      "height": 183,
-      "jerseyNumber": "31",
-      "id": 1399888
-    },
-    "1006089": {
-      "name": "Mario Mitaj",
-      "position": "D",
-      "height": 180,
-      "jerseyNumber": "2",
-      "id": 1006089
     },
     "1985772": {
       "name": "Samuel Wiafe",
@@ -1668,19 +1934,54 @@
       "jerseyNumber": "71",
       "id": 1985772
     },
-    "892924": {
-      "name": "Hamed Junior Traorè",
+    "184421": {
+      "name": "Stefano Sabelli",
       "position": "M",
-      "height": 177,
-      "jerseyNumber": "25",
-      "id": 892924
+      "height": 179,
+      "jerseyNumber": "20",
+      "id": 184421
     },
-    "45925": {
-      "name": "Stephan El Shaarawy",
-      "position": "F",
-      "height": 178,
-      "jerseyNumber": "92",
-      "id": 45925
+    "889785": {
+      "name": "Johan Vásquez",
+      "position": "D",
+      "height": 185,
+      "jerseyNumber": "22",
+      "id": 889785
+    },
+    "879746": {
+      "name": "Leo Østigård",
+      "position": "D",
+      "height": 182,
+      "jerseyNumber": "5",
+      "id": 879746
+    },
+    "1006089": {
+      "name": "Mario Mitaj",
+      "position": "D",
+      "height": 180,
+      "jerseyNumber": "2",
+      "id": 1006089
+    },
+    "1068885": {
+      "name": "Alessandro Marcandalli",
+      "position": "D",
+      "height": 190,
+      "jerseyNumber": "27",
+      "id": 1068885
+    },
+    "1399888": {
+      "name": "David Puczka",
+      "position": "D",
+      "height": 183,
+      "jerseyNumber": "31",
+      "id": 1399888
+    },
+    "1404639": {
+      "name": "Sebastian Otoa",
+      "position": "D",
+      "height": 198,
+      "jerseyNumber": "34",
+      "id": 1404639
     },
     "991577": {
       "name": "Cody Drameh",
@@ -1688,78 +1989,50 @@
       "height": 175,
       "jerseyNumber": "16",
       "id": 991577
+    },
+    "1526308": {
+      "name": "Mamedi Doucoure",
+      "position": "D",
+      "height": 180,
+      "jerseyNumber": "74",
+      "id": 1526308
+    },
+    "2249092": {
+      "name": "Marcelo Vaz",
+      "position": "D",
+      "height": 183,
+      "jerseyNumber": "85",
+      "id": 2249092
+    },
+    "556696": {
+      "name": "Justin Bijlow",
+      "position": "G",
+      "height": 190,
+      "jerseyNumber": "1",
+      "id": 556696
+    },
+    "595572": {
+      "name": "Daniele Sommariva",
+      "position": "G",
+      "height": 186,
+      "jerseyNumber": "39",
+      "id": 595572
+    },
+    "985848": {
+      "name": "Franz Stolz",
+      "position": "G",
+      "height": 193,
+      "jerseyNumber": "99",
+      "id": 985848
     }
   },
   "Como": {
-    "599114": {
-      "name": "Jean Butez",
-      "position": "G",
-      "height": 188,
-      "jerseyNumber": "1",
-      "id": 599114
-    },
-    "1002813": {
-      "name": "Yan Couto",
-      "position": "M",
-      "height": 169,
-      "jerseyNumber": "27",
-      "id": 1002813
-    },
-    "1403348": {
-      "name": "Jacobo Ramón",
-      "position": "D",
-      "height": 196,
-      "jerseyNumber": "4",
-      "id": 1403348
-    },
-    "826134": {
-      "name": "Trevoh Chalobah",
-      "position": "D",
-      "height": 190,
-      "jerseyNumber": "99",
-      "id": 826134
-    },
-    "1142238": {
-      "name": "Álex Valle",
-      "position": "D",
-      "height": 178,
-      "jerseyNumber": "3",
-      "id": 1142238
-    },
-    "1086286": {
-      "name": "Máximo Perrone",
-      "position": "M",
-      "height": 178,
-      "jerseyNumber": "23",
-      "id": 1086286
-    },
-    "911848": {
-      "name": "Lucas Da Cunha",
-      "position": "M",
-      "height": 174,
-      "jerseyNumber": "7",
-      "id": 911848
-    },
-    "1493689": {
-      "name": "Assane Diao",
-      "position": "M",
-      "height": 185,
-      "jerseyNumber": "38",
-      "id": 1493689
-    },
-    "1171451": {
-      "name": "Nico Paz",
-      "position": "M",
-      "height": 185,
-      "jerseyNumber": "10",
-      "id": 1171451
-    },
-    "1090019": {
-      "name": "Martin Baturina",
-      "position": "M",
-      "height": 178,
-      "jerseyNumber": "20",
-      "id": 1090019
+    "835601": {
+      "name": "Moise Kean",
+      "position": "F",
+      "height": 183,
+      "jerseyNumber": "90",
+      "id": 835601
     },
     "894863": {
       "name": "Anastasios Douvikas",
@@ -1768,26 +2041,54 @@
       "jerseyNumber": "9",
       "id": 894863
     },
-    "859027": {
-      "name": "Maxence Caqueret",
-      "position": "M",
-      "height": 174,
-      "jerseyNumber": "8",
-      "id": 859027
-    },
-    "835601": {
-      "name": "Moise Kean",
+    "1475557": {
+      "name": "Mattia Liberali",
       "position": "F",
-      "height": 183,
-      "jerseyNumber": "90",
-      "id": 835601
+      "height": 172,
+      "jerseyNumber": "30",
+      "id": 1475557
     },
-    "811629": {
-      "name": "Luis Milla",
+    "1171451": {
+      "name": "Nico Paz",
       "position": "M",
-      "height": 175,
-      "jerseyNumber": "6",
-      "id": 811629
+      "height": 185,
+      "jerseyNumber": "10",
+      "id": 1171451
+    },
+    "1493689": {
+      "name": "Assane Diao",
+      "position": "M",
+      "height": 185,
+      "jerseyNumber": "11",
+      "id": 1493689
+    },
+    "1090019": {
+      "name": "Martin Baturina",
+      "position": "M",
+      "height": 178,
+      "jerseyNumber": "20",
+      "id": 1090019
+    },
+    "1086286": {
+      "name": "Máximo Perrone",
+      "position": "M",
+      "height": 178,
+      "jerseyNumber": "5",
+      "id": 1086286
+    },
+    "1002813": {
+      "name": "Yan Couto",
+      "position": "M",
+      "height": 169,
+      "jerseyNumber": "27",
+      "id": 1002813
+    },
+    "1800245": {
+      "name": "Jesús Rodriguez",
+      "position": "M",
+      "height": 185,
+      "jerseyNumber": "17",
+      "id": 1800245
     },
     "930189": {
       "name": "Samuele Ricci",
@@ -1796,26 +2097,61 @@
       "jerseyNumber": "21",
       "id": 930189
     },
-    "1475557": {
-      "name": "Mattia Liberali",
-      "position": "F",
-      "height": 172,
-      "jerseyNumber": "30",
-      "id": 1475557
+    "911848": {
+      "name": "Lucas Da Cunha",
+      "position": "M",
+      "height": 174,
+      "jerseyNumber": "7",
+      "id": 911848
     },
-    "41444": {
-      "name": "Mauro Vigorito",
-      "position": "G",
-      "height": 186,
-      "jerseyNumber": "22",
-      "id": 41444
+    "1177723": {
+      "name": "Jayden Addai",
+      "position": "M",
+      "height": 176,
+      "jerseyNumber": "42",
+      "id": 1177723
     },
-    "920546": {
-      "name": "Robert Sánchez",
-      "position": "G",
-      "height": 197,
-      "jerseyNumber": "97",
-      "id": 920546
+    "859027": {
+      "name": "Maxence Caqueret",
+      "position": "M",
+      "height": 174,
+      "jerseyNumber": "8",
+      "id": 859027
+    },
+    "811629": {
+      "name": "Luis Milla",
+      "position": "M",
+      "height": 175,
+      "jerseyNumber": "6",
+      "id": 811629
+    },
+    "1802689": {
+      "name": "Adrian Lahdo",
+      "position": "M",
+      "height": 179,
+      "jerseyNumber": "15",
+      "id": 1802689
+    },
+    "826134": {
+      "name": "Trevoh Chalobah",
+      "position": "D",
+      "height": 190,
+      "jerseyNumber": "99",
+      "id": 826134
+    },
+    "1403348": {
+      "name": "Jacobo Ramón",
+      "position": "D",
+      "height": 196,
+      "jerseyNumber": "4",
+      "id": 1403348
+    },
+    "1142238": {
+      "name": "Álex Valle",
+      "position": "D",
+      "height": 178,
+      "jerseyNumber": "3",
+      "id": 1142238
     },
     "1112484": {
       "name": "Kaiki",
@@ -1838,6 +2174,13 @@
       "jerseyNumber": "28",
       "id": 974581
     },
+    "226974": {
+      "name": "Marc Kempf",
+      "position": "D",
+      "height": 186,
+      "jerseyNumber": "2",
+      "id": 226974
+    },
     "870211": {
       "name": "Alberto Dossena",
       "position": "D",
@@ -1849,66 +2192,73 @@
       "name": "Edoardo Goldaniga",
       "position": "D",
       "height": 193,
-      "jerseyNumber": "5",
+      "jerseyNumber": "18",
       "id": 295133
     },
-    "226974": {
-      "name": "Marc Kempf",
-      "position": "D",
+    "920546": {
+      "name": "Robert Sánchez",
+      "position": "G",
+      "height": 197,
+      "jerseyNumber": "97",
+      "id": 920546
+    },
+    "599114": {
+      "name": "Jean Butez",
+      "position": "G",
+      "height": 188,
+      "jerseyNumber": "1",
+      "id": 599114
+    },
+    "41444": {
+      "name": "Mauro Vigorito",
+      "position": "G",
       "height": 186,
-      "jerseyNumber": "2",
-      "id": 226974
-    },
-    "1802689": {
-      "name": "Adrian Lahdo",
-      "position": "M",
-      "height": 179,
-      "jerseyNumber": "15",
-      "id": 1802689
-    },
-    "1800245": {
-      "name": "Jesús Rodriguez",
-      "position": "M",
-      "height": 185,
-      "jerseyNumber": "17",
-      "id": 1800245
+      "jerseyNumber": "22",
+      "id": 41444
     }
   },
   "Inter": {
-    "845291": {
-      "name": "Josep Martínez",
-      "position": "G",
-      "height": 191,
-      "jerseyNumber": "1",
-      "id": 845291
+    "823984": {
+      "name": "Lautaro Martínez",
+      "position": "F",
+      "height": 175,
+      "jerseyNumber": "10",
+      "id": 823984
     },
-    "906275": {
-      "name": "Yann Bisseck",
-      "position": "D",
-      "height": 194,
-      "jerseyNumber": "31",
-      "id": 906275
+    "791702": {
+      "name": "Marcus Thuram",
+      "position": "F",
+      "height": 192,
+      "jerseyNumber": "9",
+      "id": 791702
     },
-    "383560": {
-      "name": "Manuel Akanji",
-      "position": "D",
-      "height": 187,
-      "jerseyNumber": "25",
-      "id": 383560
+    "1086223": {
+      "name": "Ange-Yoan Bonny",
+      "position": "F",
+      "height": 189,
+      "jerseyNumber": "14",
+      "id": 1086223
     },
-    "826188": {
-      "name": "Alessandro Bastoni",
-      "position": "D",
-      "height": 190,
-      "jerseyNumber": "95",
-      "id": 826188
+    "1156616": {
+      "name": "Pio Esposito",
+      "position": "F",
+      "height": 189,
+      "jerseyNumber": "94",
+      "id": 1156616
     },
-    "1048889": {
-      "name": "Andy Diouf",
+    "1530727": {
+      "name": "Mattia Mosconi",
+      "position": "F",
+      "height": 176,
+      "jerseyNumber": "48",
+      "id": 1530727
+    },
+    "135700": {
+      "name": "Hakan Çalhanoğlu",
       "position": "M",
-      "height": 187,
-      "jerseyNumber": "17",
-      "id": 1048889
+      "height": 178,
+      "jerseyNumber": "20",
+      "id": 135700
     },
     "363856": {
       "name": "Nicolò Barella",
@@ -1924,12 +2274,12 @@
       "jerseyNumber": "7",
       "id": 138605
     },
-    "1091303": {
-      "name": "Petar Sučić",
+    "927353": {
+      "name": "Curtis Jones",
       "position": "M",
-      "height": 184,
-      "jerseyNumber": "8",
-      "id": 1091303
+      "height": 185,
+      "jerseyNumber": "21",
+      "id": 927353
     },
     "284361": {
       "name": "Federico Dimarco",
@@ -1938,82 +2288,19 @@
       "jerseyNumber": "32",
       "id": 284361
     },
-    "1156616": {
-      "name": "Pio Esposito",
-      "position": "F",
-      "height": 189,
-      "jerseyNumber": "94",
-      "id": 1156616
-    },
-    "823984": {
-      "name": "Lautaro Martínez",
-      "position": "F",
-      "height": 175,
-      "jerseyNumber": "10",
-      "id": 823984
-    },
-    "927353": {
-      "name": "Curtis Jones",
+    "1091303": {
+      "name": "Petar Sučić",
       "position": "M",
-      "height": 185,
-      "jerseyNumber": "21",
-      "id": 927353
-    },
-    "791702": {
-      "name": "Marcus Thuram",
-      "position": "F",
-      "height": 192,
-      "jerseyNumber": "9",
-      "id": 791702
-    },
-    "929199": {
-      "name": "Carlos Augusto",
-      "position": "D",
       "height": 184,
-      "jerseyNumber": "30",
-      "id": 929199
+      "jerseyNumber": "8",
+      "id": 1091303
     },
-    "135700": {
-      "name": "Hakan Çalhanoğlu",
+    "1048889": {
+      "name": "Andy Diouf",
       "position": "M",
-      "height": 178,
-      "jerseyNumber": "20",
-      "id": 135700
-    },
-    "1086223": {
-      "name": "Ange-Yoan Bonny",
-      "position": "F",
-      "height": 189,
-      "jerseyNumber": "14",
-      "id": 1086223
-    },
-    "308182": {
-      "name": "Ivan Provedel",
-      "position": "G",
-      "height": 194,
-      "jerseyNumber": "49",
-      "id": 308182
-    },
-    "301162": {
-      "name": "Raffaele Di Gennaro",
-      "position": "G",
-      "height": 188,
-      "jerseyNumber": "12",
-      "id": 301162
-    },
-    "787505": {
-      "name": "Benjamin Pavard",
-      "position": "D",
-      "height": 186,
-      "jerseyNumber": "28",
-      "id": 787505
-    },
-    "152077": {
-      "name": "John Stones",
-      "position": "D",
-      "height": 188,
-      "jerseyNumber": "6",
-      "id": 152077
+      "height": 187,
+      "jerseyNumber": "17",
+      "id": 1048889
     },
     "37151": {
       "name": "Henrikh Mkhitaryan",
@@ -2036,21 +2323,189 @@
       "jerseyNumber": "5",
       "id": 1153957
     },
-    "1530727": {
-      "name": "Mattia Mosconi",
-      "position": "F",
-      "height": 176,
-      "jerseyNumber": "48",
-      "id": 1530727
+    "383560": {
+      "name": "Manuel Akanji",
+      "position": "D",
+      "height": 187,
+      "jerseyNumber": "25",
+      "id": 383560
+    },
+    "152077": {
+      "name": "John Stones",
+      "position": "D",
+      "height": 188,
+      "jerseyNumber": "6",
+      "id": 152077
+    },
+    "826188": {
+      "name": "Alessandro Bastoni",
+      "position": "D",
+      "height": 190,
+      "jerseyNumber": "95",
+      "id": 826188
+    },
+    "945798": {
+      "name": "Djed Spence",
+      "position": "D",
+      "height": 184,
+      "jerseyNumber": "24",
+      "id": 945798
+    },
+    "787505": {
+      "name": "Benjamin Pavard",
+      "position": "D",
+      "height": 186,
+      "jerseyNumber": "28",
+      "id": 787505
+    },
+    "929199": {
+      "name": "Carlos Augusto",
+      "position": "D",
+      "height": 184,
+      "jerseyNumber": "30",
+      "id": 929199
+    },
+    "906275": {
+      "name": "Yann Bisseck",
+      "position": "D",
+      "height": 194,
+      "jerseyNumber": "31",
+      "id": 906275
+    },
+    "1931502": {
+      "name": "Leonardo Bovio",
+      "position": "D",
+      "height": 187,
+      "jerseyNumber": "46",
+      "id": 1931502
+    },
+    "845291": {
+      "name": "Josep Martínez",
+      "position": "G",
+      "height": 191,
+      "jerseyNumber": "1",
+      "id": 845291
+    },
+    "308182": {
+      "name": "Ivan Provedel",
+      "position": "G",
+      "height": 194,
+      "jerseyNumber": "49",
+      "id": 308182
+    },
+    "301162": {
+      "name": "Raffaele Di Gennaro",
+      "position": "G",
+      "height": 188,
+      "jerseyNumber": "12",
+      "id": 301162
     }
   },
   "Napoli": {
-    "592794": {
-      "name": "Alex Meret",
-      "position": "G",
-      "height": 190,
-      "jerseyNumber": "1",
-      "id": 592794
+    "1086417": {
+      "name": "Rasmus Højlund",
+      "position": "F",
+      "height": 191,
+      "jerseyNumber": "19",
+      "id": 1086417
+    },
+    "875136": {
+      "name": "Noa Lang",
+      "position": "F",
+      "height": 173,
+      "jerseyNumber": "70",
+      "id": 875136
+    },
+    "850993": {
+      "name": "David Neres",
+      "position": "F",
+      "height": 175,
+      "jerseyNumber": "7",
+      "id": 850993
+    },
+    "1122835": {
+      "name": "Alisson Santos",
+      "position": "F",
+      "height": 177,
+      "jerseyNumber": "27",
+      "id": 1122835
+    },
+    "1170773": {
+      "name": "Giovane",
+      "position": "F",
+      "height": 184,
+      "jerseyNumber": "23",
+      "id": 1170773
+    },
+    "962364": {
+      "name": "Lorenzo Lucca",
+      "position": "F",
+      "height": 201,
+      "jerseyNumber": "20",
+      "id": 962364
+    },
+    "1069560": {
+      "name": "Antonio Vergara",
+      "position": "F",
+      "height": 182,
+      "jerseyNumber": "26",
+      "id": 1069560
+    },
+    "70996": {
+      "name": "Kevin De Bruyne",
+      "position": "M",
+      "height": 181,
+      "jerseyNumber": "11",
+      "id": 70996
+    },
+    "879346": {
+      "name": "Scott McTominay",
+      "position": "M",
+      "height": 193,
+      "jerseyNumber": "8",
+      "id": 879346
+    },
+    "787941": {
+      "name": "Frank Anguissa",
+      "position": "M",
+      "height": 184,
+      "jerseyNumber": "99",
+      "id": 787941
+    },
+    "235672": {
+      "name": "Matteo Politano",
+      "position": "M",
+      "height": 171,
+      "jerseyNumber": "21",
+      "id": 235672
+    },
+    "150383": {
+      "name": "Stanislav Lobotka",
+      "position": "M",
+      "height": 170,
+      "jerseyNumber": "68",
+      "id": 150383
+    },
+    "907668": {
+      "name": "Billy Gilmour",
+      "position": "M",
+      "height": 169,
+      "jerseyNumber": "6",
+      "id": 907668
+    },
+    "1100544": {
+      "name": "Costantino Favasuli",
+      "position": "M",
+      "height": 178,
+      "jerseyNumber": "2",
+      "id": 1100544
+    },
+    "904827": {
+      "name": "Benoît Badiashile",
+      "position": "D",
+      "height": 194,
+      "jerseyNumber": "5",
+      "id": 904827
     },
     "153257": {
       "name": "Giovanni Di Lorenzo",
@@ -2066,12 +2521,12 @@
       "jerseyNumber": "13",
       "id": 332155
     },
-    "984623": {
-      "name": "Rafa Marín",
+    "870263": {
+      "name": "Alessandro Buongiorno",
       "position": "D",
-      "height": 190,
-      "jerseyNumber": "16",
-      "id": 984623
+      "height": 191,
+      "jerseyNumber": "4",
+      "id": 870263
     },
     "148899": {
       "name": "Leonardo Spinazzola",
@@ -2080,96 +2535,19 @@
       "jerseyNumber": "37",
       "id": 148899
     },
-    "787941": {
-      "name": "Frank Anguissa",
-      "position": "M",
-      "height": 184,
-      "jerseyNumber": "99",
-      "id": 787941
-    },
-    "150383": {
-      "name": "Stanislav Lobotka",
-      "position": "M",
-      "height": 170,
-      "jerseyNumber": "68",
-      "id": 150383
-    },
-    "1069560": {
-      "name": "Antonio Vergara",
-      "position": "F",
-      "height": 182,
-      "jerseyNumber": "26",
-      "id": 1069560
-    },
-    "235672": {
-      "name": "Matteo Politano",
-      "position": "M",
-      "height": 171,
-      "jerseyNumber": "21",
-      "id": 235672
-    },
-    "1086417": {
-      "name": "Rasmus Højlund",
-      "position": "F",
-      "height": 191,
-      "jerseyNumber": "19",
-      "id": 1086417
-    },
-    "1122835": {
-      "name": "Alisson Santos",
-      "position": "F",
-      "height": 177,
-      "jerseyNumber": "27",
-      "id": 1122835
-    },
-    "70996": {
-      "name": "Kevin De Bruyne",
-      "position": "M",
-      "height": 181,
-      "jerseyNumber": "11",
-      "id": 70996
-    },
-    "850993": {
-      "name": "David Neres",
-      "position": "F",
-      "height": 175,
-      "jerseyNumber": "7",
-      "id": 850993
-    },
-    "962364": {
-      "name": "Lorenzo Lucca",
-      "position": "F",
-      "height": 201,
-      "jerseyNumber": "20",
-      "id": 962364
-    },
-    "907668": {
-      "name": "Billy Gilmour",
-      "position": "M",
-      "height": 169,
-      "jerseyNumber": "6",
-      "id": 907668
-    },
-    "904827": {
-      "name": "Benoît Badiashile",
+    "805078": {
+      "name": "Mathías Olivera",
       "position": "D",
-      "height": 194,
-      "jerseyNumber": "5",
-      "id": 904827
+      "height": 184,
+      "jerseyNumber": "17",
+      "id": 805078
     },
-    "356160": {
-      "name": "Vanja Milinković-Savić",
-      "position": "G",
-      "height": 202,
-      "jerseyNumber": "32",
-      "id": 356160
-    },
-    "352728": {
-      "name": "Nikita Contini",
-      "position": "G",
+    "984623": {
+      "name": "Rafa Marín",
+      "position": "D",
       "height": 190,
-      "jerseyNumber": "14",
-      "id": 352728
+      "jerseyNumber": "16",
+      "id": 984623
     },
     "898815": {
       "name": "Sam Beukema",
@@ -2178,84 +2556,63 @@
       "jerseyNumber": "31",
       "id": 898815
     },
-    "805078": {
-      "name": "Mathías Olivera",
+    "1165371": {
+      "name": "Luca Marianucci",
       "position": "D",
-      "height": 184,
-      "jerseyNumber": "17",
-      "id": 805078
+      "height": 186,
+      "jerseyNumber": "35",
+      "id": 1165371
     },
-    "1100544": {
-      "name": "Costantino Favasuli",
-      "position": "M",
-      "height": 178,
-      "jerseyNumber": "2",
-      "id": 1100544
+    "356160": {
+      "name": "Vanja Milinković-Savić",
+      "position": "G",
+      "height": 202,
+      "jerseyNumber": "32",
+      "id": 356160
     },
-    "875136": {
-      "name": "Noa Lang",
-      "position": "F",
-      "height": 173,
-      "jerseyNumber": "70",
-      "id": 875136
+    "592794": {
+      "name": "Alex Meret",
+      "position": "G",
+      "height": 190,
+      "jerseyNumber": "1",
+      "id": 592794
+    },
+    "352728": {
+      "name": "Nikita Contini",
+      "position": "G",
+      "height": 190,
+      "jerseyNumber": "14",
+      "id": 352728
     },
     "2220248": {
       "name": "Claudio Pugliese",
       "position": "G",
-      "height": 180,
+      "height": 185,
       "jerseyNumber": "12",
       "id": 2220248
     }
   },
   "Juventus": {
-    "553606": {
-      "name": "Guglielmo Vicario",
-      "position": "G",
-      "height": 194,
-      "jerseyNumber": "25",
-      "id": 553606
+    "1149011": {
+      "name": "Kenan Yıldız",
+      "position": "F",
+      "height": 187,
+      "jerseyNumber": "10",
+      "id": 1149011
     },
-    "965330": {
-      "name": "Pierre Kalulu",
-      "position": "D",
-      "height": 183,
-      "jerseyNumber": "15",
-      "id": 965330
+    "980623": {
+      "name": "Nick Woltemade",
+      "position": "F",
+      "height": 198,
+      "jerseyNumber": "27",
+      "id": 980623
     },
-    "885197": {
-      "name": "Gleison Bremer",
-      "position": "D",
-      "height": 188,
-      "jerseyNumber": "3",
-      "id": 885197
-    },
-    "818481": {
-      "name": "Jhon Lucumí",
-      "position": "D",
-      "height": 185,
-      "jerseyNumber": "26",
-      "id": 818481
-    },
-    "893008": {
-      "name": "Zeki Çelik",
-      "position": "D",
-      "height": 180,
-      "jerseyNumber": "2",
-      "id": 893008
-    },
-    "363860": {
-      "name": "Manuel Locatelli",
-      "position": "M",
-      "height": 185,
-      "jerseyNumber": "5",
-      "id": 363860
-    },
-    "867887": {
-      "name": "Douglas Luiz",
-      "position": "M",
-      "height": 175,
-      "jerseyNumber": "12",
-      "id": 867887
+    "871706": {
+      "name": "Randal Kolo Muani",
+      "position": "F",
+      "height": 187,
+      "jerseyNumber": "9",
+      "id": 871706
     },
     "979222": {
       "name": "Francisco Conceição",
@@ -2263,6 +2620,41 @@
       "height": 166,
       "jerseyNumber": "7",
       "id": 979222
+    },
+    "161325": {
+      "name": "Arkadiusz Milik",
+      "position": "F",
+      "height": 186,
+      "jerseyNumber": "14",
+      "id": 161325
+    },
+    "887766": {
+      "name": "Edon Zhegrova",
+      "position": "F",
+      "height": 181,
+      "jerseyNumber": "11",
+      "id": 887766
+    },
+    "367056": {
+      "name": "Jérémie Boga",
+      "position": "F",
+      "height": 172,
+      "jerseyNumber": "13",
+      "id": 367056
+    },
+    "1613917": {
+      "name": "Jeff Ekhator",
+      "position": "F",
+      "height": 188,
+      "jerseyNumber": "18",
+      "id": 1613917
+    },
+    "1002711": {
+      "name": "Pape Matar Sarr",
+      "position": "M",
+      "height": 185,
+      "jerseyNumber": "29",
+      "id": 1002711
     },
     "901325": {
       "name": "Nicolás González",
@@ -2278,12 +2670,33 @@
       "jerseyNumber": "17",
       "id": 1425366
     },
-    "871706": {
-      "name": "Randal Kolo Muani",
-      "position": "F",
-      "height": 187,
-      "jerseyNumber": "9",
-      "id": 871706
+    "867887": {
+      "name": "Douglas Luiz",
+      "position": "M",
+      "height": 175,
+      "jerseyNumber": "12",
+      "id": 867887
+    },
+    "904832": {
+      "name": "Khéphren Thuram",
+      "position": "M",
+      "height": 191,
+      "jerseyNumber": "19",
+      "id": 904832
+    },
+    "363860": {
+      "name": "Manuel Locatelli",
+      "position": "M",
+      "height": 185,
+      "jerseyNumber": "5",
+      "id": 363860
+    },
+    "881931": {
+      "name": "Weston McKennie",
+      "position": "M",
+      "height": 180,
+      "jerseyNumber": "22",
+      "id": 881931
     },
     "803033": {
       "name": "Teun Koopmeiners",
@@ -2292,61 +2705,19 @@
       "jerseyNumber": "8",
       "id": 803033
     },
-    "367056": {
-      "name": "Jérémie Boga",
-      "position": "F",
-      "height": 172,
-      "jerseyNumber": "13",
-      "id": 367056
-    },
-    "980623": {
-      "name": "Nick Woltemade",
-      "position": "F",
-      "height": 198,
-      "jerseyNumber": "27",
-      "id": 980623
-    },
-    "1128063": {
-      "name": "Federico Gatti",
-      "position": "D",
-      "height": 190,
-      "jerseyNumber": "4",
-      "id": 1128063
-    },
-    "887766": {
-      "name": "Edon Zhegrova",
-      "position": "F",
+    "917048": {
+      "name": "Andrea Cambiaso",
+      "position": "M",
       "height": 181,
-      "jerseyNumber": "11",
-      "id": 887766
+      "jerseyNumber": "20",
+      "id": 917048
     },
-    "46420": {
-      "name": "Carlo Pinsoglio",
-      "position": "G",
-      "height": 194,
-      "jerseyNumber": "23",
-      "id": 46420
-    },
-    "902080": {
-      "name": "Kamil Grabara",
-      "position": "G",
-      "height": 195,
-      "jerseyNumber": "1",
-      "id": 902080
-    },
-    "865167": {
-      "name": "Lloyd Kelly",
-      "position": "D",
-      "height": 191,
-      "jerseyNumber": "6",
-      "id": 865167
-    },
-    "139273": {
-      "name": "Daniele Rugani",
-      "position": "D",
-      "height": 188,
-      "jerseyNumber": "24",
-      "id": 139273
+    "1908261": {
+      "name": "Destiny Elimoghale",
+      "position": "M",
+      "height": 182,
+      "jerseyNumber": "48",
+      "id": 1908261
     },
     "1526401": {
       "name": "Augusto Owusu",
@@ -2362,56 +2733,133 @@
       "jerseyNumber": "43",
       "id": 1466133
     },
-    "1002711": {
-      "name": "Pape Matar Sarr",
+    "1521253": {
+      "name": "Grady Makiobo Makiobo",
       "position": "M",
-      "height": 185,
-      "jerseyNumber": "29",
-      "id": 1002711
+      "height": 187,
+      "jerseyNumber": "49",
+      "id": 1521253
     },
-    "1400670": {
-      "name": "Justin Oboavwoduo",
-      "position": "F",
-      "height": 179,
-      "jerseyNumber": "45",
-      "id": 1400670
+    "885197": {
+      "name": "Gleison Bremer",
+      "position": "D",
+      "height": 188,
+      "jerseyNumber": "3",
+      "id": 885197
+    },
+    "965330": {
+      "name": "Pierre Kalulu",
+      "position": "D",
+      "height": 183,
+      "jerseyNumber": "15",
+      "id": 965330
+    },
+    "818481": {
+      "name": "Jhon Lucumí",
+      "position": "D",
+      "height": 185,
+      "jerseyNumber": "26",
+      "id": 818481
+    },
+    "1128063": {
+      "name": "Federico Gatti",
+      "position": "D",
+      "height": 190,
+      "jerseyNumber": "4",
+      "id": 1128063
+    },
+    "988037": {
+      "name": "Juan Cabal",
+      "position": "D",
+      "height": 185,
+      "jerseyNumber": "32",
+      "id": 988037
+    },
+    "893008": {
+      "name": "Zeki Çelik",
+      "position": "D",
+      "height": 180,
+      "jerseyNumber": "2",
+      "id": 893008
+    },
+    "865167": {
+      "name": "Lloyd Kelly",
+      "position": "D",
+      "height": 191,
+      "jerseyNumber": "6",
+      "id": 865167
+    },
+    "139273": {
+      "name": "Daniele Rugani",
+      "position": "D",
+      "height": 188,
+      "jerseyNumber": "24",
+      "id": 139273
+    },
+    "553606": {
+      "name": "Guglielmo Vicario",
+      "position": "G",
+      "height": 194,
+      "jerseyNumber": "25",
+      "id": 553606
+    },
+    "902080": {
+      "name": "Kamil Grabara",
+      "position": "G",
+      "height": 195,
+      "jerseyNumber": "1",
+      "id": 902080
+    },
+    "46420": {
+      "name": "Carlo Pinsoglio",
+      "position": "G",
+      "height": 194,
+      "jerseyNumber": "23",
+      "id": 46420
+    },
+    "1486464": {
+      "name": "Riccardo Radu",
+      "position": "G",
+      "height": 188,
+      "jerseyNumber": "40",
+      "id": 1486464
     }
   },
   "Milan": {
-    "191210": {
-      "name": "Mike Maignan",
-      "position": "G",
-      "height": 190,
-      "jerseyNumber": "16",
-      "id": 191210
+    "817957": {
+      "name": "Christian Pulišić",
+      "position": "F",
+      "height": 177,
+      "jerseyNumber": "11",
+      "id": 817957
     },
-    "965828": {
-      "name": "Mario Gila",
-      "position": "D",
+    "934510": {
+      "name": "Gonçalo Ramos",
+      "position": "F",
       "height": 185,
-      "jerseyNumber": "34",
-      "id": 965828
+      "jerseyNumber": "9",
+      "id": 934510
     },
-    "1001828": {
-      "name": "Koni De Winter",
-      "position": "D",
-      "height": 191,
-      "jerseyNumber": "5",
-      "id": 1001828
+    "822470": {
+      "name": "Samuel Chukwueze",
+      "position": "F",
+      "height": 172,
+      "jerseyNumber": "21",
+      "id": 822470
     },
-    "965893": {
-      "name": "Strahinja Pavlović",
-      "position": "D",
-      "height": 194,
-      "jerseyNumber": "31",
-      "id": 965893
+    "1520771": {
+      "name": "Francesco Camarda",
+      "position": "F",
+      "height": 189,
+      "jerseyNumber": "73",
+      "id": 1520771
     },
-    "1142233": {
-      "name": "Diego Moreira",
-      "position": "M",
-      "height": 179,
-      "jerseyNumber": "22",
-      "id": 1142233
+    "1169409": {
+      "name": "Alphadjo Cissè",
+      "position": "F",
+      "height": 181,
+      "jerseyNumber": "70",
+      "id": 1169409
     },
     "15466": {
       "name": "Luka Modrić",
@@ -2419,13 +2867,6 @@
       "height": 173,
       "jerseyNumber": "14",
       "id": 15466
-    },
-    "983815": {
-      "name": "Yunus Musah",
-      "position": "M",
-      "height": 178,
-      "jerseyNumber": "80",
-      "id": 983815
     },
     "805465": {
       "name": "Pervis Estupiñán",
@@ -2441,19 +2882,19 @@
       "jerseyNumber": "12",
       "id": 250737
     },
+    "1142233": {
+      "name": "Diego Moreira",
+      "position": "M",
+      "height": 179,
+      "jerseyNumber": "22",
+      "id": 1142233
+    },
     "901891": {
       "name": "Alexis Saelemaekers",
       "position": "M",
       "height": 180,
       "jerseyNumber": "56",
       "id": 901891
-    },
-    "934510": {
-      "name": "Gonçalo Ramos",
-      "position": "F",
-      "height": 185,
-      "jerseyNumber": "9",
-      "id": 934510
     },
     "284441": {
       "name": "Ruben Loftus-Cheek",
@@ -2462,19 +2903,12 @@
       "jerseyNumber": "8",
       "id": 284441
     },
-    "822470": {
-      "name": "Samuel Chukwueze",
-      "position": "F",
-      "height": 172,
-      "jerseyNumber": "21",
-      "id": 822470
-    },
-    "1169409": {
-      "name": "Alphadjo Cissè",
-      "position": "F",
-      "height": 181,
-      "jerseyNumber": "70",
-      "id": 1169409
+    "1390489": {
+      "name": "Davide Bartesaghi",
+      "position": "M",
+      "height": 193,
+      "jerseyNumber": "33",
+      "id": 1390489
     },
     "1034082": {
       "name": "Ardon Jashari",
@@ -2483,12 +2917,96 @@
       "jerseyNumber": "30",
       "id": 1034082
     },
+    "1090963": {
+      "name": "Omari Hutchinson",
+      "position": "M",
+      "height": 174,
+      "jerseyNumber": "20",
+      "id": 1090963
+    },
+    "983815": {
+      "name": "Yunus Musah",
+      "position": "M",
+      "height": 178,
+      "jerseyNumber": "80",
+      "id": 983815
+    },
+    "1000366": {
+      "name": "Warren Bondo",
+      "position": "M",
+      "height": 177,
+      "jerseyNumber": "38",
+      "id": 1000366
+    },
+    "1622149": {
+      "name": "Christian Comotto",
+      "position": "M",
+      "height": 183,
+      "jerseyNumber": "28",
+      "id": 1622149
+    },
+    "965893": {
+      "name": "Strahinja Pavlović",
+      "position": "D",
+      "height": 194,
+      "jerseyNumber": "31",
+      "id": 965893
+    },
+    "788255": {
+      "name": "Fikayo Tomori",
+      "position": "D",
+      "height": 185,
+      "jerseyNumber": "23",
+      "id": 788255
+    },
+    "1001828": {
+      "name": "Koni De Winter",
+      "position": "D",
+      "height": 191,
+      "jerseyNumber": "5",
+      "id": 1001828
+    },
+    "826195": {
+      "name": "Matteo Gabbia",
+      "position": "D",
+      "height": 185,
+      "jerseyNumber": "46",
+      "id": 826195
+    },
+    "965828": {
+      "name": "Mario Gila",
+      "position": "D",
+      "height": 185,
+      "jerseyNumber": "34",
+      "id": 965828
+    },
     "1034303": {
       "name": "Filippo Terracciano",
       "position": "D",
       "height": 181,
       "jerseyNumber": "42",
       "id": 1034303
+    },
+    "1983939": {
+      "name": "Valeri Ivanov Vladimirov ",
+      "position": "D",
+      "height": 190,
+      "jerseyNumber": "35",
+      "id": 1983939
+    },
+    "1899999": {
+      "name": "Sankhoun Diawara",
+      "position": "D",
+      "height": 188,
+      "jerseyNumber": "13",
+      "id": 1899999
+    },
+    "191210": {
+      "name": "Mike Maignan",
+      "position": "G",
+      "height": 190,
+      "jerseyNumber": "16",
+      "id": 191210
     },
     "1403294": {
       "name": "Lorenzo Torriani",
@@ -2503,128 +3021,9 @@
       "height": 193,
       "jerseyNumber": "1",
       "id": 136856
-    },
-    "1899999": {
-      "name": "Sankhoun Diawara",
-      "position": "D",
-      "height": 188,
-      "jerseyNumber": "13",
-      "id": 1899999
-    },
-    "788255": {
-      "name": "Fikayo Tomori",
-      "position": "D",
-      "height": 185,
-      "jerseyNumber": "23",
-      "id": 788255
-    },
-    "1390489": {
-      "name": "Davide Bartesaghi",
-      "position": "M",
-      "height": 193,
-      "jerseyNumber": "33",
-      "id": 1390489
-    },
-    "1622149": {
-      "name": "Christian Comotto",
-      "position": "M",
-      "height": 183,
-      "jerseyNumber": "28",
-      "id": 1622149
-    },
-    "1090963": {
-      "name": "Omari Hutchinson",
-      "position": "M",
-      "height": 174,
-      "jerseyNumber": "20",
-      "id": 1090963
-    },
-    "1520771": {
-      "name": "Francesco Camarda",
-      "position": "F",
-      "height": 189,
-      "jerseyNumber": "73",
-      "id": 1520771
-    },
-    "817957": {
-      "name": "Christian Pulišić",
-      "position": "F",
-      "height": 177,
-      "jerseyNumber": "11",
-      "id": 817957
-    },
-    "826195": {
-      "name": "Matteo Gabbia",
-      "position": "D",
-      "height": 185,
-      "jerseyNumber": "46",
-      "id": 826195
     }
   },
   "Roma": {
-    "793986": {
-      "name": "Mile Svilar",
-      "position": "G",
-      "height": 189,
-      "jerseyNumber": "99",
-      "id": 793986
-    },
-    "611210": {
-      "name": "Gianluca Mancini",
-      "position": "D",
-      "height": 190,
-      "jerseyNumber": "23",
-      "id": 611210
-    },
-    "848287": {
-      "name": "Evan Ndicka",
-      "position": "D",
-      "height": 190,
-      "jerseyNumber": "5",
-      "id": 848287
-    },
-    "353130": {
-      "name": "Mario Hermoso",
-      "position": "D",
-      "height": 184,
-      "jerseyNumber": "22",
-      "id": 353130
-    },
-    "1955992": {
-      "name": "Emanuele Lulli",
-      "position": "M",
-      "height": 184,
-      "jerseyNumber": "77",
-      "id": 1955992
-    },
-    "186855": {
-      "name": "Bryan Cristante",
-      "position": "M",
-      "height": 186,
-      "jerseyNumber": "4",
-      "id": 186855
-    },
-    "974087": {
-      "name": "Manu Koné",
-      "position": "M",
-      "height": 186,
-      "jerseyNumber": "17",
-      "id": 974087
-    },
-    "1134200": {
-      "name": "Wesley",
-      "position": "M",
-      "height": 178,
-      "jerseyNumber": "43",
-      "id": 1134200
-    },
-    "1410240": {
-      "name": "Rodrigo Mora",
-      "position": "M",
-      "height": 168,
-      "jerseyNumber": "86",
-      "id": 1410240
-    },
     "256219": {
       "name": "Paulo Dybala",
       "position": "F",
@@ -2639,26 +3038,12 @@
       "jerseyNumber": "14",
       "id": 803039
     },
-    "831799": {
-      "name": "Nahuel Molina",
-      "position": "D",
-      "height": 175,
-      "jerseyNumber": "20",
-      "id": 831799
-    },
     "1082406": {
       "name": "Matías Soulé",
       "position": "F",
       "height": 182,
       "jerseyNumber": "18",
       "id": 1082406
-    },
-    "1384847": {
-      "name": "Daniele Ghilardi",
-      "position": "D",
-      "height": 189,
-      "jerseyNumber": "87",
-      "id": 1384847
     },
     "1116577": {
       "name": "Santiago Castro",
@@ -2667,54 +3052,12 @@
       "jerseyNumber": "9",
       "id": 1116577
     },
-    "928236": {
-      "name": "Leonardo Balerdi",
-      "position": "D",
-      "height": 188,
-      "jerseyNumber": "26",
-      "id": 928236
-    },
-    "1652568": {
-      "name": "Giorgio De Marzi",
-      "position": "G",
+    "555540": {
+      "name": "Lorenzo Pellegrini",
+      "position": "F",
       "height": 186,
-      "jerseyNumber": "70",
-      "id": 1652568
-    },
-    "329175": {
-      "name": "Pierluigi Gollini",
-      "position": "G",
-      "height": 194,
-      "jerseyNumber": "95",
-      "id": 329175
-    },
-    "1184855": {
-      "name": "Konstantinos Koulierakis",
-      "position": "D",
-      "height": 188,
-      "jerseyNumber": "3",
-      "id": 1184855
-    },
-    "100389": {
-      "name": "Marten de Roon",
-      "position": "M",
-      "height": 185,
-      "jerseyNumber": "15",
-      "id": 100389
-    },
-    "1175821": {
-      "name": "Niccolò Pisilli",
-      "position": "M",
-      "height": 180,
-      "jerseyNumber": "61",
-      "id": 1175821
-    },
-    "982778": {
-      "name": "Devyne Rensch",
-      "position": "M",
-      "height": 182,
-      "jerseyNumber": "2",
-      "id": 982778
+      "jerseyNumber": "7",
+      "id": 555540
     },
     "1923599": {
       "name": "Antonio Arena",
@@ -2723,77 +3066,161 @@
       "jerseyNumber": "68",
       "id": 1923599
     },
-    "555540": {
-      "name": "Lorenzo Pellegrini",
-      "position": "F",
+    "1134200": {
+      "name": "Wesley",
+      "position": "M",
+      "height": 178,
+      "jerseyNumber": "43",
+      "id": 1134200
+    },
+    "974087": {
+      "name": "Manu Koné",
+      "position": "M",
       "height": 186,
-      "jerseyNumber": "7",
-      "id": 555540
+      "jerseyNumber": "17",
+      "id": 974087
+    },
+    "1410240": {
+      "name": "Rodrigo Mora",
+      "position": "M",
+      "height": 168,
+      "jerseyNumber": "86",
+      "id": 1410240
+    },
+    "1175821": {
+      "name": "Niccolò Pisilli",
+      "position": "M",
+      "height": 180,
+      "jerseyNumber": "61",
+      "id": 1175821
+    },
+    "186855": {
+      "name": "Bryan Cristante",
+      "position": "M",
+      "height": 186,
+      "jerseyNumber": "4",
+      "id": 186855
+    },
+    "982778": {
+      "name": "Devyne Rensch",
+      "position": "M",
+      "height": 182,
+      "jerseyNumber": "2",
+      "id": 982778
+    },
+    "100389": {
+      "name": "Marten de Roon",
+      "position": "M",
+      "height": 185,
+      "jerseyNumber": "15",
+      "id": 100389
+    },
+    "1955992": {
+      "name": "Emanuele Lulli",
+      "position": "M",
+      "height": 184,
+      "jerseyNumber": "77",
+      "id": 1955992
+    },
+    "831799": {
+      "name": "Nahuel Molina",
+      "position": "D",
+      "height": 175,
+      "jerseyNumber": "20",
+      "id": 831799
+    },
+    "848287": {
+      "name": "Evan Ndicka",
+      "position": "D",
+      "height": 190,
+      "jerseyNumber": "5",
+      "id": 848287
+    },
+    "928236": {
+      "name": "Leonardo Balerdi",
+      "position": "D",
+      "height": 188,
+      "jerseyNumber": "26",
+      "id": 928236
+    },
+    "1184855": {
+      "name": "Konstantinos Koulierakis",
+      "position": "D",
+      "height": 188,
+      "jerseyNumber": "3",
+      "id": 1184855
+    },
+    "611210": {
+      "name": "Gianluca Mancini",
+      "position": "D",
+      "height": 190,
+      "jerseyNumber": "23",
+      "id": 611210
+    },
+    "353130": {
+      "name": "Mario Hermoso",
+      "position": "D",
+      "height": 184,
+      "jerseyNumber": "22",
+      "id": 353130
+    },
+    "1384847": {
+      "name": "Daniele Ghilardi",
+      "position": "D",
+      "height": 189,
+      "jerseyNumber": "87",
+      "id": 1384847
+    },
+    "793986": {
+      "name": "Mile Svilar",
+      "position": "G",
+      "height": 189,
+      "jerseyNumber": "99",
+      "id": 793986
+    },
+    "925285": {
+      "name": "Devis Vásquez",
+      "position": "G",
+      "height": 195,
+      "jerseyNumber": "32",
+      "id": 925285
+    },
+    "329175": {
+      "name": "Pierluigi Gollini",
+      "position": "G",
+      "height": 194,
+      "jerseyNumber": "95",
+      "id": 329175
+    },
+    "1652568": {
+      "name": "Giorgio De Marzi",
+      "position": "G",
+      "height": 186,
+      "jerseyNumber": "70",
+      "id": 1652568
     }
   },
   "Atalanta": {
-    "865646": {
-      "name": "Marco Carnesecchi",
-      "position": "G",
-      "height": 192,
-      "jerseyNumber": "29",
-      "id": 865646
-    },
-    "826185": {
-      "name": "Raoul Bellanova",
-      "position": "M",
-      "height": 188,
-      "jerseyNumber": "16",
-      "id": 826185
-    },
-    "973437": {
-      "name": "Odilon Kossounou",
-      "position": "D",
-      "height": 191,
-      "jerseyNumber": "3",
-      "id": 973437
-    },
-    "1012176": {
-      "name": "Giorgio Scalvini",
-      "position": "D",
-      "height": 194,
-      "jerseyNumber": "42",
-      "id": 1012176
-    },
-    "142148": {
-      "name": "Sead Kolašinac",
-      "position": "D",
-      "height": 183,
-      "jerseyNumber": "23",
-      "id": 142148
-    },
-    "980624": {
-      "name": "Lazar Samardžić",
-      "position": "M",
-      "height": 183,
-      "jerseyNumber": "10",
-      "id": 980624
-    },
-    "902019": {
-      "name": "Gianluca Gaetano",
-      "position": "M",
-      "height": 183,
-      "jerseyNumber": "70",
-      "id": 902019
-    },
-    "946888": {
-      "name": "Éderson",
-      "position": "M",
-      "height": 183,
-      "jerseyNumber": "13",
-      "id": 946888
-    },
     "960441": {
       "name": "Charles De Ketelaere",
       "position": "F",
       "height": 192,
       "jerseyNumber": "17",
       "id": 960441
+    },
+    "1019442": {
+      "name": "Kamaldeen Sulemana",
+      "position": "F",
+      "height": 174,
+      "jerseyNumber": "7",
+      "id": 1019442
+    },
+    "865651": {
+      "name": "Giacomo Raspadori",
+      "position": "F",
+      "height": 172,
+      "jerseyNumber": "18",
+      "id": 865651
     },
     "807301": {
       "name": "Gianluca Scamacca",
@@ -2802,13 +3229,6 @@
       "jerseyNumber": "9",
       "id": 807301
     },
-    "838232": {
-      "name": "Eljif Elmas",
-      "position": "M",
-      "height": 182,
-      "jerseyNumber": "99",
-      "id": 838232
-    },
     "839156": {
       "name": "Nikola Krstović",
       "position": "F",
@@ -2816,26 +3236,12 @@
       "jerseyNumber": "90",
       "id": 839156
     },
-    "984184": {
-      "name": "Nicola Zalewski",
-      "position": "M",
-      "height": 175,
-      "jerseyNumber": "59",
-      "id": 984184
-    },
-    "190437": {
-      "name": "Mario Pašalić",
-      "position": "M",
-      "height": 189,
-      "jerseyNumber": "8",
-      "id": 190437
-    },
-    "132318": {
-      "name": "Davide Zappacosta",
-      "position": "M",
-      "height": 182,
-      "jerseyNumber": "77",
-      "id": 132318
+    "1065261": {
+      "name": "Jonathan Rowe",
+      "position": "F",
+      "height": 173,
+      "jerseyNumber": "11",
+      "id": 1065261
     },
     "359226": {
       "name": "Franck Kessié",
@@ -2844,19 +3250,96 @@
       "jerseyNumber": "19",
       "id": 359226
     },
-    "1165201": {
-      "name": "Thomas Pompei",
-      "position": "G",
-      "height": 188,
-      "jerseyNumber": "22",
-      "id": 1165201
+    "984184": {
+      "name": "Nicola Zalewski",
+      "position": "M",
+      "height": 175,
+      "jerseyNumber": "59",
+      "id": 984184
     },
-    "176301": {
-      "name": "Marco Sportiello",
-      "position": "G",
-      "height": 192,
-      "jerseyNumber": "57",
-      "id": 176301
+    "946888": {
+      "name": "Éderson",
+      "position": "M",
+      "height": 183,
+      "jerseyNumber": "13",
+      "id": 946888
+    },
+    "190437": {
+      "name": "Mario Pašalić",
+      "position": "M",
+      "height": 189,
+      "jerseyNumber": "8",
+      "id": 190437
+    },
+    "980624": {
+      "name": "Lazar Samardžić",
+      "position": "M",
+      "height": 183,
+      "jerseyNumber": "10",
+      "id": 980624
+    },
+    "838232": {
+      "name": "Eljif Elmas",
+      "position": "M",
+      "height": 182,
+      "jerseyNumber": "99",
+      "id": 838232
+    },
+    "826185": {
+      "name": "Raoul Bellanova",
+      "position": "M",
+      "height": 188,
+      "jerseyNumber": "16",
+      "id": 826185
+    },
+    "132318": {
+      "name": "Davide Zappacosta",
+      "position": "M",
+      "height": 182,
+      "jerseyNumber": "77",
+      "id": 132318
+    },
+    "902019": {
+      "name": "Gianluca Gaetano",
+      "position": "M",
+      "height": 183,
+      "jerseyNumber": "70",
+      "id": 902019
+    },
+    "1012177": {
+      "name": "Lorenzo Bernasconi",
+      "position": "M",
+      "height": 190,
+      "jerseyNumber": "47",
+      "id": 1012177
+    },
+    "973437": {
+      "name": "Odilon Kossounou",
+      "position": "D",
+      "height": 191,
+      "jerseyNumber": "3",
+      "id": 973437
+    },
+    "142148": {
+      "name": "Sead Kolašinac",
+      "position": "D",
+      "height": 183,
+      "jerseyNumber": "23",
+      "id": 142148
+    },
+    "1012176": {
+      "name": "Giorgio Scalvini",
+      "position": "D",
+      "height": 194,
+      "jerseyNumber": "42",
+      "id": 1012176
+    },
+    "1157713": {
+      "name": "Isak Hien",
+      "position": "D",
+      "height": 191,
+      "jerseyNumber": "4",
+      "id": 1157713
     },
     "1063373": {
       "name": "Thomas Kristensen",
@@ -2872,119 +3355,35 @@
       "jerseyNumber": "40",
       "id": 1432414
     },
-    "1012177": {
-      "name": "Lorenzo Bernasconi",
-      "position": "M",
-      "height": 190,
-      "jerseyNumber": "47",
-      "id": 1012177
+    "865646": {
+      "name": "Marco Carnesecchi",
+      "position": "G",
+      "height": 192,
+      "jerseyNumber": "29",
+      "id": 865646
     },
-    "1065261": {
-      "name": "Jonathan Rowe",
-      "position": "F",
-      "height": 173,
-      "jerseyNumber": "11",
-      "id": 1065261
+    "176301": {
+      "name": "Marco Sportiello",
+      "position": "G",
+      "height": 192,
+      "jerseyNumber": "57",
+      "id": 176301
     },
-    "865651": {
-      "name": "Giacomo Raspadori",
-      "position": "F",
-      "height": 172,
-      "jerseyNumber": "18",
-      "id": 865651
+    "1165201": {
+      "name": "Thomas Pompei",
+      "position": "G",
+      "height": 188,
+      "jerseyNumber": "22",
+      "id": 1165201
     }
   },
   "Udinese": {
-    "891656": {
-      "name": "Maduka Okoye",
-      "position": "G",
-      "height": 197,
-      "jerseyNumber": "40",
-      "id": 891656
-    },
-    "1127232": {
-      "name": "James Abankwah",
-      "position": "D",
-      "height": 188,
-      "jerseyNumber": "14",
-      "id": 1127232
-    },
-    "892979": {
-      "name": "Oumar Solet",
-      "position": "D",
-      "height": 192,
-      "jerseyNumber": "28",
-      "id": 892979
-    },
-    "848279": {
-      "name": "Enzo Ebosse",
-      "position": "D",
-      "height": 185,
-      "jerseyNumber": "77",
-      "id": 848279
-    },
-    "798147": {
-      "name": "Mërgim Vojvoda",
-      "position": "D",
-      "height": 187,
-      "jerseyNumber": "23",
-      "id": 798147
-    },
-    "227894": {
-      "name": "Jesper Karlström",
-      "position": "M",
-      "height": 179,
-      "jerseyNumber": "8",
-      "id": 227894
-    },
-    "825271": {
-      "name": "Jakub Piotrowski",
-      "position": "M",
-      "height": 188,
-      "jerseyNumber": "24",
-      "id": 825271
-    },
-    "351434": {
-      "name": "Hassane Kamara",
-      "position": "M",
-      "height": 168,
-      "jerseyNumber": "11",
-      "id": 351434
-    },
-    "1391375": {
-      "name": "Unai Gómez",
-      "position": "M",
-      "height": 183,
-      "jerseyNumber": "46",
-      "id": 1391375
-    },
-    "904887": {
-      "name": "Jürgen Ekkelenkamp",
-      "position": "M",
-      "height": 188,
-      "jerseyNumber": "32",
-      "id": 904887
-    },
-    "830858": {
-      "name": "Keinan Davis",
+    "864898": {
+      "name": "Nicolò Zaniolo",
       "position": "F",
       "height": 189,
-      "jerseyNumber": "9",
-      "id": 830858
-    },
-    "1154894": {
-      "name": "Lennon Miller",
-      "position": "M",
-      "height": 182,
-      "jerseyNumber": "38",
-      "id": 1154894
-    },
-    "58351": {
-      "name": "Christian Kabasele",
-      "position": "D",
-      "height": 186,
-      "jerseyNumber": "27",
-      "id": 58351
+      "jerseyNumber": "10",
+      "id": 864898
     },
     "796455": {
       "name": "Vakoun Issouf Bayo",
@@ -2993,12 +3392,103 @@
       "jerseyNumber": "15",
       "id": 796455
     },
-    "1136399": {
-      "name": "Nicolò Bertola",
-      "position": "D",
-      "height": 185,
-      "jerseyNumber": "13",
-      "id": 1136399
+    "1536811": {
+      "name": "Idrissa Gueye",
+      "position": "F",
+      "height": 188,
+      "jerseyNumber": "7",
+      "id": 1536811
+    },
+    "830858": {
+      "name": "Keinan Davis",
+      "position": "F",
+      "height": 189,
+      "jerseyNumber": "9",
+      "id": 830858
+    },
+    "1910431": {
+      "name": "Giulio Vinciati",
+      "position": "F",
+      "height": 180,
+      "jerseyNumber": "45",
+      "id": 1910431
+    },
+    "858191": {
+      "name": "Giorgi Chakvetadze",
+      "position": "M",
+      "height": 180,
+      "jerseyNumber": "30",
+      "id": 858191
+    },
+    "825271": {
+      "name": "Jakub Piotrowski",
+      "position": "M",
+      "height": 188,
+      "jerseyNumber": "24",
+      "id": 825271
+    },
+    "904887": {
+      "name": "Jürgen Ekkelenkamp",
+      "position": "M",
+      "height": 188,
+      "jerseyNumber": "32",
+      "id": 904887
+    },
+    "351434": {
+      "name": "Hassane Kamara",
+      "position": "M",
+      "height": 168,
+      "jerseyNumber": "11",
+      "id": 351434
+    },
+    "1154894": {
+      "name": "Lennon Miller",
+      "position": "M",
+      "height": 182,
+      "jerseyNumber": "38",
+      "id": 1154894
+    },
+    "1476922": {
+      "name": "Juan Arizala",
+      "position": "M",
+      "height": 183,
+      "jerseyNumber": "20",
+      "id": 1476922
+    },
+    "1427148": {
+      "name": "Lazar Jovanović",
+      "position": "M",
+      "height": 182,
+      "jerseyNumber": "91",
+      "id": 1427148
+    },
+    "1391375": {
+      "name": "Unai Gómez",
+      "position": "M",
+      "height": 183,
+      "jerseyNumber": "46",
+      "id": 1391375
+    },
+    "227894": {
+      "name": "Jesper Karlström",
+      "position": "M",
+      "height": 179,
+      "jerseyNumber": "8",
+      "id": 227894
+    },
+    "922928": {
+      "name": "Alessandro Zanoli",
+      "position": "M",
+      "height": 186,
+      "jerseyNumber": "59",
+      "id": 922928
+    },
+    "575852": {
+      "name": "Sandi Lovrić",
+      "position": "M",
+      "height": 180,
+      "jerseyNumber": "4",
+      "id": 575852
     },
     "1009661": {
       "name": "Oier Zarraga",
@@ -3006,6 +3496,69 @@
       "height": 175,
       "jerseyNumber": "6",
       "id": 1009661
+    },
+    "66492": {
+      "name": "David Alaba",
+      "position": "D",
+      "height": 180,
+      "jerseyNumber": "",
+      "id": 66492
+    },
+    "892979": {
+      "name": "Oumar Solet",
+      "position": "D",
+      "height": 192,
+      "jerseyNumber": "28",
+      "id": 892979
+    },
+    "798147": {
+      "name": "Mërgim Vojvoda",
+      "position": "D",
+      "height": 187,
+      "jerseyNumber": "23",
+      "id": 798147
+    },
+    "1127232": {
+      "name": "James Abankwah",
+      "position": "D",
+      "height": 188,
+      "jerseyNumber": "14",
+      "id": 1127232
+    },
+    "1495719": {
+      "name": "Matteo Palma",
+      "position": "D",
+      "height": 194,
+      "jerseyNumber": "16",
+      "id": 1495719
+    },
+    "58351": {
+      "name": "Christian Kabasele",
+      "position": "D",
+      "height": 186,
+      "jerseyNumber": "27",
+      "id": 58351
+    },
+    "848279": {
+      "name": "Enzo Ebosse",
+      "position": "D",
+      "height": 185,
+      "jerseyNumber": "77",
+      "id": 848279
+    },
+    "1136399": {
+      "name": "Nicolò Bertola",
+      "position": "D",
+      "height": 185,
+      "jerseyNumber": "13",
+      "id": 1136399
+    },
+    "891656": {
+      "name": "Maduka Okoye",
+      "position": "G",
+      "height": 197,
+      "jerseyNumber": "40",
+      "id": 891656
     },
     "886909": {
       "name": "Bartosz Mrozek",
@@ -3020,78 +3573,57 @@
       "height": 191,
       "jerseyNumber": "93",
       "id": 2899
-    },
-    "1427148": {
-      "name": "Lazar Jovanović",
-      "position": "M",
-      "height": 182,
-      "jerseyNumber": "91",
-      "id": 1427148
-    },
-    "858191": {
-      "name": "Giorgi Chakvetadze",
-      "position": "M",
-      "height": 180,
-      "jerseyNumber": "30",
-      "id": 858191
-    },
-    "575852": {
-      "name": "Sandi Lovrić",
-      "position": "M",
-      "height": 180,
-      "jerseyNumber": "4",
-      "id": 575852
-    },
-    "1536811": {
-      "name": "Idrissa Gueye",
-      "position": "F",
-      "height": 188,
-      "jerseyNumber": "7",
-      "id": 1536811
-    },
-    "1910431": {
-      "name": "Giulio Vinciati",
-      "position": "F",
-      "height": 180,
-      "jerseyNumber": "45",
-      "id": 1910431
     }
   },
   "Lazio": {
-    "913762": {
-      "name": "Christos Mandas",
-      "position": "G",
-      "height": 189,
-      "jerseyNumber": "35",
-      "id": 913762
+    "293581": {
+      "name": "Mattia Zaccagni",
+      "position": "F",
+      "height": 176,
+      "jerseyNumber": "10",
+      "id": 293581
     },
-    "1100354": {
-      "name": "Romano Floriani Mussolini",
-      "position": "M",
-      "height": 188,
-      "jerseyNumber": "15",
-      "id": 1100354
+    "804909": {
+      "name": "Albert Guðmundsson",
+      "position": "F",
+      "height": 178,
+      "jerseyNumber": "80",
+      "id": 804909
     },
-    "830803": {
-      "name": "Danilho Doekhi",
-      "position": "D",
-      "height": 190,
-      "jerseyNumber": "5",
-      "id": 830803
+    "976381": {
+      "name": "Gustav Isaksen",
+      "position": "F",
+      "height": 181,
+      "jerseyNumber": "11",
+      "id": 976381
     },
-    "1160559": {
-      "name": "Oliver Provstgaard",
-      "position": "D",
-      "height": 194,
-      "jerseyNumber": "25",
-      "id": 1160559
-    },
-    "944973": {
-      "name": "Nuno Tavares",
-      "position": "D",
+    "826198": {
+      "name": "Andrea Pinamonti",
+      "position": "F",
       "height": 185,
-      "jerseyNumber": "17",
-      "id": 944973
+      "jerseyNumber": "9",
+      "id": 826198
+    },
+    "1017649": {
+      "name": "Matteo Cancellieri",
+      "position": "F",
+      "height": 185,
+      "jerseyNumber": "22",
+      "id": 1017649
+    },
+    "1069244": {
+      "name": "Tijjani Noslin",
+      "position": "F",
+      "height": 177,
+      "jerseyNumber": "14",
+      "id": 1069244
+    },
+    "1525567": {
+      "name": "Federico Serra",
+      "position": "F",
+      "height": 184,
+      "jerseyNumber": "63",
+      "id": 1525567
     },
     "835600": {
       "name": "Davide Frattesi",
@@ -3114,89 +3646,26 @@
       "jerseyNumber": "24",
       "id": 959806
     },
-    "976381": {
-      "name": "Gustav Isaksen",
-      "position": "F",
-      "height": 181,
-      "jerseyNumber": "11",
-      "id": 976381
+    "910121": {
+      "name": "Fisayo Dele-Bashiru",
+      "position": "M",
+      "height": 186,
+      "jerseyNumber": "7",
+      "id": 910121
     },
-    "826198": {
-      "name": "Andrea Pinamonti",
-      "position": "F",
-      "height": 185,
-      "jerseyNumber": "9",
-      "id": 826198
+    "937324": {
+      "name": "Nicolò Rovella",
+      "position": "M",
+      "height": 179,
+      "jerseyNumber": "6",
+      "id": 937324
     },
-    "293581": {
-      "name": "Mattia Zaccagni",
-      "position": "F",
-      "height": 176,
-      "jerseyNumber": "10",
-      "id": 293581
-    },
-    "1017649": {
-      "name": "Matteo Cancellieri",
-      "position": "F",
-      "height": 185,
-      "jerseyNumber": "22",
-      "id": 1017649
-    },
-    "1069244": {
-      "name": "Tijjani Noslin",
-      "position": "F",
-      "height": 177,
-      "jerseyNumber": "14",
-      "id": 1069244
-    },
-    "804909": {
-      "name": "Albert Guðmundsson",
-      "position": "F",
-      "height": 178,
-      "jerseyNumber": "80",
-      "id": 804909
-    },
-    "797290": {
-      "name": "Alfonso Pedraza",
-      "position": "D",
-      "height": 184,
-      "jerseyNumber": "23",
-      "id": 797290
-    },
-    "1518983": {
-      "name": "Edoardo Motta",
-      "position": "G",
-      "height": 194,
-      "jerseyNumber": "40",
-      "id": 1518983
-    },
-    "1472205": {
-      "name": "Davide Renzetti",
-      "position": "G",
-      "height": 194,
-      "jerseyNumber": "47",
-      "id": 1472205
-    },
-    "273405": {
-      "name": "Manuel Lazzari",
-      "position": "D",
-      "height": 173,
-      "jerseyNumber": "29",
-      "id": 273405
-    },
-    "954836": {
-      "name": "Josip Šutalo",
-      "position": "D",
-      "height": 190,
-      "jerseyNumber": "37",
-      "id": 954836
-    },
-    "2030204": {
-      "name": "Ricardo Bordon",
-      "position": "D",
-      "height": 194,
-      "jerseyNumber": "33",
-      "id": 2030204
+    "1100354": {
+      "name": "Romano Floriani Mussolini",
+      "position": "M",
+      "height": 188,
+      "jerseyNumber": "15",
+      "id": 1100354
     },
     "1466806": {
       "name": "Adrian Przyborek",
@@ -3205,6 +3674,20 @@
       "jerseyNumber": "28",
       "id": 1466806
     },
+    "317301": {
+      "name": "Danilo Cataldi",
+      "position": "M",
+      "height": 180,
+      "jerseyNumber": "32",
+      "id": 317301
+    },
+    "2216006": {
+      "name": "Bruno Galassi",
+      "position": "M",
+      "height": 184,
+      "jerseyNumber": "8",
+      "id": 2216006
+    },
     "1547464": {
       "name": "Valerio Farcomeni",
       "position": "M",
@@ -3212,12 +3695,54 @@
       "jerseyNumber": "71",
       "id": 1547464
     },
-    "1525567": {
-      "name": "Federico Serra",
-      "position": "F",
-      "height": 184,
-      "jerseyNumber": "63",
-      "id": 1525567
+    "1525556": {
+      "name": "Leonardo Di Tommaso",
+      "position": "M",
+      "height": 192,
+      "jerseyNumber": "",
+      "id": 1525556
+    },
+    "944973": {
+      "name": "Nuno Tavares",
+      "position": "D",
+      "height": 185,
+      "jerseyNumber": "17",
+      "id": 944973
+    },
+    "954836": {
+      "name": "Josip Šutalo",
+      "position": "D",
+      "height": 190,
+      "jerseyNumber": "37",
+      "id": 954836
+    },
+    "826186": {
+      "name": "Luca Pellegrini",
+      "position": "D",
+      "height": 178,
+      "jerseyNumber": "3",
+      "id": 826186
+    },
+    "556960": {
+      "name": "Mohamed Fares",
+      "position": "D",
+      "height": 183,
+      "jerseyNumber": "93",
+      "id": 556960
+    },
+    "830803": {
+      "name": "Danilho Doekhi",
+      "position": "D",
+      "height": 190,
+      "jerseyNumber": "5",
+      "id": 830803
+    },
+    "267619": {
+      "name": "Adam Marušić",
+      "position": "D",
+      "height": 185,
+      "jerseyNumber": "77",
+      "id": 267619
     },
     "855663": {
       "name": "Diogo Leite",
@@ -3226,28 +3751,203 @@
       "jerseyNumber": "2",
       "id": 855663
     },
-    "317301": {
-      "name": "Danilo Cataldi",
-      "position": "M",
-      "height": 180,
-      "jerseyNumber": "32",
-      "id": 317301
+    "1160559": {
+      "name": "Oliver Provstgaard",
+      "position": "D",
+      "height": 194,
+      "jerseyNumber": "25",
+      "id": 1160559
+    },
+    "273405": {
+      "name": "Manuel Lazzari",
+      "position": "D",
+      "height": 173,
+      "jerseyNumber": "29",
+      "id": 273405
+    },
+    "797290": {
+      "name": "Alfonso Pedraza",
+      "position": "D",
+      "height": 184,
+      "jerseyNumber": "23",
+      "id": 797290
+    },
+    "217784": {
+      "name": "Patric",
+      "position": "D",
+      "height": 184,
+      "jerseyNumber": "4",
+      "id": 217784
+    },
+    "1470920": {
+      "name": "Filipe Bordon",
+      "position": "D",
+      "height": 193,
+      "jerseyNumber": "33",
+      "id": 1470920
+    },
+    "2030204": {
+      "name": "Ricardo Bordon",
+      "position": "D",
+      "height": 194,
+      "jerseyNumber": "33",
+      "id": 2030204
+    },
+    "913762": {
+      "name": "Christos Mandas",
+      "position": "G",
+      "height": 189,
+      "jerseyNumber": "35",
+      "id": 913762
+    },
+    "1518983": {
+      "name": "Edoardo Motta",
+      "position": "G",
+      "height": 194,
+      "jerseyNumber": "40",
+      "id": 1518983
+    },
+    "984095": {
+      "name": "Alessio Furlanetto",
+      "position": "G",
+      "height": 191,
+      "jerseyNumber": "55",
+      "id": 984095
+    },
+    "1472205": {
+      "name": "Davide Renzetti",
+      "position": "G",
+      "height": 194,
+      "jerseyNumber": "47",
+      "id": 1472205
     }
   },
   "Parma": {
-    "990411": {
-      "name": "Edoardo Corvi",
-      "position": "G",
-      "height": 183,
-      "jerseyNumber": "40",
-      "id": 990411
+    "1118606": {
+      "name": "David Romero",
+      "position": "F",
+      "height": 179,
+      "jerseyNumber": "9",
+      "id": 1118606
     },
-    "928103": {
-      "name": "Enrico Delprato",
-      "position": "D",
+    "1092081": {
+      "name": "Matija Frigan",
+      "position": "F",
+      "height": 184,
+      "jerseyNumber": "20",
+      "id": 1092081
+    },
+    "1486729": {
+      "name": "Nesta Elphege",
+      "position": "F",
+      "height": 196,
+      "jerseyNumber": "23",
+      "id": 1486729
+    },
+    "1912962": {
+      "name": "Simone Lontani",
+      "position": "F",
+      "height": 181,
+      "jerseyNumber": "76",
+      "id": 1912962
+    },
+    "1542807": {
+      "name": "Ousmane Diallo",
+      "position": "F",
+      "height": 181,
+      "jerseyNumber": "7",
+      "id": 1542807
+    },
+    "2082104": {
+      "name": "Thomas de Martis",
+      "position": "F",
+      "height": 181,
+      "jerseyNumber": "25",
+      "id": 2082104
+    },
+    "856065": {
+      "name": "Pontus Almqvist",
+      "position": "F",
       "height": 183,
-      "jerseyNumber": "15",
-      "id": 928103
+      "jerseyNumber": "11",
+      "id": 856065
+    },
+    "982615": {
+      "name": "El Bilal Touré",
+      "position": "M",
+      "height": 185,
+      "jerseyNumber": "19",
+      "id": 982615
+    },
+    "1459459": {
+      "name": "Benjamin Cremaschi",
+      "position": "M",
+      "height": 180,
+      "jerseyNumber": "8",
+      "id": 1459459
+    },
+    "934384": {
+      "name": "Adrián Bernabé",
+      "position": "M",
+      "height": 170,
+      "jerseyNumber": "10",
+      "id": 934384
+    },
+    "1110136": {
+      "name": "Mandela Keita",
+      "position": "M",
+      "height": 180,
+      "jerseyNumber": "16",
+      "id": 1110136
+    },
+    "876259": {
+      "name": "Hans Nicolussi Caviglia",
+      "position": "M",
+      "height": 184,
+      "jerseyNumber": "41",
+      "id": 876259
+    },
+    "1067204": {
+      "name": "Giovanni Fabbian",
+      "position": "M",
+      "height": 186,
+      "jerseyNumber": "80",
+      "id": 1067204
+    },
+    "1086199": {
+      "name": "Franco Carboni",
+      "position": "M",
+      "height": 190,
+      "jerseyNumber": "29",
+      "id": 1086199
+    },
+    "1201388": {
+      "name": "Christian Ordoñez",
+      "position": "M",
+      "height": 177,
+      "jerseyNumber": "32",
+      "id": 1201388
+    },
+    "891346": {
+      "name": "Emanuele Valeri",
+      "position": "M",
+      "height": 180,
+      "jerseyNumber": "14",
+      "id": 891346
+    },
+    "794412": {
+      "name": "Vincent Sierro",
+      "position": "M",
+      "height": 184,
+      "jerseyNumber": "4",
+      "id": 794412
+    },
+    "1542692": {
+      "name": "Abdou-Salam Konate",
+      "position": "M",
+      "height": 189,
+      "jerseyNumber": "47",
+      "id": 1542692
     },
     "604232": {
       "name": "Diego Carlos",
@@ -3263,54 +3963,19 @@
       "jerseyNumber": "37",
       "id": 1516324
     },
-    "1963449": {
-      "name": "Sascha Britschgi",
+    "984527": {
+      "name": "Abdoulaye Ndiaye",
       "position": "D",
-      "height": 182,
-      "jerseyNumber": "27",
-      "id": 1963449
+      "height": 195,
+      "jerseyNumber": "3",
+      "id": 984527
     },
-    "1201388": {
-      "name": "Christian Ordoñez",
-      "position": "M",
-      "height": 177,
-      "jerseyNumber": "32",
-      "id": 1201388
-    },
-    "1110136": {
-      "name": "Mandela Keita",
-      "position": "M",
-      "height": 180,
-      "jerseyNumber": "16",
-      "id": 1110136
-    },
-    "891346": {
-      "name": "Emanuele Valeri",
-      "position": "M",
-      "height": 180,
-      "jerseyNumber": "14",
-      "id": 891346
-    },
-    "1067204": {
-      "name": "Giovanni Fabbian",
-      "position": "M",
-      "height": 186,
-      "jerseyNumber": "80",
-      "id": 1067204
-    },
-    "982615": {
-      "name": "El Bilal Touré",
-      "position": "M",
-      "height": 185,
-      "jerseyNumber": "19",
-      "id": 982615
-    },
-    "1118606": {
-      "name": "David Romero",
-      "position": "F",
-      "height": 179,
-      "jerseyNumber": "9",
-      "id": 1118606
+    "928103": {
+      "name": "Enrico Delprato",
+      "position": "D",
+      "height": 183,
+      "jerseyNumber": "15",
+      "id": 928103
     },
     "958517": {
       "name": "Lautaro Valenti",
@@ -3319,47 +3984,12 @@
       "jerseyNumber": "5",
       "id": 958517
     },
-    "794412": {
-      "name": "Vincent Sierro",
-      "position": "M",
-      "height": 184,
-      "jerseyNumber": "4",
-      "id": 794412
-    },
-    "1092081": {
-      "name": "Matija Frigan",
-      "position": "F",
-      "height": 184,
-      "jerseyNumber": "20",
-      "id": 1092081
-    },
-    "1912962": {
-      "name": "Simone Lontani",
-      "position": "F",
-      "height": 181,
-      "jerseyNumber": "76",
-      "id": 1912962
-    },
-    "856065": {
-      "name": "Pontus Almqvist",
-      "position": "F",
-      "height": 183,
-      "jerseyNumber": "11",
-      "id": 856065
-    },
-    "1100418": {
-      "name": "Giovanni Daffara",
-      "position": "G",
-      "height": 194,
-      "jerseyNumber": "30",
-      "id": 1100418
-    },
-    "865538": {
-      "name": "Simone Ghidotti",
-      "position": "G",
-      "height": 193,
-      "jerseyNumber": "22",
-      "id": 865538
+    "1963449": {
+      "name": "Sascha Britschgi",
+      "position": "D",
+      "height": 182,
+      "jerseyNumber": "27",
+      "id": 1963449
     },
     "1584940": {
       "name": "Dominik Drobnic ",
@@ -3368,133 +3998,63 @@
       "jerseyNumber": "72",
       "id": 1584940
     },
-    "984527": {
-      "name": "Abdoulaye Ndiaye",
-      "position": "D",
-      "height": 195,
-      "jerseyNumber": "3",
-      "id": 984527
+    "1100418": {
+      "name": "Giovanni Daffara",
+      "position": "G",
+      "height": 194,
+      "jerseyNumber": "30",
+      "id": 1100418
     },
-    "1542692": {
-      "name": "Abdou-Salam Konate",
-      "position": "M",
-      "height": 189,
-      "jerseyNumber": "47",
-      "id": 1542692
+    "990411": {
+      "name": "Edoardo Corvi",
+      "position": "G",
+      "height": 183,
+      "jerseyNumber": "40",
+      "id": 990411
     },
-    "1459459": {
-      "name": "Benjamin Cremaschi",
-      "position": "M",
-      "height": 180,
-      "jerseyNumber": "8",
-      "id": 1459459
-    },
-    "1086199": {
-      "name": "Franco Carboni",
-      "position": "M",
-      "height": 190,
-      "jerseyNumber": "29",
-      "id": 1086199
-    },
-    "2082104": {
-      "name": "Thomas de Martis",
-      "position": "F",
-      "height": 181,
-      "jerseyNumber": "25",
-      "id": 2082104
-    },
-    "1486729": {
-      "name": "Nesta Elphege",
-      "position": "F",
-      "height": 196,
-      "jerseyNumber": "23",
-      "id": 1486729
-    },
-    "934384": {
-      "name": "Adrián Bernabé",
-      "position": "M",
-      "height": 170,
-      "jerseyNumber": "10",
-      "id": 934384
+    "865538": {
+      "name": "Simone Ghidotti",
+      "position": "G",
+      "height": 193,
+      "jerseyNumber": "22",
+      "id": 865538
     }
   },
   "Monza": {
-    "861818": {
-      "name": "Demba Thiam",
-      "position": "G",
-      "height": 202,
-      "jerseyNumber": "20",
-      "id": 861818
+    "1003011": {
+      "name": "Exequiel Zeballos",
+      "position": "F",
+      "height": 174,
+      "jerseyNumber": "22",
+      "id": 1003011
     },
-    "1526933": {
-      "name": "Eddy Kouadio",
-      "position": "D",
-      "height": 191,
-      "jerseyNumber": "60",
-      "id": 1526933
+    "795044": {
+      "name": "Patrick Cutrone",
+      "position": "F",
+      "height": 183,
+      "jerseyNumber": "10",
+      "id": 795044
     },
-    "972567": {
-      "name": "Lorenzo Lucchesi",
-      "position": "D",
-      "height": 190,
-      "jerseyNumber": "3",
-      "id": 972567
+    "317699": {
+      "name": "Keita Baldé",
+      "position": "F",
+      "height": 178,
+      "jerseyNumber": "17",
+      "id": 317699
     },
-    "970978": {
-      "name": "Andrea Carboni",
-      "position": "D",
-      "height": 185,
-      "jerseyNumber": "44",
-      "id": 970978
+    "877037": {
+      "name": "Cyril Ngonge",
+      "position": "F",
+      "height": 179,
+      "jerseyNumber": "16",
+      "id": 877037
     },
-    "856729": {
-      "name": "Samuele Birindelli",
-      "position": "M",
-      "height": 175,
-      "jerseyNumber": "19",
-      "id": 856729
-    },
-    "869795": {
-      "name": "Michael Folorunsho",
-      "position": "M",
-      "height": 190,
-      "jerseyNumber": "90",
-      "id": 869795
-    },
-    "1525367": {
-      "name": "Ebenezer Akinsanmiro",
-      "position": "M",
+    "1146305": {
+      "name": "Gustavo Varela",
+      "position": "F",
       "height": 184,
-      "jerseyNumber": "14",
-      "id": 1525367
-    },
-    "878496": {
-      "name": "Ricardo Mangas",
-      "position": "D",
-      "height": 179,
-      "jerseyNumber": "7",
-      "id": 878496
-    },
-    "1153434": {
-      "name": "Omari Forson",
-      "position": "F",
-      "height": 179,
-      "jerseyNumber": "11",
-      "id": 1153434
-    },
-    "1440673": {
-      "name": "Jay Robinson",
-      "position": "F",
-      "height": 176,
-      "jerseyNumber": "46",
-      "id": 1440673
-    },
-    "838907": {
-      "name": "Dany Mota",
-      "position": "F",
-      "height": 180,
-      "jerseyNumber": "47",
-      "id": 838907
+      "jerseyNumber": "9",
+      "id": 1146305
     },
     "928122": {
       "name": "Andrea Colpani",
@@ -3503,26 +4063,68 @@
       "jerseyNumber": "28",
       "id": 928122
     },
-    "1424560": {
-      "name": "Leonardo Colombo",
+    "1153434": {
+      "name": "Omari Forson",
+      "position": "F",
+      "height": 179,
+      "jerseyNumber": "11",
+      "id": 1153434
+    },
+    "838907": {
+      "name": "Dany Mota",
+      "position": "F",
+      "height": 180,
+      "jerseyNumber": "47",
+      "id": 838907
+    },
+    "1440673": {
+      "name": "Jay Robinson",
+      "position": "F",
+      "height": 176,
+      "jerseyNumber": "46",
+      "id": 1440673
+    },
+    "346676": {
+      "name": "Patrick Ciurria",
+      "position": "F",
+      "height": 178,
+      "jerseyNumber": "26",
+      "id": 346676
+    },
+    "1525367": {
+      "name": "Ebenezer Akinsanmiro",
+      "position": "M",
+      "height": 184,
+      "jerseyNumber": "14",
+      "id": 1525367
+    },
+    "869795": {
+      "name": "Michael Folorunsho",
+      "position": "M",
+      "height": 190,
+      "jerseyNumber": "90",
+      "id": 869795
+    },
+    "350210": {
+      "name": "Matteo Pessina",
+      "position": "M",
+      "height": 183,
+      "jerseyNumber": "32",
+      "id": 350210
+    },
+    "826326": {
+      "name": "Idrissa Touré",
+      "position": "M",
+      "height": 187,
+      "jerseyNumber": "27",
+      "id": 826326
+    },
+    "856729": {
+      "name": "Samuele Birindelli",
       "position": "M",
       "height": 175,
-      "jerseyNumber": "21",
-      "id": 1424560
-    },
-    "1397353": {
-      "name": "Adam Bakoune",
-      "position": "D",
-      "height": 195,
-      "jerseyNumber": "24",
-      "id": 1397353
-    },
-    "1479355": {
-      "name": "Yvan Maye",
-      "position": "D",
-      "height": 190,
-      "jerseyNumber": "5",
-      "id": 1479355
+      "jerseyNumber": "19",
+      "id": 856729
     },
     "1992105": {
       "name": "Mathis Mout",
@@ -3531,19 +4133,47 @@
       "jerseyNumber": "80",
       "id": 1992105
     },
-    "1014583": {
-      "name": "Noel Törnqvist",
-      "position": "G",
-      "height": 195,
-      "jerseyNumber": "1",
-      "id": 1014583
+    "1547260": {
+      "name": "Kevin Martins",
+      "position": "M",
+      "height": 180,
+      "jerseyNumber": "70",
+      "id": 1547260
     },
-    "1405684": {
-      "name": "Aljaz Strajnar",
-      "position": "G",
-      "height": 185,
-      "jerseyNumber": "43",
-      "id": 1405684
+    "1424560": {
+      "name": "Leonardo Colombo",
+      "position": "M",
+      "height": 175,
+      "jerseyNumber": "21",
+      "id": 1424560
+    },
+    "1596636": {
+      "name": "Manga Foe Ondoa",
+      "position": "M",
+      "height": 183,
+      "jerseyNumber": "8",
+      "id": 1596636
+    },
+    "1912462": {
+      "name": "Solomon Loubao",
+      "position": "M",
+      "height": 181,
+      "jerseyNumber": "22",
+      "id": 1912462
+    },
+    "1499991": {
+      "name": "Jan Ziółkowski",
+      "position": "D",
+      "height": 194,
+      "jerseyNumber": "4",
+      "id": 1499991
+    },
+    "878496": {
+      "name": "Ricardo Mangas",
+      "position": "D",
+      "height": 179,
+      "jerseyNumber": "7",
+      "id": 878496
     },
     "1126175": {
       "name": "Saba Goglichidze",
@@ -3559,33 +4189,61 @@
       "jerseyNumber": "6",
       "id": 827640
     },
-    "1596636": {
-      "name": "Manga Foe Ondoa",
-      "position": "M",
-      "height": 183,
-      "jerseyNumber": "8",
-      "id": 1596636
+    "1397353": {
+      "name": "Adam Bakoune",
+      "position": "D",
+      "height": 195,
+      "jerseyNumber": "24",
+      "id": 1397353
     },
-    "1146305": {
-      "name": "Gustavo Varela",
-      "position": "F",
-      "height": 184,
-      "jerseyNumber": "9",
-      "id": 1146305
+    "1526933": {
+      "name": "Eddy Kouadio",
+      "position": "D",
+      "height": 191,
+      "jerseyNumber": "60",
+      "id": 1526933
     },
-    "795044": {
-      "name": "Patrick Cutrone",
-      "position": "F",
-      "height": 183,
-      "jerseyNumber": "10",
-      "id": 795044
+    "1479355": {
+      "name": "Yvan Maye",
+      "position": "D",
+      "height": 190,
+      "jerseyNumber": "5",
+      "id": 1479355
     },
-    "1003011": {
-      "name": "Exequiel Zeballos",
-      "position": "F",
-      "height": 174,
-      "jerseyNumber": "22",
-      "id": 1003011
+    "970978": {
+      "name": "Andrea Carboni",
+      "position": "D",
+      "height": 185,
+      "jerseyNumber": "44",
+      "id": 970978
+    },
+    "972567": {
+      "name": "Lorenzo Lucchesi",
+      "position": "D",
+      "height": 190,
+      "jerseyNumber": "3",
+      "id": 972567
+    },
+    "861818": {
+      "name": "Demba Thiam",
+      "position": "G",
+      "height": 202,
+      "jerseyNumber": "20",
+      "id": 861818
+    },
+    "1014583": {
+      "name": "Noel Törnqvist",
+      "position": "G",
+      "height": 195,
+      "jerseyNumber": "1",
+      "id": 1014583
+    },
+    "1405684": {
+      "name": "Aljaz Strajnar",
+      "position": "G",
+      "height": 185,
+      "jerseyNumber": "43",
+      "id": 1405684
     }
   }
 }
