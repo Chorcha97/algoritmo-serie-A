@@ -399,6 +399,26 @@ if page == "🔮 Predizione":
                                             elif _ce==2: _new_odds[_k2]=_q
                     if any("ht_" in k for k in _new_odds): _loaded.append("HT O/U")
 
+                # U/O Secondo Tempo (id=2903)
+                try:
+                    _r6 = _req.get("http://localhost:8000/marathonbet/serie-a-bet/pre-match/eventi?id_aggregata=2903",timeout=10).json()
+                    _p6 = _find_match(_r6.get("avs",[]), _home_mb, _away_mb)
+                    if _p6:
+                        for _sc in _p6.get("scs",[]):
+                            _eqs = _sc.get("eqs",[])
+                            if len(_eqs)==2:
+                                for _eq in _eqs:
+                                    _ce=_eq.get("ce"); _q=round(_eq.get("q",0)/100,2)
+                                    _csn=str(_eq.get("csn",""))
+                                    if _q>1:
+                                        for _s,_k1,_k2 in [("05","st_over05","st_under05"),("15","st_over15","st_under15"),("25","st_over25","st_under25")]:
+                                            if _s in _csn:
+                                                if _ce==1: _new_odds[_k1]=_q
+                                                elif _ce==2: _new_odds[_k2]=_q
+                        if any(k.startswith("st_") for k in _new_odds): _loaded.append("2HT O/U")
+                except Exception:
+                    pass
+
                 if _new_odds.get("H"):
                     if match_key not in st.session_state:
                         st.session_state[match_key] = {}
