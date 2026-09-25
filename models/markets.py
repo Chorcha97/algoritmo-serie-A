@@ -263,16 +263,40 @@ def compute_all_markets(poisson_model, home: str, away: str, **kwargs) -> dict:
         preds["prob_st_gg"] = float(np.sum(_mat_2ht[_gg_2ht]))
         preds["prob_st_ng"] = 1 - preds["prob_st_gg"]
 
-    # HT/FT (9 combinazioni)
+    # HT/FT (9 combinazioni) — calcolo congiunto vero via convoluzione 2D
+    # primo tempo x secondo tempo.
+    # PRIMA: usava prob_ht_H/D/A che non vengono mai calcolate altrove nel
+    # codice (restavano sempre ai fallback fissi 0.35/0.37/0.28, sempre
+    # uguali per ogni partita) E trattava HT ed FT come eventi indipendenti
+    # (P(HT)*P(FT)), il che è sbagliato perché il risultato finale INCLUDE
+    # il punteggio dell'intervallo. Ora: matrice Poisson primo tempo (da
+    # models/halftime.compute_ht_matrix) convoluta con la matrice del
+    # secondo tempo già calcolata sopra (_mat_2ht), per ottenere la vera
+    # distribuzione congiunta (risultato_HT, risultato_FT).
     try:
-        _ht_preds = preds.copy()
-        _ht_h = _ht_preds.get("prob_ht_H", 0.35)
-        _ht_d = _ht_preds.get("prob_ht_D", 0.37)
-        _ht_a = _ht_preds.get("prob_ht_A", 0.28)
-        # P(HT=X, FT=Y) ≈ P(HT=X) * P(FT=Y | HT=X) — approssimazione indipendente
-        for _ht, _ph in [("1",_ht_h),("X",_ht_d),("2",_ht_a)]:
-            for _ft, _pf in [("1",prob_h),("X",prob_d),("2",prob_a)]:
-                preds[f"prob_htft_{_ht}{_ft}"] = round(_ph * _pf, 4)
+        from models.halftime import compute_ht_matrix as _compute_ht_matrix
+        from scipy.signal import convolve2d as _convolve2d
+        _mat_ht_full = _compute_ht_matrix(poisson_model, home, away, max_goals=8)
+        if _mat_ht_full is not None and _lam_h and _lam_a:
+            _n = _mat_ht_full.shape[0]
+            _idx = np.arange(_n)
+            _ii, _jj = np.meshgrid(_idx, _idx, indexing="ij")
+            _ht_masks = {"1": _ii > _jj, "X": _ii == _jj, "2": _ii < _jj}
+            for _ht_cat, _mask in _ht_masks.items():
+                _ht_slice = _mat_ht_full * _mask
+                if _ht_slice.sum() < 1e-12:
+                    for _ft_cat in ("1", "X", "2"):
+                        preds[f"prob_htft_{_ht_cat}{_ft_cat}"] = 0.0
+                    continue
+                # Convoluzione 2D: joint[m,n] = sum_{i,j} ht_slice[i,j] * mat_2ht[m-i,n-j]
+                # cioè P(HT nella categoria, gol_casa_FT=m, gol_ospite_FT=n)
+                _joint = _convolve2d(_ht_slice, _mat_2ht)
+                _m = _joint.shape[0]
+                _mi = np.arange(_m)
+                _mm, _nn = np.meshgrid(_mi, _mi, indexing="ij")
+                preds[f"prob_htft_{_ht_cat}1"] = round(float(_joint[_mm > _nn].sum()), 4)
+                preds[f"prob_htft_{_ht_cat}X"] = round(float(_joint[_mm == _nn].sum()), 4)
+                preds[f"prob_htft_{_ht_cat}2"] = round(float(_joint[_mm < _nn].sum()), 4)
     except Exception:
         pass
 
@@ -443,6 +467,15 @@ def find_value_bets_extended(
         ("ht_under15", "ht_prob_under15", "HT Under 1.5 Gol"),
         ("ht_gg",      "ht_prob_gg",      "HT Goal/Goal"),
         ("ht_ng",      "ht_prob_ng",      "HT No Goal"),
+        ("htft_11",    "prob_htft_11",    "HT/FT 1/1"),
+        ("htft_1X",    "prob_htft_1X",    "HT/FT 1/X"),
+        ("htft_12",    "prob_htft_12",    "HT/FT 1/2"),
+        ("htft_X1",    "prob_htft_X1",    "HT/FT X/1"),
+        ("htft_XX",    "prob_htft_XX",    "HT/FT X/X"),
+        ("htft_X2",    "prob_htft_X2",    "HT/FT X/2"),
+        ("htft_21",    "prob_htft_21",    "HT/FT 2/1"),
+        ("htft_2X",    "prob_htft_2X",    "HT/FT 2/X"),
+        ("htft_22",    "prob_htft_22",    "HT/FT 2/2"),
     ]
 
     value_bets = []
